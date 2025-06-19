@@ -1,15 +1,24 @@
 from fastapi import APIRouter, UploadFile, File
+from PIL import Image
 from fastapi.responses import StreamingResponse
-from app.core.image_processing import resize_image
+import io
+from app.core.image_processing import analyze_image
+
 
 # ✅ THIS is what FastAPI is looking for
 router = APIRouter()
 
-@router.get("/ping")
+@router.post("/ping")
 async def ping():
     print("✅ /ping endpoint was hit")
     #returns json response
     return {"message": "pong"}
+
+@router.post("/analyze")
+async def analyze(file: UploadFile = File(...)):
+    print("✅ /inside analyze image")
+    image_data = await analyze_image(file)
+    return {"data":image_data}
 
 @router.post("/resize/")
 async def resize(file: UploadFile = File(...), width: int = 100, height: int = 100):

@@ -79,12 +79,22 @@ def getSkinTone(image: bytes,num_colors=3):
     best_lab_patch = np.array([[best_center]], dtype=np.uint8)
     best_bgr = cv2.cvtColor(best_lab_patch, cv2.COLOR_Lab2BGR)[0][0]
     hex_color = '#{:02x}{:02x}{:02x}'.format(best_bgr[2], best_bgr[1], best_bgr[0])
-    color_palette = ['#{:02x}{:02x}{:02x}'.format(c[2], c[1], c[0]) for c in centers]
+    # color_palette = ['#{:02x}{:02x}{:02x}'.format(c[2], c[1], c[0]) for c in centers]
+
+    #convert palette LAB centers to BGR and hex
+    palette_bgr = [cv2.cvtColor(np.array([[c]], dtype=np.uint8), cv2.COLOR_Lab2BGR)[0][0] for c in centers]
+    palette_hex = ['#{:02x}{:02x}{:02x}'.format(c[2], c[1], c[0]) for c in palette_bgr]
+    # Sort palette by LAB distance to best_center
+    palette_sorted = sorted(
+    zip(palette_hex, centers),
+    key=lambda x: np.linalg.norm(x[1] - best_center)
+    )
+    sorted_palette_hex = [hex for hex, _ in palette_sorted]
     # Three most dominant Skin tones
      #Convert to YCrCB for color space
     print("Dominant Skin tone",hex_color)
-    print("Estimated Skin tone code is ",color_palette)
-    return hex_color,color_palette
+    print("Estimated Skin tone code is ",sorted_palette_hex)
+    return hex_color,sorted_palette_hex
 
 def is_valid_skin_lab(lab):
     L, a, b = lab

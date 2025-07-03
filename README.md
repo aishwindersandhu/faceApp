@@ -33,6 +33,13 @@ Redux Toolkit and TailwindCss on the Front End.
 - Successful image processing would look like this:
 ![alt text](image-1.png)
 
+# TO DO:
+- Classify colors under an umbrella term for example: 'Warm', 'Ebony', 'Medium', 'Light' etc.
+- Integrate Mediapipe for more accurate color detection.
+- Make Detection not light sensitive.
+- Proper Error Handling.
+- Add Security layer for API since it's dealing with something as sensitive as skin tone.
+
 # Contact
 - Incase of any issues I'm reachable at aishwinder.sandhu@gmail.com or you can Reach out to me on 
 LinkedIn :

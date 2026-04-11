@@ -23,7 +23,6 @@ async def analyze_image(image: UploadFile = File(...)):
         #faceShape = getFaceShape(contents)
         skintone,colorPalette,profile = getSkinTone(contents)
         print("/analyze_image was hit",image_data.filename)
-        print(profile["depth"],"profile depth")
         #color detection and face detection logic and send data values
         #returns json response
         return {

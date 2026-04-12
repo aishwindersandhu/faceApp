@@ -168,6 +168,9 @@ def get_skin_profile(best_center: list) -> dict:
     depth =classify_depth(L)
     warm_palette = get_warm_shades(L,undertone)
     cool_palette = get_cool_shades(L,undertone)
+    dark_palette = get_dark_shades(L)
+    jewel_tones = get_jewel_tones(L,undertone)
+
     print(warm_palette,"warm_palette")
     #seasons = classify_seasons()
     return{
@@ -176,6 +179,8 @@ def get_skin_profile(best_center: list) -> dict:
         "depth": depth,
         "warm_palette":warm_palette,
         "cool_palette": cool_palette,
+        "dark_palette":dark_palette,
+        "jewel_tones": jewel_tones,
         "L": int(L),
         "a": int(a),
         "b": int(b)
@@ -198,6 +203,110 @@ COOL_SEEDS = [
     ("Lavender",     138, 112),
     ("Cool grey",    128, 122),
 ]
+JEWEL_SEEDS = {
+    "warm": [
+        ("Ruby",          165, 148),   # deep red-warm
+        ("Topaz",         128, 172),   # warm golden yellow
+        ("Amber",         138, 168),   # rich orange-gold
+        ("Coral jade",    148, 158),   # warm green-coral
+        ("Copper",        145, 162),   # warm metallic
+        ("Bronze",        135, 160),   # earthy rich tone
+    ],
+    "cool": [
+        ("Sapphire",      118,  98),   # deep blue
+        ("Amethyst",      148, 108),   # purple-violet
+        ("Aquamarine",    102, 122),   # cool blue-green
+        ("Tanzanite",     130, 100),   # blue-purple
+        ("Moonstone",     118, 115),   # cool neutral pearl
+        ("Indigo",        125,  95),   # deep cool blue
+    ],
+    "neutral": [
+        ("Emerald",       108, 138),   # balanced green
+        ("Garnet",        155, 135),   # balanced red
+        ("Turquoise",     102, 125),   # balanced blue-green
+        ("Rose quartz",   132, 122),   # balanced pink
+        ("Citrine",       125, 165),   # balanced yellow
+        ("Jade",          108, 140),   # balanced cool green
+    ]
+}
+# ─────────────────────────────────────────
+# Dark wearable seeds — universal hue families
+# Everyone gets same hues, L personalized to skin
+# ─────────────────────────────────────────
+DARK_SEEDS = [
+    ("Wine",          162, 128),
+    ("Burgundy",      158, 122),
+    ("Forest green",  108, 142),
+    ("Midnight blue", 118,  95),
+    ("Deep plum",     148, 108),
+    ("Chocolate",     140, 150),
+]
+
+def derive_jewel_L(skin_L: int, index: int, total: int = 6) -> int:
+    """
+    Jewel tones live in L range 80–130 regardless of skin depth.
+    We distribute the 6 shades across this range,
+    but bias the center toward the skin's L clamped into that range.
+    
+    Fair skin (L=200) → center pulls toward 130 end
+    Deep skin (L=100) → center pulls toward 80 end
+    Medium skin (L=175) → center around 110
+    """
+    jewel_min = 80
+    jewel_max = 130
+    # Clamp skin L into jewel range to get center
+    center = int(np.clip(skin_L * 0.6, jewel_min, jewel_max))
+    spread = 40
+    start  = max(jewel_min, center - spread // 2)
+    end    = min(jewel_max, start + spread)
+    step   = (end - start) / (total - 1)
+    L      = start + (index * step)
+    return int(np.clip(L, jewel_min, jewel_max))
+
+
+def derive_dark_L(skin_L: int, index: int, total: int = 6) -> int:
+    """
+    Dark wearables always sit below skin tone.
+    Cap at L=100 so deep skin tones don't lose color into black.
+    Spread across a narrow deep range so all 6 are visibly distinct.
+
+    Fair skin (L=200)   → range ~60–100  (rich deep colors)
+    Medium skin (L=175) → range ~55–95
+    Deep skin (L=110)   → range ~40–80   (still colored, not black)
+    """
+    dark_ceiling = min(skin_L - 40, 100)   # always below skin, never muddy
+    dark_floor   = max(dark_ceiling - 50, 35)
+    step         = (dark_ceiling - dark_floor) / (total - 1)
+    L            = dark_floor + (index * step)
+    return int(np.clip(L, 35, 105))
+
+
+def get_jewel_tones(skin_L: int, undertone: str) -> list:
+    seeds = JEWEL_SEEDS.get(undertone, JEWEL_SEEDS["neutral"])
+    result = []
+    for i, (name, a, b) in enumerate(seeds):
+        L = derive_jewel_L(skin_L, i)
+        result.append({
+            "name": name,
+            "hex":  lab_to_hex(L, a, b)
+        })
+    return result
+
+
+def get_dark_shades(skin_L: int) -> list:
+    """
+    Universal — same hue families for everyone.
+    L derived from skin so deep skin gets visibly colored darks
+    and fair skin gets properly deep rich darks.
+    """
+    result = []
+    for i, (name, a, b) in enumerate(DARK_SEEDS):
+        L = derive_dark_L(skin_L, i)
+        result.append({
+            "name": name,
+            "hex":  lab_to_hex(L, a, b)
+        })
+    return result
 def derive_clothing_L(skin_L: int, shade_index: int, total: int = 6) -> int:
     """
     Distributes shades across a lightness range centered on skin tone.

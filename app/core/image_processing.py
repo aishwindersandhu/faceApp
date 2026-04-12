@@ -72,7 +72,6 @@ def getSkinTone(image: bytes, num_colors=3):
         best_center = centers[np.argmax(centers[:, 0])]
     
     profile = get_skin_profile(best_center)
-    print("Skin profile:", profile)
 
     # Convert best Lab back to BGR and hex — this is the BASE shade
     best_lab_patch = np.array([[best_center]], dtype=np.uint8)
@@ -167,13 +166,98 @@ def get_skin_profile(best_center: list) -> dict:
     undertone = classify_undertone(a,b)
     contrast = classify_contrast(L)
     depth =classify_depth(L)
+    warm_palette = get_warm_shades(L,undertone)
+    cool_palette = get_cool_shades(L,undertone)
+    print(warm_palette,"warm_palette")
     #seasons = classify_seasons()
     return{
         "undertone": undertone,
         "contrast": contrast,
         "depth": depth,
+        "warm_palette":warm_palette,
+        "cool_palette": cool_palette,
         "L": int(L),
         "a": int(a),
         "b": int(b)
     }
+
+WARM_SEEDS = [
+    ("Camel",        135, 165),   # a, b only
+    ("Rust",         155, 158),
+    ("Warm olive",   118, 152),
+    ("Burnt orange", 158, 168),
+    ("Mustard",      130, 178),
+    ("Warm brown",   138, 152),
+]
+
+COOL_SEEDS = [
+    ("Navy",         128, 100),
+    ("Emerald",      108, 130),
+    ("Burgundy",     155, 125),
+    ("Slate",        128, 118),
+    ("Lavender",     138, 112),
+    ("Cool grey",    128, 122),
+]
+def derive_clothing_L(skin_L: int, shade_index: int, total: int = 6) -> int:
+    """
+    Distributes shades across a lightness range centered on skin tone.
+    
+    skin_L = 175 (medium fair) →  range spans ~100 to 210
+    skin_L = 120 (deep)        →  range spans ~60  to 160
+    skin_L = 200 (fair)        →  range spans ~140 to 230
+    
+    This means deep skin gets deeper versions of rust/navy etc
+    and fair skin gets lighter versions — same hue, different depth.
+    """
+    spread = 80                          # total lightness range
+    start  = skin_L - (spread // 2)     # anchor range around skin L
+    step   = spread // (total - 1)
+    L      = start + (shade_index * step)
+    return int(np.clip(L, 40, 240))     # safety clamp
+
+
+def get_warm_shades(skin_L: int, undertone: str) -> list:
+    """
+    Hue family fixed (warm seeds), exact lightness derived from skin L.
+    Undertone shifts the b channel slightly to stay harmonious.
+    """
+    undertone_b_adjust = {"warm": +8, "neutral": 0, "cool": -8}
+    db = undertone_b_adjust.get(undertone, 0)
+
+    result = []
+    for i, (name, a, b) in enumerate(WARM_SEEDS):
+        L   = derive_clothing_L(skin_L, i)
+        result.append({
+            "name": name,
+            "hex":  lab_to_hex(L, a, b + db)
+        })
+    return result
+
+
+def get_cool_shades(skin_L: int, undertone: str) -> list:
+    """
+    Hue family fixed (cool seeds), exact lightness derived from skin L.
+    Undertone shifts the a channel slightly to stay harmonious.
+    """
+    undertone_a_adjust = {"cool": +8, "neutral": 0, "warm": -8}
+    da = undertone_a_adjust.get(undertone, 0)
+
+    result = []
+    for i, (name, a, b) in enumerate(COOL_SEEDS):
+        L   = derive_clothing_L(skin_L, i)
+        result.append({
+            "name": name,
+            "hex":  lab_to_hex(L, a + da, b)
+        })
+    return result
+
+def lab_to_hex(L: int, a: int, b: int) -> str:
+    lab = np.array([[[
+        int(np.clip(L, 0, 255)),
+        int(np.clip(a, 0, 255)),
+        int(np.clip(b, 0, 255))
+    ]]], dtype=np.uint8)
+    bgr = cv2.cvtColor(lab, cv2.COLOR_Lab2BGR)[0][0]
+    return '#{:02x}{:02x}{:02x}'.format(int(bgr[2]), int(bgr[1]), int(bgr[0]))
+
 

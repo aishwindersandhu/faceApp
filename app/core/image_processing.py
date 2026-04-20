@@ -92,11 +92,16 @@ def getSkinTone(image: bytes, num_colors=3):
         return '#{:02x}{:02x}{:02x}'.format(bgr[2], bgr[1], bgr[0])
 
     L, a, b = best_center
+    # how much room do we have before hitting ceiling
+    l_headroom = 255 - L
+    # scale conceal shift — use at most 40% of available headroom
+    conceal_shift = min(18, int(l_headroom * 0.4))
+    highlight_shift = min(22, int(l_headroom * 0.5))
 
-    conceal   = lab_to_hex([min(L + 20, 255), a,     b    ])  # lighter
-    base      = hex_color                                     # detected tone
-    contour   = lab_to_hex([max(L - 18, 0),   a + 3, b    ])  # darker, slightly warmer
-    highlight = lab_to_hex([min(L + 25, 255), a - 2, b + 5])  # brightest, warm gold
+    conceal   = lab_to_hex([L + conceal_shift,  a,     b    ])  # lighter, less saturated
+    base      = hex_color
+    contour   = lab_to_hex([max(L - 20, 0),     a + 3, b + 2])  # darker, slightly warmer
+    highlight = lab_to_hex([L + highlight_shift, a - 2, b + 4])  # bright, golden warmth
 
     color_palette = [conceal, base, contour, highlight]
 
@@ -146,9 +151,9 @@ def classify_depth(L: int) -> str:
     L in OpenCV LAB (0-255 scale)
     Divides into 4 bands: fair, medium, tan, deep
     """
-    if L > 180:
+    if L > 185:
         return "Fair"
-    elif L > 140:
+    elif L > 145:
         return "Medium"
     elif L > 100:
         return "Tan"
@@ -187,18 +192,19 @@ def get_skin_profile(best_center: list) -> dict:
     }
 
 WARM_SEEDS = [
-    ("Camel",        135, 165),   # a, b only
-    ("Rust",         155, 158),
-    ("Warm olive",   118, 152),
-    ("Burnt orange", 158, 168),
-    ("Mustard",      130, 178),
-    ("Warm brown",   138, 152),
+   ("Warm brown",   155, 148),      
+    ("Rust",         155, 168),   # index 1 → L=116
+    ("Warm olive",   118, 162),   # index 2 → L=132
+    ("Burnt orange", 158, 168),   # index 3 → L=148
+    ("Mustard",      130, 178),   # index 4 → L=164
+    ("Camel",        135, 165),   # index 5 → L=180 — camel works light
+   
 ]
 
 COOL_SEEDS = [
     ("Navy",         128, 100),
     ("Emerald",      108, 130),
-    ("Burgundy",     155, 125),
+    ("Plum",         148, 112),
     ("Slate",        128, 118),
     ("Lavender",     138, 112),
     ("Cool grey",    128, 122),
@@ -318,11 +324,19 @@ def derive_clothing_L(skin_L: int, shade_index: int, total: int = 6) -> int:
     This means deep skin gets deeper versions of rust/navy etc
     and fair skin gets lighter versions — same hue, different depth.
     """
-    spread = 80                          # total lightness range
-    start  = skin_L - (spread // 2)     # anchor range around skin L
-    step   = spread // (total - 1)
-    L      = start + (shade_index * step)
-    return int(np.clip(L, 40, 240))     # safety clamp
+    spread = 60
+    
+    # for fair skin, don't centre on skin L
+    # anchor the range lower so colours stay visible and distinct from skin
+    if skin_L > 160:
+        centre = int(skin_L * 0.72)   # fixed anchor for fair skin
+    else:
+        centre = skin_L - 20   # for medium/deep, stay below skin
+
+    start = centre - (spread // 2)
+    step  = spread // (total - 1)
+    L     = start + (shade_index * step)
+    return int(np.clip(L, 40, 220))   # safety clamp
 
 
 def get_warm_shades(skin_L: int, undertone: str) -> list:
@@ -336,6 +350,7 @@ def get_warm_shades(skin_L: int, undertone: str) -> list:
     result = []
     for i, (name, a, b) in enumerate(WARM_SEEDS):
         L   = derive_clothing_L(skin_L, i)
+        print(f"{i} {name}: derived L={L}, a={a}, b={b} → {lab_to_hex(L, a, b)}")
         result.append({
             "name": name,
             "hex":  lab_to_hex(L, a, b + db)

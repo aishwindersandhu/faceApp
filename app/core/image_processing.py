@@ -5,6 +5,37 @@ import cv2
 import numpy as np
 from sklearn.cluster import KMeans
 
+# ─────────────────────────────────────────────────────────────────
+# UTILITY
+# ─────────────────────────────────────────────────────────────────
+
+def lab_to_hex(L: int, a: int, b: int) -> str:
+    """
+    Convert OpenCV LAB to hex. Includes gamut-clipping recovery:
+    at low L, moderate ab can produce near-achromatic RGB.
+    Retries with boosted ab if output is grey.
+    """
+    lab = np.array([[[
+        int(np.clip(L, 0, 255)),
+        int(np.clip(a, 0, 255)),
+        int(np.clip(b, 0, 255))
+    ]]], dtype=np.uint8)
+    bgr = cv2.cvtColor(lab, cv2.COLOR_Lab2BGR)[0][0]
+    r, g, b_out = int(bgr[2]), int(bgr[1]), int(bgr[0])
+
+    spread = max(abs(r - g), abs(g - b_out), abs(r - b_out))
+    if spread < 8 and L < 160:
+        lab2 = np.array([[[
+            int(np.clip(L,     0, 255)),
+            int(np.clip(a + 7, 0, 255)),
+            int(np.clip(b + 7, 0, 255))
+        ]]], dtype=np.uint8)
+        bgr2 = cv2.cvtColor(lab2, cv2.COLOR_Lab2BGR)[0][0]
+        r, g, b_out = int(bgr2[2]), int(bgr2[1]), int(bgr2[0])
+
+    return '#{:02x}{:02x}{:02x}'.format(r, g, b_out)
+
+
 def resize_image(image_data: bytes, width: int, height: int) -> bytes:
     image = Image.open(BytesIO(image_data))
     image = image.resize((width, height))
@@ -12,376 +43,536 @@ def resize_image(image_data: bytes, width: int, height: int) -> bytes:
     image.save(output, format="PNG")
     return output.getvalue()
 
+
 def ping():
     print("/ping endpoint was hit")
     return {"message": "pong"}
 
+
+# ─────────────────────────────────────────────────────────────────
+# ENDPOINT
+# ─────────────────────────────────────────────────────────────────
+
 async def analyze_image(image: UploadFile = File(...)):
     try:
         contents = await image.read()
-        image_data = Image.open(BytesIO(contents))
-        #faceShape = getFaceShape(contents)
-        skintone,colorPalette,profile = getSkinTone(contents)
-        print("/analyze_image was hit",image_data.filename)
-        #color detection and face detection logic and send data values
-        #returns json response
+        skintone, colorPalette, profile = getSkinTone(contents)
         return {
-        "filename":image.filename,
-        "skinTone":profile["depth"], 
-        "faceShape" : 'oval',
-        "colorCode" :skintone,
-        "colorPalette": colorPalette,
-        "profile":profile
+            "filename":     image.filename,
+            "skinTone":     profile["depth"],
+            "faceShape":    "oval",
+            "colorCode":    skintone,
+            "colorPalette": colorPalette,
+            "profile":      profile
         }
-    except Exception as e : 
+    except Exception as e:
         print("Exception occurred:", e)
         raise HTTPException(status_code=500, detail="Internal Server Error")
 
-def getSkinTone(image: bytes, num_colors=3):
+
+# ─────────────────────────────────────────────────────────────────
+# CORE: SKIN DETECTION
+# ─────────────────────────────────────────────────────────────────
+
+def getSkinTone(image: bytes, num_colors: int = 5):
     img = cv2.imdecode(np.frombuffer(image, np.uint8), cv2.IMREAD_COLOR)
+    if img is None:
+        return "unknown", [], _empty_profile()
+
+    h, w = img.shape[:2]
+
+    # ── 1. Center ellipse mask (original size — don't shrink this) ──
+    center_mask = np.zeros((h, w), dtype=np.uint8)
+    cx, cy = w // 2, h // 2
+    cv2.ellipse(center_mask, (cx, cy),
+                (int(w * 0.38), int(h * 0.45)),
+                0, 0, 360, 255, -1)
+
     img_ycrcb = cv2.cvtColor(img, cv2.COLOR_BGR2YCrCb)
+    y_channel = img_ycrcb[:, :, 0]
 
-    lower = np.array([0, 133, 77], dtype=np.uint8)
-    upper = np.array([255, 173, 127], dtype=np.uint8)
+    # ── 2. Standard YCrCb mask (fair → medium skin) ──
+    mask_std = cv2.inRange(img_ycrcb,
+                           np.array([0,   133,  85], dtype=np.uint8),
+                           np.array([255, 173, 120], dtype=np.uint8))
+    mask_std = cv2.bitwise_and(mask_std, center_mask)
 
-    mask = cv2.inRange(img_ycrcb, lower, upper)
+    # ── 3. Skin depth probe — sample Y from MASKED pixels only ──
+    # Hair, background, clothing are already excluded by the YCrCb filter.
+    # So the Y distribution here reflects actual skin luminance.
+    # This is far more reliable than sampling from the raw ellipse region.
+    masked_y_vals = y_channel[mask_std > 0]
+    if len(masked_y_vals) > 50:
+        skin_median_Y = int(np.median(masked_y_vals))
+    else:
+        skin_median_Y = 200   # too few pixels — assume fair, use standard mask
+    print(f"Skin median Y (from masked pixels): {skin_median_Y}")
+
+    # ── 4. Adaptive mask: only add deep-skin range when skin IS dark ──
+    if skin_median_Y < 100:
+        # Genuine deep skin — standard mask misses dark skin pixels.
+        # OR in extended range (lower Y, wider Cr/Cb bounds).
+        mask_deep = cv2.inRange(img_ycrcb,
+                                np.array([0,   125,  80], dtype=np.uint8),
+                                np.array([110, 175, 125], dtype=np.uint8))
+        mask_deep = cv2.bitwise_and(mask_deep, center_mask)
+        mask = cv2.bitwise_or(mask_std, mask_deep)
+        is_deep = True
+        print("Deep skin mask activated")
+    else:
+        mask = mask_std
+        is_deep = False
+        print("Standard mask used")
+
+    # Original erosion kernel — don't over-erode
     kernel = np.ones((3, 3), np.uint8)
-    mask = cv2.erode(mask, kernel, iterations=1)
+    mask   = cv2.erode(mask, kernel, iterations=1)
 
-    skin = cv2.bitwise_and(img, img, mask=mask)
+    skin   = cv2.bitwise_and(img, img, mask=mask)
     pixels = skin[mask > 0]
-    pixels = pixels[np.median(pixels, axis=1) > 80]
-    pixels_lab = cv2.cvtColor(pixels.reshape(-1, 1, 3), cv2.COLOR_BGR2Lab).reshape(-1, 3)
-
-    empty_profile = {"undertone": "unknown", "contrast": "unknown", "L": 0, "a": 0, "b": 0}
+    pixels = pixels[np.max(pixels, axis=1) > 15]
 
     if len(pixels) == 0:
-        return "unknown", [] , empty_profile
-    if len(pixels) < num_colors:
-        return ["#%02x%02x%02x" % (p[2], p[1], p[0]) for p in pixels], [] ,empty_profile
+        return "unknown", [], _empty_profile()
 
-    # KMeans to get dominant skin tone
+    pixels_lab = cv2.cvtColor(
+        pixels.reshape(-1, 1, 3), cv2.COLOR_BGR2Lab
+    ).reshape(-1, 3).astype(float)
+
+    if len(pixels_lab) < num_colors:
+        hex_c = '#{:02x}{:02x}{:02x}'.format(
+            int(pixels[0][2]), int(pixels[0][1]), int(pixels[0][0])
+        )
+        return hex_c, [], _empty_profile()
+
+    # ── 5. KMeans clustering in LAB space ──
     kmeans = KMeans(n_clusters=num_colors, n_init=10, random_state=42)
     kmeans.fit(pixels_lab)
     centers = kmeans.cluster_centers_.astype(int)
+    print(f"All KMeans centers: {centers}")
 
-    valid_centers = [c for c in centers if is_valid_skin_lab(c)]
-    if valid_centers:
-        best_center = max(valid_centers, key=lambda c: c[0])
-    else:
-        best_center = centers[np.argmax(centers[:, 0])]
-    
-    profile = get_skin_profile(best_center)
+    valid_centers = [c for c in centers if _is_valid_skin_lab(c)]
+    best_center   = _get_best_center(valid_centers, centers, is_deep)
 
-    # Convert best Lab back to BGR and hex — this is the BASE shade
+    if best_center is None:
+        return "unknown", [], _empty_profile()
+
+    print(f"Valid centers: {valid_centers}")
+    print(f"Best center chosen: {best_center}")
+    L, a, b = int(best_center[0]), int(best_center[1]), int(best_center[2])
+    print(f"L={L}, a={a}, b={b}")
+
+    # ── 6. Base hex ──
     best_lab_patch = np.array([[best_center]], dtype=np.uint8)
-    best_bgr = cv2.cvtColor(best_lab_patch, cv2.COLOR_Lab2BGR)[0][0]
-    hex_color = '#{:02x}{:02x}{:02x}'.format(best_bgr[2], best_bgr[1], best_bgr[0])
+    best_bgr       = cv2.cvtColor(best_lab_patch, cv2.COLOR_Lab2BGR)[0][0]
+    hex_color      = '#{:02x}{:02x}{:02x}'.format(
+        int(best_bgr[2]), int(best_bgr[1]), int(best_bgr[0])
+    )
 
-    # Derive the 4 palette shades from best_center in LAB space
-    # LAB L channel controls lightness — we shift it up/down
-    # Conceal   — lightest  (+20 L)
-    # Base      — detected tone (no shift)
-    # Contour   — darker   (-18 L)
-    # Highlight — warmest, brightest (+25 L, slight b shift)
+    # ── 7. Makeup palette — proportional L shifts by skin depth ──
+    depth_factor = float(np.clip(L / 175.0, 0.35, 1.0))
+    ab_boost     = max(1.0, 1.8 - depth_factor)
 
-    def lab_to_hex(lab):
-        # Clamp LAB values to valid uint8 range
-        lab_clamped = np.array([[np.clip(lab, 0, 255)]], dtype=np.uint8)
-        bgr = cv2.cvtColor(lab_clamped, cv2.COLOR_Lab2BGR)[0][0]
-        return '#{:02x}{:02x}{:02x}'.format(bgr[2], bgr[1], bgr[0])
+    conceal_L   = int(np.clip(L + max(10, int(20 * depth_factor)), 0, 250))
+    contour_L   = int(np.clip(L - max(8,  int(18 * depth_factor)), 20, 255))
+    highlight_L = int(np.clip(L + max(12, int(24 * depth_factor)), 0, 250))
 
-    L, a, b = best_center
-    # how much room do we have before hitting ceiling
-    l_headroom = 255 - L
-    # scale conceal shift — use at most 40% of available headroom
-    conceal_shift = min(18, int(l_headroom * 0.4))
-    highlight_shift = min(22, int(l_headroom * 0.5))
-
-    conceal   = lab_to_hex([L + conceal_shift,  a,     b    ])  # lighter, less saturated
+    conceal   = lab_to_hex(conceal_L,   a - 2,                 b - 2)
     base      = hex_color
-    contour   = lab_to_hex([max(L - 20, 0),     a + 3, b + 2])  # darker, slightly warmer
-    highlight = lab_to_hex([L + highlight_shift, a - 2, b + 4])  # bright, golden warmth
-
+    contour   = lab_to_hex(contour_L,   int(a + 4 * ab_boost), int(b + 5 * ab_boost))
+    highlight = lab_to_hex(highlight_L, a - 3,                 int(b + 6 * ab_boost))
     color_palette = [conceal, base, contour, highlight]
 
     print("Dominant skin tone:", base)
     print("Palette [conceal, base, contour, highlight]:", color_palette)
 
+    # ── 8. Full colour profile ──
+    profile = _get_skin_profile(best_center)
     return base, color_palette, profile
 
-def is_valid_skin_lab(lab):
-    L, a, b = lab
-    # Correct OpenCV uint8 LAB ranges for human skin, 50-80 caters only for very dark skins, mmost skins are 100-200
-    return (80 <= L <= 220) and (130 <= a <= 165) and (130 <= b <= 175)
 
-def classify_undertone(a:int,b:int):
-    
-    #Warm skin has more yellow bias → b dominates
-    #Cool skin has more pink/red bias → a dominates
-    #Neutral → balanced
-    if b > a + 8:
-        return "Warm Undertone"
-    elif a > b + 5:
-        return "Cool Undertone"
-    else:
-        return "Neutral Undertone"
-    
-def classify_contrast(L: int) -> str:
-    """
-    L channel in LAB = lightness (0 dark → 255 light)
-    
-    We use skin tone lightness as a proxy for contrast level.
-    Ideally you'd compare skin L vs hair L — but skin alone
-    is a solid first approximation.
-
-    Fair skin reflects more light → lower visual contrast with
-    most environments → low contrast profile
-    Deep skin → bold contrast with light backgrounds → high contrast
-    """
-    if L > 160:
-        return "low"       # fair / light skin
-    elif L >= 100:
-        return "medium"
-    else:
-        return "high"      # deep / rich skin
-
-def classify_depth(L: int) -> str:
-    """
-    L in OpenCV LAB (0-255 scale)
-    Divides into 4 bands: fair, medium, tan, deep
-    """
-    if L > 185:
-        return "Fair"
-    elif L > 145:
-        return "Medium"
-    elif L > 100:
-        return "Tan"
-    else:
-        return "Deep"
-
-
-def get_skin_profile(best_center: list) -> dict:
-    """
-    Takes best_center [L, a, b] from your existing getSkinTone()
-    and returns a complete profile.
-        profile = get_skin_profile(best_center)
-    """
-    L,a,b = best_center
-    undertone = classify_undertone(a,b)
-    contrast = classify_contrast(L)
-    depth =classify_depth(L)
-    warm_palette = get_warm_shades(L,undertone)
-    cool_palette = get_cool_shades(L,undertone)
-    dark_palette = get_dark_shades(L)
-    jewel_tones = get_jewel_tones(L,undertone)
-
-    print(warm_palette,"warm_palette")
-    #seasons = classify_seasons()
-    return{
-        "undertone": undertone,
-        "contrast": contrast,
-        "depth": depth,
-        "warm_palette":warm_palette,
-        "cool_palette": cool_palette,
-        "dark_palette":dark_palette,
-        "jewel_tones": jewel_tones,
-        "L": int(L),
-        "a": int(a),
-        "b": int(b)
+def _empty_profile() -> dict:
+    return {
+        "undertone":   "unknown",
+        "contrast":    "unknown",
+        "depth":       "unknown",
+        "L": 0, "a": 0, "b": 0,
+        "warm_palette":  [],
+        "cool_palette":  [],
+        "dark_palette":  [],
+        "jewel_tones":   [],
+        "lip_shades":    [],
+        "blush_shades":  []
     }
 
-WARM_SEEDS = [
-   ("Warm brown",   155, 148),      
-    ("Rust",         155, 168),   # index 1 → L=116
-    ("Warm olive",   118, 162),   # index 2 → L=132
-    ("Burnt orange", 158, 168),   # index 3 → L=148
-    ("Mustard",      130, 178),   # index 4 → L=164
-    ("Camel",        135, 165),   # index 5 → L=180 — camel works light
-   
+
+# ─────────────────────────────────────────────────────────────────
+# CLASSIFICATION
+# ─────────────────────────────────────────────────────────────────
+
+def _is_valid_skin_lab(lab) -> bool:
+    """
+    Gate clusters before scoring.
+    ab_signal minimum scales DOWN at low L — deep skin has
+    compressed chromatic channels, not absent ones.
+    """
+    L, a, b   = int(lab[0]), int(lab[1]), int(lab[2])
+    ab_signal = (a - 128) + (b - 128)
+
+    if L < 80:
+        min_signal = 3
+    elif L < 120:
+        min_signal = 5
+    else:
+        min_signal = 8 + max(0, (L - 140)) * 0.3
+
+    return (
+        28  <= L <= 215 and
+        120 <= a <= 180 and
+        115 <= b <= 190 and
+        ab_signal >= min_signal
+    )
+
+
+def _get_best_center(valid_centers: list, centers, is_deep: bool):
+    """
+    Select the cluster best representing actual skin tone.
+
+    Background rejection:
+    - True background (walls, ceilings): ab_signal typically ≤ 8
+    - Real skin at any depth: ab_signal typically ≥ 15
+    - Rule: reject only if ab_signal is BOTH below scaled threshold
+      AND strictly below 15 — this protects fair skin clusters at high L
+      which legitimately have moderate ab_signal (15-25).
+
+    Fair skin fast-path:
+    - Brightest cluster with ab_signal ≥ threshold → return immediately.
+
+    Deep skin scoring:
+    - Minimise L bonus so specular highlights don't outscore actual skin.
+    """
+    candidates = valid_centers if len(valid_centers) > 0 else list(centers)
+    if not candidates:
+        return min(centers, key=lambda c: abs(int(c[0]) - 140))
+
+    L_values = [int(c[0]) for c in candidates]
+    L_range  = max(L_values) - min(L_values)
+
+    if L_range > 35:
+        candidates_sorted = sorted(candidates, key=lambda c: int(c[0]), reverse=True)
+        to_remove = []
+
+        for cluster in candidates_sorted[:2]:
+            cL        = int(cluster[0])
+            ca        = int(cluster[1])
+            cb        = int(cluster[2])
+            ab_signal = (ca - 128) + (cb - 128)
+
+            # Gentle threshold capped at 20 — never rejects real skin
+            bg_threshold = min(10 + max(0, (cL - 150)) * 0.25, 20)
+
+            # BOTH conditions must be true to reject:
+            # 1. ab_signal below the (already gentle) threshold
+            # 2. ab_signal strictly < 15 (real skin always ≥ 15)
+            if ab_signal < bg_threshold and ab_signal < 15:
+                to_remove.append(cluster)
+                print(f"Rejected bg cluster: L={cL}, ab={ab_signal:.1f}, threshold={bg_threshold:.1f}")
+            elif cL > 170 and not is_deep:
+                # Fair skin fast-path: bright + genuine ab_signal
+                required = 10 + max(0, (cL - 170)) * 0.25
+                if ab_signal >= required:
+                    print(f"Fair skin fast-path: L={cL}, ab={ab_signal:.1f}")
+                    return cluster
+
+        for c in to_remove:
+            filtered = [x for x in candidates if not np.array_equal(x, c)]
+            if filtered:
+                candidates = filtered
+
+    if not candidates:
+        candidates = list(centers)
+
+    def skin_score(c):
+        L, a, b   = int(c[0]), int(c[1]), int(c[2])
+        ab_signal = (a - 128) + (b - 128)
+        # Truly achromatic + bright = specular or white wall
+        if L > 170 and ab_signal < 10:
+            return -999
+        l_bonus = L * 0.05 if is_deep else L * 0.12
+        return ab_signal + l_bonus
+
+    return max(candidates, key=skin_score)
+
+
+def _classify_undertone(a: int, b: int, L: int) -> str:
+    """
+    OpenCV LAB neutral: a=128, b=128
+    Warm  → b (yellow) dominates
+    Cool  → a (pink/red) dominates
+
+    Fair skin (high L) has compressed ab — tighten cool gap
+    so cool fair skin isn't collapsed into neutral.
+    """
+    a_sig = a - 128
+    b_sig = b - 128
+
+    cool_gap = 1 if L > 170 else 2 if L > 140 else 3
+
+    if b_sig > a_sig + 6:
+        return "warm"
+    elif a_sig > b_sig + cool_gap:
+        return "cool"
+    else:
+        return "neutral"
+
+
+def _classify_contrast(L: int) -> str:
+    if L > 170:
+        return "low"
+    elif L >= 105:
+        return "medium"
+    else:
+        return "high"
+
+
+def _classify_depth(L: int) -> str:
+    if L > 190:   return "Fair"
+    elif L > 168: return "Light"
+    elif L > 142: return "Light Medium"
+    elif L > 115: return "Medium"
+    elif L > 88:  return "Tan"
+    elif L > 58:  return "Deep"
+    else:         return "Rich Deep"
+
+
+# ─────────────────────────────────────────────────────────────────
+# PROFILE BUILDER
+# ─────────────────────────────────────────────────────────────────
+
+def _get_skin_profile(best_center) -> dict:
+    L, a, b   = int(best_center[0]), int(best_center[1]), int(best_center[2])
+    undertone = _classify_undertone(a, b, L)
+    return {
+        "undertone":    undertone,
+        "contrast":     _classify_contrast(L),
+        "depth":        _classify_depth(L),
+        "warm_palette": _get_warm_shades(L, undertone),
+        "cool_palette": _get_cool_shades(L, undertone),
+        "dark_palette": _get_dark_shades(L, undertone),
+        "jewel_tones":  _get_jewel_tones(L, undertone),
+        "lip_shades":   _get_lip_shades(L, undertone),
+        "blush_shades": _get_blush_shades(L, undertone),
+        "L": L, "a": a, "b": b
+    }
+
+
+# ─────────────────────────────────────────────────────────────────
+# COLOUR SEEDS
+# Hues: (name, a, b) in OpenCV LAB. Neutral = a=128, b=128.
+# L always derived mathematically from skin L — never hardcoded.
+# ─────────────────────────────────────────────────────────────────
+
+_WARM_SEEDS = [
+    ("Camel",         133, 163),
+    ("Warm Brown",    148, 152),
+    ("Rust",          153, 165),
+    ("Burnt Orange",  155, 170),
+    ("Mustard",       128, 175),
+    ("Warm Olive",    120, 160),
 ]
 
-COOL_SEEDS = [
-    ("Navy",         128, 100),
-    ("Emerald",      108, 130),
-    ("Plum",         148, 112),
-    ("Slate",        128, 118),
-    ("Lavender",     138, 112),
-    ("Cool grey",    128, 122),
+_COOL_SEEDS = [
+    ("Navy",          128,  98),
+    ("Slate Blue",    130, 110),
+    ("Emerald",       108, 132),
+    ("Plum",          150, 112),
+    ("Lavender",      138, 115),
+    ("Cool Grey",     130, 122),
 ]
-JEWEL_SEEDS = {
+
+_JEWEL_SEEDS = {
     "warm": [
-        ("Ruby",          165, 148),   # deep red-warm
-        ("Topaz",         128, 172),   # warm golden yellow
-        ("Amber",         138, 168),   # rich orange-gold
-        ("Coral jade",    148, 158),   # warm green-coral
-        ("Copper",        145, 162),   # warm metallic
-        ("Bronze",        135, 160),   # earthy rich tone
+        ("Ruby",        162, 148),
+        ("Topaz",       128, 172),
+        ("Amber",       138, 168),
+        ("Coral",       148, 158),
+        ("Copper",      145, 162),
+        ("Bronze",      135, 158),
     ],
     "cool": [
-        ("Sapphire",      118,  98),   # deep blue
-        ("Amethyst",      148, 108),   # purple-violet
-        ("Aquamarine",    102, 122),   # cool blue-green
-        ("Tanzanite",     130, 100),   # blue-purple
-        ("Moonstone",     118, 115),   # cool neutral pearl
-        ("Indigo",        125,  95),   # deep cool blue
+        ("Sapphire",    118,  98),
+        ("Amethyst",    150, 110),
+        ("Aquamarine",  102, 122),
+        ("Tanzanite",   132, 102),
+        ("Moonstone",   120, 118),
+        ("Indigo",      126,  96),
     ],
     "neutral": [
-        ("Emerald",       108, 138),   # balanced green
-        ("Garnet",        155, 135),   # balanced red
-        ("Turquoise",     102, 125),   # balanced blue-green
-        ("Rose quartz",   132, 122),   # balanced pink
-        ("Citrine",       125, 165),   # balanced yellow
-        ("Jade",          108, 140),   # balanced cool green
-    ]
+        ("Emerald",     108, 138),
+        ("Garnet",      155, 135),
+        ("Turquoise",   102, 128),
+        ("Rose Quartz", 132, 122),
+        ("Citrine",     126, 165),
+        ("Jade",        108, 140),
+    ],
 }
-# ─────────────────────────────────────────
-# Dark wearable seeds — universal hue families
-# Everyone gets same hues, L personalized to skin
-# ─────────────────────────────────────────
-DARK_SEEDS = [
+
+_DARK_SEEDS = [
     ("Wine",          162, 128),
     ("Burgundy",      158, 122),
-    ("Forest green",  108, 142),
-    ("Midnight blue", 118,  95),
-    ("Deep plum",     148, 108),
+    ("Forest Green",  108, 142),
+    ("Midnight Blue", 118,  96),
+    ("Deep Plum",     148, 108),
     ("Chocolate",     140, 150),
 ]
 
-def derive_jewel_L(skin_L: int, index: int, total: int = 6) -> int:
-    """
-    Jewel tones live in L range 80–130 regardless of skin depth.
-    We distribute the 6 shades across this range,
-    but bias the center toward the skin's L clamped into that range.
-    
-    Fair skin (L=200) → center pulls toward 130 end
-    Deep skin (L=100) → center pulls toward 80 end
-    Medium skin (L=175) → center around 110
-    """
-    jewel_min = 80
-    jewel_max = 130
-    # Clamp skin L into jewel range to get center
-    center = int(np.clip(skin_L * 0.6, jewel_min, jewel_max))
-    spread = 40
-    start  = max(jewel_min, center - spread // 2)
-    end    = min(jewel_max, start + spread)
-    step   = (end - start) / (total - 1)
-    L      = start + (index * step)
-    return int(np.clip(L, jewel_min, jewel_max))
+_LIP_SEEDS = {
+    "warm": [
+        ("Terracotta",  158, 162),
+        ("Coral",       152, 158),
+        ("Warm Nude",   140, 150),
+        ("Peach",       140, 158),
+        ("Brick Red",   165, 152),
+        ("Warm Mauve",  148, 140),
+    ],
+    "cool": [
+        ("Berry",       158, 118),
+        ("Cool Rose",   145, 122),
+        ("Pink Nude",   138, 125),
+        ("Raspberry",   162, 115),
+        ("Cool Mauve",  148, 120),
+        ("Plum",        152, 112),
+    ],
+    "neutral": [
+        ("MLBB",        148, 138),
+        ("Dusty Rose",  142, 128),
+        ("Rosy Nude",   140, 132),
+        ("Fig",         152, 125),
+        ("Berry Rose",  150, 128),
+        ("Soft Coral",  143, 148),
+    ],
+}
+
+_BLUSH_SEEDS = {
+    "warm": [
+        ("Peach Blush",  138, 158),
+        ("Apricot",      135, 162),
+        ("Warm Pink",    142, 148),
+        ("Coral Blush",  148, 158),
+    ],
+    "cool": [
+        ("Baby Pink",    138, 122),
+        ("Cool Rose",    140, 118),
+        ("Lilac Blush",  138, 115),
+        ("Soft Berry",   145, 118),
+    ],
+    "neutral": [
+        ("Soft Rose",    138, 132),
+        ("Nude Blush",   135, 135),
+        ("Rose",         140, 128),
+        ("Mauve Blush",  142, 125),
+    ],
+}
 
 
-def derive_dark_L(skin_L: int, index: int, total: int = 6) -> int:
-    """
-    Dark wearables always sit below skin tone.
-    Cap at L=100 so deep skin tones don't lose color into black.
-    Spread across a narrow deep range so all 6 are visibly distinct.
+# ─────────────────────────────────────────────────────────────────
+# L DERIVATION HELPERS
+# ─────────────────────────────────────────────────────────────────
 
-    Fair skin (L=200)   → range ~60–100  (rich deep colors)
-    Medium skin (L=175) → range ~55–95
-    Deep skin (L=110)   → range ~40–80   (still colored, not black)
-    """
-    dark_ceiling = min(skin_L - 40, 100)   # always below skin, never muddy
-    dark_floor   = max(dark_ceiling - 50, 35)
-    step         = (dark_ceiling - dark_floor) / (total - 1)
-    L            = dark_floor + (index * step)
-    return int(np.clip(L, 35, 105))
-
-
-def get_jewel_tones(skin_L: int, undertone: str) -> list:
-    seeds = JEWEL_SEEDS.get(undertone, JEWEL_SEEDS["neutral"])
-    result = []
-    for i, (name, a, b) in enumerate(seeds):
-        L = derive_jewel_L(skin_L, i)
-        result.append({
-            "name": name,
-            "hex":  lab_to_hex(L, a, b)
-        })
-    return result
-
-
-def get_dark_shades(skin_L: int) -> list:
-    """
-    Universal — same hue families for everyone.
-    L derived from skin so deep skin gets visibly colored darks
-    and fair skin gets properly deep rich darks.
-    """
-    result = []
-    for i, (name, a, b) in enumerate(DARK_SEEDS):
-        L = derive_dark_L(skin_L, i)
-        result.append({
-            "name": name,
-            "hex":  lab_to_hex(L, a, b)
-        })
-    return result
-def derive_clothing_L(skin_L: int, shade_index: int, total: int = 6) -> int:
-    """
-    Distributes shades across a lightness range centered on skin tone.
-    
-    skin_L = 175 (medium fair) →  range spans ~100 to 210
-    skin_L = 120 (deep)        →  range spans ~60  to 160
-    skin_L = 200 (fair)        →  range spans ~140 to 230
-    
-    This means deep skin gets deeper versions of rust/navy etc
-    and fair skin gets lighter versions — same hue, different depth.
-    """
-    spread = 60
-    
-    # for fair skin, don't centre on skin L
-    # anchor the range lower so colours stay visible and distinct from skin
-    if skin_L > 160:
-        centre = int(skin_L * 0.72)   # fixed anchor for fair skin
+def _derive_clothing_L(skin_L: int, index: int, total: int = 6) -> int:
+    spread = 65
+    if skin_L > 165:
+        centre = int(skin_L * 0.70)
+    elif skin_L > 110:
+        centre = skin_L - 25
     else:
-        centre = skin_L - 20   # for medium/deep, stay below skin
-
+        centre = skin_L + 10
     start = centre - (spread // 2)
-    step  = spread // (total - 1)
-    L     = start + (shade_index * step)
-    return int(np.clip(L, 40, 220))   # safety clamp
+    step  = spread / max(total - 1, 1)
+    return int(np.clip(start + index * step, 38, 222))
 
 
-def get_warm_shades(skin_L: int, undertone: str) -> list:
-    """
-    Hue family fixed (warm seeds), exact lightness derived from skin L.
-    Undertone shifts the b channel slightly to stay harmonious.
-    """
-    undertone_b_adjust = {"warm": +8, "neutral": 0, "cool": -8}
-    db = undertone_b_adjust.get(undertone, 0)
-
-    result = []
-    for i, (name, a, b) in enumerate(WARM_SEEDS):
-        L   = derive_clothing_L(skin_L, i)
-        print(f"{i} {name}: derived L={L}, a={a}, b={b} → {lab_to_hex(L, a, b)}")
-        result.append({
-            "name": name,
-            "hex":  lab_to_hex(L, a, b + db)
-        })
-    return result
+def _derive_jewel_L(skin_L: int, index: int, total: int = 6) -> int:
+    jmin, jmax = 75, 135
+    centre = int(np.clip(skin_L * 0.62, jmin, jmax))
+    spread = 45
+    start  = max(jmin, centre - spread // 2)
+    end    = min(jmax, start + spread)
+    step   = (end - start) / max(total - 1, 1)
+    return int(np.clip(start + index * step, jmin, jmax))
 
 
-def get_cool_shades(skin_L: int, undertone: str) -> list:
-    """
-    Hue family fixed (cool seeds), exact lightness derived from skin L.
-    Undertone shifts the a channel slightly to stay harmonious.
-    """
-    undertone_a_adjust = {"cool": +8, "neutral": 0, "warm": -8}
-    da = undertone_a_adjust.get(undertone, 0)
-
-    result = []
-    for i, (name, a, b) in enumerate(COOL_SEEDS):
-        L   = derive_clothing_L(skin_L, i)
-        result.append({
-            "name": name,
-            "hex":  lab_to_hex(L, a + da, b)
-        })
-    return result
-
-def lab_to_hex(L: int, a: int, b: int) -> str:
-    lab = np.array([[[
-        int(np.clip(L, 0, 255)),
-        int(np.clip(a, 0, 255)),
-        int(np.clip(b, 0, 255))
-    ]]], dtype=np.uint8)
-    bgr = cv2.cvtColor(lab, cv2.COLOR_Lab2BGR)[0][0]
-    return '#{:02x}{:02x}{:02x}'.format(int(bgr[2]), int(bgr[1]), int(bgr[0]))
+def _derive_dark_L(skin_L: int, index: int, total: int = 6) -> int:
+    ceiling = min(skin_L - 35, 102)
+    floor   = max(ceiling - 52, 32)
+    step    = (ceiling - floor) / max(total - 1, 1)
+    return int(np.clip(floor + index * step, 32, 108))
 
 
+def _derive_lip_L(skin_L: int, index: int, total: int = 6) -> int:
+    spread = 50
+    centre = int(skin_L * 0.75) if skin_L > 165 else max(skin_L - 15, 55)
+    start  = centre - spread // 2
+    step   = spread / max(total - 1, 1)
+    return int(np.clip(start + index * step, 40, 200))
+
+
+def _derive_blush_L(skin_L: int, index: int, total: int = 4) -> int:
+    spread = 30
+    centre = int(skin_L * 0.88) if skin_L > 165 else skin_L + 8
+    start  = centre - spread // 2
+    step   = spread / max(total - 1, 1)
+    return int(np.clip(start + index * step, 60, 220))
+
+
+# ─────────────────────────────────────────────────────────────────
+# PALETTE BUILDERS
+# ─────────────────────────────────────────────────────────────────
+
+def _get_warm_shades(skin_L: int, undertone: str) -> list:
+    db = {"warm": +10, "neutral": +3, "cool": -5}.get(undertone, 0)
+    return [
+        {"name": name, "hex": lab_to_hex(_derive_clothing_L(skin_L, i), a, b + db)}
+        for i, (name, a, b) in enumerate(_WARM_SEEDS)
+    ]
+
+
+def _get_cool_shades(skin_L: int, undertone: str) -> list:
+    da = {"cool": +8, "neutral": +2, "warm": -5}.get(undertone, 0)
+    return [
+        {"name": name, "hex": lab_to_hex(_derive_clothing_L(skin_L, i), a + da, b)}
+        for i, (name, a, b) in enumerate(_COOL_SEEDS)
+    ]
+
+
+def _get_dark_shades(skin_L: int, undertone: str) -> list:
+    da = {"cool": +5, "neutral": 0, "warm": -3}.get(undertone, 0)
+    db = {"warm": +5, "neutral": 0, "cool": -3}.get(undertone, 0)
+    return [
+        {"name": name, "hex": lab_to_hex(_derive_dark_L(skin_L, i), a + da, b + db)}
+        for i, (name, a, b) in enumerate(_DARK_SEEDS)
+    ]
+
+
+def _get_jewel_tones(skin_L: int, undertone: str) -> list:
+    seeds = _JEWEL_SEEDS.get(undertone, _JEWEL_SEEDS["neutral"])
+    return [
+        {"name": name, "hex": lab_to_hex(_derive_jewel_L(skin_L, i), a, b)}
+        for i, (name, a, b) in enumerate(seeds)
+    ]
+
+
+def _get_lip_shades(skin_L: int, undertone: str) -> list:
+    seeds = _LIP_SEEDS.get(undertone, _LIP_SEEDS["neutral"])
+    return [
+        {"name": name, "hex": lab_to_hex(_derive_lip_L(skin_L, i), a, b)}
+        for i, (name, a, b) in enumerate(seeds)
+    ]
+
+
+def _get_blush_shades(skin_L: int, undertone: str) -> list:
+    seeds = _BLUSH_SEEDS.get(undertone, _BLUSH_SEEDS["neutral"])
+    return [
+        {"name": name, "hex": lab_to_hex(_derive_blush_L(skin_L, i), a, b)}
+        for i, (name, a, b) in enumerate(seeds)
+    ]

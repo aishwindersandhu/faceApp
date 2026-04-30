@@ -5,6 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI(title="Image Processing API")
 origins = [
     "http://localhost:5173" #no trailing / for adding any url
+    "https://faceanalyzer-ui.netlify.app"
 ]
 app.add_middleware(
     CORSMiddleware,

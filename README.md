@@ -1,46 +1,164 @@
-# Face Analyser 
-- This project is the backend side of the Face Analyser which is already developed in React, TypeScript,
-Redux Toolkit and TailwindCss on the Front End.
-- This project consists of API : `analyze_image` which accepts the image being captured from User and is converting it to Bytes Data to be processed and is responsible for sending back a JSON response back to user.
-- The `routes.py` consists of the API end points being used to hook with client side.
-- `main.py` has the server defined with end points that can access it, currently CORS is disabled,
-- `image_processing.py` is the main file wherein I have written the logic for getting the dominant Skin Tone and 3 most relevant color tones that are derived from the image provided.
-- I have used OpenCv for image processing as a beginner.
-- I have used K-means clustering for deriving the dominant skin tone and 3 most probable skin tone of the user, using clusters.
-- I have used LAB colors(which are more perceptually uniform) to cluster similar looking colors.
-- Converted the LAB colors back to HEX colors because they are more CSS and WEB friendly and easy to render.
+# Backend — Skin Tone & Colour Analysis
 
-# Requirements
-- Python 3.8+
-- pip
-- Virtual Environment for isolated workspace.
-- Packages(if unsuccessfull installation) :
-  1. FastApi
-  2. OpenCv
-  3. Numpy 
-  4. scikit-learn 
+The backend for the Face Analyser web app. Built with FastAPI and Python, it accepts a face image, runs a computer vision pipeline to detect skin tone and undertone, and returns a full personalised colour palette as a JSON response.
 
-# Installation
-- In order to clone the repo,use the following link : https://github.com/aishwindersandhu/faceApp/tree/server 
-- Activate a virutal environment using `python -m venv venv`.
-- Once cloned, use command `pip install` or `pip install -r requirements.txt`to install all dependencies.
-- In order to run the project use command `python run.py`, this will get the server up and running.
-- There's a traceability of logs to check if the connection was successful and if the colors were derived in correct format.
-- To check for a successful connection from the Front-End, Click the Analyze Picture button, which is hooked to the backend.
+---
 
-- Successful server up looks like this:
- ![alt text](image.png)
-- Successful image processing would look like this:
-![alt text](image-1.png)
+## Tech Stack
 
-# TO DO:
-- Classify colors under an umbrella term for example: 'Warm', 'Ebony', 'Medium', 'Light' etc.
-- Integrate Mediapipe for more accurate color detection.
-- Make Detection not light sensitive.
-- Proper Error Handling.
-- Add Security layer for API since it's dealing with something as sensitive as skin tone.
+- **FastAPI** — API framework
+- **OpenCV** — image processing and colour space conversions
+- **scikit-learn** — KMeans clustering for dominant skin tone detection
+- **NumPy** — numerical operations
+- **Pillow** — image handling
 
-# Contact
-- Incase of any issues I'm reachable at aishwinder.sandhu@gmail.com or you can Reach out to me on 
-LinkedIn :
-https://www.linkedin.com/in/aishwinder-sandhu-3b5002102/ 
+---
+
+## How It Works
+
+1. The uploaded image is decoded and passed through a YCrCb colour space mask to isolate skin pixels
+2. A center-weighted ellipse mask discards background pixels
+3. Skin pixels are converted to LAB colour space — perceptually uniform, making similar-looking colours cluster together accurately
+4. KMeans clustering (5 clusters) finds the dominant skin tone
+5. A scoring function selects the best cluster, rejecting background bleed and specular highlights
+6. Undertone (warm / cool / neutral) is classified from the LAB a and b channel values
+7. All palette colours are derived mathematically from the detected skin LAB values and converted back to hex for CSS/web rendering
+
+---
+
+## Project Structure
+
+```
+backend/
+├── main.py               # FastAPI app, CORS config, server entry point
+├── routes.py             # API endpoint definitions
+├── image_processing.py   # Full CV pipeline — skin detection, undertone, palette derivation
+├── run.py                # Server runner
+└── requirements.txt
+```
+
+---
+
+## Getting Started
+
+**Clone the repo**
+```bash
+git clone https://github.com/aishwindersandhu/faceApp
+cd faceApp
+git checkout server
+```
+
+**Create and activate a virtual environment**
+```bash
+python -m venv venv
+
+# macOS / Linux
+source venv/bin/activate
+
+# Windows
+venv\Scripts\activate
+```
+
+**Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+**Run the server**
+```bash
+python run.py
+```
+
+---
+
+## API
+
+### `GET /ping`
+Health check.
+
+**Response**
+```json
+{ "message": "pong" }
+```
+
+---
+
+### `POST /analyze`
+
+Accepts a face image and returns skin tone data with a full colour profile.
+
+**Request**
+```
+Content-Type: multipart/form-data
+Body: image (File) — JPG, PNG, or WEBP
+```
+
+**Response**
+```json
+{
+  "filename": "photo.jpg",
+  "skinTone": "Medium",
+  "colorCode": "#a79272",
+  "colorPalette": ["#b8a282", "#a79272", "#8c7255", "#beab82"],
+  "profile": {
+    "undertone": "warm",
+    "contrast": "medium",
+    "depth": "Medium",
+    "L": 148, "a": 142, "b": 151,
+    "warm_palette":  [{ "name": "Camel",       "hex": "#b8935a" }, "..."],
+    "cool_palette":  [{ "name": "Navy",         "hex": "#3a4a6b" }, "..."],
+    "dark_palette":  [{ "name": "Wine",         "hex": "#6b2d3a" }, "..."],
+    "jewel_tones":   [{ "name": "Ruby",         "hex": "#8b3a4a" }, "..."],
+    "lip_shades":    [{ "name": "Coral",        "hex": "#c4705a" }, "..."],
+    "blush_shades":  [{ "name": "Peach Blush",  "hex": "#d4a888" }, "..."]
+  }
+}
+```
+
+`colorPalette` order: `[Conceal, Base, Contour, Highlight]`
+
+---
+
+## Logs
+
+The server logs key steps so you can trace detection results during development.
+
+**Successful server start**
+
+![Server start](screenshots/image.png)
+
+**Successful image processing**
+
+![Image processing logs](screenshots/image-1.png)
+
+---
+
+## Requirements
+
+```
+fastapi
+uvicorn
+opencv-python-headless
+scikit-learn
+numpy
+pillow
+python-multipart
+```
+
+---
+
+## Roadmap
+
+- [ ] Integrate MediaPipe for more accurate face region detection
+- [ ] Reduce light sensitivity in detection pipeline
+- [ ] Proper error handling and fallback responses
+- [ ] Add authentication layer for the API
+- [ ] Improve accuracy of the data returned, make it more light insensitive
+- [ ] Integrate LLM models for further exploration
+- [ ] Explore more from color theory 
+
+---
+
+## Contact
+
+Reach out at [aishwinder.sandhu@gmail.com](mailto:aishwinder.sandhu@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/aishwinder-sandhu-3b5002102/)

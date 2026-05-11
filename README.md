@@ -125,11 +125,11 @@ The server logs key steps so you can trace detection results during development.
 
 **Successful server start**
 
-![Server start](screenshots/image.png)
+![Server start](image-2.png)
 
 **Successful image processing**
 
-![Image processing logs](screenshots/image-1.png)
+![Image Processing Logs](image-3.png)
 
 ---
 

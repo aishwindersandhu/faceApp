@@ -149,7 +149,7 @@ def getSkinTone(image: bytes, num_colors: int = 5):
     kmeans = KMeans(n_clusters=num_colors, n_init=10, random_state=42)
     kmeans.fit(pixels_lab)
     centers = kmeans.cluster_centers_.astype(int)
-    print(f"All KMeans centers: {centers}")
+    print(f"All KMeans centers : {centers}")
 
     valid_centers = [c for c in centers if _is_valid_skin_lab(c)]
     best_center   = _get_best_center(valid_centers, centers, is_deep)
@@ -392,28 +392,28 @@ _COOL_SEEDS = [
 
 _JEWEL_SEEDS = {
     "warm": [
-        ("Ruby",        162, 148),
-        ("Topaz",       128, 172),
-        ("Amber",       138, 168),
-        ("Coral",       148, 158),
-        ("Copper",      145, 162),
-        ("Bronze",      135, 158),
+        ("Ruby",        185, 138),   # deep saturated red — high a, neutral b
+        ("Topaz",       128, 185),   # rich golden yellow — high b
+        ("Amber",       155, 185),   # vivid amber — red+yellow
+        ("Coral",       168, 165),   # true saturated coral
+        ("Copper",      158, 175),   # rich copper — warm red+gold
+        ("Bronze",      148, 180),   # deep bronze gold
     ],
     "cool": [
-        ("Sapphire",    118,  98),
-        ("Amethyst",    150, 110),
-        ("Aquamarine",  102, 122),
-        ("Tanzanite",   132, 102),
-        ("Moonstone",   120, 118),
-        ("Indigo",      126,  96),
+        ("Sapphire",    108,  80),   # rich blue — low a, very low b
+        ("Amethyst",    165,  95),   # vivid purple — high a, low b
+        ("Aquamarine",   88, 118),   # cyan-green — low a, slightly low b
+        ("Tanzanite",   138,  82),   # blue-violet
+        ("Moonstone",   120, 108),   # blue-grey iridescent
+        ("Indigo",      118,  78),   # deep indigo blue
     ],
     "neutral": [
-        ("Emerald",     108, 138),
-        ("Garnet",      155, 135),
-        ("Turquoise",   102, 128),
-        ("Rose Quartz", 132, 122),
-        ("Citrine",     126, 165),
-        ("Jade",        108, 140),
+        ("Emerald",      88, 148),   # rich green — low a, slightly high b
+        ("Garnet",      178, 132),   # deep red-brown
+        ("Turquoise",    90, 122),   # true turquoise — low a
+        ("Rose Quartz", 148, 118),   # pink — high a, slightly cool b
+        ("Citrine",     128, 188),   # vivid yellow-green
+        ("Jade",         95, 145),   # true jade green
     ],
 }
 
@@ -493,9 +493,10 @@ def _derive_clothing_L(skin_L: int, index: int, total: int = 6) -> int:
 
 
 def _derive_jewel_L(skin_L: int, index: int, total: int = 6) -> int:
-    jmin, jmax = 75, 135
-    centre = int(np.clip(skin_L * 0.62, jmin, jmax))
-    spread = 45
+    # Jewel tones need higher L to be vivid — was 75-135, now 110-165
+    jmin, jmax = 110, 165
+    centre = int(np.clip(skin_L * 0.78, jmin, jmax))
+    spread = 40
     start  = max(jmin, centre - spread // 2)
     end    = min(jmax, start + spread)
     step   = (end - start) / max(total - 1, 1)

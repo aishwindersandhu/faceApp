@@ -159,6 +159,10 @@ python-multipart
 
 ---
 
+## Limitations 
+- Hosted on Render's free tier so the first request may take 30–60 seconds to wake up — subsequent requests are fast.
+- Currently only works well with Light medium to Deep colors. Fair and pale skin tones are still not returning the desired output.
+
 ## Contact
 
 Reach out at [aishwinder.sandhu@gmail.com](mailto:aishwinder.sandhu@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/aishwinder-sandhu-3b5002102/)

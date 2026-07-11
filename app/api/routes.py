@@ -3,10 +3,12 @@ from PIL import Image
 from fastapi.responses import StreamingResponse
 import io
 from app.core.image_processing import analyze_image
+from app.recommendations.router import router as recommendations_router
 
 
 # ✅ THIS is what FastAPI is looking for
 router = APIRouter()
+router.include_router(recommendations_router)
 
 @router.post("/ping")
 async def ping():

@@ -10,7 +10,16 @@ Replace with real Nykaa / Amazon URLs when you have them.
 """
 
 from __future__ import annotations
+import json
+from pathlib import Path
 from typing import TypedDict
+
+_DATA_DIR = Path(__file__).parent / "data"
+
+
+def _load_category(filename: str) -> "CatalogueCategory":
+    with open(_DATA_DIR / filename, encoding="utf-8") as f:
+        return json.load(f)
 
 
 class Shade(TypedDict):
@@ -38,86 +47,9 @@ class CatalogueCategory(TypedDict):
 
 
 CATALOGUE: list[CatalogueCategory] = [
-    {
-        "key": "foundation",
-        "label": "Foundation",
-        "icon": "🫧",
-        "skip_color_matching": False,
-        "products": [
-            {
-                "id": "nars-sheer-glow",
-                "brand": "NARS",
-                "name": "Sheer Glow Foundation",
-                "image": "/assets/products/nars-sheer-glow.jpg",
-                "price_prefix": "₹3,900",
-                "dark_background": False,
-                "shades": [
-                    {"name": "Syracuse",   "hex": "#C8924E"},
-                    {"name": "Deauville",  "hex": "#B87E3C"},
-                    {"name": "New Guinea", "hex": "#A86028"},
-                    {"name": "Barcelona",  "hex": "#C09050"},
-                    {"name": "Fiji",       "hex": "#D4A870"},
-                ],
-            },
-            {
-                "id": "fenty-pro-filtr",
-                "brand": "Fenty Beauty",
-                "name": "Pro Filt'r Soft Matte",
-                "image": "/assets/products/fenty-pro-filtr.jpg",
-                "price_prefix": "₹3,400",
-                "dark_background": False,
-                "shades": [
-                    {"name": "220W", "hex": "#D4A878"},
-                    {"name": "230W", "hex": "#C68642"},
-                    {"name": "240W", "hex": "#B5763A"},
-                    {"name": "250W", "hex": "#A86028"},
-                    {"name": "260W", "hex": "#9A5520"},
-                ],
-            },
-            {
-                "id": "mac-studio-fix",
-                "brand": "MAC",
-                "name": "Studio Fix Fluid",
-                "image": "/assets/products/mac-studio-fix.jpg",
-                "price_prefix": "₹2,950",
-                "dark_background": False,
-                "shades": [
-                    {"name": "NC35", "hex": "#D4A870"},
-                    {"name": "NC40", "hex": "#C8924E"},
-                    {"name": "NC42", "hex": "#B87E3C"},
-                    {"name": "NC44", "hex": "#A86C2A"},
-                ],
-            },
-            {
-                "id": "maybelline-fit-me",
-                "brand": "Maybelline",
-                "name": "Fit Me Matte+Poreless",
-                "image": "/assets/products/maybelline-fit-me.jpg",
-                "price_prefix": "₹599",
-                "dark_background": False,
-                "shades": [
-                    {"name": "310", "hex": "#D0A060"},
-                    {"name": "320", "hex": "#C49050"},
-                    {"name": "330", "hex": "#C08040"},
-                    {"name": "340", "hex": "#B07030"},
-                    {"name": "350", "hex": "#A06020"},
-                ],
-            },
-            {
-                "id": "nars-natural-radiant",
-                "brand": "NARS",
-                "name": "Natural Radiant Longwear",
-                "image": "/assets/products/nars-natural-radiant.jpg",
-                "price_prefix": "₹4,200",
-                "dark_background": False,
-                "shades": [
-                    {"name": "Macao",     "hex": "#C09050"},
-                    {"name": "Barcelona", "hex": "#B07840"},
-                    {"name": "Syracuse",  "hex": "#C8924E"},
-                ],
-            },
-        ],
-    },
+    # Generated from The Pudding's "Shades of You" dataset + makeup-api.herokuapp.com —
+    # see scripts/build_catalogue.py to regenerate.
+    _load_category("foundation.json"),
     {
         "key": "blush",
         "label": "Blush",
@@ -184,6 +116,30 @@ CATALOGUE: list[CatalogueCategory] = [
                 "shades": [
                     {"name": "Persimmon", "hex": "#D4705A"},
                     {"name": "Naked",     "hex": "#C8906A"},
+                ],
+            },
+            {
+                "id": "milk-cream-blush",
+                "brand": "Milk Makeup",
+                "name": "Cream Blush",
+                "image": "/assets/products/milk-cream-blush.jpg",
+                "price_prefix": "₹2,400",
+                "dark_background": False,
+                "shades": [
+                    {"name": "Werk",  "hex": "#C87A55"},
+                    {"name": "Lit",   "hex": "#D4856A"},
+                ],
+            },
+            {
+                "id": "glossier-cloud-paint",
+                "brand": "Glossier",
+                "name": "Cloud Paint",
+                "image": "/assets/products/glossier-cloud-paint.jpg",
+                "price_prefix": "₹2,100",
+                "dark_background": False,
+                "shades": [
+                    {"name": "Beam",  "hex": "#D4906A"},
+                    {"name": "Dusk",  "hex": "#B86548"},
                 ],
             },
         ],
@@ -257,6 +213,30 @@ CATALOGUE: list[CatalogueCategory] = [
                     {"name": "Nude",      "hex": "#C08060"},
                 ],
             },
+            {
+                "id": "dior-addict-lip-glow",
+                "brand": "Dior",
+                "name": "Addict Lip Glow",
+                "image": "/assets/products/dior-addict-lip-glow.jpg",
+                "price_prefix": "₹3,600",
+                "dark_background": False,
+                "shades": [
+                    {"name": "Berry",  "hex": "#9B4A3A"},
+                    {"name": "Praline", "hex": "#A0603A"},
+                ],
+            },
+            {
+                "id": "colorbar-velvet-matte",
+                "brand": "Colorbar",
+                "name": "Velvet Matte Lipstick",
+                "image": "/assets/products/colorbar-velvet-matte.jpg",
+                "price_prefix": "₹650",
+                "dark_background": False,
+                "shades": [
+                    {"name": "Rustic",     "hex": "#8B4A2A"},
+                    {"name": "Chocoholic", "hex": "#6B3A22"},
+                ],
+            },
         ],
     },
     {
@@ -300,6 +280,33 @@ CATALOGUE: list[CatalogueCategory] = [
                 "name": "Lash Paradise Mascara",
                 "image": "/assets/products/loreal-lash-paradise.jpg",
                 "price_prefix": "₹650",
+                "dark_background": True,
+                "shades": [{"name": "Black", "hex": "#1A1A1A"}],
+            },
+            {
+                "id": "benefit-badgal-bang",
+                "brand": "Benefit",
+                "name": "BADgal Bang Mascara",
+                "image": "/assets/products/benefit-badgal-bang.jpg",
+                "price_prefix": "₹2,600",
+                "dark_background": True,
+                "shades": [{"name": "Black", "hex": "#1A1A1A"}],
+            },
+            {
+                "id": "essence-lash-princess",
+                "brand": "essence",
+                "name": "Lash Princess Mascara",
+                "image": "/assets/products/essence-lash-princess.jpg",
+                "price_prefix": "₹350",
+                "dark_background": True,
+                "shades": [{"name": "Black", "hex": "#1A1A1A"}],
+            },
+            {
+                "id": "huda-beauty-legit-lashes",
+                "brand": "Huda Beauty",
+                "name": "Legit Lashes Mascara",
+                "image": "/assets/products/huda-legit-lashes.jpg",
+                "price_prefix": "₹2,200",
                 "dark_background": True,
                 "shades": [{"name": "Black", "hex": "#1A1A1A"}],
             },
@@ -359,6 +366,42 @@ CATALOGUE: list[CatalogueCategory] = [
                 "shades": [
                     {"name": "Gold",   "hex": "#E4C888"},
                     {"name": "Bronze", "hex": "#C8A060"},
+                ],
+            },
+            {
+                "id": "milk-holographic-stick",
+                "brand": "Milk Makeup",
+                "name": "Holographic Highlighting Stick",
+                "image": "/assets/products/milk-holographic-stick.jpg",
+                "price_prefix": "₹2,700",
+                "dark_background": False,
+                "shades": [
+                    {"name": "Supernova", "hex": "#E8C99A"},
+                    {"name": "Lit",       "hex": "#D4A870"},
+                ],
+            },
+            {
+                "id": "colorbar-strobe-highlighter",
+                "brand": "Colorbar",
+                "name": "Strobe Highlighter",
+                "image": "/assets/products/colorbar-strobe-highlighter.jpg",
+                "price_prefix": "₹850",
+                "dark_background": False,
+                "shades": [
+                    {"name": "Gold Rush", "hex": "#D4A855"},
+                    {"name": "Moonlight", "hex": "#E4C888"},
+                ],
+            },
+            {
+                "id": "physicians-formula-butter-glow",
+                "brand": "Physicians Formula",
+                "name": "Butter Believe It Highlighter",
+                "image": "/assets/products/physicians-butter-glow.jpg",
+                "price_prefix": "₹1,200",
+                "dark_background": False,
+                "shades": [
+                    {"name": "Champagne", "hex": "#E0B870"},
+                    {"name": "Rose Gold", "hex": "#D4A090"},
                 ],
             },
         ],

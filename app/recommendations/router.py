@@ -22,7 +22,7 @@ from app.recommendations.models import (
 )
 router = APIRouter()
 
-
+  
 @router.post("/recommendations/{user_id}", response_model=RecommendationResponse)
 async def get_recommendations(
     user_id: str,
@@ -49,11 +49,9 @@ async def get_recommendations(
 
             if category["skip_color_matching"]:
                 # Eye/mascara — doesn't need skin tone matching
-                best_idx, score = 0, 90
+                score = 90
             else:
-                best_idx, score = best_shade_match(skin_hex, shade_hexes)
-
-            best_shade = product["shades"][best_idx]
+                _, score = best_shade_match(skin_hex, shade_hexes)
 
             products_out.append(
                 ProductOut(
@@ -67,7 +65,7 @@ async def get_recommendations(
                         ShadeOut(name=s["name"], hex=s["hex"])
                         for s in product["shades"]
                     ],
-                    price=f"{product['price_prefix']} · {best_shade['name']}",
+                    price=product["price_prefix"],
                     dark_background=product["dark_background"],
                 )
             )

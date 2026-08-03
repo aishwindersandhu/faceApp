@@ -1,12 +1,5 @@
 """
 Request / response models for POST /recommendations/{user_id}
-
-The request shape mirrors exactly what /analyze already returns —
-so the frontend can pass the analysis response straight into this
-endpoint with no transformation needed.
-
-Field names are camelCase on the wire (alias_generator=to_camel)
-so they match your existing frontend TypeScript types 1:1.
 """
 
 from __future__ import annotations

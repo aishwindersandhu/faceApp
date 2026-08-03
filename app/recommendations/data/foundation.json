@@ -1,0 +1,2898 @@
+{
+  "key": "foundation",
+  "label": "Foundation",
+  "icon": "🫧",
+  "skip_color_matching": false,
+  "products": [
+    {
+      "id": "addiction-the-foundation",
+      "brand": "Addiction",
+      "name": "The Foundation",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#FFDCBE",
+          "hex": "#FFDCBE"
+        },
+        {
+          "name": "#FFD8B9",
+          "hex": "#FFD8B9"
+        },
+        {
+          "name": "#FDD5B4",
+          "hex": "#FDD5B4"
+        },
+        {
+          "name": "#FDCFAD",
+          "hex": "#FDCFAD"
+        },
+        {
+          "name": "#FDCBA6",
+          "hex": "#FDCBA6"
+        },
+        {
+          "name": "#FCC59E",
+          "hex": "#FCC59E"
+        },
+        {
+          "name": "#F8BF88",
+          "hex": "#F8BF88"
+        },
+        {
+          "name": "#F3BC86",
+          "hex": "#F3BC86"
+        },
+        {
+          "name": "#EAB17A",
+          "hex": "#EAB17A"
+        },
+        {
+          "name": "#E9B079",
+          "hex": "#E9B079"
+        },
+        {
+          "name": "#DFAA76",
+          "hex": "#DFAA76"
+        },
+        {
+          "name": "#DDA376",
+          "hex": "#DDA376"
+        },
+        {
+          "name": "#DAA272",
+          "hex": "#DAA272"
+        },
+        {
+          "name": "#DB9E70",
+          "hex": "#DB9E70"
+        },
+        {
+          "name": "#D69668",
+          "hex": "#D69668"
+        },
+        {
+          "name": "#C38355",
+          "hex": "#C38355"
+        },
+        {
+          "name": "#C37F4E",
+          "hex": "#C37F4E"
+        }
+      ]
+    },
+    {
+      "id": "beauty-bakerie-1-cake-mix",
+      "brand": "Beauty Bakerie",
+      "name": "#1 CAKE MIX",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#532E1E",
+          "hex": "#532E1E"
+        },
+        {
+          "name": "#4E2A1A",
+          "hex": "#4E2A1A"
+        },
+        {
+          "name": "#623F2C",
+          "hex": "#623F2C"
+        },
+        {
+          "name": "#8E532B",
+          "hex": "#8E532B"
+        },
+        {
+          "name": "#985223",
+          "hex": "#985223"
+        },
+        {
+          "name": "#A86738",
+          "hex": "#A86738"
+        },
+        {
+          "name": "#A16F4C",
+          "hex": "#A16F4C"
+        },
+        {
+          "name": "#A4683B",
+          "hex": "#A4683B"
+        },
+        {
+          "name": "#A4683B",
+          "hex": "#A4683B"
+        },
+        {
+          "name": "#BA7246",
+          "hex": "#BA7246"
+        },
+        {
+          "name": "#A86D46",
+          "hex": "#A86D46"
+        },
+        {
+          "name": "#B47C57",
+          "hex": "#B47C57"
+        },
+        {
+          "name": "#CC9561",
+          "hex": "#CC9561"
+        },
+        {
+          "name": "#D6A878",
+          "hex": "#D6A878"
+        },
+        {
+          "name": "#D0A37F",
+          "hex": "#D0A37F"
+        },
+        {
+          "name": "#F1C78E",
+          "hex": "#F1C78E"
+        },
+        {
+          "name": "#F2CEA2",
+          "hex": "#F2CEA2"
+        },
+        {
+          "name": "#F5DAB6",
+          "hex": "#F5DAB6"
+        },
+        {
+          "name": "#E9C096",
+          "hex": "#E9C096"
+        },
+        {
+          "name": "#EDCBAB",
+          "hex": "#EDCBAB"
+        },
+        {
+          "name": "#F2DAC1",
+          "hex": "#F2DAC1"
+        },
+        {
+          "name": "#F2DBBB",
+          "hex": "#F2DBBB"
+        },
+        {
+          "name": "#F3DABC",
+          "hex": "#F3DABC"
+        },
+        {
+          "name": "#F3DBBC",
+          "hex": "#F3DBBC"
+        },
+        {
+          "name": "#F6E2C7",
+          "hex": "#F6E2C7"
+        },
+        {
+          "name": "#F4DFC9",
+          "hex": "#F4DFC9"
+        },
+        {
+          "name": "#F9ECC5",
+          "hex": "#F9ECC5"
+        },
+        {
+          "name": "#F9EBCD",
+          "hex": "#F9EBCD"
+        },
+        {
+          "name": "#F3E2CE",
+          "hex": "#F3E2CE"
+        },
+        {
+          "name": "#F5E8D7",
+          "hex": "#F5E8D7"
+        }
+      ]
+    },
+    {
+      "id": "bharat-doris-liquid-foundation",
+      "brand": "Bharat & Doris",
+      "name": "Liquid Foundation",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#D7AC7A",
+          "hex": "#D7AC7A"
+        },
+        {
+          "name": "#D7B182",
+          "hex": "#D7B182"
+        },
+        {
+          "name": "#CE9C6A",
+          "hex": "#CE9C6A"
+        },
+        {
+          "name": "#EEC693",
+          "hex": "#EEC693"
+        },
+        {
+          "name": "#D7C499",
+          "hex": "#D7C499"
+        },
+        {
+          "name": "#E3B385",
+          "hex": "#E3B385"
+        },
+        {
+          "name": "#CBA167",
+          "hex": "#CBA167"
+        }
+      ]
+    },
+    {
+      "id": "black-opal-true-color",
+      "brand": "Black Opal",
+      "name": "True Color",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#B77D57",
+          "hex": "#B77D57"
+        },
+        {
+          "name": "#BC835B",
+          "hex": "#BC835B"
+        },
+        {
+          "name": "#B67753",
+          "hex": "#B67753"
+        },
+        {
+          "name": "#B77D53",
+          "hex": "#B77D53"
+        },
+        {
+          "name": "#7B4E34",
+          "hex": "#7B4E34"
+        },
+        {
+          "name": "#7A523A",
+          "hex": "#7A523A"
+        },
+        {
+          "name": "#71412D",
+          "hex": "#71412D"
+        },
+        {
+          "name": "#81523E",
+          "hex": "#81523E"
+        },
+        {
+          "name": "#6A4338",
+          "hex": "#6A4338"
+        },
+        {
+          "name": "#543022",
+          "hex": "#543022"
+        },
+        {
+          "name": "#5D3E2E",
+          "hex": "#5D3E2E"
+        },
+        {
+          "name": "#4C2E22",
+          "hex": "#4C2E22"
+        }
+      ]
+    },
+    {
+      "id": "black-up-matifying-fluid",
+      "brand": "Black Up",
+      "name": "Matifying Fluid",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#EED1B5",
+          "hex": "#EED1B5"
+        },
+        {
+          "name": "#DAAA80",
+          "hex": "#DAAA80"
+        },
+        {
+          "name": "#D7A778",
+          "hex": "#D7A778"
+        },
+        {
+          "name": "#DFA46F",
+          "hex": "#DFA46F"
+        },
+        {
+          "name": "#D28F66",
+          "hex": "#D28F66"
+        },
+        {
+          "name": "#AD6D41",
+          "hex": "#AD6D41"
+        },
+        {
+          "name": "#C98C60",
+          "hex": "#C98C60"
+        },
+        {
+          "name": "#BF7A43",
+          "hex": "#BF7A43"
+        },
+        {
+          "name": "#AC734C",
+          "hex": "#AC734C"
+        },
+        {
+          "name": "#B97245",
+          "hex": "#B97245"
+        },
+        {
+          "name": "#A0522C",
+          "hex": "#A0522C"
+        },
+        {
+          "name": "#9E5A35",
+          "hex": "#9E5A35"
+        },
+        {
+          "name": "#97472E",
+          "hex": "#97472E"
+        },
+        {
+          "name": "#7E3E2A",
+          "hex": "#7E3E2A"
+        },
+        {
+          "name": "#7B3625",
+          "hex": "#7B3625"
+        },
+        {
+          "name": "#653129",
+          "hex": "#653129"
+        },
+        {
+          "name": "#3B2218",
+          "hex": "#3B2218"
+        },
+        {
+          "name": "#352315",
+          "hex": "#352315"
+        }
+      ]
+    },
+    {
+      "id": "blue-heaven-x-factor",
+      "brand": "Blue Heaven",
+      "name": "X Factor",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#EBB08A",
+          "hex": "#EBB08A"
+        },
+        {
+          "name": "#E8B684",
+          "hex": "#E8B684"
+        }
+      ]
+    },
+    {
+      "id": "bobbi-brown-skin-long-wear",
+      "brand": "Bobbi Brown",
+      "name": "Skin Long-Wear Weightless Foundation SPF 15",
+      "image": "https://www.sephora.com/productimages/sku/s2032845+sw.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Neutral Porcelain",
+          "hex": "#F5E0C8"
+        },
+        {
+          "name": "Neutral Sand",
+          "hex": "#EFCFAF"
+        },
+        {
+          "name": "Cool Ivory",
+          "hex": "#E8BCA4"
+        },
+        {
+          "name": "Sand",
+          "hex": "#E5BC92"
+        },
+        {
+          "name": "Sand",
+          "hex": "#DEBE97"
+        },
+        {
+          "name": "Cool Ivory",
+          "hex": "#E9C9AA"
+        },
+        {
+          "name": "Cool Ivory",
+          "hex": "#EAC49F"
+        },
+        {
+          "name": "Cool Ivory",
+          "hex": "#ECC3A1"
+        },
+        {
+          "name": "Sand",
+          "hex": "#E2B996"
+        },
+        {
+          "name": "Warm Golden",
+          "hex": "#D29E7B"
+        },
+        {
+          "name": "Golden Natural",
+          "hex": "#D9A779"
+        },
+        {
+          "name": "Golden",
+          "hex": "#D6A075"
+        },
+        {
+          "name": "Golden Honey",
+          "hex": "#D3996F"
+        },
+        {
+          "name": "Golden",
+          "hex": "#D7A770"
+        },
+        {
+          "name": "Warm Almond",
+          "hex": "#CA8F63"
+        },
+        {
+          "name": "Warm Natural",
+          "hex": "#D29D71"
+        },
+        {
+          "name": "Warm Almond",
+          "hex": "#D09059"
+        },
+        {
+          "name": "Warm Almond",
+          "hex": "#CA9450"
+        },
+        {
+          "name": "Warm Almond",
+          "hex": "#CC9357"
+        },
+        {
+          "name": "Cool Almond",
+          "hex": "#B27C3B"
+        },
+        {
+          "name": "Golden Almond",
+          "hex": "#A86829"
+        },
+        {
+          "name": "Cool Almond",
+          "hex": "#B87840"
+        },
+        {
+          "name": "Walnut",
+          "hex": "#9A4E28"
+        },
+        {
+          "name": "Walnut",
+          "hex": "#81562F"
+        },
+        {
+          "name": "Golden Almond",
+          "hex": "#AA6A2F"
+        },
+        {
+          "name": "Walnut",
+          "hex": "#9B5127"
+        },
+        {
+          "name": "Walnut",
+          "hex": "#7E462D"
+        },
+        {
+          "name": "Walnut",
+          "hex": "#8E4922"
+        },
+        {
+          "name": "#7B2800",
+          "hex": "#7B2800"
+        },
+        {
+          "name": "#623726",
+          "hex": "#623726"
+        }
+      ]
+    },
+    {
+      "id": "colorbar-perfect-match",
+      "brand": "Colorbar",
+      "name": "Perfect Match",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#CD9D77",
+          "hex": "#CD9D77"
+        },
+        {
+          "name": "#ECC3A5",
+          "hex": "#ECC3A5"
+        },
+        {
+          "name": "#E5AE87",
+          "hex": "#E5AE87"
+        }
+      ]
+    },
+    {
+      "id": "covergirl-olay-simply-ageless",
+      "brand": "Covergirl + Olay",
+      "name": "CoverGirl & Olay Simply Ageless Foundation ",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/fd47eaa9241a010e48fc32cf4611d772_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "$15.99",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#E1AD81",
+          "hex": "#E1AD81"
+        },
+        {
+          "name": "#DEB192",
+          "hex": "#DEB192"
+        },
+        {
+          "name": "#E3B490",
+          "hex": "#E3B490"
+        },
+        {
+          "name": "#E9B898",
+          "hex": "#E9B898"
+        },
+        {
+          "name": "#E8BB9C",
+          "hex": "#E8BB9C"
+        },
+        {
+          "name": "#E1B7A0",
+          "hex": "#E1B7A0"
+        },
+        {
+          "name": "#EAC4AE",
+          "hex": "#EAC4AE"
+        },
+        {
+          "name": "#EAC7AB",
+          "hex": "#EAC7AB"
+        },
+        {
+          "name": "#EABE9E",
+          "hex": "#EABE9E"
+        },
+        {
+          "name": "#E5B39A",
+          "hex": "#E5B39A"
+        },
+        {
+          "name": "#E7B590",
+          "hex": "#E7B590"
+        },
+        {
+          "name": "#F7DCCA",
+          "hex": "#F7DCCA"
+        }
+      ]
+    },
+    {
+      "id": "dior-diorskin-forever",
+      "brand": "Dior",
+      "name": "Diorskin Forever Undercover",
+      "image": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0339200.jpg",
+      "price_prefix": "£21.0",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "022 Cameo",
+          "hex": "#E6C6AD"
+        },
+        {
+          "name": "021 Linen",
+          "hex": "#E7CBAC"
+        },
+        {
+          "name": "021 Linen",
+          "hex": "#EDC8AF"
+        },
+        {
+          "name": "020 Light Beige",
+          "hex": "#E2BDA2"
+        },
+        {
+          "name": "031 Sand",
+          "hex": "#E4BF9A"
+        },
+        {
+          "name": "040 Honey Beige",
+          "hex": "#D7A98A"
+        }
+      ]
+    },
+    {
+      "id": "elsas-pro-full-coverage",
+      "brand": "Elsas Pro",
+      "name": "Full Coverage",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#815D51",
+          "hex": "#815D51"
+        },
+        {
+          "name": "#845949",
+          "hex": "#845949"
+        },
+        {
+          "name": "#8B614B",
+          "hex": "#8B614B"
+        },
+        {
+          "name": "#906656",
+          "hex": "#906656"
+        },
+        {
+          "name": "#774C43",
+          "hex": "#774C43"
+        },
+        {
+          "name": "#734B41",
+          "hex": "#734B41"
+        },
+        {
+          "name": "#88614D",
+          "hex": "#88614D"
+        },
+        {
+          "name": "#BA8261",
+          "hex": "#BA8261"
+        },
+        {
+          "name": "#D9AB88",
+          "hex": "#D9AB88"
+        },
+        {
+          "name": "#D49A74",
+          "hex": "#D49A74"
+        },
+        {
+          "name": "#CF8A60",
+          "hex": "#CF8A60"
+        }
+      ]
+    },
+    {
+      "id": "estee-lauder-double-wear",
+      "brand": "Estée Lauder",
+      "name": "Double Wear Stay-in-Place Makeup",
+      "image": "https://images.ulta.com/is/image/Ulta/2532782sw?$tn$",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Alabaster",
+          "hex": "#FFD6BA"
+        },
+        {
+          "name": "Buff",
+          "hex": "#D0A26E"
+        },
+        {
+          "name": "Fawn",
+          "hex": "#C48F56"
+        },
+        {
+          "name": "Cinnamon",
+          "hex": "#BB8046"
+        },
+        {
+          "name": "Warm Porcelain",
+          "hex": "#FFC8A3"
+        },
+        {
+          "name": "Shell",
+          "hex": "#D8BBA3"
+        },
+        {
+          "name": "Warm Porcelain",
+          "hex": "#FAC7A7"
+        },
+        {
+          "name": "Warm Porcelain",
+          "hex": "#FFCBA6"
+        },
+        {
+          "name": "Porcelain",
+          "hex": "#E5B593"
+        },
+        {
+          "name": "Cool Vanilla",
+          "hex": "#DEA365"
+        },
+        {
+          "name": "Warm Vanilla",
+          "hex": "#D8A46D"
+        },
+        {
+          "name": "Porcelain",
+          "hex": "#F2BB96"
+        },
+        {
+          "name": "Warm Vanilla",
+          "hex": "#D4A066"
+        },
+        {
+          "name": "Warm Porcelain",
+          "hex": "#F2BF91"
+        },
+        {
+          "name": "Porcelain",
+          "hex": "#EDBE98"
+        },
+        {
+          "name": "Porcelain",
+          "hex": "#E7B79C"
+        },
+        {
+          "name": "Sand",
+          "hex": "#EBAD81"
+        },
+        {
+          "name": "Bone",
+          "hex": "#DDB491"
+        },
+        {
+          "name": "Sand",
+          "hex": "#E5AD8A"
+        },
+        {
+          "name": "Buff",
+          "hex": "#D59A71"
+        },
+        {
+          "name": "Fawn",
+          "hex": "#CF905D"
+        },
+        {
+          "name": "Fawn",
+          "hex": "#D69060"
+        },
+        {
+          "name": "Soft Tan",
+          "hex": "#BE8058"
+        },
+        {
+          "name": "Warm Vanilla",
+          "hex": "#D7986D"
+        },
+        {
+          "name": "Henna",
+          "hex": "#AD7247"
+        },
+        {
+          "name": "Cinnamon",
+          "hex": "#C27440"
+        },
+        {
+          "name": "Ivory Rose",
+          "hex": "#C0976B"
+        },
+        {
+          "name": "Nutmeg",
+          "hex": "#99562C"
+        },
+        {
+          "name": "Warm Vanilla",
+          "hex": "#DA926B"
+        },
+        {
+          "name": "Maple",
+          "hex": "#A35829"
+        },
+        {
+          "name": "Auburn",
+          "hex": "#B56E38"
+        },
+        {
+          "name": "Maple",
+          "hex": "#A85F2A"
+        },
+        {
+          "name": "Pecan",
+          "hex": "#8F4D2B"
+        },
+        {
+          "name": "Sienna",
+          "hex": "#864F26"
+        },
+        {
+          "name": "Nutmeg",
+          "hex": "#8F5C35"
+        },
+        {
+          "name": "Truffle",
+          "hex": "#895C26"
+        },
+        {
+          "name": "Maple",
+          "hex": "#AA6533"
+        },
+        {
+          "name": "Nutmeg",
+          "hex": "#925B2D"
+        },
+        {
+          "name": "Rich Mahogany",
+          "hex": "#77421E"
+        },
+        {
+          "name": "Rich Mahogany",
+          "hex": "#724727"
+        },
+        {
+          "name": "Deep Spice",
+          "hex": "#7E512D"
+        },
+        {
+          "name": "Espresso",
+          "hex": "#5E3617"
+        }
+      ]
+    },
+    {
+      "id": "fenty-pro-filt-r",
+      "brand": "Fenty",
+      "name": "PRO FILT'R - Soft Matte Longwear Foundation",
+      "image": "https://www.fentybeauty.com/dw/image/v2/AAXW_PRD/on/demandware.static/-/Sites-itemmaster_FENTY/default/dw6a5f14c4/hi-res/FB30006_FB0320.jpg?sw=550 550w",
+      "price_prefix": "$34.0",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "100 Neutral",
+          "hex": "#FDE9DE"
+        },
+        {
+          "name": "110 Cool",
+          "hex": "#FDE7DA"
+        },
+        {
+          "name": "120 Neutral",
+          "hex": "#FDE3CC"
+        },
+        {
+          "name": "130 Warm",
+          "hex": "#F2D3B1"
+        },
+        {
+          "name": "140 Warm",
+          "hex": "#FCE1C6"
+        },
+        {
+          "name": "150 Neutral",
+          "hex": "#EFD1B7"
+        },
+        {
+          "name": "160 Warm Peach",
+          "hex": "#F4CCA8"
+        },
+        {
+          "name": "170 Cool",
+          "hex": "#E8BFA3"
+        },
+        {
+          "name": "180 Warm",
+          "hex": "#FAD5B8"
+        },
+        {
+          "name": "190 Neutral",
+          "hex": "#E9C39F"
+        },
+        {
+          "name": "200 Cool",
+          "hex": "#E8BC99"
+        },
+        {
+          "name": "210 Neutral",
+          "hex": "#E2AD85"
+        },
+        {
+          "name": "220 Warm Peach",
+          "hex": "#EEBA93"
+        },
+        {
+          "name": "230 Neutral",
+          "hex": "#DFAD89"
+        },
+        {
+          "name": "240 Warm",
+          "hex": "#D9A57D"
+        },
+        {
+          "name": "250 Warm Peach",
+          "hex": "#E4AC7C"
+        },
+        {
+          "name": "260 Neutral",
+          "hex": "#DCA77D"
+        },
+        {
+          "name": "270 Warm",
+          "hex": "#D59D6D"
+        },
+        {
+          "name": "280 Warm Peach",
+          "hex": "#E7AE85"
+        },
+        {
+          "name": "290 Neutral Olive",
+          "hex": "#DCB17D"
+        },
+        {
+          "name": "300 Neutral",
+          "hex": "#CA9262"
+        },
+        {
+          "name": "310 Warm",
+          "hex": "#D28F58"
+        },
+        {
+          "name": "320 Warm Peach",
+          "hex": "#D39063"
+        },
+        {
+          "name": "330 Warm",
+          "hex": "#D39156"
+        },
+        {
+          "name": "340 Cool",
+          "hex": "#AC7752"
+        },
+        {
+          "name": "350 Neutral",
+          "hex": "#B67849"
+        },
+        {
+          "name": "360 Neutral Olive",
+          "hex": "#BD7B45"
+        },
+        {
+          "name": "370 Warm",
+          "hex": "#C98256"
+        },
+        {
+          "name": "380 Cool",
+          "hex": "#CA875A"
+        },
+        {
+          "name": "390 Warm",
+          "hex": "#A86B3F"
+        },
+        {
+          "name": "400 Warm",
+          "hex": "#A65E23"
+        },
+        {
+          "name": "410 Cool",
+          "hex": "#9D5D2D"
+        },
+        {
+          "name": "420 Neutral",
+          "hex": "#AB6939"
+        },
+        {
+          "name": "430 Neutral",
+          "hex": "#894F29"
+        },
+        {
+          "name": "440 Cool",
+          "hex": "#9B5B35"
+        },
+        {
+          "name": "450 Warm",
+          "hex": "#824F30"
+        },
+        {
+          "name": "460 Cool",
+          "hex": "#7D452C"
+        },
+        {
+          "name": "470 Neutral",
+          "hex": "#6D3B20"
+        },
+        {
+          "name": "480 Neutral",
+          "hex": "#683A20"
+        },
+        {
+          "name": "490 Cool",
+          "hex": "#583218"
+        }
+      ]
+    },
+    {
+      "id": "hegai-and-ester-photo-perfect",
+      "brand": "Hegai and Ester",
+      "name": "Photo Perfect",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#F6A762",
+          "hex": "#F6A762"
+        },
+        {
+          "name": "#D76B4C",
+          "hex": "#D76B4C"
+        },
+        {
+          "name": "#AD543D",
+          "hex": "#AD543D"
+        },
+        {
+          "name": "#C86835",
+          "hex": "#C86835"
+        },
+        {
+          "name": "#904134",
+          "hex": "#904134"
+        },
+        {
+          "name": "#92524E",
+          "hex": "#92524E"
+        },
+        {
+          "name": "#BF6B44",
+          "hex": "#BF6B44"
+        },
+        {
+          "name": "#915831",
+          "hex": "#915831"
+        },
+        {
+          "name": "#EA8944",
+          "hex": "#EA8944"
+        },
+        {
+          "name": "#EEBB7A",
+          "hex": "#EEBB7A"
+        }
+      ]
+    },
+    {
+      "id": "house-of-tara-oil-free",
+      "brand": "House of Tara",
+      "name": "Oil Free",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#AE7748",
+          "hex": "#AE7748"
+        },
+        {
+          "name": "#B68358",
+          "hex": "#B68358"
+        },
+        {
+          "name": "#A77546",
+          "hex": "#A77546"
+        },
+        {
+          "name": "#A36C3B",
+          "hex": "#A36C3B"
+        },
+        {
+          "name": "#89562C",
+          "hex": "#89562C"
+        },
+        {
+          "name": "#9A572C",
+          "hex": "#9A572C"
+        },
+        {
+          "name": "#904D2E",
+          "hex": "#904D2E"
+        },
+        {
+          "name": "#783F23",
+          "hex": "#783F23"
+        },
+        {
+          "name": "#75391C",
+          "hex": "#75391C"
+        },
+        {
+          "name": "#602D18",
+          "hex": "#602D18"
+        },
+        {
+          "name": "#5B2717",
+          "hex": "#5B2717"
+        }
+      ]
+    },
+    {
+      "id": "ipsa-liquid-foundation",
+      "brand": "IPSA",
+      "name": "Liquid Foundation",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#EDC69F",
+          "hex": "#EDC69F"
+        },
+        {
+          "name": "#EFC9A5",
+          "hex": "#EFC9A5"
+        },
+        {
+          "name": "#ECBB9A",
+          "hex": "#ECBB9A"
+        },
+        {
+          "name": "#E9B494",
+          "hex": "#E9B494"
+        },
+        {
+          "name": "#E7AA8D",
+          "hex": "#E7AA8D"
+        },
+        {
+          "name": "#EDC0A3",
+          "hex": "#EDC0A3"
+        }
+      ]
+    },
+    {
+      "id": "iman-second-to-none",
+      "brand": "Iman",
+      "name": "Second to None",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#E1BEA4",
+          "hex": "#E1BEA4"
+        },
+        {
+          "name": "#E5AE86",
+          "hex": "#E5AE86"
+        },
+        {
+          "name": "#C38E63",
+          "hex": "#C38E63"
+        },
+        {
+          "name": "#AC703D",
+          "hex": "#AC703D"
+        },
+        {
+          "name": "#9E6209",
+          "hex": "#9E6209"
+        },
+        {
+          "name": "#855723",
+          "hex": "#855723"
+        },
+        {
+          "name": "#793F0D",
+          "hex": "#793F0D"
+        },
+        {
+          "name": "#64300A",
+          "hex": "#64300A"
+        }
+      ]
+    },
+    {
+      "id": "kate-secret-skin-maker-zero",
+      "brand": "Kate",
+      "name": "Secret Skin Maker Zero",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#F7D5BB",
+          "hex": "#F7D5BB"
+        },
+        {
+          "name": "#E8B793",
+          "hex": "#E8B793"
+        },
+        {
+          "name": "#DCA67E",
+          "hex": "#DCA67E"
+        },
+        {
+          "name": "#EBBD88",
+          "hex": "#EBBD88"
+        },
+        {
+          "name": "#D19C72",
+          "hex": "#D19C72"
+        },
+        {
+          "name": "#C28660",
+          "hex": "#C28660"
+        }
+      ]
+    },
+    {
+      "id": "kuddy-matte-wear",
+      "brand": "Kuddy",
+      "name": "Matte Wear",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#C78660",
+          "hex": "#C78660"
+        },
+        {
+          "name": "#E0A260",
+          "hex": "#E0A260"
+        },
+        {
+          "name": "#CC8B65",
+          "hex": "#CC8B65"
+        },
+        {
+          "name": "#C78660",
+          "hex": "#C78660"
+        },
+        {
+          "name": "#B2724F",
+          "hex": "#B2724F"
+        }
+      ]
+    },
+    {
+      "id": "l-oreal-infalliable",
+      "brand": "L'Oréal",
+      "name": "L'Oreal Paris Infallible Pro-Matte Foundation",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/268da4d7967fad9c153af24ee8d2e026_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "$19.99",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Classic Ivory",
+          "hex": "#F3C6A2"
+        },
+        {
+          "name": "Shell Beige",
+          "hex": "#E5AD8B"
+        },
+        {
+          "name": "Natural Buff",
+          "hex": "#E7AD82"
+        },
+        {
+          "name": "Golden Beige",
+          "hex": "#EEB67E"
+        },
+        {
+          "name": "Natural Beige",
+          "hex": "#E8B481"
+        },
+        {
+          "name": "Sun Beige",
+          "hex": "#DAA271"
+        },
+        {
+          "name": "Fresh Beige",
+          "hex": "#D49E6C"
+        },
+        {
+          "name": "Caramel Beige",
+          "hex": "#C0844E"
+        },
+        {
+          "name": "Soft Sable",
+          "hex": "#C27F48"
+        },
+        {
+          "name": "Fresh Beige",
+          "hex": "#DA9E6B"
+        },
+        {
+          "name": "Soft Sable",
+          "hex": "#B87740"
+        },
+        {
+          "name": "#925422",
+          "hex": "#925422"
+        },
+        {
+          "name": "Classic Ivory",
+          "hex": "#FADCC8"
+        },
+        {
+          "name": "Classic Ivory",
+          "hex": "#FCD6C7"
+        },
+        {
+          "name": "Classic Ivory",
+          "hex": "#F7CAB1"
+        },
+        {
+          "name": "Shell Beige",
+          "hex": "#DEB09E"
+        },
+        {
+          "name": "Shell Beige",
+          "hex": "#D1A396"
+        },
+        {
+          "name": "Fresh Beige",
+          "hex": "#CF9C7D"
+        },
+        {
+          "name": "Fresh Beige",
+          "hex": "#D99959"
+        },
+        {
+          "name": "#754728",
+          "hex": "#754728"
+        },
+        {
+          "name": "#4D2C0A",
+          "hex": "#4D2C0A"
+        },
+        {
+          "name": "#4D2006",
+          "hex": "#4D2006"
+        }
+      ]
+    },
+    {
+      "id": "l-oreal-true-match",
+      "brand": "L'Oréal",
+      "name": "L'Oreal Paris True Match Super Blendable Makeup ",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/c71a2c6a4f7d41ceb60f068780bcfba5_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "$18.79",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#693720",
+          "hex": "#693720"
+        },
+        {
+          "name": "W8 Creme Cafe",
+          "hex": "#B07555"
+        },
+        {
+          "name": "W8 Creme Cafe",
+          "hex": "#BC6D4E"
+        },
+        {
+          "name": "N5 True Beige",
+          "hex": "#C29979"
+        },
+        {
+          "name": "W5 Sand Beige",
+          "hex": "#DDB496"
+        },
+        {
+          "name": "W3 Nude Beige",
+          "hex": "#EEBFA3"
+        },
+        {
+          "name": "W3 Nude Beige",
+          "hex": "#E7CBB5"
+        },
+        {
+          "name": "W5 Sand Beige",
+          "hex": "#DCB29A"
+        },
+        {
+          "name": "W3 Nude Beige",
+          "hex": "#F0C7B3"
+        },
+        {
+          "name": "C1 Alabaster",
+          "hex": "#EECFBA"
+        },
+        {
+          "name": "W3 Nude Beige",
+          "hex": "#E8C7B8"
+        },
+        {
+          "name": "C1 Alabaster",
+          "hex": "#F0CBB9"
+        },
+        {
+          "name": "W3 Nude Beige",
+          "hex": "#E9C4B1"
+        },
+        {
+          "name": "W3 Nude Beige",
+          "hex": "#EABEA1"
+        }
+      ]
+    },
+    {
+      "id": "lakme-invisible-finish",
+      "brand": "Lakmé",
+      "name": "Invisible Finish",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#C39D76",
+          "hex": "#C39D76"
+        },
+        {
+          "name": "#BC8B63",
+          "hex": "#BC8B63"
+        },
+        {
+          "name": "#C88F72",
+          "hex": "#C88F72"
+        },
+        {
+          "name": "#DEAF91",
+          "hex": "#DEAF91"
+        }
+      ]
+    },
+    {
+      "id": "lancome-teint-idole",
+      "brand": "Lancôme",
+      "name": "Teint Idole Ultra Wear 24H Long Wear Foundation",
+      "image": "https://images.ulta.com/is/image/Ulta/2538369sw?$tn$",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Ivoire N",
+          "hex": "#FDECE4"
+        },
+        {
+          "name": "Ivoire N",
+          "hex": "#F4D1AB"
+        },
+        {
+          "name": "Ivoire N",
+          "hex": "#EEC1A0"
+        },
+        {
+          "name": "Ivoire N",
+          "hex": "#EAC398"
+        },
+        {
+          "name": "Ivoire N",
+          "hex": "#E9BE9E"
+        },
+        {
+          "name": "Buff N",
+          "hex": "#DEBA96"
+        },
+        {
+          "name": "Ivoire C",
+          "hex": "#DCB190"
+        },
+        {
+          "name": "Ivoire C",
+          "hex": "#DDB391"
+        },
+        {
+          "name": "Bisque W",
+          "hex": "#E4BA8C"
+        },
+        {
+          "name": "Bisque W",
+          "hex": "#E2B78F"
+        },
+        {
+          "name": "Bisque N",
+          "hex": "#E5B189"
+        },
+        {
+          "name": "Ivoire N",
+          "hex": "#F3C796"
+        },
+        {
+          "name": "Bisque N",
+          "hex": "#F3BF90"
+        },
+        {
+          "name": "Ivoire W",
+          "hex": "#E1AF8C"
+        },
+        {
+          "name": "Bisque N",
+          "hex": "#DDB184"
+        },
+        {
+          "name": "Bisque C",
+          "hex": "#DCA77D"
+        },
+        {
+          "name": "Bisque N",
+          "hex": "#D6A77D"
+        },
+        {
+          "name": "Bisque N",
+          "hex": "#D7A17F"
+        },
+        {
+          "name": "Bisque N",
+          "hex": "#D7A17D"
+        },
+        {
+          "name": "Bisque W",
+          "hex": "#DDA876"
+        },
+        {
+          "name": "Bisque W",
+          "hex": "#E39F72"
+        },
+        {
+          "name": "Bisque C",
+          "hex": "#CF9162"
+        },
+        {
+          "name": "Bisque W",
+          "hex": "#E0A16B"
+        },
+        {
+          "name": "Bisque W",
+          "hex": "#D0975D"
+        },
+        {
+          "name": "Bisque N",
+          "hex": "#D29E6D"
+        },
+        {
+          "name": "Bisque C",
+          "hex": "#C9925E"
+        },
+        {
+          "name": "Suede C",
+          "hex": "#CE8C5C"
+        },
+        {
+          "name": "Suede W",
+          "hex": "#BB7E44"
+        },
+        {
+          "name": "Bisque C",
+          "hex": "#CE9163"
+        },
+        {
+          "name": "Suede C",
+          "hex": "#BD7F56"
+        },
+        {
+          "name": "Suede C",
+          "hex": "#935427"
+        },
+        {
+          "name": "Suede C",
+          "hex": "#BC7C56"
+        },
+        {
+          "name": "Suede C",
+          "hex": "#AA6941"
+        },
+        {
+          "name": "Suede C",
+          "hex": "#9B5E41"
+        },
+        {
+          "name": "Suede C",
+          "hex": "#8A4D30"
+        },
+        {
+          "name": "Suede C",
+          "hex": "#7B3C11"
+        },
+        {
+          "name": "Suede C",
+          "hex": "#703E23"
+        },
+        {
+          "name": "Suede C",
+          "hex": "#502716"
+        },
+        {
+          "name": "Suede W",
+          "hex": "#7C3F2C"
+        },
+        {
+          "name": "#391B11",
+          "hex": "#391B11"
+        }
+      ]
+    },
+    {
+      "id": "laws-of-nature-foxy-finish",
+      "brand": "Laws of Nature",
+      "name": "Foxy Finish",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#A66C4B",
+          "hex": "#A66C4B"
+        },
+        {
+          "name": "#BB8F7F",
+          "hex": "#BB8F7F"
+        },
+        {
+          "name": "#DFB9AF",
+          "hex": "#DFB9AF"
+        },
+        {
+          "name": "#B7743C",
+          "hex": "#B7743C"
+        },
+        {
+          "name": "#924829",
+          "hex": "#924829"
+        },
+        {
+          "name": "#A37452",
+          "hex": "#A37452"
+        },
+        {
+          "name": "#6C4529",
+          "hex": "#6C4529"
+        },
+        {
+          "name": "#321407",
+          "hex": "#321407"
+        },
+        {
+          "name": "#CC9D72",
+          "hex": "#CC9D72"
+        },
+        {
+          "name": "#A66C49",
+          "hex": "#A66C49"
+        },
+        {
+          "name": "#BE784D",
+          "hex": "#BE784D"
+        },
+        {
+          "name": "#592D24",
+          "hex": "#592D24"
+        },
+        {
+          "name": "#B68E6F",
+          "hex": "#B68E6F"
+        },
+        {
+          "name": "#B19277",
+          "hex": "#B19277"
+        },
+        {
+          "name": "#A3724A",
+          "hex": "#A3724A"
+        },
+        {
+          "name": "#742B13",
+          "hex": "#742B13"
+        },
+        {
+          "name": "#DEB399",
+          "hex": "#DEB399"
+        }
+      ]
+    },
+    {
+      "id": "lotus-herbals-make-up-ecostay",
+      "brand": "Lotus Herbals",
+      "name": "Make-Up Ecostay",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#EEC1A2",
+          "hex": "#EEC1A2"
+        },
+        {
+          "name": "#B7A597",
+          "hex": "#B7A597"
+        },
+        {
+          "name": "#F0C092",
+          "hex": "#F0C092"
+        },
+        {
+          "name": "#D0985F",
+          "hex": "#D0985F"
+        }
+      ]
+    },
+    {
+      "id": "mac-studio-fix",
+      "brand": "MAC",
+      "name": "Studio Fix Powder Plus Foundation",
+      "image": "https://images.ulta.com/is/image/Ulta/2510754sw?$tn$",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "NW33 (medium beige w/ neutral undertone for medium skin)",
+          "hex": "#D8B593"
+        },
+        {
+          "name": "NC42 (tanned peach w/ golden undertones for medium to dark skin)",
+          "hex": "#FBBE91"
+        },
+        {
+          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin)",
+          "hex": "#D2AE88"
+        },
+        {
+          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin)",
+          "hex": "#D0A87F"
+        },
+        {
+          "name": "NW46",
+          "hex": "#D79051"
+        },
+        {
+          "name": "N3 (very fair w/ rosy undertone for light skin)",
+          "hex": "#FFDBC2"
+        },
+        {
+          "name": "N5 (rosy beige w/ neutral undertone for light to medium skin)",
+          "hex": "#FFC9A9"
+        },
+        {
+          "name": "NW10 (very fair w/ neutral rosy undertones for light skin)",
+          "hex": "#FFD7B4"
+        },
+        {
+          "name": "NW20 (rosy beige w/ rosy undertone for light skin)",
+          "hex": "#DFC7A8"
+        },
+        {
+          "name": "NW33 (medium beige w/ neutral undertone for medium skin)",
+          "hex": "#DABC96"
+        },
+        {
+          "name": "NW30 (medium beige w/ rosy undertone for medium skin)",
+          "hex": "#D9B88F"
+        },
+        {
+          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin)",
+          "hex": "#D4B588"
+        },
+        {
+          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin)",
+          "hex": "#D0AE84"
+        },
+        {
+          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin)",
+          "hex": "#D3B18A"
+        },
+        {
+          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin)",
+          "hex": "#D1AC7F"
+        },
+        {
+          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin)",
+          "hex": "#D0A97B"
+        },
+        {
+          "name": "NW40 (tanned beige w/ rosy undertone for medium to dark skin)",
+          "hex": "#C9A177"
+        },
+        {
+          "name": "NW40 (tanned beige w/ rosy undertone for medium to dark skin)",
+          "hex": "#C5986D"
+        },
+        {
+          "name": "NW55 (rich brown w/ red undertone for deep dark skin)",
+          "hex": "#D5844B"
+        },
+        {
+          "name": "NW55 (rich brown w/ red undertone for deep dark skin)",
+          "hex": "#DB864D"
+        },
+        {
+          "name": "NW50 ((rich mahogany w/ red undertones for deep dark skin)",
+          "hex": "#B5855A"
+        },
+        {
+          "name": "NW50 ((rich mahogany w/ red undertones for deep dark skin)",
+          "hex": "#B38456"
+        },
+        {
+          "name": "NW15 (very fair w/ neutral undertone for light skin)",
+          "hex": "#E5D1BE"
+        },
+        {
+          "name": "NW20 (rosy beige w/ rosy undertone for light skin)",
+          "hex": "#E0C8AE"
+        },
+        {
+          "name": "NW25 (mid tone beige w/ rosy undertone for light to medium skin)",
+          "hex": "#E0C1A2"
+        },
+        {
+          "name": "NW25 (mid tone beige w/ rosy undertone for light to medium skin)",
+          "hex": "#DCBCA2"
+        },
+        {
+          "name": "NW25 (mid tone beige w/ rosy undertone for light to medium skin)",
+          "hex": "#DBBC9F"
+        },
+        {
+          "name": "NW30 (medium beige w/ rosy undertone for medium skin)",
+          "hex": "#D9B28D"
+        },
+        {
+          "name": "NW33 (medium beige w/ neutral undertone for medium skin)",
+          "hex": "#D5B293"
+        },
+        {
+          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin)",
+          "hex": "#D5AD89"
+        },
+        {
+          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin)",
+          "hex": "#D1A88A"
+        },
+        {
+          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin)",
+          "hex": "#CFA67D"
+        },
+        {
+          "name": "NW40 (tanned beige w/ rosy undertone for medium to dark skin)",
+          "hex": "#CBA275"
+        },
+        {
+          "name": "NW48 (bronzed brown w/ neutral undertone for deep dark skin)",
+          "hex": "#C39368"
+        },
+        {
+          "name": "NW58 (rich espresso w/ neutral undertones for deep dark skin)",
+          "hex": "#B28050"
+        },
+        {
+          "name": "NW50 ((rich mahogany w/ red undertones for deep dark skin)",
+          "hex": "#B9855A"
+        },
+        {
+          "name": "NW58 (rich espresso w/ neutral undertones for deep dark skin)",
+          "hex": "#B27949"
+        },
+        {
+          "name": "NW58 (rich espresso w/ neutral undertones for deep dark skin)",
+          "hex": "#AE7A50"
+        },
+        {
+          "name": "NW58 (rich espresso w/ neutral undertones for deep dark skin)",
+          "hex": "#A77246"
+        },
+        {
+          "name": "NW58 (rich espresso w/ neutral undertones for deep dark skin)",
+          "hex": "#A0714D"
+        },
+        {
+          "name": "NW58 (rich espresso w/ neutral undertones for deep dark skin)",
+          "hex": "#A9734E"
+        },
+        {
+          "name": "#724A32",
+          "hex": "#724A32"
+        }
+      ]
+    },
+    {
+      "id": "make-up-for-ever-ultra-hd",
+      "brand": "Make Up For Ever",
+      "name": "Ultra HD Invisible Cover Foundation",
+      "image": "https://www.sephora.com/productimages/sku/s1709096+sw.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#F9E3D5",
+          "hex": "#F9E3D5"
+        },
+        {
+          "name": "Y205 - Alabaster for fair skin with slightly golden undertones",
+          "hex": "#F6D2BB"
+        },
+        {
+          "name": "Y205 - Alabaster for fair skin with slightly golden undertones",
+          "hex": "#F9D5C3"
+        },
+        {
+          "name": "Y205 - Alabaster for fair skin with slightly golden undertones",
+          "hex": "#F7C3B3"
+        },
+        {
+          "name": "Y205 - Alabaster for fair skin with slightly golden undertones",
+          "hex": "#DECCAF"
+        },
+        {
+          "name": "Y215 - Yellow Alabaster for fair skin with golden undertones",
+          "hex": "#E1C2A8"
+        },
+        {
+          "name": "Y205 - Alabaster for fair skin with slightly golden undertones",
+          "hex": "#EFD2B8"
+        },
+        {
+          "name": "Y205 - Alabaster for fair skin with slightly golden undertones",
+          "hex": "#F7BCB7"
+        },
+        {
+          "name": "Y205 - Alabaster for fair skin with slightly golden undertones",
+          "hex": "#EBCAB0"
+        },
+        {
+          "name": "Y215 - Yellow Alabaster for fair skin with golden undertones",
+          "hex": "#EAC1AC"
+        },
+        {
+          "name": "Y218 - Porcelain for fair skin with neutral undertones",
+          "hex": "#E8C6A3"
+        },
+        {
+          "name": "Y205 - Alabaster for fair skin with slightly golden undertones",
+          "hex": "#F2CCB7"
+        },
+        {
+          "name": "R220 - Pink Porcelain for light skin with very pink undertones",
+          "hex": "#DCA795"
+        },
+        {
+          "name": "Y373 - Amber Honey for lighter tan skin with slightly golden undertones",
+          "hex": "#E4BD9C"
+        },
+        {
+          "name": "R220 - Pink Porcelain for light skin with very pink undertones",
+          "hex": "#DAAD90"
+        },
+        {
+          "name": "R220 - Pink Porcelain for light skin with very pink undertones",
+          "hex": "#D8AB8B"
+        },
+        {
+          "name": "Y373 - Amber Honey for lighter tan skin with slightly golden undertones",
+          "hex": "#DDB395"
+        },
+        {
+          "name": "Y373 - Amber Honey for lighter tan skin with slightly golden undertones",
+          "hex": "#E3B391"
+        },
+        {
+          "name": "Y373 - Amber Honey for lighter tan skin with slightly golden undertones",
+          "hex": "#E3B296"
+        },
+        {
+          "name": "Y218 - Porcelain for fair skin with neutral undertones",
+          "hex": "#DCB59C"
+        },
+        {
+          "name": "R220 - Pink Porcelain for light skin with very pink undertones",
+          "hex": "#D79E89"
+        },
+        {
+          "name": "R220 - Pink Porcelain for light skin with very pink undertones",
+          "hex": "#D9A586"
+        },
+        {
+          "name": "Y435 - Caramel for darker tan skin with golden undertones",
+          "hex": "#D19578"
+        },
+        {
+          "name": "Y373 - Amber Honey for lighter tan skin with slightly golden undertones",
+          "hex": "#E7B391"
+        },
+        {
+          "name": "R220 - Pink Porcelain for light skin with very pink undertones",
+          "hex": "#D4A689"
+        },
+        {
+          "name": "Y435 - Caramel for darker tan skin with golden undertones",
+          "hex": "#D69B81"
+        },
+        {
+          "name": "Y435 - Caramel for darker tan skin with golden undertones",
+          "hex": "#D59682"
+        },
+        {
+          "name": "Y435 - Caramel for darker tan skin with golden undertones",
+          "hex": "#C99980"
+        },
+        {
+          "name": "Y375 - Golden Sand for lighter tan skin with golden-peach undertones",
+          "hex": "#C98567"
+        },
+        {
+          "name": "Y435 - Caramel for darker tan skin with golden undertones",
+          "hex": "#C7977B"
+        },
+        {
+          "name": "Y375 - Golden Sand for lighter tan skin with golden-peach undertones",
+          "hex": "#BE8470"
+        },
+        {
+          "name": "Y375 - Golden Sand for lighter tan skin with golden-peach undertones",
+          "hex": "#C78569"
+        },
+        {
+          "name": "Y375 - Golden Sand for lighter tan skin with golden-peach undertones",
+          "hex": "#B68069"
+        },
+        {
+          "name": "Y425 - Honey for tan skin with golden undertones",
+          "hex": "#B17862"
+        },
+        {
+          "name": "Y522 - Terracotta for dark skin with slightly peach undertones",
+          "hex": "#996754"
+        },
+        {
+          "name": "Y533 - Warm Mocha for deep skin with golden undertones",
+          "hex": "#9C624A"
+        },
+        {
+          "name": "Y545 - Cacao for deep skin with neutral undertones",
+          "hex": "#8E5642"
+        },
+        {
+          "name": "R510 - Coffee for dark skin with peachy-red undertones",
+          "hex": "#784A42"
+        },
+        {
+          "name": "Y545 - Cacao for deep skin with neutral undertones",
+          "hex": "#895852"
+        },
+        {
+          "name": "R550 - Dark Chocolate for deep skin with red undertones",
+          "hex": "#644136"
+        }
+      ]
+    },
+    {
+      "id": "maybelline-fit-me",
+      "brand": "Maybelline",
+      "name": "Maybelline Fit Me Foundation with SPF",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/eccb88d484b8c929fd349b0995a5dba2_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "$10.99",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Ivory (115)",
+          "hex": "#F3CFB3"
+        },
+        {
+          "name": "#FFE3C2",
+          "hex": "#FFE3C2"
+        },
+        {
+          "name": "#FFE0CD",
+          "hex": "#FFE0CD"
+        },
+        {
+          "name": "Ivory (115)",
+          "hex": "#FFD3BE"
+        },
+        {
+          "name": "Natural Beige (220)",
+          "hex": "#BD9584"
+        },
+        {
+          "name": "Classic Ivory (120)",
+          "hex": "#EABDA6"
+        },
+        {
+          "name": "Ivory (115)",
+          "hex": "#FBD2AD"
+        },
+        {
+          "name": "Nude Beige (125)",
+          "hex": "#E2B597"
+        },
+        {
+          "name": "Nude Beige (125)",
+          "hex": "#E4B38E"
+        },
+        {
+          "name": "Natural Beige (220)",
+          "hex": "#B2856F"
+        },
+        {
+          "name": "Nude Beige (125)",
+          "hex": "#E8BA8C"
+        },
+        {
+          "name": "Nude Beige (125)",
+          "hex": "#F3B584"
+        },
+        {
+          "name": "Classic Ivory (120)",
+          "hex": "#F0B996"
+        },
+        {
+          "name": "Nude Beige (125)",
+          "hex": "#E3B082"
+        },
+        {
+          "name": "Nude Beige (125)",
+          "hex": "#EAB181"
+        },
+        {
+          "name": "#9D7359",
+          "hex": "#9D7359"
+        },
+        {
+          "name": "Nude Beige (125)",
+          "hex": "#E2AA7B"
+        },
+        {
+          "name": "Natural Beige (220)",
+          "hex": "#D99358"
+        },
+        {
+          "name": "#9C744F",
+          "hex": "#9C744F"
+        },
+        {
+          "name": "Natural Beige (220)",
+          "hex": "#B18B65"
+        },
+        {
+          "name": "#84583F",
+          "hex": "#84583F"
+        },
+        {
+          "name": "#7D5631",
+          "hex": "#7D5631"
+        },
+        {
+          "name": "#C07746",
+          "hex": "#C07746"
+        },
+        {
+          "name": "#643C27",
+          "hex": "#643C27"
+        },
+        {
+          "name": "Ivory (115)",
+          "hex": "#EDCFB9"
+        },
+        {
+          "name": "Classic Ivory (120)",
+          "hex": "#E1BBA7"
+        },
+        {
+          "name": "Natural Beige (220)",
+          "hex": "#C1A07E"
+        },
+        {
+          "name": "Natural Beige (220)",
+          "hex": "#D09E7C"
+        },
+        {
+          "name": "Natural Beige (220)",
+          "hex": "#C7967D"
+        },
+        {
+          "name": "Natural Beige (220)",
+          "hex": "#C09578"
+        },
+        {
+          "name": "#9D6F48",
+          "hex": "#9D6F48"
+        },
+        {
+          "name": "#A86D40",
+          "hex": "#A86D40"
+        },
+        {
+          "name": "#7F5C3B",
+          "hex": "#7F5C3B"
+        },
+        {
+          "name": "#735642",
+          "hex": "#735642"
+        },
+        {
+          "name": "#6B5041",
+          "hex": "#6B5041"
+        },
+        {
+          "name": "#7D5C4D",
+          "hex": "#7D5C4D"
+        },
+        {
+          "name": "#5C4433",
+          "hex": "#5C4433"
+        },
+        {
+          "name": "#5E3A23",
+          "hex": "#5E3A23"
+        },
+        {
+          "name": "#5E4638",
+          "hex": "#5E4638"
+        },
+        {
+          "name": "#3F2018",
+          "hex": "#3F2018"
+        }
+      ]
+    },
+    {
+      "id": "maybelline-fit-me-matte",
+      "brand": "Maybelline",
+      "name": "Maybelline FIT ME! Matte + Poreless Foundation",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/257993e12625cc45a72ec03636ffa5c5_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "$10.99",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Porcelain",
+          "hex": "#F7D1BC"
+        },
+        {
+          "name": "Nude Beige",
+          "hex": "#F3B989"
+        },
+        {
+          "name": "Buff Beige",
+          "hex": "#F0BA81"
+        },
+        {
+          "name": "Nude Beige",
+          "hex": "#EBBA8A"
+        },
+        {
+          "name": "Sun Beige",
+          "hex": "#D69C74"
+        },
+        {
+          "name": "Natural Ivory",
+          "hex": "#F9D0B0"
+        },
+        {
+          "name": "Porcelain",
+          "hex": "#FBD5BD"
+        },
+        {
+          "name": "Classic Ivory",
+          "hex": "#E7B9A2"
+        },
+        {
+          "name": "Nude Beige",
+          "hex": "#DCB297"
+        },
+        {
+          "name": "Ivory",
+          "hex": "#E6B898"
+        },
+        {
+          "name": "Ivory",
+          "hex": "#EBBF93"
+        },
+        {
+          "name": "Nude Beige",
+          "hex": "#EFB793"
+        },
+        {
+          "name": "Nude Beige",
+          "hex": "#EBBA8A"
+        },
+        {
+          "name": "Natural Beige",
+          "hex": "#F3B27D"
+        }
+      ]
+    },
+    {
+      "id": "nars-velvet-matte",
+      "brand": "NARS",
+      "name": "Velvet Matte",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#FAD8A7",
+          "hex": "#FAD8A7"
+        },
+        {
+          "name": "#EFBF99",
+          "hex": "#EFBF99"
+        },
+        {
+          "name": "#F6D0A1",
+          "hex": "#F6D0A1"
+        },
+        {
+          "name": "#ECB98C",
+          "hex": "#ECB98C"
+        },
+        {
+          "name": "#E7AB74",
+          "hex": "#E7AB74"
+        },
+        {
+          "name": "#E6B685",
+          "hex": "#E6B685"
+        },
+        {
+          "name": "#DD9E6D",
+          "hex": "#DD9E6D"
+        },
+        {
+          "name": "#E4AA7C",
+          "hex": "#E4AA7C"
+        },
+        {
+          "name": "#DFA575",
+          "hex": "#DFA575"
+        },
+        {
+          "name": "#DA9B5A",
+          "hex": "#DA9B5A"
+        },
+        {
+          "name": "#E4A36A",
+          "hex": "#E4A36A"
+        },
+        {
+          "name": "#CA8A55",
+          "hex": "#CA8A55"
+        },
+        {
+          "name": "#CE8440",
+          "hex": "#CE8440"
+        }
+      ]
+    },
+    {
+      "id": "nykaa-skingenius",
+      "brand": "Nykaa",
+      "name": "SKINgenius",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#CB9070",
+          "hex": "#CB9070"
+        },
+        {
+          "name": "#DFAB86",
+          "hex": "#DFAB86"
+        },
+        {
+          "name": "#D19676",
+          "hex": "#D19676"
+        },
+        {
+          "name": "#D4AC93",
+          "hex": "#D4AC93"
+        },
+        {
+          "name": "#EBC7AF",
+          "hex": "#EBC7AF"
+        }
+      ]
+    },
+    {
+      "id": "olivia-foundation",
+      "brand": "Olivia",
+      "name": "Foundation",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#EB893E",
+          "hex": "#EB893E"
+        },
+        {
+          "name": "#EF9A5A",
+          "hex": "#EF9A5A"
+        },
+        {
+          "name": "#D0803B",
+          "hex": "#D0803B"
+        },
+        {
+          "name": "#B76F47",
+          "hex": "#B76F47"
+        }
+      ]
+    },
+    {
+      "id": "rmk-rmk-liquid",
+      "brand": "RMK",
+      "name": "RMK Liquid",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#FCDBA8",
+          "hex": "#FCDBA8"
+        },
+        {
+          "name": "#FBD099",
+          "hex": "#FBD099"
+        },
+        {
+          "name": "#F7BE87",
+          "hex": "#F7BE87"
+        },
+        {
+          "name": "#F0A762",
+          "hex": "#F0A762"
+        },
+        {
+          "name": "#E8A463",
+          "hex": "#E8A463"
+        },
+        {
+          "name": "#FDDCBB",
+          "hex": "#FDDCBB"
+        },
+        {
+          "name": "#F9C89F",
+          "hex": "#F9C89F"
+        },
+        {
+          "name": "#F3C095",
+          "hex": "#F3C095"
+        },
+        {
+          "name": "#C17663",
+          "hex": "#C17663"
+        }
+      ]
+    },
+    {
+      "id": "revlon-colorstay",
+      "brand": "Revlon",
+      "name": "Revlon Colorstay Whipped Creme Makeup",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/037b446c36900da96e12fde1be625a76_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "$19.99",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Warm Golden",
+          "hex": "#F9CAAC"
+        },
+        {
+          "name": "Warm Golden",
+          "hex": "#F8C7A1"
+        },
+        {
+          "name": "Warm Golden",
+          "hex": "#F1BC96"
+        },
+        {
+          "name": "Warm Golden",
+          "hex": "#F1B496"
+        },
+        {
+          "name": "Warm Golden",
+          "hex": "#E8B29C"
+        },
+        {
+          "name": "#E2AE8E",
+          "hex": "#E2AE8E"
+        },
+        {
+          "name": "#DFA48C",
+          "hex": "#DFA48C"
+        },
+        {
+          "name": "#E4A87F",
+          "hex": "#E4A87F"
+        },
+        {
+          "name": "#E1A681",
+          "hex": "#E1A681"
+        },
+        {
+          "name": "#D5A187",
+          "hex": "#D5A187"
+        },
+        {
+          "name": "#DBA787",
+          "hex": "#DBA787"
+        },
+        {
+          "name": "#D79F86",
+          "hex": "#D79F86"
+        },
+        {
+          "name": "#D5A187",
+          "hex": "#D5A187"
+        },
+        {
+          "name": "#DE9A77",
+          "hex": "#DE9A77"
+        },
+        {
+          "name": "#CB8F6E",
+          "hex": "#CB8F6E"
+        },
+        {
+          "name": "#C98667",
+          "hex": "#C98667"
+        },
+        {
+          "name": "#C68F71",
+          "hex": "#C68F71"
+        },
+        {
+          "name": "#BA8568",
+          "hex": "#BA8568"
+        },
+        {
+          "name": "#A7745E",
+          "hex": "#A7745E"
+        },
+        {
+          "name": "#8E6558",
+          "hex": "#8E6558"
+        },
+        {
+          "name": "Warm Golden",
+          "hex": "#EEC498"
+        },
+        {
+          "name": "Warm Golden",
+          "hex": "#EEC29E"
+        }
+      ]
+    },
+    {
+      "id": "shiseido-synchro-skin",
+      "brand": "Shiseido",
+      "name": "Synchro Skin Self-Refreshing Foundation SPF 30",
+      "image": "https://www.sephora.com/productimages/sku/s2248482+sw.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "360 - Citrine balanced with a slight olive tone for medium-tan skin. neutral undertone. -",
+          "hex": "#EDB899"
+        },
+        {
+          "name": "410 - Sunstone rose tone for tan skin. rose undertone.",
+          "hex": "#E8B193"
+        },
+        {
+          "name": "410 - Sunstone rose tone for tan skin. rose undertone.",
+          "hex": "#EBB68C"
+        },
+        {
+          "name": "410 - Sunstone rose tone for tan skin. rose undertone.",
+          "hex": "#E9B085"
+        },
+        {
+          "name": "430 - Cedar balanced tone for rich tan skin. neutral undertone.",
+          "hex": "#D69E7B"
+        },
+        {
+          "name": "450 - Copper reddish tone for deep-tan skin. rose undertone.",
+          "hex": "#CB9068"
+        }
+      ]
+    },
+    {
+      "id": "shu-uemera-petal-skin-fluid",
+      "brand": "Shu Uemera",
+      "name": "Petal Skin Fluid",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#E9A986",
+          "hex": "#E9A986"
+        },
+        {
+          "name": "#FAC6A1",
+          "hex": "#FAC6A1"
+        },
+        {
+          "name": "#C99E76",
+          "hex": "#C99E76"
+        },
+        {
+          "name": "#E0AA7C",
+          "hex": "#E0AA7C"
+        },
+        {
+          "name": "#EBC095",
+          "hex": "#EBC095"
+        },
+        {
+          "name": "#F9DABD",
+          "hex": "#F9DABD"
+        },
+        {
+          "name": "#AF8749",
+          "hex": "#AF8749"
+        },
+        {
+          "name": "#C89A5E",
+          "hex": "#C89A5E"
+        },
+        {
+          "name": "#DBAB6D",
+          "hex": "#DBAB6D"
+        },
+        {
+          "name": "#E5BF81",
+          "hex": "#E5BF81"
+        },
+        {
+          "name": "#F4D6A4",
+          "hex": "#F4D6A4"
+        }
+      ]
+    },
+    {
+      "id": "trim-prissy-flawless-finish",
+      "brand": "Trim & Prissy",
+      "name": "Flawless Finish",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#E2AC7C",
+          "hex": "#E2AC7C"
+        },
+        {
+          "name": "#B17E4F",
+          "hex": "#B17E4F"
+        },
+        {
+          "name": "#8C5B3D",
+          "hex": "#8C5B3D"
+        },
+        {
+          "name": "#B0704D",
+          "hex": "#B0704D"
+        },
+        {
+          "name": "#D89757",
+          "hex": "#D89757"
+        },
+        {
+          "name": "#C48B58",
+          "hex": "#C48B58"
+        }
+      ]
+    },
+    {
+      "id": "trim-prissy-hi-def",
+      "brand": "Trim & Prissy",
+      "name": "Hi - Def",
+      "image": "/assets/products/placeholder.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "#FCD1A7",
+          "hex": "#FCD1A7"
+        },
+        {
+          "name": "#E2AC7C",
+          "hex": "#E2AC7C"
+        },
+        {
+          "name": "#B17E51",
+          "hex": "#B17E51"
+        },
+        {
+          "name": "#9D6D49",
+          "hex": "#9D6D49"
+        },
+        {
+          "name": "#B0704D",
+          "hex": "#B0704D"
+        },
+        {
+          "name": "#8C5B3D",
+          "hex": "#8C5B3D"
+        },
+        {
+          "name": "#795340",
+          "hex": "#795340"
+        }
+      ]
+    },
+    {
+      "id": "bareminerals-barepro",
+      "brand": "bareMinerals",
+      "name": "BAREPRO Longwear Powder Foundation",
+      "image": "https://www.sephora.com/productimages/sku/s2241800+sw.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Sateen",
+          "hex": "#EDCEB2"
+        },
+        {
+          "name": "Golden Nude",
+          "hex": "#F0CBA1"
+        },
+        {
+          "name": "Golden Nude",
+          "hex": "#EBC99C"
+        },
+        {
+          "name": "Cool Beige",
+          "hex": "#E6BC94"
+        },
+        {
+          "name": "Linen",
+          "hex": "#DCB79A"
+        },
+        {
+          "name": "Golden Nude",
+          "hex": "#EAC8A3"
+        },
+        {
+          "name": "Golden Nude",
+          "hex": "#E9C89E"
+        },
+        {
+          "name": "Oak",
+          "hex": "#D4AD8A"
+        },
+        {
+          "name": "Oak",
+          "hex": "#CFA786"
+        },
+        {
+          "name": "Linen",
+          "hex": "#D8B08C"
+        },
+        {
+          "name": "Oak",
+          "hex": "#D4A97F"
+        },
+        {
+          "name": "Butterscotch",
+          "hex": "#DEB58B"
+        },
+        {
+          "name": "Oak",
+          "hex": "#DBAE85"
+        },
+        {
+          "name": "Oak",
+          "hex": "#D5A275"
+        },
+        {
+          "name": "Oak",
+          "hex": "#D1A67E"
+        },
+        {
+          "name": "Oak",
+          "hex": "#E0AB81"
+        },
+        {
+          "name": "Almond",
+          "hex": "#CA9F75"
+        },
+        {
+          "name": "Toffee",
+          "hex": "#C69C6C"
+        },
+        {
+          "name": "Latte",
+          "hex": "#BD9359"
+        },
+        {
+          "name": "Maple",
+          "hex": "#B38355"
+        },
+        {
+          "name": "Chai",
+          "hex": "#AB7945"
+        },
+        {
+          "name": "Chai",
+          "hex": "#AB7944"
+        },
+        {
+          "name": "Walnut",
+          "hex": "#AD7D59"
+        },
+        {
+          "name": "Chai",
+          "hex": "#A16C38"
+        },
+        {
+          "name": "Truffle",
+          "hex": "#976236"
+        },
+        {
+          "name": "Truffle",
+          "hex": "#8A5833"
+        },
+        {
+          "name": "Truffle",
+          "hex": "#8D5C31"
+        },
+        {
+          "name": "Cocoa",
+          "hex": "#775436"
+        },
+        {
+          "name": "Cocoa",
+          "hex": "#6E4B2F"
+        }
+      ]
+    }
+  ]
+}

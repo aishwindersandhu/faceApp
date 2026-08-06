@@ -219,11 +219,22 @@ def shade_name_for(hex_code: str, match: dict | None) -> str:
     return hex_code
 
 
+# makeup-api prices are all USD. The rest of the catalogue (hand-written
+# categories, and everything else in this script) is priced in ₹, so we
+# convert with a fixed rate to keep the currency consistent for now. Swap
+# this for a live FX rate / proper localisation later.
+USD_TO_INR_RATE = 83
+
+
 def format_price(api_product: dict | None) -> str:
     if not api_product or not api_product.get("price"):
         return "₹—"
-    sign = api_product.get("price_sign") or "$"
-    return f"{sign}{api_product['price']}"
+    try:
+        usd = float(api_product["price"])
+    except (TypeError, ValueError):
+        return "₹—"
+    inr = round(usd * USD_TO_INR_RATE)
+    return f"₹{inr:,}"
 
 
 def build_catalogue(refresh: bool) -> dict:
@@ -253,6 +264,10 @@ def build_catalogue(refresh: bool) -> dict:
             "image": match["image"] if match else "/assets/products/placeholder.jpg",
             "price_prefix": match["price_prefix"] if match else "₹—",
             "dark_background": False,
+            # Set when neither makeup-api nor allShades had a real match for this
+            # product — catalogue.py/router.py use this to hide unverified rows
+            # rather than showing a hex code standing in for a product name.
+            "verified": match is not None,
             "shades": [
                 {"name": shade_name_for(hex_code, match), "hex": hex_code}
                 for hex_code in hex_codes

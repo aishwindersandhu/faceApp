@@ -11,6 +11,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#FFDCBE",
@@ -89,6 +90,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#532E1E",
@@ -219,6 +221,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#D7AC7A",
@@ -257,6 +260,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#B77D57",
@@ -315,6 +319,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#EED1B5",
@@ -397,6 +402,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#EBB08A",
@@ -415,6 +421,7 @@
       "image": "https://www.sephora.com/productimages/sku/s2032845+sw.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": true,
       "shades": [
         {
           "name": "Neutral Porcelain",
@@ -545,6 +552,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#CD9D77",
@@ -565,8 +573,9 @@
       "brand": "Covergirl + Olay",
       "name": "CoverGirl & Olay Simply Ageless Foundation ",
       "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/fd47eaa9241a010e48fc32cf4611d772_ra,w158,h184_pa,w158,h184.png",
-      "price_prefix": "$15.99",
+      "price_prefix": "₹1,327",
       "dark_background": false,
+      "verified": true,
       "shades": [
         {
           "name": "#E1AD81",
@@ -623,8 +632,9 @@
       "brand": "Dior",
       "name": "Diorskin Forever Undercover",
       "image": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0339200.jpg",
-      "price_prefix": "£21.0",
+      "price_prefix": "₹1,743",
       "dark_background": false,
+      "verified": true,
       "shades": [
         {
           "name": "022 Cameo",
@@ -659,6 +669,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#815D51",
@@ -713,6 +724,7 @@
       "image": "https://images.ulta.com/is/image/Ulta/2532782sw?$tn$",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": true,
       "shades": [
         {
           "name": "Alabaster",
@@ -889,8 +901,9 @@
       "brand": "Fenty",
       "name": "PRO FILT'R - Soft Matte Longwear Foundation",
       "image": "https://www.fentybeauty.com/dw/image/v2/AAXW_PRD/on/demandware.static/-/Sites-itemmaster_FENTY/default/dw6a5f14c4/hi-res/FB30006_FB0320.jpg?sw=550 550w",
-      "price_prefix": "$34.0",
+      "price_prefix": "₹2,822",
       "dark_background": false,
+      "verified": true,
       "shades": [
         {
           "name": "100 Neutral",
@@ -1061,6 +1074,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#F6A762",
@@ -1111,6 +1125,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#AE7748",
@@ -1165,6 +1180,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#EDC69F",
@@ -1199,6 +1215,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#E1BEA4",
@@ -1241,6 +1258,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#F7D5BB",
@@ -1275,6 +1293,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#C78660",
@@ -1303,8 +1322,9 @@
       "brand": "L'Oréal",
       "name": "L'Oreal Paris Infallible Pro-Matte Foundation",
       "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/268da4d7967fad9c153af24ee8d2e026_ra,w158,h184_pa,w158,h184.jpg",
-      "price_prefix": "$19.99",
+      "price_prefix": "₹1,659",
       "dark_background": false,
+      "verified": true,
       "shades": [
         {
           "name": "Classic Ivory",
@@ -1401,8 +1421,9 @@
       "brand": "L'Oréal",
       "name": "L'Oreal Paris True Match Super Blendable Makeup ",
       "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/c71a2c6a4f7d41ceb60f068780bcfba5_ra,w158,h184_pa,w158,h184.jpeg",
-      "price_prefix": "$18.79",
+      "price_prefix": "₹1,560",
       "dark_background": false,
+      "verified": true,
       "shades": [
         {
           "name": "#693720",
@@ -1469,6 +1490,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#C39D76",
@@ -1495,6 +1517,7 @@
       "image": "https://images.ulta.com/is/image/Ulta/2538369sw?$tn$",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": true,
       "shades": [
         {
           "name": "Ivoire N",
@@ -1665,6 +1688,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#A66C4B",
@@ -1743,6 +1767,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#EEC1A2",
@@ -1769,6 +1794,7 @@
       "image": "https://images.ulta.com/is/image/Ulta/2510754sw?$tn$",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": true,
       "shades": [
         {
           "name": "NW33 (medium beige w/ neutral undertone for medium skin)",
@@ -1947,6 +1973,7 @@
       "image": "https://www.sephora.com/productimages/sku/s1709096+sw.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": true,
       "shades": [
         {
           "name": "#F9E3D5",
@@ -2115,8 +2142,9 @@
       "brand": "Maybelline",
       "name": "Maybelline Fit Me Foundation with SPF",
       "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/eccb88d484b8c929fd349b0995a5dba2_ra,w158,h184_pa,w158,h184.png",
-      "price_prefix": "$10.99",
+      "price_prefix": "₹912",
       "dark_background": false,
+      "verified": true,
       "shades": [
         {
           "name": "Ivory (115)",
@@ -2285,8 +2313,9 @@
       "brand": "Maybelline",
       "name": "Maybelline FIT ME! Matte + Poreless Foundation",
       "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/257993e12625cc45a72ec03636ffa5c5_ra,w158,h184_pa,w158,h184.jpg",
-      "price_prefix": "$10.99",
+      "price_prefix": "₹912",
       "dark_background": false,
+      "verified": true,
       "shades": [
         {
           "name": "Porcelain",
@@ -2353,6 +2382,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#FAD8A7",
@@ -2415,6 +2445,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#CB9070",
@@ -2445,6 +2476,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#EB893E",
@@ -2471,6 +2503,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#FCDBA8",
@@ -2515,8 +2548,9 @@
       "brand": "Revlon",
       "name": "Revlon Colorstay Whipped Creme Makeup",
       "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/037b446c36900da96e12fde1be625a76_ra,w158,h184_pa,w158,h184.jpeg",
-      "price_prefix": "$19.99",
+      "price_prefix": "₹1,659",
       "dark_background": false,
+      "verified": true,
       "shades": [
         {
           "name": "Warm Golden",
@@ -2615,6 +2649,7 @@
       "image": "https://www.sephora.com/productimages/sku/s2248482+sw.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": true,
       "shades": [
         {
           "name": "360 - Citrine balanced with a slight olive tone for medium-tan skin. neutral undertone. -",
@@ -2649,6 +2684,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#E9A986",
@@ -2703,6 +2739,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#E2AC7C",
@@ -2737,6 +2774,7 @@
       "image": "/assets/products/placeholder.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": false,
       "shades": [
         {
           "name": "#FCD1A7",
@@ -2775,6 +2813,7 @@
       "image": "https://www.sephora.com/productimages/sku/s2241800+sw.jpg",
       "price_prefix": "₹—",
       "dark_background": false,
+      "verified": true,
       "shades": [
         {
           "name": "Sateen",

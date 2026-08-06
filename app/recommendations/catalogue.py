@@ -32,9 +32,14 @@ class CatalogueProduct(TypedDict):
     brand: str
     name: str
     image: str
-    price_prefix: str        # e.g. "₹3,900" — shade name is appended at match time
+    price_prefix: str        # e.g. "₹3,900"
     shades: list[Shade]
     dark_background: bool    # True for mascaras etc. where card needs dark bg
+    # NOT declared here since it's optional: only auto-generated products
+    # (see scripts/build_catalogue.py) carry a "verified" key. False means no
+    # real name/image/price was found for it — router.py hides those rather
+    # than showing a hex code standing in for a product name. Hand-written
+    # categories have no such key and are always treated as verified.
 
 
 class CatalogueCategory(TypedDict):

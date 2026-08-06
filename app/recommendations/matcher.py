@@ -34,14 +34,16 @@ def delta_e(lab1: tuple, lab2: tuple) -> float:
     return math.sqrt(sum((a - b) ** 2 for a, b in zip(lab1, lab2)))
 
 
-def match_percent(delta: float, max_delta: float = 70.0, floor: int = 45) -> int:
+def match_percent(delta: float, max_delta: float = 35.0, floor: int = 45) -> int:
     """
     Map Delta E distance to a 0-100 match score.
 
-    Tuned so:
+    Tuned so (CIE76 delta-E: ~2-10 is perceptible at a glance, 10-20 is a
+    clearly noticeable difference):
       delta ~0  → ~100%  (identical colour)
-      delta ~20 → ~80%   (harmonious, clearly different)
-      delta ~70 → floor  (very poor match, never shows 0%)
+      delta ~10 → ~85%   (close match)
+      delta ~20 → ~69%   (noticeably different)
+      delta ~35 → floor  (visibly different colour, never shows 0%)
     """
     raw = 100 - (delta / max_delta) * (100 - floor)
     return max(floor, min(100, round(raw)))

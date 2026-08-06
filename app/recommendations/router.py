@@ -22,6 +22,10 @@ from app.recommendations.models import (
 )
 router = APIRouter()
 
+# Below this, the shade is close enough to "doesn't suit this skin tone" that
+# showing it just to fill out the shelf does more harm than good.
+MIN_MATCH_PERCENT = 60
+
   
 @router.post("/recommendations/{user_id}", response_model=RecommendationResponse)
 async def get_recommendations(
@@ -45,6 +49,9 @@ async def get_recommendations(
         products_out: list[ProductOut] = []
 
         for product in category["products"]:
+            if not product.get("verified", True):
+                continue
+
             shade_hexes = [s["hex"] for s in product["shades"]]
 
             if category["skip_color_matching"]:
@@ -52,6 +59,8 @@ async def get_recommendations(
                 score = 90
             else:
                 _, score = best_shade_match(skin_hex, shade_hexes)
+                if score < MIN_MATCH_PERCENT:
+                    continue
 
             products_out.append(
                 ProductOut(
@@ -70,10 +79,15 @@ async def get_recommendations(
                 )
             )
 
+        if not products_out:
+            # Nothing left in this category after the verified/match-quality
+            # filters above — drop the shelf entirely rather than showing an
+            # empty one.
+            continue
+
         # Sort by match score descending, mark the top one
         products_out.sort(key=lambda p: p.match_percent, reverse=True)
-        if products_out:
-            products_out[0].is_top_pick = True
+        products_out[0].is_top_pick = True
 
         categories_out.append(
             CategoryOut(

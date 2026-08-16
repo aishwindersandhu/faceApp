@@ -315,11 +315,11 @@
     {
       "id": "black-up-matifying-fluid",
       "brand": "Black Up",
-      "name": "Matifying Fluid",
-      "image": "/assets/products/placeholder.jpg",
+      "name": "Mattifying Fluid Foundation",
+      "image": "https://www.blackup.com/cdn/shop/files/NFL00.jpg?v=1745508070&width=500",
       "price_prefix": "₹—",
       "dark_background": false,
-      "verified": false,
+      "verified": true,
       "shades": [
         {
           "name": "#EED1B5",

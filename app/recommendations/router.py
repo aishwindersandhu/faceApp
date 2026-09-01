@@ -23,8 +23,10 @@ from app.recommendations.models import (
 router = APIRouter()
 
 # Below this, the shade is close enough to "doesn't suit this skin tone" that
-# showing it just to fill out the shelf does more harm than good.
-MIN_MATCH_PERCENT = 60
+# showing it just to fill out the shelf does more harm than good. Kept low
+# enough that sparsely-stocked categories (blush/lip/highlight) still surface
+# their best available option instead of the shelf vanishing outright.
+MIN_MATCH_PERCENT = 40
 
   
 @router.post("/recommendations/{user_id}", response_model=RecommendationResponse)

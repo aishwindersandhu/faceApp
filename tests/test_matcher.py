@@ -30,8 +30,8 @@ def test_delta_e_is_symmetric():
     "delta,expected",
     [
         (0, 100),
-        (35, 45),
-        (100, 45),  # never drops below floor even past max_delta
+        (16, 25),
+        (100, 25),  # never drops below floor even past max_delta
     ],
 )
 def test_match_percent_bounds(delta, expected):

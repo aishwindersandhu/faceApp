@@ -70,11 +70,14 @@ def test_shade_name_for_picks_closest_palette_colour_within_max_distance():
     assert bc.shade_name_for("#010101", match) == "Onyx"
 
 
-def test_shade_name_for_falls_back_to_hex_when_no_match_or_too_far():
-    assert bc.shade_name_for("#ABCDEF", None) == "#ABCDEF"
+def test_shade_name_for_falls_back_to_generic_name_when_no_match_or_too_far():
+    # No candidate match at all, and a match whose only palette colour is too
+    # far (exceeds MAX) both fall back to the nearest generic descriptive
+    # name — never the bare hex code.
+    assert bc.shade_name_for("#ABCDEF", None) == bc._generic_shade_name("#ABCDEF")
 
     match = {"palette": [{"hex": "#000000", "name": "Onyx"}]}
-    assert bc.shade_name_for("#FFFFFF", match) == "#FFFFFF"  # distance exceeds MAX
+    assert bc.shade_name_for("#FFFFFF", match) == bc._generic_shade_name("#FFFFFF")
 
 
 def test_format_price_converts_usd_to_inr():

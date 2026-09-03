@@ -474,6 +474,33 @@ _BLUSH_SEEDS = {
     ],
 }
 
+# Pastel blush (above) reads as ashy/washed-out on deep skin, and at low L
+# its modest chroma is barely distinguishable from a bronzer/contour shade
+# — which is exactly what deep-skin users were being matched to. Deep skin
+# is classically recommended much more saturated, higher-a berry/wine/plum
+# blush instead, which stays vivid rather than muddy at low lightness.
+# Used for "Deep"/"Rich Deep" (skin_L <= 88, see _classify_depth).
+_BLUSH_SEEDS_DEEP = {
+    "warm": [
+        ("Brick",       158, 150),
+        ("Terracotta",  162, 155),
+        ("Warm Berry",  165, 140),
+        ("Deep Coral",  160, 148),
+    ],
+    "cool": [
+        ("Berry",       162, 115),
+        ("Wine",        158, 108),
+        ("Plum",        155, 105),
+        ("Deep Rose",   160, 120),
+    ],
+    "neutral": [
+        ("Deep Rose",   158, 125),
+        ("Berry",       160, 118),
+        ("Wine",        156, 112),
+        ("Rosewood",    150, 130),
+    ],
+}
+
 
 # ─────────────────────────────────────────────────────────────────
 # L DERIVATION HELPERS
@@ -572,7 +599,8 @@ def _get_lip_shades(skin_L: int, undertone: str) -> list:
 
 
 def _get_blush_shades(skin_L: int, undertone: str) -> list:
-    seeds = _BLUSH_SEEDS.get(undertone, _BLUSH_SEEDS["neutral"])
+    seed_table = _BLUSH_SEEDS_DEEP if skin_L <= 88 else _BLUSH_SEEDS
+    seeds = seed_table.get(undertone, seed_table["neutral"])
     return [
         {"name": name, "hex": lab_to_hex(_derive_blush_L(skin_L, i), a, b)}
         for i, (name, a, b) in enumerate(seeds)

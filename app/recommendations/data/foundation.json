@@ -14,71 +14,71 @@
       "verified": false,
       "shades": [
         {
-          "name": "#FFDCBE",
+          "name": "Ivory",
           "hex": "#FFDCBE"
         },
         {
-          "name": "#FFD8B9",
+          "name": "Warm Ivory",
           "hex": "#FFD8B9"
         },
         {
-          "name": "#FDD5B4",
+          "name": "Warm Ivory 2",
           "hex": "#FDD5B4"
         },
         {
-          "name": "#FDCFAD",
+          "name": "Warm Ivory 3",
           "hex": "#FDCFAD"
         },
         {
-          "name": "#FDCBA6",
+          "name": "Sand",
           "hex": "#FDCBA6"
         },
         {
-          "name": "#FCC59E",
+          "name": "Sand 2",
           "hex": "#FCC59E"
         },
         {
-          "name": "#F8BF88",
+          "name": "Warm Beige",
           "hex": "#F8BF88"
         },
         {
-          "name": "#F3BC86",
+          "name": "Warm Beige 2",
           "hex": "#F3BC86"
         },
         {
-          "name": "#EAB17A",
+          "name": "Golden Beige",
           "hex": "#EAB17A"
         },
         {
-          "name": "#E9B079",
+          "name": "Golden Beige 2",
           "hex": "#E9B079"
         },
         {
-          "name": "#DFAA76",
+          "name": "Golden Beige 3",
           "hex": "#DFAA76"
         },
         {
-          "name": "#DDA376",
+          "name": "Warm Sand",
           "hex": "#DDA376"
         },
         {
-          "name": "#DAA272",
+          "name": "Honey",
           "hex": "#DAA272"
         },
         {
-          "name": "#DB9E70",
+          "name": "Honey 2",
           "hex": "#DB9E70"
         },
         {
-          "name": "#D69668",
+          "name": "Honey 3",
           "hex": "#D69668"
         },
         {
-          "name": "#C38355",
+          "name": "Almond",
           "hex": "#C38355"
         },
         {
-          "name": "#C37F4E",
+          "name": "Caramel",
           "hex": "#C37F4E"
         }
       ]
@@ -93,123 +93,123 @@
       "verified": false,
       "shades": [
         {
-          "name": "#532E1E",
+          "name": "Mahogany",
           "hex": "#532E1E"
         },
         {
-          "name": "#4E2A1A",
+          "name": "Mahogany 2",
           "hex": "#4E2A1A"
         },
         {
-          "name": "#623F2C",
+          "name": "Deep Bronze",
           "hex": "#623F2C"
         },
         {
-          "name": "#8E532B",
+          "name": "Cocoa",
           "hex": "#8E532B"
         },
         {
-          "name": "#985223",
+          "name": "Cocoa 2",
           "hex": "#985223"
         },
         {
-          "name": "#A86738",
+          "name": "Chestnut",
           "hex": "#A86738"
         },
         {
-          "name": "#A16F4C",
+          "name": "Amber",
           "hex": "#A16F4C"
         },
         {
-          "name": "#A4683B",
+          "name": "Chestnut 2",
           "hex": "#A4683B"
         },
         {
-          "name": "#A4683B",
+          "name": "Chestnut 3",
           "hex": "#A4683B"
         },
         {
-          "name": "#BA7246",
+          "name": "Caramel",
           "hex": "#BA7246"
         },
         {
-          "name": "#A86D46",
+          "name": "Amber 2",
           "hex": "#A86D46"
         },
         {
-          "name": "#B47C57",
+          "name": "Warm Tan",
           "hex": "#B47C57"
         },
         {
-          "name": "#CC9561",
+          "name": "Almond",
           "hex": "#CC9561"
         },
         {
-          "name": "#D6A878",
+          "name": "Warm Sand",
           "hex": "#D6A878"
         },
         {
-          "name": "#D0A37F",
+          "name": "Warm Sand 2",
           "hex": "#D0A37F"
         },
         {
-          "name": "#F1C78E",
+          "name": "Buff",
           "hex": "#F1C78E"
         },
         {
-          "name": "#F2CEA2",
+          "name": "Sand",
           "hex": "#F2CEA2"
         },
         {
-          "name": "#F5DAB6",
+          "name": "Warm Ivory",
           "hex": "#F5DAB6"
         },
         {
-          "name": "#E9C096",
+          "name": "Buff 2",
           "hex": "#E9C096"
         },
         {
-          "name": "#EDCBAB",
+          "name": "Sand 2",
           "hex": "#EDCBAB"
         },
         {
-          "name": "#F2DAC1",
+          "name": "Ivory",
           "hex": "#F2DAC1"
         },
         {
-          "name": "#F2DBBB",
+          "name": "Warm Ivory 2",
           "hex": "#F2DBBB"
         },
         {
-          "name": "#F3DABC",
+          "name": "Warm Ivory 3",
           "hex": "#F3DABC"
         },
         {
-          "name": "#F3DBBC",
+          "name": "Warm Ivory 4",
           "hex": "#F3DBBC"
         },
         {
-          "name": "#F6E2C7",
+          "name": "Ivory 2",
           "hex": "#F6E2C7"
         },
         {
-          "name": "#F4DFC9",
+          "name": "Ivory 3",
           "hex": "#F4DFC9"
         },
         {
-          "name": "#F9ECC5",
+          "name": "Porcelain",
           "hex": "#F9ECC5"
         },
         {
-          "name": "#F9EBCD",
+          "name": "Porcelain 2",
           "hex": "#F9EBCD"
         },
         {
-          "name": "#F3E2CE",
+          "name": "Porcelain 3",
           "hex": "#F3E2CE"
         },
         {
-          "name": "#F5E8D7",
+          "name": "Porcelain 4",
           "hex": "#F5E8D7"
         }
       ]
@@ -224,31 +224,31 @@
       "verified": false,
       "shades": [
         {
-          "name": "#D7AC7A",
+          "name": "Golden Beige",
           "hex": "#D7AC7A"
         },
         {
-          "name": "#D7B182",
+          "name": "Golden Beige 2",
           "hex": "#D7B182"
         },
         {
-          "name": "#CE9C6A",
+          "name": "Honey",
           "hex": "#CE9C6A"
         },
         {
-          "name": "#EEC693",
+          "name": "Buff",
           "hex": "#EEC693"
         },
         {
-          "name": "#D7C499",
+          "name": "Buff 2",
           "hex": "#D7C499"
         },
         {
-          "name": "#E3B385",
+          "name": "Warm Beige",
           "hex": "#E3B385"
         },
         {
-          "name": "#CBA167",
+          "name": "Honey 2",
           "hex": "#CBA167"
         }
       ]
@@ -263,51 +263,51 @@
       "verified": false,
       "shades": [
         {
-          "name": "#B77D57",
+          "name": "Warm Tan",
           "hex": "#B77D57"
         },
         {
-          "name": "#BC835B",
+          "name": "Warm Tan 2",
           "hex": "#BC835B"
         },
         {
-          "name": "#B67753",
+          "name": "Caramel",
           "hex": "#B67753"
         },
         {
-          "name": "#B77D53",
+          "name": "Caramel 2",
           "hex": "#B77D53"
         },
         {
-          "name": "#7B4E34",
+          "name": "Deep Bronze",
           "hex": "#7B4E34"
         },
         {
-          "name": "#7A523A",
+          "name": "Deep Bronze 2",
           "hex": "#7A523A"
         },
         {
-          "name": "#71412D",
+          "name": "Deep Bronze 3",
           "hex": "#71412D"
         },
         {
-          "name": "#81523E",
+          "name": "Cocoa",
           "hex": "#81523E"
         },
         {
-          "name": "#6A4338",
+          "name": "Deep Bronze 4",
           "hex": "#6A4338"
         },
         {
-          "name": "#543022",
+          "name": "Mahogany",
           "hex": "#543022"
         },
         {
-          "name": "#5D3E2E",
+          "name": "Espresso",
           "hex": "#5D3E2E"
         },
         {
-          "name": "#4C2E22",
+          "name": "Mahogany 2",
           "hex": "#4C2E22"
         }
       ]
@@ -322,75 +322,75 @@
       "verified": true,
       "shades": [
         {
-          "name": "#EED1B5",
+          "name": "Warm Ivory",
           "hex": "#EED1B5"
         },
         {
-          "name": "#DAAA80",
+          "name": "Golden Beige",
           "hex": "#DAAA80"
         },
         {
-          "name": "#D7A778",
+          "name": "Warm Sand",
           "hex": "#D7A778"
         },
         {
-          "name": "#DFA46F",
+          "name": "Warm Sand 2",
           "hex": "#DFA46F"
         },
         {
-          "name": "#D28F66",
+          "name": "Almond",
           "hex": "#D28F66"
         },
         {
-          "name": "#AD6D41",
+          "name": "Amber",
           "hex": "#AD6D41"
         },
         {
-          "name": "#C98C60",
+          "name": "Almond 2",
           "hex": "#C98C60"
         },
         {
-          "name": "#BF7A43",
+          "name": "Caramel",
           "hex": "#BF7A43"
         },
         {
-          "name": "#AC734C",
+          "name": "Amber 2",
           "hex": "#AC734C"
         },
         {
-          "name": "#B97245",
+          "name": "Caramel 2",
           "hex": "#B97245"
         },
         {
-          "name": "#A0522C",
+          "name": "Cocoa",
           "hex": "#A0522C"
         },
         {
-          "name": "#9E5A35",
+          "name": "Cocoa 2",
           "hex": "#9E5A35"
         },
         {
-          "name": "#97472E",
+          "name": "Cocoa 3",
           "hex": "#97472E"
         },
         {
-          "name": "#7E3E2A",
+          "name": "Deep Bronze",
           "hex": "#7E3E2A"
         },
         {
-          "name": "#7B3625",
+          "name": "Deep Bronze 2",
           "hex": "#7B3625"
         },
         {
-          "name": "#653129",
+          "name": "Espresso",
           "hex": "#653129"
         },
         {
-          "name": "#3B2218",
+          "name": "Ebony",
           "hex": "#3B2218"
         },
         {
-          "name": "#352315",
+          "name": "Ebony 2",
           "hex": "#352315"
         }
       ]
@@ -405,11 +405,11 @@
       "verified": false,
       "shades": [
         {
-          "name": "#EBB08A",
+          "name": "Warm Beige",
           "hex": "#EBB08A"
         },
         {
-          "name": "#E8B684",
+          "name": "Warm Beige 2",
           "hex": "#E8B684"
         }
       ]
@@ -440,23 +440,23 @@
           "hex": "#E5BC92"
         },
         {
-          "name": "Sand",
+          "name": "Sand 2",
           "hex": "#DEBE97"
         },
         {
-          "name": "Cool Ivory",
+          "name": "Cool Ivory 2",
           "hex": "#E9C9AA"
         },
         {
-          "name": "Cool Ivory",
+          "name": "Cool Ivory 3",
           "hex": "#EAC49F"
         },
         {
-          "name": "Cool Ivory",
+          "name": "Cool Ivory 4",
           "hex": "#ECC3A1"
         },
         {
-          "name": "Sand",
+          "name": "Sand 3",
           "hex": "#E2B996"
         },
         {
@@ -476,7 +476,7 @@
           "hex": "#D3996F"
         },
         {
-          "name": "Golden",
+          "name": "Golden 2",
           "hex": "#D7A770"
         },
         {
@@ -488,15 +488,15 @@
           "hex": "#D29D71"
         },
         {
-          "name": "Warm Almond",
+          "name": "Warm Almond 2",
           "hex": "#D09059"
         },
         {
-          "name": "Warm Almond",
+          "name": "Warm Almond 3",
           "hex": "#CA9450"
         },
         {
-          "name": "Warm Almond",
+          "name": "Warm Almond 4",
           "hex": "#CC9357"
         },
         {
@@ -508,7 +508,7 @@
           "hex": "#A86829"
         },
         {
-          "name": "Cool Almond",
+          "name": "Cool Almond 2",
           "hex": "#B87840"
         },
         {
@@ -516,31 +516,31 @@
           "hex": "#9A4E28"
         },
         {
-          "name": "Walnut",
+          "name": "Walnut 2",
           "hex": "#81562F"
         },
         {
-          "name": "Golden Almond",
+          "name": "Golden Almond 2",
           "hex": "#AA6A2F"
         },
         {
-          "name": "Walnut",
+          "name": "Walnut 3",
           "hex": "#9B5127"
         },
         {
-          "name": "Walnut",
+          "name": "Walnut 4",
           "hex": "#7E462D"
         },
         {
-          "name": "Walnut",
+          "name": "Walnut 5",
           "hex": "#8E4922"
         },
         {
-          "name": "#7B2800",
+          "name": "Espresso",
           "hex": "#7B2800"
         },
         {
-          "name": "#623726",
+          "name": "Espresso 2",
           "hex": "#623726"
         }
       ]
@@ -548,22 +548,22 @@
     {
       "id": "colorbar-perfect-match",
       "brand": "Colorbar",
-      "name": "Perfect Match",
-      "image": "/assets/products/placeholder.jpg",
-      "price_prefix": "₹—",
+      "name": "Colorbar Perfect Match Primer",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:h-200,w-200,cm-pad_resize/2/c/2ce9017N_8904052428978_1.jpg",
+      "price_prefix": "₹613",
       "dark_background": false,
-      "verified": false,
+      "verified": true,
       "shades": [
         {
-          "name": "#CD9D77",
+          "name": "Honey",
           "hex": "#CD9D77"
         },
         {
-          "name": "#ECC3A5",
+          "name": "Sand",
           "hex": "#ECC3A5"
         },
         {
-          "name": "#E5AE87",
+          "name": "Warm Beige",
           "hex": "#E5AE87"
         }
       ]
@@ -578,51 +578,51 @@
       "verified": true,
       "shades": [
         {
-          "name": "#E1AD81",
+          "name": "Golden Beige",
           "hex": "#E1AD81"
         },
         {
-          "name": "#DEB192",
+          "name": "Warm Beige",
           "hex": "#DEB192"
         },
         {
-          "name": "#E3B490",
+          "name": "Warm Beige 2",
           "hex": "#E3B490"
         },
         {
-          "name": "#E9B898",
+          "name": "Buff",
           "hex": "#E9B898"
         },
         {
-          "name": "#E8BB9C",
+          "name": "Buff 2",
           "hex": "#E8BB9C"
         },
         {
-          "name": "#E1B7A0",
+          "name": "Rose Beige",
           "hex": "#E1B7A0"
         },
         {
-          "name": "#EAC4AE",
+          "name": "Sand",
           "hex": "#EAC4AE"
         },
         {
-          "name": "#EAC7AB",
+          "name": "Sand 2",
           "hex": "#EAC7AB"
         },
         {
-          "name": "#EABE9E",
+          "name": "Buff 3",
           "hex": "#EABE9E"
         },
         {
-          "name": "#E5B39A",
+          "name": "Buff 4",
           "hex": "#E5B39A"
         },
         {
-          "name": "#E7B590",
+          "name": "Warm Beige 3",
           "hex": "#E7B590"
         },
         {
-          "name": "#F7DCCA",
+          "name": "Ivory",
           "hex": "#F7DCCA"
         }
       ]
@@ -645,7 +645,7 @@
           "hex": "#E7CBAC"
         },
         {
-          "name": "021 Linen",
+          "name": "021 Linen 2",
           "hex": "#EDC8AF"
         },
         {
@@ -672,47 +672,47 @@
       "verified": false,
       "shades": [
         {
-          "name": "#815D51",
+          "name": "Cocoa",
           "hex": "#815D51"
         },
         {
-          "name": "#845949",
+          "name": "Cocoa 2",
           "hex": "#845949"
         },
         {
-          "name": "#8B614B",
+          "name": "Cocoa 3",
           "hex": "#8B614B"
         },
         {
-          "name": "#906656",
+          "name": "Chestnut",
           "hex": "#906656"
         },
         {
-          "name": "#774C43",
+          "name": "Deep Bronze",
           "hex": "#774C43"
         },
         {
-          "name": "#734B41",
+          "name": "Deep Bronze 2",
           "hex": "#734B41"
         },
         {
-          "name": "#88614D",
+          "name": "Cocoa 4",
           "hex": "#88614D"
         },
         {
-          "name": "#BA8261",
+          "name": "Warm Tan",
           "hex": "#BA8261"
         },
         {
-          "name": "#D9AB88",
+          "name": "Golden Beige",
           "hex": "#D9AB88"
         },
         {
-          "name": "#D49A74",
+          "name": "Honey",
           "hex": "#D49A74"
         },
         {
-          "name": "#CF8A60",
+          "name": "Almond",
           "hex": "#CF8A60"
         }
       ]
@@ -751,11 +751,11 @@
           "hex": "#D8BBA3"
         },
         {
-          "name": "Warm Porcelain",
+          "name": "Warm Porcelain 2",
           "hex": "#FAC7A7"
         },
         {
-          "name": "Warm Porcelain",
+          "name": "Warm Porcelain 3",
           "hex": "#FFCBA6"
         },
         {
@@ -771,23 +771,23 @@
           "hex": "#D8A46D"
         },
         {
-          "name": "Porcelain",
+          "name": "Porcelain 2",
           "hex": "#F2BB96"
         },
         {
-          "name": "Warm Vanilla",
+          "name": "Warm Vanilla 2",
           "hex": "#D4A066"
         },
         {
-          "name": "Warm Porcelain",
+          "name": "Warm Porcelain 4",
           "hex": "#F2BF91"
         },
         {
-          "name": "Porcelain",
+          "name": "Porcelain 3",
           "hex": "#EDBE98"
         },
         {
-          "name": "Porcelain",
+          "name": "Porcelain 4",
           "hex": "#E7B79C"
         },
         {
@@ -799,19 +799,19 @@
           "hex": "#DDB491"
         },
         {
-          "name": "Sand",
+          "name": "Sand 2",
           "hex": "#E5AD8A"
         },
         {
-          "name": "Buff",
+          "name": "Buff 2",
           "hex": "#D59A71"
         },
         {
-          "name": "Fawn",
+          "name": "Fawn 2",
           "hex": "#CF905D"
         },
         {
-          "name": "Fawn",
+          "name": "Fawn 3",
           "hex": "#D69060"
         },
         {
@@ -819,7 +819,7 @@
           "hex": "#BE8058"
         },
         {
-          "name": "Warm Vanilla",
+          "name": "Warm Vanilla 3",
           "hex": "#D7986D"
         },
         {
@@ -827,7 +827,7 @@
           "hex": "#AD7247"
         },
         {
-          "name": "Cinnamon",
+          "name": "Cinnamon 2",
           "hex": "#C27440"
         },
         {
@@ -839,7 +839,7 @@
           "hex": "#99562C"
         },
         {
-          "name": "Warm Vanilla",
+          "name": "Warm Vanilla 4",
           "hex": "#DA926B"
         },
         {
@@ -851,7 +851,7 @@
           "hex": "#B56E38"
         },
         {
-          "name": "Maple",
+          "name": "Maple 2",
           "hex": "#A85F2A"
         },
         {
@@ -863,7 +863,7 @@
           "hex": "#864F26"
         },
         {
-          "name": "Nutmeg",
+          "name": "Nutmeg 2",
           "hex": "#8F5C35"
         },
         {
@@ -871,11 +871,11 @@
           "hex": "#895C26"
         },
         {
-          "name": "Maple",
+          "name": "Maple 3",
           "hex": "#AA6533"
         },
         {
-          "name": "Nutmeg",
+          "name": "Nutmeg 3",
           "hex": "#925B2D"
         },
         {
@@ -883,7 +883,7 @@
           "hex": "#77421E"
         },
         {
-          "name": "Rich Mahogany",
+          "name": "Rich Mahogany 2",
           "hex": "#724727"
         },
         {
@@ -1077,43 +1077,43 @@
       "verified": false,
       "shades": [
         {
-          "name": "#F6A762",
+          "name": "Golden Beige",
           "hex": "#F6A762"
         },
         {
-          "name": "#D76B4C",
+          "name": "Caramel",
           "hex": "#D76B4C"
         },
         {
-          "name": "#AD543D",
+          "name": "Chestnut",
           "hex": "#AD543D"
         },
         {
-          "name": "#C86835",
+          "name": "Caramel 2",
           "hex": "#C86835"
         },
         {
-          "name": "#904134",
+          "name": "Cocoa",
           "hex": "#904134"
         },
         {
-          "name": "#92524E",
+          "name": "Cocoa 2",
           "hex": "#92524E"
         },
         {
-          "name": "#BF6B44",
+          "name": "Caramel 3",
           "hex": "#BF6B44"
         },
         {
-          "name": "#915831",
+          "name": "Cocoa 3",
           "hex": "#915831"
         },
         {
-          "name": "#EA8944",
+          "name": "Almond",
           "hex": "#EA8944"
         },
         {
-          "name": "#EEBB7A",
+          "name": "Warm Beige",
           "hex": "#EEBB7A"
         }
       ]
@@ -1128,47 +1128,47 @@
       "verified": false,
       "shades": [
         {
-          "name": "#AE7748",
+          "name": "Amber",
           "hex": "#AE7748"
         },
         {
-          "name": "#B68358",
+          "name": "Warm Tan",
           "hex": "#B68358"
         },
         {
-          "name": "#A77546",
+          "name": "Amber 2",
           "hex": "#A77546"
         },
         {
-          "name": "#A36C3B",
+          "name": "Chestnut",
           "hex": "#A36C3B"
         },
         {
-          "name": "#89562C",
+          "name": "Cocoa",
           "hex": "#89562C"
         },
         {
-          "name": "#9A572C",
+          "name": "Cocoa 2",
           "hex": "#9A572C"
         },
         {
-          "name": "#904D2E",
+          "name": "Cocoa 3",
           "hex": "#904D2E"
         },
         {
-          "name": "#783F23",
+          "name": "Deep Bronze",
           "hex": "#783F23"
         },
         {
-          "name": "#75391C",
+          "name": "Deep Bronze 2",
           "hex": "#75391C"
         },
         {
-          "name": "#602D18",
+          "name": "Espresso",
           "hex": "#602D18"
         },
         {
-          "name": "#5B2717",
+          "name": "Mahogany",
           "hex": "#5B2717"
         }
       ]
@@ -1183,27 +1183,27 @@
       "verified": false,
       "shades": [
         {
-          "name": "#EDC69F",
+          "name": "Sand",
           "hex": "#EDC69F"
         },
         {
-          "name": "#EFC9A5",
+          "name": "Sand 2",
           "hex": "#EFC9A5"
         },
         {
-          "name": "#ECBB9A",
+          "name": "Buff",
           "hex": "#ECBB9A"
         },
         {
-          "name": "#E9B494",
+          "name": "Warm Beige",
           "hex": "#E9B494"
         },
         {
-          "name": "#E7AA8D",
+          "name": "Warm Beige 2",
           "hex": "#E7AA8D"
         },
         {
-          "name": "#EDC0A3",
+          "name": "Sand 3",
           "hex": "#EDC0A3"
         }
       ]
@@ -1218,35 +1218,35 @@
       "verified": false,
       "shades": [
         {
-          "name": "#E1BEA4",
+          "name": "Rose Beige",
           "hex": "#E1BEA4"
         },
         {
-          "name": "#E5AE86",
+          "name": "Warm Beige",
           "hex": "#E5AE86"
         },
         {
-          "name": "#C38E63",
+          "name": "Golden Tan",
           "hex": "#C38E63"
         },
         {
-          "name": "#AC703D",
+          "name": "Amber",
           "hex": "#AC703D"
         },
         {
-          "name": "#9E6209",
+          "name": "Cocoa",
           "hex": "#9E6209"
         },
         {
-          "name": "#855723",
+          "name": "Cocoa 2",
           "hex": "#855723"
         },
         {
-          "name": "#793F0D",
+          "name": "Deep Bronze",
           "hex": "#793F0D"
         },
         {
-          "name": "#64300A",
+          "name": "Espresso",
           "hex": "#64300A"
         }
       ]
@@ -1261,27 +1261,27 @@
       "verified": false,
       "shades": [
         {
-          "name": "#F7D5BB",
+          "name": "Warm Ivory",
           "hex": "#F7D5BB"
         },
         {
-          "name": "#E8B793",
+          "name": "Warm Beige",
           "hex": "#E8B793"
         },
         {
-          "name": "#DCA67E",
+          "name": "Golden Beige",
           "hex": "#DCA67E"
         },
         {
-          "name": "#EBBD88",
+          "name": "Warm Beige 2",
           "hex": "#EBBD88"
         },
         {
-          "name": "#D19C72",
+          "name": "Honey",
           "hex": "#D19C72"
         },
         {
-          "name": "#C28660",
+          "name": "Almond",
           "hex": "#C28660"
         }
       ]
@@ -1296,23 +1296,23 @@
       "verified": false,
       "shades": [
         {
-          "name": "#C78660",
+          "name": "Almond",
           "hex": "#C78660"
         },
         {
-          "name": "#E0A260",
+          "name": "Honey",
           "hex": "#E0A260"
         },
         {
-          "name": "#CC8B65",
+          "name": "Almond 2",
           "hex": "#CC8B65"
         },
         {
-          "name": "#C78660",
+          "name": "Almond 3",
           "hex": "#C78660"
         },
         {
-          "name": "#B2724F",
+          "name": "Amber",
           "hex": "#B2724F"
         }
       ]
@@ -1363,55 +1363,55 @@
           "hex": "#C27F48"
         },
         {
-          "name": "Fresh Beige",
+          "name": "Fresh Beige 2",
           "hex": "#DA9E6B"
         },
         {
-          "name": "Soft Sable",
+          "name": "Soft Sable 2",
           "hex": "#B87740"
         },
         {
-          "name": "#925422",
+          "name": "Cocoa",
           "hex": "#925422"
         },
         {
-          "name": "Classic Ivory",
+          "name": "Classic Ivory 2",
           "hex": "#FADCC8"
         },
         {
-          "name": "Classic Ivory",
+          "name": "Classic Ivory 3",
           "hex": "#FCD6C7"
         },
         {
-          "name": "Classic Ivory",
+          "name": "Classic Ivory 4",
           "hex": "#F7CAB1"
         },
         {
-          "name": "Shell Beige",
+          "name": "Shell Beige 2",
           "hex": "#DEB09E"
         },
         {
-          "name": "Shell Beige",
+          "name": "Shell Beige 3",
           "hex": "#D1A396"
         },
         {
-          "name": "Fresh Beige",
+          "name": "Fresh Beige 3",
           "hex": "#CF9C7D"
         },
         {
-          "name": "Fresh Beige",
+          "name": "Fresh Beige 4",
           "hex": "#D99959"
         },
         {
-          "name": "#754728",
+          "name": "Deep Bronze",
           "hex": "#754728"
         },
         {
-          "name": "#4D2C0A",
+          "name": "Mahogany",
           "hex": "#4D2C0A"
         },
         {
-          "name": "#4D2006",
+          "name": "Ebony",
           "hex": "#4D2006"
         }
       ]
@@ -1426,7 +1426,7 @@
       "verified": true,
       "shades": [
         {
-          "name": "#693720",
+          "name": "Espresso",
           "hex": "#693720"
         },
         {
@@ -1434,7 +1434,7 @@
           "hex": "#B07555"
         },
         {
-          "name": "W8 Creme Cafe",
+          "name": "W8 Creme Cafe 2",
           "hex": "#BC6D4E"
         },
         {
@@ -1450,15 +1450,15 @@
           "hex": "#EEBFA3"
         },
         {
-          "name": "W3 Nude Beige",
+          "name": "W3 Nude Beige 2",
           "hex": "#E7CBB5"
         },
         {
-          "name": "W5 Sand Beige",
+          "name": "W5 Sand Beige 2",
           "hex": "#DCB29A"
         },
         {
-          "name": "W3 Nude Beige",
+          "name": "W3 Nude Beige 3",
           "hex": "#F0C7B3"
         },
         {
@@ -1466,19 +1466,19 @@
           "hex": "#EECFBA"
         },
         {
-          "name": "W3 Nude Beige",
+          "name": "W3 Nude Beige 4",
           "hex": "#E8C7B8"
         },
         {
-          "name": "C1 Alabaster",
+          "name": "C1 Alabaster 2",
           "hex": "#F0CBB9"
         },
         {
-          "name": "W3 Nude Beige",
+          "name": "W3 Nude Beige 5",
           "hex": "#E9C4B1"
         },
         {
-          "name": "W3 Nude Beige",
+          "name": "W3 Nude Beige 6",
           "hex": "#EABEA1"
         }
       ]
@@ -1486,26 +1486,26 @@
     {
       "id": "lakme-invisible-finish",
       "brand": "Lakmé",
-      "name": "Invisible Finish",
-      "image": "/assets/products/placeholder.jpg",
-      "price_prefix": "₹—",
+      "name": "Lakme Invisible Finish SPF 8 Foundation",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:h-200,w-200,cm-pad_resize/2/2/22322_h-8901030289354m.jpg",
+      "price_prefix": "₹325",
       "dark_background": false,
-      "verified": false,
+      "verified": true,
       "shades": [
         {
-          "name": "#C39D76",
+          "name": "Honey",
           "hex": "#C39D76"
         },
         {
-          "name": "#BC8B63",
+          "name": "Golden Tan",
           "hex": "#BC8B63"
         },
         {
-          "name": "#C88F72",
+          "name": "Honey 2",
           "hex": "#C88F72"
         },
         {
-          "name": "#DEAF91",
+          "name": "Warm Beige",
           "hex": "#DEAF91"
         }
       ]
@@ -1524,19 +1524,19 @@
           "hex": "#FDECE4"
         },
         {
-          "name": "Ivoire N",
+          "name": "Ivoire N 2",
           "hex": "#F4D1AB"
         },
         {
-          "name": "Ivoire N",
+          "name": "Ivoire N 3",
           "hex": "#EEC1A0"
         },
         {
-          "name": "Ivoire N",
+          "name": "Ivoire N 4",
           "hex": "#EAC398"
         },
         {
-          "name": "Ivoire N",
+          "name": "Ivoire N 5",
           "hex": "#E9BE9E"
         },
         {
@@ -1548,7 +1548,7 @@
           "hex": "#DCB190"
         },
         {
-          "name": "Ivoire C",
+          "name": "Ivoire C 2",
           "hex": "#DDB391"
         },
         {
@@ -1556,7 +1556,7 @@
           "hex": "#E4BA8C"
         },
         {
-          "name": "Bisque W",
+          "name": "Bisque W 2",
           "hex": "#E2B78F"
         },
         {
@@ -1564,11 +1564,11 @@
           "hex": "#E5B189"
         },
         {
-          "name": "Ivoire N",
+          "name": "Ivoire N 6",
           "hex": "#F3C796"
         },
         {
-          "name": "Bisque N",
+          "name": "Bisque N 2",
           "hex": "#F3BF90"
         },
         {
@@ -1576,7 +1576,7 @@
           "hex": "#E1AF8C"
         },
         {
-          "name": "Bisque N",
+          "name": "Bisque N 3",
           "hex": "#DDB184"
         },
         {
@@ -1584,43 +1584,43 @@
           "hex": "#DCA77D"
         },
         {
-          "name": "Bisque N",
+          "name": "Bisque N 4",
           "hex": "#D6A77D"
         },
         {
-          "name": "Bisque N",
+          "name": "Bisque N 5",
           "hex": "#D7A17F"
         },
         {
-          "name": "Bisque N",
+          "name": "Bisque N 6",
           "hex": "#D7A17D"
         },
         {
-          "name": "Bisque W",
+          "name": "Bisque W 3",
           "hex": "#DDA876"
         },
         {
-          "name": "Bisque W",
+          "name": "Bisque W 4",
           "hex": "#E39F72"
         },
         {
-          "name": "Bisque C",
+          "name": "Bisque C 2",
           "hex": "#CF9162"
         },
         {
-          "name": "Bisque W",
+          "name": "Bisque W 5",
           "hex": "#E0A16B"
         },
         {
-          "name": "Bisque W",
+          "name": "Bisque W 6",
           "hex": "#D0975D"
         },
         {
-          "name": "Bisque N",
+          "name": "Bisque N 7",
           "hex": "#D29E6D"
         },
         {
-          "name": "Bisque C",
+          "name": "Bisque C 3",
           "hex": "#C9925E"
         },
         {
@@ -1632,51 +1632,51 @@
           "hex": "#BB7E44"
         },
         {
-          "name": "Bisque C",
+          "name": "Bisque C 4",
           "hex": "#CE9163"
         },
         {
-          "name": "Suede C",
+          "name": "Suede C 2",
           "hex": "#BD7F56"
         },
         {
-          "name": "Suede C",
+          "name": "Suede C 3",
           "hex": "#935427"
         },
         {
-          "name": "Suede C",
+          "name": "Suede C 4",
           "hex": "#BC7C56"
         },
         {
-          "name": "Suede C",
+          "name": "Suede C 5",
           "hex": "#AA6941"
         },
         {
-          "name": "Suede C",
+          "name": "Suede C 6",
           "hex": "#9B5E41"
         },
         {
-          "name": "Suede C",
+          "name": "Suede C 7",
           "hex": "#8A4D30"
         },
         {
-          "name": "Suede C",
+          "name": "Suede C 8",
           "hex": "#7B3C11"
         },
         {
-          "name": "Suede C",
+          "name": "Suede C 9",
           "hex": "#703E23"
         },
         {
-          "name": "Suede C",
+          "name": "Suede C 10",
           "hex": "#502716"
         },
         {
-          "name": "Suede W",
+          "name": "Suede W 2",
           "hex": "#7C3F2C"
         },
         {
-          "name": "#391B11",
+          "name": "Ebony",
           "hex": "#391B11"
         }
       ]
@@ -1691,71 +1691,71 @@
       "verified": false,
       "shades": [
         {
-          "name": "#A66C4B",
+          "name": "Amber",
           "hex": "#A66C4B"
         },
         {
-          "name": "#BB8F7F",
+          "name": "Neutral Beige",
           "hex": "#BB8F7F"
         },
         {
-          "name": "#DFB9AF",
+          "name": "Rose Beige",
           "hex": "#DFB9AF"
         },
         {
-          "name": "#B7743C",
+          "name": "Caramel",
           "hex": "#B7743C"
         },
         {
-          "name": "#924829",
+          "name": "Cocoa",
           "hex": "#924829"
         },
         {
-          "name": "#A37452",
+          "name": "Amber 2",
           "hex": "#A37452"
         },
         {
-          "name": "#6C4529",
+          "name": "Deep Bronze",
           "hex": "#6C4529"
         },
         {
-          "name": "#321407",
+          "name": "Ebony",
           "hex": "#321407"
         },
         {
-          "name": "#CC9D72",
+          "name": "Honey",
           "hex": "#CC9D72"
         },
         {
-          "name": "#A66C49",
+          "name": "Amber 3",
           "hex": "#A66C49"
         },
         {
-          "name": "#BE784D",
+          "name": "Caramel 2",
           "hex": "#BE784D"
         },
         {
-          "name": "#592D24",
+          "name": "Espresso",
           "hex": "#592D24"
         },
         {
-          "name": "#B68E6F",
+          "name": "Golden Tan",
           "hex": "#B68E6F"
         },
         {
-          "name": "#B19277",
+          "name": "Golden Tan 2",
           "hex": "#B19277"
         },
         {
-          "name": "#A3724A",
+          "name": "Amber 4",
           "hex": "#A3724A"
         },
         {
-          "name": "#742B13",
+          "name": "Espresso 2",
           "hex": "#742B13"
         },
         {
-          "name": "#DEB399",
+          "name": "Warm Beige",
           "hex": "#DEB399"
         }
       ]
@@ -1770,19 +1770,19 @@
       "verified": false,
       "shades": [
         {
-          "name": "#EEC1A2",
+          "name": "Sand",
           "hex": "#EEC1A2"
         },
         {
-          "name": "#B7A597",
+          "name": "Cool Beige",
           "hex": "#B7A597"
         },
         {
-          "name": "#F0C092",
+          "name": "Buff",
           "hex": "#F0C092"
         },
         {
-          "name": "#D0985F",
+          "name": "Almond",
           "hex": "#D0985F"
         }
       ]
@@ -1809,7 +1809,7 @@
           "hex": "#D2AE88"
         },
         {
-          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin)",
+          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin) 2",
           "hex": "#D0A87F"
         },
         {
@@ -1833,7 +1833,7 @@
           "hex": "#DFC7A8"
         },
         {
-          "name": "NW33 (medium beige w/ neutral undertone for medium skin)",
+          "name": "NW33 (medium beige w/ neutral undertone for medium skin) 2",
           "hex": "#DABC96"
         },
         {
@@ -1841,23 +1841,23 @@
           "hex": "#D9B88F"
         },
         {
-          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin)",
+          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin) 3",
           "hex": "#D4B588"
         },
         {
-          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin)",
+          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin) 4",
           "hex": "#D0AE84"
         },
         {
-          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin)",
+          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin) 5",
           "hex": "#D3B18A"
         },
         {
-          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin)",
+          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin) 6",
           "hex": "#D1AC7F"
         },
         {
-          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin)",
+          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin) 7",
           "hex": "#D0A97B"
         },
         {
@@ -1865,7 +1865,7 @@
           "hex": "#C9A177"
         },
         {
-          "name": "NW40 (tanned beige w/ rosy undertone for medium to dark skin)",
+          "name": "NW40 (tanned beige w/ rosy undertone for medium to dark skin) 2",
           "hex": "#C5986D"
         },
         {
@@ -1873,7 +1873,7 @@
           "hex": "#D5844B"
         },
         {
-          "name": "NW55 (rich brown w/ red undertone for deep dark skin)",
+          "name": "NW55 (rich brown w/ red undertone for deep dark skin) 2",
           "hex": "#DB864D"
         },
         {
@@ -1881,7 +1881,7 @@
           "hex": "#B5855A"
         },
         {
-          "name": "NW50 ((rich mahogany w/ red undertones for deep dark skin)",
+          "name": "NW50 ((rich mahogany w/ red undertones for deep dark skin) 2",
           "hex": "#B38456"
         },
         {
@@ -1889,7 +1889,7 @@
           "hex": "#E5D1BE"
         },
         {
-          "name": "NW20 (rosy beige w/ rosy undertone for light skin)",
+          "name": "NW20 (rosy beige w/ rosy undertone for light skin) 2",
           "hex": "#E0C8AE"
         },
         {
@@ -1897,35 +1897,35 @@
           "hex": "#E0C1A2"
         },
         {
-          "name": "NW25 (mid tone beige w/ rosy undertone for light to medium skin)",
+          "name": "NW25 (mid tone beige w/ rosy undertone for light to medium skin) 2",
           "hex": "#DCBCA2"
         },
         {
-          "name": "NW25 (mid tone beige w/ rosy undertone for light to medium skin)",
+          "name": "NW25 (mid tone beige w/ rosy undertone for light to medium skin) 3",
           "hex": "#DBBC9F"
         },
         {
-          "name": "NW30 (medium beige w/ rosy undertone for medium skin)",
+          "name": "NW30 (medium beige w/ rosy undertone for medium skin) 2",
           "hex": "#D9B28D"
         },
         {
-          "name": "NW33 (medium beige w/ neutral undertone for medium skin)",
+          "name": "NW33 (medium beige w/ neutral undertone for medium skin) 3",
           "hex": "#D5B293"
         },
         {
-          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin)",
+          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin) 8",
           "hex": "#D5AD89"
         },
         {
-          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin)",
+          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin) 9",
           "hex": "#D1A88A"
         },
         {
-          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin)",
+          "name": "NW35 (medium beige w/ neutral rosy undertone for medium skin) 10",
           "hex": "#CFA67D"
         },
         {
-          "name": "NW40 (tanned beige w/ rosy undertone for medium to dark skin)",
+          "name": "NW40 (tanned beige w/ rosy undertone for medium to dark skin) 3",
           "hex": "#CBA275"
         },
         {
@@ -1937,31 +1937,31 @@
           "hex": "#B28050"
         },
         {
-          "name": "NW50 ((rich mahogany w/ red undertones for deep dark skin)",
+          "name": "NW50 ((rich mahogany w/ red undertones for deep dark skin) 3",
           "hex": "#B9855A"
         },
         {
-          "name": "NW58 (rich espresso w/ neutral undertones for deep dark skin)",
+          "name": "NW58 (rich espresso w/ neutral undertones for deep dark skin) 2",
           "hex": "#B27949"
         },
         {
-          "name": "NW58 (rich espresso w/ neutral undertones for deep dark skin)",
+          "name": "NW58 (rich espresso w/ neutral undertones for deep dark skin) 3",
           "hex": "#AE7A50"
         },
         {
-          "name": "NW58 (rich espresso w/ neutral undertones for deep dark skin)",
+          "name": "NW58 (rich espresso w/ neutral undertones for deep dark skin) 4",
           "hex": "#A77246"
         },
         {
-          "name": "NW58 (rich espresso w/ neutral undertones for deep dark skin)",
+          "name": "NW58 (rich espresso w/ neutral undertones for deep dark skin) 5",
           "hex": "#A0714D"
         },
         {
-          "name": "NW58 (rich espresso w/ neutral undertones for deep dark skin)",
+          "name": "NW58 (rich espresso w/ neutral undertones for deep dark skin) 6",
           "hex": "#A9734E"
         },
         {
-          "name": "#724A32",
+          "name": "Deep Bronze",
           "hex": "#724A32"
         }
       ]
@@ -1976,7 +1976,7 @@
       "verified": true,
       "shades": [
         {
-          "name": "#F9E3D5",
+          "name": "Porcelain",
           "hex": "#F9E3D5"
         },
         {
@@ -1984,15 +1984,15 @@
           "hex": "#F6D2BB"
         },
         {
-          "name": "Y205 - Alabaster for fair skin with slightly golden undertones",
+          "name": "Y205 - Alabaster for fair skin with slightly golden undertones 2",
           "hex": "#F9D5C3"
         },
         {
-          "name": "Y205 - Alabaster for fair skin with slightly golden undertones",
+          "name": "Y205 - Alabaster for fair skin with slightly golden undertones 3",
           "hex": "#F7C3B3"
         },
         {
-          "name": "Y205 - Alabaster for fair skin with slightly golden undertones",
+          "name": "Y205 - Alabaster for fair skin with slightly golden undertones 4",
           "hex": "#DECCAF"
         },
         {
@@ -2000,19 +2000,19 @@
           "hex": "#E1C2A8"
         },
         {
-          "name": "Y205 - Alabaster for fair skin with slightly golden undertones",
+          "name": "Y205 - Alabaster for fair skin with slightly golden undertones 5",
           "hex": "#EFD2B8"
         },
         {
-          "name": "Y205 - Alabaster for fair skin with slightly golden undertones",
+          "name": "Y205 - Alabaster for fair skin with slightly golden undertones 6",
           "hex": "#F7BCB7"
         },
         {
-          "name": "Y205 - Alabaster for fair skin with slightly golden undertones",
+          "name": "Y205 - Alabaster for fair skin with slightly golden undertones 7",
           "hex": "#EBCAB0"
         },
         {
-          "name": "Y215 - Yellow Alabaster for fair skin with golden undertones",
+          "name": "Y215 - Yellow Alabaster for fair skin with golden undertones 2",
           "hex": "#EAC1AC"
         },
         {
@@ -2020,7 +2020,7 @@
           "hex": "#E8C6A3"
         },
         {
-          "name": "Y205 - Alabaster for fair skin with slightly golden undertones",
+          "name": "Y205 - Alabaster for fair skin with slightly golden undertones 8",
           "hex": "#F2CCB7"
         },
         {
@@ -2032,35 +2032,35 @@
           "hex": "#E4BD9C"
         },
         {
-          "name": "R220 - Pink Porcelain for light skin with very pink undertones",
+          "name": "R220 - Pink Porcelain for light skin with very pink undertones 2",
           "hex": "#DAAD90"
         },
         {
-          "name": "R220 - Pink Porcelain for light skin with very pink undertones",
+          "name": "R220 - Pink Porcelain for light skin with very pink undertones 3",
           "hex": "#D8AB8B"
         },
         {
-          "name": "Y373 - Amber Honey for lighter tan skin with slightly golden undertones",
+          "name": "Y373 - Amber Honey for lighter tan skin with slightly golden undertones 2",
           "hex": "#DDB395"
         },
         {
-          "name": "Y373 - Amber Honey for lighter tan skin with slightly golden undertones",
+          "name": "Y373 - Amber Honey for lighter tan skin with slightly golden undertones 3",
           "hex": "#E3B391"
         },
         {
-          "name": "Y373 - Amber Honey for lighter tan skin with slightly golden undertones",
+          "name": "Y373 - Amber Honey for lighter tan skin with slightly golden undertones 4",
           "hex": "#E3B296"
         },
         {
-          "name": "Y218 - Porcelain for fair skin with neutral undertones",
+          "name": "Y218 - Porcelain for fair skin with neutral undertones 2",
           "hex": "#DCB59C"
         },
         {
-          "name": "R220 - Pink Porcelain for light skin with very pink undertones",
+          "name": "R220 - Pink Porcelain for light skin with very pink undertones 4",
           "hex": "#D79E89"
         },
         {
-          "name": "R220 - Pink Porcelain for light skin with very pink undertones",
+          "name": "R220 - Pink Porcelain for light skin with very pink undertones 5",
           "hex": "#D9A586"
         },
         {
@@ -2068,23 +2068,23 @@
           "hex": "#D19578"
         },
         {
-          "name": "Y373 - Amber Honey for lighter tan skin with slightly golden undertones",
+          "name": "Y373 - Amber Honey for lighter tan skin with slightly golden undertones 5",
           "hex": "#E7B391"
         },
         {
-          "name": "R220 - Pink Porcelain for light skin with very pink undertones",
+          "name": "R220 - Pink Porcelain for light skin with very pink undertones 6",
           "hex": "#D4A689"
         },
         {
-          "name": "Y435 - Caramel for darker tan skin with golden undertones",
+          "name": "Y435 - Caramel for darker tan skin with golden undertones 2",
           "hex": "#D69B81"
         },
         {
-          "name": "Y435 - Caramel for darker tan skin with golden undertones",
+          "name": "Y435 - Caramel for darker tan skin with golden undertones 3",
           "hex": "#D59682"
         },
         {
-          "name": "Y435 - Caramel for darker tan skin with golden undertones",
+          "name": "Y435 - Caramel for darker tan skin with golden undertones 4",
           "hex": "#C99980"
         },
         {
@@ -2092,19 +2092,19 @@
           "hex": "#C98567"
         },
         {
-          "name": "Y435 - Caramel for darker tan skin with golden undertones",
+          "name": "Y435 - Caramel for darker tan skin with golden undertones 5",
           "hex": "#C7977B"
         },
         {
-          "name": "Y375 - Golden Sand for lighter tan skin with golden-peach undertones",
+          "name": "Y375 - Golden Sand for lighter tan skin with golden-peach undertones 2",
           "hex": "#BE8470"
         },
         {
-          "name": "Y375 - Golden Sand for lighter tan skin with golden-peach undertones",
+          "name": "Y375 - Golden Sand for lighter tan skin with golden-peach undertones 3",
           "hex": "#C78569"
         },
         {
-          "name": "Y375 - Golden Sand for lighter tan skin with golden-peach undertones",
+          "name": "Y375 - Golden Sand for lighter tan skin with golden-peach undertones 4",
           "hex": "#B68069"
         },
         {
@@ -2128,7 +2128,7 @@
           "hex": "#784A42"
         },
         {
-          "name": "Y545 - Cacao for deep skin with neutral undertones",
+          "name": "Y545 - Cacao for deep skin with neutral undertones 2",
           "hex": "#895852"
         },
         {
@@ -2151,15 +2151,15 @@
           "hex": "#F3CFB3"
         },
         {
-          "name": "#FFE3C2",
+          "name": "Ivory",
           "hex": "#FFE3C2"
         },
         {
-          "name": "#FFE0CD",
+          "name": "Porcelain",
           "hex": "#FFE0CD"
         },
         {
-          "name": "Ivory (115)",
+          "name": "Ivory (115) 2",
           "hex": "#FFD3BE"
         },
         {
@@ -2171,7 +2171,7 @@
           "hex": "#EABDA6"
         },
         {
-          "name": "Ivory (115)",
+          "name": "Ivory (115) 3",
           "hex": "#FBD2AD"
         },
         {
@@ -2179,131 +2179,131 @@
           "hex": "#E2B597"
         },
         {
-          "name": "Nude Beige (125)",
+          "name": "Nude Beige (125) 2",
           "hex": "#E4B38E"
         },
         {
-          "name": "Natural Beige (220)",
+          "name": "Natural Beige (220) 2",
           "hex": "#B2856F"
         },
         {
-          "name": "Nude Beige (125)",
+          "name": "Nude Beige (125) 3",
           "hex": "#E8BA8C"
         },
         {
-          "name": "Nude Beige (125)",
+          "name": "Nude Beige (125) 4",
           "hex": "#F3B584"
         },
         {
-          "name": "Classic Ivory (120)",
+          "name": "Classic Ivory (120) 2",
           "hex": "#F0B996"
         },
         {
-          "name": "Nude Beige (125)",
+          "name": "Nude Beige (125) 5",
           "hex": "#E3B082"
         },
         {
-          "name": "Nude Beige (125)",
+          "name": "Nude Beige (125) 6",
           "hex": "#EAB181"
         },
         {
-          "name": "#9D7359",
+          "name": "Amber",
           "hex": "#9D7359"
         },
         {
-          "name": "Nude Beige (125)",
+          "name": "Nude Beige (125) 7",
           "hex": "#E2AA7B"
         },
         {
-          "name": "Natural Beige (220)",
+          "name": "Natural Beige (220) 3",
           "hex": "#D99358"
         },
         {
-          "name": "#9C744F",
+          "name": "Amber 2",
           "hex": "#9C744F"
         },
         {
-          "name": "Natural Beige (220)",
+          "name": "Natural Beige (220) 4",
           "hex": "#B18B65"
         },
         {
-          "name": "#84583F",
+          "name": "Cocoa",
           "hex": "#84583F"
         },
         {
-          "name": "#7D5631",
+          "name": "Cocoa 2",
           "hex": "#7D5631"
         },
         {
-          "name": "#C07746",
+          "name": "Caramel",
           "hex": "#C07746"
         },
         {
-          "name": "#643C27",
+          "name": "Espresso",
           "hex": "#643C27"
         },
         {
-          "name": "Ivory (115)",
+          "name": "Ivory (115) 4",
           "hex": "#EDCFB9"
         },
         {
-          "name": "Classic Ivory (120)",
+          "name": "Classic Ivory (120) 3",
           "hex": "#E1BBA7"
         },
         {
-          "name": "Natural Beige (220)",
+          "name": "Natural Beige (220) 5",
           "hex": "#C1A07E"
         },
         {
-          "name": "Natural Beige (220)",
+          "name": "Natural Beige (220) 6",
           "hex": "#D09E7C"
         },
         {
-          "name": "Natural Beige (220)",
+          "name": "Natural Beige (220) 7",
           "hex": "#C7967D"
         },
         {
-          "name": "Natural Beige (220)",
+          "name": "Natural Beige (220) 8",
           "hex": "#C09578"
         },
         {
-          "name": "#9D6F48",
+          "name": "Chestnut",
           "hex": "#9D6F48"
         },
         {
-          "name": "#A86D40",
+          "name": "Chestnut 2",
           "hex": "#A86D40"
         },
         {
-          "name": "#7F5C3B",
+          "name": "Cocoa 3",
           "hex": "#7F5C3B"
         },
         {
-          "name": "#735642",
+          "name": "Deep Bronze",
           "hex": "#735642"
         },
         {
-          "name": "#6B5041",
+          "name": "Deep Bronze 2",
           "hex": "#6B5041"
         },
         {
-          "name": "#7D5C4D",
+          "name": "Cocoa 4",
           "hex": "#7D5C4D"
         },
         {
-          "name": "#5C4433",
+          "name": "Deep Bronze 3",
           "hex": "#5C4433"
         },
         {
-          "name": "#5E3A23",
+          "name": "Espresso 2",
           "hex": "#5E3A23"
         },
         {
-          "name": "#5E4638",
+          "name": "Deep Bronze 4",
           "hex": "#5E4638"
         },
         {
-          "name": "#3F2018",
+          "name": "Ebony",
           "hex": "#3F2018"
         }
       ]
@@ -2330,7 +2330,7 @@
           "hex": "#F0BA81"
         },
         {
-          "name": "Nude Beige",
+          "name": "Nude Beige 2",
           "hex": "#EBBA8A"
         },
         {
@@ -2342,7 +2342,7 @@
           "hex": "#F9D0B0"
         },
         {
-          "name": "Porcelain",
+          "name": "Porcelain 2",
           "hex": "#FBD5BD"
         },
         {
@@ -2350,7 +2350,7 @@
           "hex": "#E7B9A2"
         },
         {
-          "name": "Nude Beige",
+          "name": "Nude Beige 3",
           "hex": "#DCB297"
         },
         {
@@ -2358,15 +2358,15 @@
           "hex": "#E6B898"
         },
         {
-          "name": "Ivory",
+          "name": "Ivory 2",
           "hex": "#EBBF93"
         },
         {
-          "name": "Nude Beige",
+          "name": "Nude Beige 4",
           "hex": "#EFB793"
         },
         {
-          "name": "Nude Beige",
+          "name": "Nude Beige 5",
           "hex": "#EBBA8A"
         },
         {
@@ -2385,55 +2385,55 @@
       "verified": false,
       "shades": [
         {
-          "name": "#FAD8A7",
+          "name": "Warm Ivory",
           "hex": "#FAD8A7"
         },
         {
-          "name": "#EFBF99",
+          "name": "Buff",
           "hex": "#EFBF99"
         },
         {
-          "name": "#F6D0A1",
+          "name": "Sand",
           "hex": "#F6D0A1"
         },
         {
-          "name": "#ECB98C",
+          "name": "Warm Beige",
           "hex": "#ECB98C"
         },
         {
-          "name": "#E7AB74",
+          "name": "Golden Beige",
           "hex": "#E7AB74"
         },
         {
-          "name": "#E6B685",
+          "name": "Warm Beige 2",
           "hex": "#E6B685"
         },
         {
-          "name": "#DD9E6D",
+          "name": "Honey",
           "hex": "#DD9E6D"
         },
         {
-          "name": "#E4AA7C",
+          "name": "Golden Beige 2",
           "hex": "#E4AA7C"
         },
         {
-          "name": "#DFA575",
+          "name": "Warm Sand",
           "hex": "#DFA575"
         },
         {
-          "name": "#DA9B5A",
+          "name": "Almond",
           "hex": "#DA9B5A"
         },
         {
-          "name": "#E4A36A",
+          "name": "Warm Sand 2",
           "hex": "#E4A36A"
         },
         {
-          "name": "#CA8A55",
+          "name": "Almond 2",
           "hex": "#CA8A55"
         },
         {
-          "name": "#CE8440",
+          "name": "Caramel",
           "hex": "#CE8440"
         }
       ]
@@ -2441,30 +2441,30 @@
     {
       "id": "nykaa-skingenius",
       "brand": "Nykaa",
-      "name": "SKINgenius",
-      "image": "/assets/products/placeholder.jpg",
-      "price_prefix": "₹—",
+      "name": "Nykaa SKINgenius BB Cream SPF30",
+      "image": "https://images-static.nykaa.com/media/catalog/product/tr:h-200,w-200,cm-pad_resize/0/3/03d00de8904245705411_1.jpg",
+      "price_prefix": "₹262",
       "dark_background": false,
-      "verified": false,
+      "verified": true,
       "shades": [
         {
-          "name": "#CB9070",
+          "name": "Honey",
           "hex": "#CB9070"
         },
         {
-          "name": "#DFAB86",
+          "name": "Golden Beige",
           "hex": "#DFAB86"
         },
         {
-          "name": "#D19676",
+          "name": "Honey 2",
           "hex": "#D19676"
         },
         {
-          "name": "#D4AC93",
+          "name": "Cool Beige",
           "hex": "#D4AC93"
         },
         {
-          "name": "#EBC7AF",
+          "name": "Sand",
           "hex": "#EBC7AF"
         }
       ]
@@ -2479,19 +2479,19 @@
       "verified": false,
       "shades": [
         {
-          "name": "#EB893E",
+          "name": "Almond",
           "hex": "#EB893E"
         },
         {
-          "name": "#EF9A5A",
+          "name": "Honey",
           "hex": "#EF9A5A"
         },
         {
-          "name": "#D0803B",
+          "name": "Caramel",
           "hex": "#D0803B"
         },
         {
-          "name": "#B76F47",
+          "name": "Caramel 2",
           "hex": "#B76F47"
         }
       ]
@@ -2506,39 +2506,39 @@
       "verified": false,
       "shades": [
         {
-          "name": "#FCDBA8",
+          "name": "Warm Ivory",
           "hex": "#FCDBA8"
         },
         {
-          "name": "#FBD099",
+          "name": "Sand",
           "hex": "#FBD099"
         },
         {
-          "name": "#F7BE87",
+          "name": "Warm Beige",
           "hex": "#F7BE87"
         },
         {
-          "name": "#F0A762",
+          "name": "Golden Beige",
           "hex": "#F0A762"
         },
         {
-          "name": "#E8A463",
+          "name": "Honey",
           "hex": "#E8A463"
         },
         {
-          "name": "#FDDCBB",
+          "name": "Warm Ivory 2",
           "hex": "#FDDCBB"
         },
         {
-          "name": "#F9C89F",
+          "name": "Sand 2",
           "hex": "#F9C89F"
         },
         {
-          "name": "#F3C095",
+          "name": "Buff",
           "hex": "#F3C095"
         },
         {
-          "name": "#C17663",
+          "name": "Warm Tan",
           "hex": "#C17663"
         }
       ]
@@ -2557,87 +2557,87 @@
           "hex": "#F9CAAC"
         },
         {
-          "name": "Warm Golden",
+          "name": "Warm Golden 2",
           "hex": "#F8C7A1"
         },
         {
-          "name": "Warm Golden",
+          "name": "Warm Golden 3",
           "hex": "#F1BC96"
         },
         {
-          "name": "Warm Golden",
+          "name": "Warm Golden 4",
           "hex": "#F1B496"
         },
         {
-          "name": "Warm Golden",
+          "name": "Warm Golden 5",
           "hex": "#E8B29C"
         },
         {
-          "name": "#E2AE8E",
+          "name": "Warm Beige",
           "hex": "#E2AE8E"
         },
         {
-          "name": "#DFA48C",
+          "name": "Golden Beige",
           "hex": "#DFA48C"
         },
         {
-          "name": "#E4A87F",
+          "name": "Golden Beige 2",
           "hex": "#E4A87F"
         },
         {
-          "name": "#E1A681",
+          "name": "Golden Beige 3",
           "hex": "#E1A681"
         },
         {
-          "name": "#D5A187",
+          "name": "Warm Sand",
           "hex": "#D5A187"
         },
         {
-          "name": "#DBA787",
+          "name": "Golden Beige 4",
           "hex": "#DBA787"
         },
         {
-          "name": "#D79F86",
+          "name": "Warm Sand 2",
           "hex": "#D79F86"
         },
         {
-          "name": "#D5A187",
+          "name": "Warm Sand 3",
           "hex": "#D5A187"
         },
         {
-          "name": "#DE9A77",
+          "name": "Honey",
           "hex": "#DE9A77"
         },
         {
-          "name": "#CB8F6E",
+          "name": "Honey 2",
           "hex": "#CB8F6E"
         },
         {
-          "name": "#C98667",
+          "name": "Almond",
           "hex": "#C98667"
         },
         {
-          "name": "#C68F71",
+          "name": "Honey 3",
           "hex": "#C68F71"
         },
         {
-          "name": "#BA8568",
+          "name": "Golden Tan",
           "hex": "#BA8568"
         },
         {
-          "name": "#A7745E",
+          "name": "Amber",
           "hex": "#A7745E"
         },
         {
-          "name": "#8E6558",
+          "name": "Chestnut",
           "hex": "#8E6558"
         },
         {
-          "name": "Warm Golden",
+          "name": "Warm Golden 6",
           "hex": "#EEC498"
         },
         {
-          "name": "Warm Golden",
+          "name": "Warm Golden 7",
           "hex": "#EEC29E"
         }
       ]
@@ -2660,11 +2660,11 @@
           "hex": "#E8B193"
         },
         {
-          "name": "410 - Sunstone rose tone for tan skin. rose undertone.",
+          "name": "410 - Sunstone rose tone for tan skin. rose undertone. 2",
           "hex": "#EBB68C"
         },
         {
-          "name": "410 - Sunstone rose tone for tan skin. rose undertone.",
+          "name": "410 - Sunstone rose tone for tan skin. rose undertone. 3",
           "hex": "#E9B085"
         },
         {
@@ -2687,47 +2687,47 @@
       "verified": false,
       "shades": [
         {
-          "name": "#E9A986",
+          "name": "Golden Beige",
           "hex": "#E9A986"
         },
         {
-          "name": "#FAC6A1",
+          "name": "Sand",
           "hex": "#FAC6A1"
         },
         {
-          "name": "#C99E76",
+          "name": "Honey",
           "hex": "#C99E76"
         },
         {
-          "name": "#E0AA7C",
+          "name": "Golden Beige 2",
           "hex": "#E0AA7C"
         },
         {
-          "name": "#EBC095",
+          "name": "Buff",
           "hex": "#EBC095"
         },
         {
-          "name": "#F9DABD",
+          "name": "Ivory",
           "hex": "#F9DABD"
         },
         {
-          "name": "#AF8749",
+          "name": "Caramel",
           "hex": "#AF8749"
         },
         {
-          "name": "#C89A5E",
+          "name": "Almond",
           "hex": "#C89A5E"
         },
         {
-          "name": "#DBAB6D",
+          "name": "Warm Sand",
           "hex": "#DBAB6D"
         },
         {
-          "name": "#E5BF81",
+          "name": "Warm Beige",
           "hex": "#E5BF81"
         },
         {
-          "name": "#F4D6A4",
+          "name": "Sand 2",
           "hex": "#F4D6A4"
         }
       ]
@@ -2742,27 +2742,27 @@
       "verified": false,
       "shades": [
         {
-          "name": "#E2AC7C",
+          "name": "Golden Beige",
           "hex": "#E2AC7C"
         },
         {
-          "name": "#B17E4F",
+          "name": "Caramel",
           "hex": "#B17E4F"
         },
         {
-          "name": "#8C5B3D",
+          "name": "Cocoa",
           "hex": "#8C5B3D"
         },
         {
-          "name": "#B0704D",
+          "name": "Amber",
           "hex": "#B0704D"
         },
         {
-          "name": "#D89757",
+          "name": "Almond",
           "hex": "#D89757"
         },
         {
-          "name": "#C48B58",
+          "name": "Almond 2",
           "hex": "#C48B58"
         }
       ]
@@ -2777,31 +2777,31 @@
       "verified": false,
       "shades": [
         {
-          "name": "#FCD1A7",
+          "name": "Sand",
           "hex": "#FCD1A7"
         },
         {
-          "name": "#E2AC7C",
+          "name": "Golden Beige",
           "hex": "#E2AC7C"
         },
         {
-          "name": "#B17E51",
+          "name": "Caramel",
           "hex": "#B17E51"
         },
         {
-          "name": "#9D6D49",
+          "name": "Chestnut",
           "hex": "#9D6D49"
         },
         {
-          "name": "#B0704D",
+          "name": "Amber",
           "hex": "#B0704D"
         },
         {
-          "name": "#8C5B3D",
+          "name": "Cocoa",
           "hex": "#8C5B3D"
         },
         {
-          "name": "#795340",
+          "name": "Cocoa 2",
           "hex": "#795340"
         }
       ]
@@ -2824,7 +2824,7 @@
           "hex": "#F0CBA1"
         },
         {
-          "name": "Golden Nude",
+          "name": "Golden Nude 2",
           "hex": "#EBC99C"
         },
         {
@@ -2836,11 +2836,11 @@
           "hex": "#DCB79A"
         },
         {
-          "name": "Golden Nude",
+          "name": "Golden Nude 3",
           "hex": "#EAC8A3"
         },
         {
-          "name": "Golden Nude",
+          "name": "Golden Nude 4",
           "hex": "#E9C89E"
         },
         {
@@ -2848,15 +2848,15 @@
           "hex": "#D4AD8A"
         },
         {
-          "name": "Oak",
+          "name": "Oak 2",
           "hex": "#CFA786"
         },
         {
-          "name": "Linen",
+          "name": "Linen 2",
           "hex": "#D8B08C"
         },
         {
-          "name": "Oak",
+          "name": "Oak 3",
           "hex": "#D4A97F"
         },
         {
@@ -2864,19 +2864,19 @@
           "hex": "#DEB58B"
         },
         {
-          "name": "Oak",
+          "name": "Oak 4",
           "hex": "#DBAE85"
         },
         {
-          "name": "Oak",
+          "name": "Oak 5",
           "hex": "#D5A275"
         },
         {
-          "name": "Oak",
+          "name": "Oak 6",
           "hex": "#D1A67E"
         },
         {
-          "name": "Oak",
+          "name": "Oak 7",
           "hex": "#E0AB81"
         },
         {
@@ -2900,7 +2900,7 @@
           "hex": "#AB7945"
         },
         {
-          "name": "Chai",
+          "name": "Chai 2",
           "hex": "#AB7944"
         },
         {
@@ -2908,7 +2908,7 @@
           "hex": "#AD7D59"
         },
         {
-          "name": "Chai",
+          "name": "Chai 3",
           "hex": "#A16C38"
         },
         {
@@ -2916,11 +2916,11 @@
           "hex": "#976236"
         },
         {
-          "name": "Truffle",
+          "name": "Truffle 2",
           "hex": "#8A5833"
         },
         {
-          "name": "Truffle",
+          "name": "Truffle 3",
           "hex": "#8D5C31"
         },
         {
@@ -2928,7 +2928,7 @@
           "hex": "#775436"
         },
         {
-          "name": "Cocoa",
+          "name": "Cocoa 2",
           "hex": "#6E4B2F"
         }
       ]

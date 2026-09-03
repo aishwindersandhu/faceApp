@@ -1,0 +1,1618 @@
+{
+  "key": "blush",
+  "label": "Blush",
+  "icon": "🌸",
+  "skip_color_matching": false,
+  "products": [
+    {
+      "id": "rejuva-minerals-multi-purpose-powder-blush-eye",
+      "brand": "Rejuva Minerals",
+      "name": "Multi Purpose Powder - Blush & Eye",
+      "image": "https://www.purpicks.com/wp-content/uploads/2018/06/Rejuva-Minerals-Multi-Purpose-Powder-Blush-_-Eye-1.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Pink Parfait",
+          "hex": "#E1BFC0"
+        },
+        {
+          "name": "Papaya",
+          "hex": "#D7A7A3"
+        },
+        {
+          "name": "Acai Berry",
+          "hex": "#E6C3CB"
+        }
+      ]
+    },
+    {
+      "id": "marienatie-mineral-blush",
+      "brand": "Marienatie",
+      "name": "Mineral Blush",
+      "image": "https://www.purpicks.com/wp-content/uploads/csm/Blush_copy_1024x1024_edd99d6d-301e-4ba1-aa74-a33d21147b7c1.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Blushing Apple",
+          "hex": "#C97D66"
+        },
+        {
+          "name": "Desert Rose",
+          "hex": "#DF9A84"
+        }
+      ]
+    },
+    {
+      "id": "lotus-cosmetics-usa-creme-to-powder-blush",
+      "brand": "Lotus Cosmetics USA",
+      "name": "Creme to Powder Blush",
+      "image": "https://www.purpicks.com/wp-content/uploads/2018/03/lotus-cosmetics-usa-creme-to-powder-blush.png",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Plum",
+          "hex": "#C7766F"
+        },
+        {
+          "name": "Apricot",
+          "hex": "#DF925C"
+        },
+        {
+          "name": "Rose",
+          "hex": "#E89B7C"
+        }
+      ]
+    },
+    {
+      "id": "glossier-cloud-paint",
+      "brand": "Glossier",
+      "name": "Cloud Paint",
+      "image": "https://static-assets.glossier.com/production/spree/images/attachments/000/001/241/portrait_normal/CP_PDP_02.jpg?1488382023",
+      "price_prefix": "₹1,826",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Dusk",
+          "hex": "#C78B7C"
+        },
+        {
+          "name": "Puff",
+          "hex": "#F3D1E0"
+        },
+        {
+          "name": "Beam",
+          "hex": "#F1BB9E"
+        },
+        {
+          "name": "Haze",
+          "hex": "#B65F79"
+        }
+      ]
+    },
+    {
+      "id": "nyx-high-definition-blush-pro-refills",
+      "brand": "NYX",
+      "name": "High Definition Blush Pro Refills",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw587b93a7/ProductImages/Face/High_Definition_Pro_Blush_Refills/highdefinitionproblushrefills_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹498",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Pastel Chic",
+          "hex": "#FACFD0"
+        },
+        {
+          "name": "Soft Spoken",
+          "hex": "#F4A38D"
+        },
+        {
+          "name": "Baby Doll",
+          "hex": "#F38D9B"
+        },
+        {
+          "name": "Hamptons",
+          "hex": "#F5948E"
+        },
+        {
+          "name": "Intuition",
+          "hex": "#E58581"
+        },
+        {
+          "name": "Electro",
+          "hex": "#F34395"
+        },
+        {
+          "name": "Amber",
+          "hex": "#F58F83"
+        },
+        {
+          "name": "Bronzed",
+          "hex": "#D6826B"
+        },
+        {
+          "name": "Mauve N' Out",
+          "hex": "#E68B84"
+        },
+        {
+          "name": "Deep Plum",
+          "hex": "#CB7A79"
+        },
+        {
+          "name": "Bitten",
+          "hex": "#DC7675"
+        },
+        {
+          "name": "Crimson",
+          "hex": "#EA3034"
+        },
+        {
+          "name": "Tuscan",
+          "hex": "#E34A57"
+        },
+        {
+          "name": "Summer",
+          "hex": "#EB6C63"
+        },
+        {
+          "name": "Double Dare",
+          "hex": "#FA694B"
+        },
+        {
+          "name": "Coraline",
+          "hex": "#F49178"
+        },
+        {
+          "name": "Pink The Town",
+          "hex": "#F99282"
+        },
+        {
+          "name": "Rose Gold",
+          "hex": "#E28F81"
+        },
+        {
+          "name": "Down To Earth",
+          "hex": "#F49877"
+        },
+        {
+          "name": "Bright Lights",
+          "hex": "#F08F75"
+        },
+        {
+          "name": "Nude'Tude",
+          "hex": "#D5967B"
+        },
+        {
+          "name": "Glow",
+          "hex": "#CC8774"
+        },
+        {
+          "name": "Beach Babe",
+          "hex": "#CB896E"
+        },
+        {
+          "name": "Taupe",
+          "hex": "#BC9178"
+        }
+      ]
+    },
+    {
+      "id": "nyx-rouge-cream-blush",
+      "brand": "NYX",
+      "name": "Rouge Cream Blush",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw91979480/ProductImages/Face/Rouge_Cream_Blush/rougecreamblush_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹498",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Boho Chic",
+          "hex": "#E4878F"
+        },
+        {
+          "name": "Natural",
+          "hex": "#F08E8B"
+        },
+        {
+          "name": "Rose Petal",
+          "hex": "#D27772"
+        },
+        {
+          "name": "Glow",
+          "hex": "#D36A6F"
+        },
+        {
+          "name": "Hot Pink",
+          "hex": "#FF3986"
+        },
+        {
+          "name": "Red Cheeks",
+          "hex": "#FF1850"
+        },
+        {
+          "name": "Orange",
+          "hex": "#EB6B50"
+        },
+        {
+          "name": "Tickled",
+          "hex": "#EC6E71"
+        },
+        {
+          "name": "Tea Rose",
+          "hex": "#CA7769"
+        }
+      ]
+    },
+    {
+      "id": "nyx-baked-blush",
+      "brand": "NYX",
+      "name": "Baked Blush",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwfdfb0cd6/ProductImages/Face/Baked_Blush/800897824181_bakedblush_fullonfemme_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹581",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Full-On Femme",
+          "hex": "#F9D1D1"
+        },
+        {
+          "name": "Ladylike",
+          "hex": "#FAD1CD"
+        },
+        {
+          "name": "Journey",
+          "hex": "#F4D5D2"
+        },
+        {
+          "name": "Spanish Rose",
+          "hex": "#FAD1CF"
+        },
+        {
+          "name": "Foreplay",
+          "hex": "#F4C6B9"
+        },
+        {
+          "name": "Pink Fetish",
+          "hex": "#F2BDC7"
+        },
+        {
+          "name": "Statement Red",
+          "hex": "#F8B7BD"
+        },
+        {
+          "name": "Chiffon",
+          "hex": "#E2C2B7"
+        },
+        {
+          "name": "Wanderlust",
+          "hex": "#F0CBC3"
+        },
+        {
+          "name": "Sugar Mama",
+          "hex": "#F9D9C4"
+        },
+        {
+          "name": "Solstice",
+          "hex": "#E8C7B6"
+        },
+        {
+          "name": "Ignite",
+          "hex": "#E5C0A6"
+        }
+      ]
+    },
+    {
+      "id": "nyx-high-definition-blush",
+      "brand": "NYX",
+      "name": "High Definition Blush",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw565af449/ProductImages/Face/High_Definition_Blush/highdefinitionblush_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹540",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Pastel Chic",
+          "hex": "#FACFD0"
+        },
+        {
+          "name": "Soft Spoken",
+          "hex": "#F4A38D"
+        },
+        {
+          "name": "Baby Doll",
+          "hex": "#F38D9B"
+        },
+        {
+          "name": "Hamptons",
+          "hex": "#F5948E"
+        },
+        {
+          "name": "Intuition",
+          "hex": "#E58581"
+        },
+        {
+          "name": "Electro",
+          "hex": "#F34395"
+        },
+        {
+          "name": "Amber",
+          "hex": "#F58F83"
+        },
+        {
+          "name": "Bronzed",
+          "hex": "#D6826B"
+        },
+        {
+          "name": "Mauve N' Out",
+          "hex": "#E68B84"
+        },
+        {
+          "name": "Deep Plum",
+          "hex": "#CB7A79"
+        },
+        {
+          "name": "Bitten",
+          "hex": "#DC7675"
+        },
+        {
+          "name": "Crimson",
+          "hex": "#EA3034"
+        },
+        {
+          "name": "Tuscan",
+          "hex": "#E34A57"
+        },
+        {
+          "name": "Summer",
+          "hex": "#EB6C63"
+        },
+        {
+          "name": "Double Dare",
+          "hex": "#FA694B"
+        },
+        {
+          "name": "Coraline",
+          "hex": "#F49178"
+        },
+        {
+          "name": "Pink The Town",
+          "hex": "#F99282"
+        },
+        {
+          "name": "Rose Gold",
+          "hex": "#E28F81"
+        },
+        {
+          "name": "Down To Earth",
+          "hex": "#F49877"
+        },
+        {
+          "name": "Bright Lights",
+          "hex": "#F08F75"
+        },
+        {
+          "name": "Nude'Tude",
+          "hex": "#D5967B"
+        },
+        {
+          "name": "Glow",
+          "hex": "#CC8774"
+        },
+        {
+          "name": "Beach Babe",
+          "hex": "#CB896E"
+        },
+        {
+          "name": "Taupe",
+          "hex": "#BC9178"
+        }
+      ]
+    },
+    {
+      "id": "nyx-ombre-blush",
+      "brand": "NYX",
+      "name": "Ombre Blush",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw87fb4a6b/ProductImages/2016/Face/Ombre_Blush/ombreblush_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹830",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Sweet Spring",
+          "hex": "#FA7586"
+        },
+        {
+          "name": "Insta Flame",
+          "hex": "#F15B67"
+        },
+        {
+          "name": "Code breaker",
+          "hex": "#EC6BBD"
+        },
+        {
+          "name": "Mauve Me",
+          "hex": "#C5867F"
+        },
+        {
+          "name": "Feel The Heat",
+          "hex": "#F26746"
+        },
+        {
+          "name": "Soft Flush",
+          "hex": "#F56958"
+        },
+        {
+          "name": "Strictly Chic",
+          "hex": "#E18866"
+        },
+        {
+          "name": "Nude To Me",
+          "hex": "#C0764F"
+        }
+      ]
+    },
+    {
+      "id": "nyx-stick-blush",
+      "brand": "NYX",
+      "name": "Stick Blush",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwb08ab0fe/ProductImages/Face/Stick_Blush/stickblush_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹498",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Magnolia",
+          "hex": "#CF0E61"
+        },
+        {
+          "name": "Pink Lotus",
+          "hex": "#DE056E"
+        },
+        {
+          "name": "Tulip",
+          "hex": "#DA1D71"
+        },
+        {
+          "name": "Pink Poppy",
+          "hex": "#D81758"
+        },
+        {
+          "name": "Tea Rose",
+          "hex": "#8B161E"
+        },
+        {
+          "name": "Orchid",
+          "hex": "#B70543"
+        },
+        {
+          "name": "Hibiscus",
+          "hex": "#7A1E13"
+        },
+        {
+          "name": "Water Lily",
+          "hex": "#7C2617"
+        }
+      ]
+    },
+    {
+      "id": "nyx-whipped-lip-cheek-souffle",
+      "brand": "NYX",
+      "name": "Whipped Lip & Cheek Soufflé",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwcffa1f2c/ProductImages/Lips/Whipped_Lip_And_Cheek_Souffle/whippedlipandcheeksouffle_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹498",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Pink Cloud",
+          "hex": "#FF8D97"
+        },
+        {
+          "name": "Plush",
+          "hex": "#FE979B"
+        },
+        {
+          "name": "Pink Lace",
+          "hex": "#FD4899"
+        },
+        {
+          "name": "Dark Cloud",
+          "hex": "#B8135F"
+        },
+        {
+          "name": "Berry Tea",
+          "hex": "#E56270"
+        },
+        {
+          "name": "Molten Love",
+          "hex": "#EC131E"
+        },
+        {
+          "name": "Coral-Sicle",
+          "hex": "#FF9474"
+        },
+        {
+          "name": "Cocoa Bean",
+          "hex": "#E18F77"
+        }
+      ]
+    },
+    {
+      "id": "clinique-blushing-blushtm-powder-blush",
+      "brand": "Clinique",
+      "name": "Blushing Blush™ Powder Blush",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_6FLK_181x209.png",
+      "price_prefix": "₹1,909",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Cupid",
+          "hex": "#F18F94"
+        },
+        {
+          "name": "Aglow",
+          "hex": "#C0705D"
+        },
+        {
+          "name": "Sunset Glow",
+          "hex": "#E98C86"
+        },
+        {
+          "name": "Smoldering Plum",
+          "hex": "#DA8B92"
+        },
+        {
+          "name": "Iced Lotus",
+          "hex": "#F397A4"
+        },
+        {
+          "name": "Precious Posy",
+          "hex": "#F59494"
+        },
+        {
+          "name": "Berry Delight",
+          "hex": "#D78281"
+        },
+        {
+          "name": "Spiced Wine",
+          "hex": "#B05762"
+        }
+      ]
+    },
+    {
+      "id": "clinique-cheek-poptm",
+      "brand": "Clinique",
+      "name": "Cheek Pop™",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_7THL_181x209.png",
+      "price_prefix": "₹1,909",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Peach Pop",
+          "hex": "#CF5D5D"
+        },
+        {
+          "name": "Black Honey Pop",
+          "hex": "#AA514A"
+        },
+        {
+          "name": "Pink Honey",
+          "hex": "#E79DA4"
+        },
+        {
+          "name": "Plum Pop",
+          "hex": "#CD698D"
+        },
+        {
+          "name": "Nude Pop",
+          "hex": "#DB8669"
+        },
+        {
+          "name": "Pink Pop",
+          "hex": "#DE7A7B"
+        },
+        {
+          "name": "Rosy Pop",
+          "hex": "#C75C69"
+        },
+        {
+          "name": "Heather Pop",
+          "hex": "#AB6266"
+        },
+        {
+          "name": "Melon Pop",
+          "hex": "#F29686"
+        },
+        {
+          "name": "Fig Pop",
+          "hex": "#B55241"
+        },
+        {
+          "name": "Berry Pop",
+          "hex": "#B54D70"
+        },
+        {
+          "name": "Pansy Pop",
+          "hex": "#A06B89"
+        },
+        {
+          "name": "Ginger Pop",
+          "hex": "#AD5753"
+        },
+        {
+          "name": "Cola Pop",
+          "hex": "#641009"
+        }
+      ]
+    },
+    {
+      "id": "clinique-clinique-jonathan-adler-cheek-pop",
+      "brand": "Clinique",
+      "name": "Clinique + Jonathan Adler: Cheek Pop",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_K22102_181x209.png",
+      "price_prefix": "₹1,569",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Clinique + Jonathan Adler: Cheek Pop in Peach Pop",
+          "hex": "#CF5E5E"
+        },
+        {
+          "name": "Clinique + Jonathan Adler: Cheek Pop in Plum Pop",
+          "hex": "#CD698D"
+        }
+      ]
+    },
+    {
+      "id": "clinique-soft-pressed-powder-blusher",
+      "brand": "Clinique",
+      "name": "Soft-Pressed Powder Blusher",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_618J_181x209.png",
+      "price_prefix": "₹1,909",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Honey Blush",
+          "hex": "#CC897D"
+        },
+        {
+          "name": "Pink Blush",
+          "hex": "#CA8C8C"
+        },
+        {
+          "name": "New Clover",
+          "hex": "#B97B81"
+        },
+        {
+          "name": "Chestnut Blush",
+          "hex": "#BB8376"
+        },
+        {
+          "name": "Mocha Pink",
+          "hex": "#B6847A"
+        },
+        {
+          "name": "Plum Gorgeous",
+          "hex": "#AC7F79"
+        },
+        {
+          "name": "Fig",
+          "hex": "#B1706A"
+        },
+        {
+          "name": "Totally Tawny",
+          "hex": "#B08176"
+        }
+      ]
+    },
+    {
+      "id": "clinique-chubby-sticktm-cheek-colour-balm",
+      "brand": "Clinique",
+      "name": "Chubby Stick™ Cheek Colour Balm",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_Z47M_181x209.png",
+      "price_prefix": "₹1,909",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Robust Rhubarb",
+          "hex": "#F87467"
+        },
+        {
+          "name": "Amp'd Up Apple",
+          "hex": "#CF5D5D"
+        },
+        {
+          "name": "Roly Poly Rosy",
+          "hex": "#D55F5F"
+        },
+        {
+          "name": "Plumped Up Peony",
+          "hex": "#B46368"
+        }
+      ]
+    },
+    {
+      "id": "clinique-clinique-poptm-oil-lip-cheek-glow",
+      "brand": "Clinique",
+      "name": "Clinique Pop™ Oil Lip & Cheek Glow",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZKJM01_181x209.png",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Cocoa",
+          "hex": "#BC2F28"
+        }
+      ]
+    },
+    {
+      "id": "clinique-cliniquefittm-lip-cheek-flush",
+      "brand": "Clinique",
+      "name": "CliniqueFIT™  Lip + Cheek Flush",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_K5GX01_181x209.png",
+      "price_prefix": "₹1,909",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Pink in Motion",
+          "hex": "#C82062"
+        }
+      ]
+    },
+    {
+      "id": "dior-diorskin-rosy-glow",
+      "brand": "Dior",
+      "name": "Diorskin Rosy Glow",
+      "image": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0715100.jpg",
+      "price_prefix": "₹2,656",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "001 Petal",
+          "hex": "#F1C0D7"
+        }
+      ]
+    },
+    {
+      "id": "dior-diorblush-precious-rocks-christmas-2017-limited-edition",
+      "brand": "Dior",
+      "name": "DIORBLUSH PRECIOUS ROCKS - Christmas 2017 Limited Edition",
+      "image": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0715928_F071592864.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "864 Precious Rocks",
+          "hex": "#EF8687"
+        }
+      ]
+    },
+    {
+      "id": "dior-diorblush-sculpt",
+      "brand": "Dior",
+      "name": "Diorblush Sculpt",
+      "image": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0716250.jpg",
+      "price_prefix": "₹2,698",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "001 Pink Shape",
+          "hex": "#DA9A8E"
+        },
+        {
+          "name": "002 Coral Shape",
+          "hex": "#D6A086"
+        },
+        {
+          "name": "003 Beige Contour",
+          "hex": "#D3A895"
+        },
+        {
+          "name": "004 Brown Contour",
+          "hex": "#C69E8A"
+        }
+      ]
+    },
+    {
+      "id": "dior-diorblush",
+      "brand": "Dior",
+      "name": "Diorblush",
+      "image": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0715255.jpg",
+      "price_prefix": "₹2,698",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "556 Amber Show",
+          "hex": "#EA8166"
+        },
+        {
+          "name": "553 Cocktail Peach",
+          "hex": "#E17D70"
+        },
+        {
+          "name": "566 Brown Milly",
+          "hex": "#AB6F70"
+        },
+        {
+          "name": "586 Orange Riviera",
+          "hex": "#EF7A5B"
+        },
+        {
+          "name": "676 Coral Cruise",
+          "hex": "#ED7167"
+        },
+        {
+          "name": "746 Beige Nude",
+          "hex": "#E6A397"
+        },
+        {
+          "name": "756 Rose Chérie",
+          "hex": "#EB8881"
+        },
+        {
+          "name": "829 Miss Pink",
+          "hex": "#F09BA1"
+        },
+        {
+          "name": "849 Mimi Bronze",
+          "hex": "#C17E6A"
+        },
+        {
+          "name": "861 Rose Darling",
+          "hex": "#EB81A5"
+        },
+        {
+          "name": "876 Happy Cherry",
+          "hex": "#EF7B88"
+        },
+        {
+          "name": "889 New Red",
+          "hex": "#EB5E6D"
+        },
+        {
+          "name": "896 Redissimo",
+          "hex": "#EB5C54"
+        },
+        {
+          "name": "939 Rose Libertine",
+          "hex": "#D88D8C"
+        }
+      ]
+    },
+    {
+      "id": "dior-cheek-lip-glow",
+      "brand": "Dior",
+      "name": "Cheek & Lip Glow",
+      "image": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0880550_112016.jpg",
+      "price_prefix": "₹2,282",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "001",
+          "hex": "#E1000F"
+        }
+      ]
+    },
+    {
+      "id": "iman-luxury-blushing-powder-posh",
+      "brand": "Iman",
+      "name": "Luxury Blushing Powder Posh",
+      "image": "http://imancosmetics.com/resources/uploads/product_colors/786cee296437aad03a74bba37a11f2a2.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Posh",
+          "hex": "#D55C67"
+        },
+        {
+          "name": "Peace",
+          "hex": "#AD444A"
+        },
+        {
+          "name": "Allure",
+          "hex": "#E38069"
+        },
+        {
+          "name": "Sunlit Copper",
+          "hex": "#B06037"
+        },
+        {
+          "name": "Sable",
+          "hex": "#6E3B18"
+        }
+      ]
+    },
+    {
+      "id": "smashbox-l-a-lights-cheek-lip-color",
+      "brand": "Smashbox",
+      "name": "L.A. Lights Cheek & Lip Color",
+      "image": "https://www.smashbox.com/media/images/products/388x396/sbx_sku_61630_388x396_0.jpg",
+      "price_prefix": "₹2,407",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "HOLLYWOOD & HIGHLIGHT",
+          "hex": "#F7E2D4"
+        },
+        {
+          "name": "BEVERLY HILLS BLUSH",
+          "hex": "#E59395"
+        },
+        {
+          "name": "MULHOLLAND MAUVE",
+          "hex": "#D6887F"
+        },
+        {
+          "name": "SILVER LAKE SUNSET",
+          "hex": "#D37A6A"
+        },
+        {
+          "name": "LAUREL CANYON CORAL",
+          "hex": "#FA7971"
+        },
+        {
+          "name": "ECHO PARK PINK",
+          "hex": "#FF5D66"
+        },
+        {
+          "name": "FAIRFAX FUCHSIA",
+          "hex": "#F33FA8"
+        },
+        {
+          "name": "SUNSET & WINE",
+          "hex": "#942B38"
+        }
+      ]
+    },
+    {
+      "id": "cargo-cosmetics-cargo-cosmetics-hd-picture-perfect-blush-highlighter",
+      "brand": "Cargo Cosmetics",
+      "name": "Cargo Cosmetics HD Picture Perfect Blush Highlighter",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/c976f8b3aabe8368fdc673e556159a13_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹2,656",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Peach",
+          "hex": "#FFAE83"
+        },
+        {
+          "name": "Pink",
+          "hex": "#E8A78B"
+        }
+      ]
+    },
+    {
+      "id": "annabelle-annabelle-blush",
+      "brand": "Annabelle",
+      "name": "Annabelle Blush",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/0af800d01a052da93b9145fb59f849ba_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "₹663",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Hibicus",
+          "hex": "#C97E79"
+        },
+        {
+          "name": "Lotus",
+          "hex": "#D999AA"
+        },
+        {
+          "name": "Peony",
+          "hex": "#D68D98"
+        },
+        {
+          "name": "Rosebud",
+          "hex": "#DB92A6"
+        },
+        {
+          "name": "Spring",
+          "hex": "#C9888C"
+        }
+      ]
+    },
+    {
+      "id": "nyx-nyx-high-definition-blush",
+      "brand": "NYX",
+      "name": "NYX High Definition Blush",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/e4842a84c9c0522ba29f1a856d841b1c_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "₹663",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Amber",
+          "hex": "#D27267"
+        },
+        {
+          "name": "Beach Babe",
+          "hex": "#C58A68"
+        },
+        {
+          "name": "Crimson",
+          "hex": "#F0404E"
+        },
+        {
+          "name": "Double Dare",
+          "hex": "#F66341"
+        },
+        {
+          "name": "Electro",
+          "hex": "#E54775"
+        },
+        {
+          "name": "Hamptons",
+          "hex": "#F27A82"
+        },
+        {
+          "name": "Intuition",
+          "hex": "#D3766C"
+        },
+        {
+          "name": "Soft Spoken",
+          "hex": "#F6A083"
+        },
+        {
+          "name": "Summer",
+          "hex": "#FE836C"
+        },
+        {
+          "name": "Taupe",
+          "hex": "#A57762"
+        }
+      ]
+    },
+    {
+      "id": "cargo-cosmetics-cargo-cosmetics-swimmables-water-resistant-blush",
+      "brand": "Cargo Cosmetics",
+      "name": "Cargo Cosmetics Swimmables Water Resistant Blush",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/0909a58a190eceee8bd042d9fc80b047_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "₹2,407",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Bali (Medium Rose Pink)",
+          "hex": "#EB9A96"
+        },
+        {
+          "name": "Ibiza (Shimmering Hot Pink)",
+          "hex": "#F390AC"
+        }
+      ]
+    },
+    {
+      "id": "mineral-fusion-mineral-fusion-blush",
+      "brand": "Mineral Fusion",
+      "name": "Mineral Fusion Blush",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/f1c6dea6717aeaa8796a5f62992d8979_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹2,656",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Airy - Shimmering Mauve",
+          "hex": "#BC7070"
+        },
+        {
+          "name": "Creation - Matte Rosy-pink",
+          "hex": "#C88481"
+        },
+        {
+          "name": "Flashy - Matte Coral",
+          "hex": "#E4958E"
+        }
+      ]
+    },
+    {
+      "id": "e-l-f-e-l-f-studio-blush-palette-dark",
+      "brand": "e.l.f.",
+      "name": "e.l.f. Studio Blush Palette Dark",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/73da123512d4ca1f2aebf5149e065d86_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "₹829",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "color 1",
+          "hex": "#DE7E73"
+        },
+        {
+          "name": "color 2",
+          "hex": "#D67088"
+        },
+        {
+          "name": "color 3",
+          "hex": "#BB5C5C"
+        },
+        {
+          "name": "color 4",
+          "hex": "#99504D"
+        }
+      ]
+    },
+    {
+      "id": "revlon-revlon-powder-blush",
+      "brand": "Revlon",
+      "name": "Revlon Powder Blush",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/dd6ee943412a416ecfe9e4a1b2bed107_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "₹1,120",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Bronzilla",
+          "hex": "#9D6542"
+        },
+        {
+          "name": "Classy Coral",
+          "hex": "#F58F83"
+        },
+        {
+          "name": "Haute Pink",
+          "hex": "#F27186"
+        },
+        {
+          "name": "Mauvelous",
+          "hex": "#D47476"
+        },
+        {
+          "name": "Naughty Nude",
+          "hex": "#C98077"
+        },
+        {
+          "name": "Oh Baby Pink",
+          "hex": "#F5989D"
+        },
+        {
+          "name": "Wine Not",
+          "hex": "#AD5063"
+        }
+      ]
+    },
+    {
+      "id": "almay-almay-smart-shade-powder-blush",
+      "brand": "Almay",
+      "name": "Almay Smart Shade Powder Blush",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/f939707421649b0ceab58c0534ec44de_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹1,203",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Coral",
+          "hex": "#FB9485"
+        },
+        {
+          "name": "Nude",
+          "hex": "#E6AC96"
+        },
+        {
+          "name": "Pink",
+          "hex": "#E99DAA"
+        }
+      ]
+    },
+    {
+      "id": "l-oreal-l-oreal-paris-true-match",
+      "brand": "L'Oréal",
+      "name": "L'Oreal Paris True Match",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/e4e4827631b874f898d41a90ab3de5a6_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹1,369",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Tender Rose",
+          "hex": "#E9B899"
+        }
+      ]
+    },
+    {
+      "id": "pure-anada-pure-anada-loose-mineral-luminous-blush",
+      "brand": "Pure Anada",
+      "name": "Pure Anada Loose Mineral Luminous Blush",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/187a238fb2afe03f3f7d0133305d845a_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "₹996",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Autum (Neutral)",
+          "hex": "#B5665F"
+        },
+        {
+          "name": "Hibiscus (Cool)",
+          "hex": "#8B2D46"
+        },
+        {
+          "name": "Mango Ice (Warm)",
+          "hex": "#F69476"
+        }
+      ]
+    },
+    {
+      "id": "physicians-formula-physicians-formula-mineral-wear-airbrushing-blush",
+      "brand": "Physicians Formula",
+      "name": "Physicians Formula Mineral Wear Airbrushing Blush",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/e096eb4264561b76a90a9a2bfb6cfca2_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹1,286",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Natural (7859C)",
+          "hex": "#E19792"
+        },
+        {
+          "name": "Rose (7860C)",
+          "hex": "#FAAAB5"
+        }
+      ]
+    },
+    {
+      "id": "e-l-f-e-l-f-studio-blush-palette-light",
+      "brand": "e.l.f.",
+      "name": "e.l.f. Studio Blush Palette Light",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/9afdb02a47f0a04fe1f7aa78c5a49f63_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "₹829",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "color 1",
+          "hex": "#EA8DA4"
+        },
+        {
+          "name": "color 2",
+          "hex": "#D58A68"
+        },
+        {
+          "name": "color 3",
+          "hex": "#CC646C"
+        },
+        {
+          "name": "color 4",
+          "hex": "#E3756F"
+        }
+      ]
+    },
+    {
+      "id": "pure-anada-pure-anada-loose-mineral-velvet-matte-blush",
+      "brand": "Pure Anada",
+      "name": "Pure Anada Loose Mineral Velvet Matte Blush",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/47169d3a86232fa7eec3a0c43ed1ad06_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹996",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Twig Blush (Neutral Tones)",
+          "hex": "#9B593E"
+        },
+        {
+          "name": "Berry Blush (Cool Tones)",
+          "hex": "#A25156"
+        },
+        {
+          "name": "Apricot Blush (Warm Tones)",
+          "hex": "#AC564D"
+        }
+      ]
+    },
+    {
+      "id": "maybelline-maybelline-fit-me-blush",
+      "brand": "Maybelline",
+      "name": "Maybelline Fit Me Blush",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/53d5f825461117c0d96946e1029510b0_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹854",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Deep Coral",
+          "hex": "#FB8684"
+        },
+        {
+          "name": "Deep Rose",
+          "hex": "#F27988"
+        },
+        {
+          "name": "Deep Wine",
+          "hex": "#C94A50"
+        },
+        {
+          "name": "Light Rose",
+          "hex": "#FFAAAF"
+        },
+        {
+          "name": "Medium Coral",
+          "hex": "#FC9D8F"
+        },
+        {
+          "name": "Medium Nude",
+          "hex": "#E89890"
+        },
+        {
+          "name": "Medium Pink",
+          "hex": "#FF93A0"
+        }
+      ]
+    },
+    {
+      "id": "pure-anada-pure-anada-pressed-mineral-cheek-colour-pan",
+      "brand": "Pure Anada",
+      "name": "Pure Anada Pressed Mineral Cheek Colour Pan",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/43071cd57ecffc55c1e0bff29278c3a7_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹996",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Bronzed Clove",
+          "hex": "#D88A66"
+        },
+        {
+          "name": "Day Lily (Demi-Matte Burgundy)",
+          "hex": "#B9484A"
+        },
+        {
+          "name": "Forever Summer\t (Demi-Matte Coral Pink)",
+          "hex": "#F47892"
+        },
+        {
+          "name": "Fresh Mandarin",
+          "hex": "#EE7F66"
+        },
+        {
+          "name": "Lush Nectarine (Demi-Matte Apricot)",
+          "hex": "#C14C38"
+        },
+        {
+          "name": "Strawberry Field",
+          "hex": "#E06989"
+        },
+        {
+          "name": "Sweet Pea",
+          "hex": "#F39F94"
+        },
+        {
+          "name": "Tender Twig",
+          "hex": "#E07B78"
+        }
+      ]
+    },
+    {
+      "id": "milani-milani-rose-powder-blush",
+      "brand": "Milani",
+      "name": "Milani Rose Powder Blush",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/4c9db52b5d1cf54fe74fc60b00ffdaa1_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹829",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Coral Cove",
+          "hex": "#FF818D"
+        },
+        {
+          "name": "Romantic Rose",
+          "hex": "#D06079"
+        },
+        {
+          "name": "Tea Rose",
+          "hex": "#F4587A"
+        }
+      ]
+    },
+    {
+      "id": "milani-milani-baked-blush",
+      "brand": "Milani",
+      "name": "Milani Baked Blush",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/4ae353dcae46e9b97c4915566fc9190a_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹663",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "01-Dolce Pink (Pink Shimmer)",
+          "hex": "#F2A5B2"
+        },
+        {
+          "name": "02-Rose D'oro (Pink & Gold Shimmer)",
+          "hex": "#EC8079"
+        },
+        {
+          "name": "03-Berry Amore (Rose Berry with Gold Shimmer )",
+          "hex": "#E2918C"
+        },
+        {
+          "name": "05-Luminoso (Luminous Peach Shimmer )",
+          "hex": "#EEA99F"
+        },
+        {
+          "name": "08-Corallina (Coral Shimmer)",
+          "hex": "#E17A71"
+        },
+        {
+          "name": "10-Delizioso Pink (Hot Pink Matte)",
+          "hex": "#EC70A6"
+        },
+        {
+          "name": "11-Bella Rosa (Bright Raspberry Matte)",
+          "hex": "#CD2254"
+        }
+      ]
+    },
+    {
+      "id": "cargo-cosmetics-cargo-cosmetics-blush",
+      "brand": "Cargo Cosmetics",
+      "name": "Cargo Cosmetics Blush",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/b684853d1ee1ffd6125cdbb0308cb9c7_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹2,158",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Catalina (Cotton Candy Pink)",
+          "hex": "#ED94A0"
+        },
+        {
+          "name": "Key Largo (Tropical Punch)",
+          "hex": "#F9283D"
+        },
+        {
+          "name": "Laguna (Tropical Melon)",
+          "hex": "#FA5B48"
+        },
+        {
+          "name": "Mendocino (Wildflower Pink with a Gold Sheen)",
+          "hex": "#B9746F"
+        },
+        {
+          "name": "Rome (Soft Tangerine)",
+          "hex": "#DC7861"
+        }
+      ]
+    },
+    {
+      "id": "anna-sui-anna-sui-cream-cheek-colour",
+      "brand": "Anna Sui",
+      "name": "Anna Sui Cream Cheek Colour",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/3fd71730443a4f57b798668c24d0ad19_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "₹2,241",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Baby Pink (300)",
+          "hex": "#FFA8AC"
+        },
+        {
+          "name": "Coral Pink (301)",
+          "hex": "#E7807F"
+        },
+        {
+          "name": "Poppy (302)",
+          "hex": "#E1506F"
+        },
+        {
+          "name": "Anna Red (400)",
+          "hex": "#C32F3D"
+        },
+        {
+          "name": "Super Orange (600)",
+          "hex": "#E95E49"
+        },
+        {
+          "name": "Beige Pink (700)",
+          "hex": "#DC6C68"
+        }
+      ]
+    },
+    {
+      "id": "nyx-nyx-rouge-cream-blush",
+      "brand": "NYX",
+      "name": "NYX Rouge Cream Blush",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/7e559a82a8c8b56d75ae5f108d8449ba_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹829",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Boho Chic (CB11) Light Blue-Toned Pink",
+          "hex": "#E4878D"
+        },
+        {
+          "name": "Glow (CB05) Plummy Pink",
+          "hex": "#D4696F"
+        },
+        {
+          "name": "Natural (CB02) Soft Light Pink",
+          "hex": "#F18F8E"
+        },
+        {
+          "name": "Orange (CB09) Soft Orange",
+          "hex": "#EC6A4E"
+        },
+        {
+          "name": "Tea Rose (CB03) Medium Beige-Pink",
+          "hex": "#CA7769"
+        }
+      ]
+    },
+    {
+      "id": "l-oreal-l-oreal-paris-visible-lift-blur-blush",
+      "brand": "L'Oréal",
+      "name": "L'Oreal Paris Visible Lift Blur Blush",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/4099ce5656b195d2ec1b845d2b678e25_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹1,327",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Soft Berry",
+          "hex": "#F26F81"
+        },
+        {
+          "name": "Soft Pink",
+          "hex": "#F2869D"
+        }
+      ]
+    },
+    {
+      "id": "marcelle-marcelle-cream-blush",
+      "brand": "Marcelle",
+      "name": "Marcelle Cream Blush",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/8d1dc771f1dbdf2fe5e3cb378c44f1fb_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹1,244",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Heatherwood",
+          "hex": "#BC6E7E"
+        },
+        {
+          "name": "Raspberry",
+          "hex": "#D88798"
+        },
+        {
+          "name": "Coral",
+          "hex": "#F3A0A8"
+        },
+        {
+          "name": "Pink Mademoiselle",
+          "hex": "#D46472"
+        }
+      ]
+    },
+    {
+      "id": "maybelline-maybelline-dream-bouncy-blush",
+      "brand": "Maybelline",
+      "name": "Maybelline Dream Bouncy Blush",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/51eacb9efebbaee39399e65ffe3d9416_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹995",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Fresh Pink",
+          "hex": "#ECC3D5"
+        },
+        {
+          "name": "Hot Tamale",
+          "hex": "#EE9CB1"
+        },
+        {
+          "name": "Peach Satin",
+          "hex": "#ECBABA"
+        },
+        {
+          "name": "Plum Wine",
+          "hex": "#C25159"
+        }
+      ]
+    },
+    {
+      "id": "pacifica-pacifica-radiant-shimmer-highlighting-creams-for-eyes-lips-face",
+      "brand": "Pacifica",
+      "name": "Pacifica Radiant Shimmer Highlighting Creams For Eyes Lips Face",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/4395f2c09aebd1b8d8f183168bc5d00f_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹2,324",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "color 1",
+          "hex": "#7E554A"
+        },
+        {
+          "name": "color 2",
+          "hex": "#BC8A88"
+        },
+        {
+          "name": "color 3",
+          "hex": "#D1B6A9"
+        }
+      ]
+    }
+  ]
+}

@@ -45,6 +45,15 @@ async def get_recommendations(
     undertone = body.profile.undertone    # "warm" | "cool" | "neutral"
     depth     = body.profile.depth        # e.g. "Medium"
 
+    # Foundation (and everything else, by default) should closely replicate
+    # skin colour, so it's matched tightly against the skin hex itself. Blush
+    # pigments are deliberately pinker/rosier than skin by design — matching
+    # them against raw skin hex rejects almost every real product regardless
+    # of how good a match it actually is. Match against the profile's own
+    # undertone-aware blush palette instead, with a looser tolerance since
+    # there's no single "correct" blush hex the way there is a foundation hex.
+    blush_targets = [s.hex for s in body.profile.blush_shades] or [skin_hex]
+
     categories_out: list[CategoryOut] = []
 
     for category in CATALOGUE:
@@ -59,6 +68,10 @@ async def get_recommendations(
             if category["skip_color_matching"]:
                 # Eye/mascara — doesn't need skin tone matching
                 score = 90
+            elif category["key"] == "blush":
+                _, score = best_shade_match(blush_targets, shade_hexes, max_delta=40.0)
+                if score < MIN_MATCH_PERCENT:
+                    continue
             else:
                 _, score = best_shade_match(skin_hex, shade_hexes)
                 if score < MIN_MATCH_PERCENT:

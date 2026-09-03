@@ -1,0 +1,8032 @@
+{
+  "key": "lip",
+  "label": "Lip",
+  "icon": "💋",
+  "skip_color_matching": false,
+  "products": [
+    {
+      "id": "colourpop-blotted-lip",
+      "brand": "Colourpop",
+      "name": "Blotted Lip",
+      "image": "https://cdn.shopify.com/s/files/1/1338/0845/products/brain-freeze_a_800x1200.jpg?v=1502255076",
+      "price_prefix": "₹456",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Bee's Knees",
+          "hex": "#B72227"
+        },
+        {
+          "name": "Brain Freeze",
+          "hex": "#BB656B"
+        },
+        {
+          "name": "Drip",
+          "hex": "#8E4140"
+        },
+        {
+          "name": "On a Stick",
+          "hex": "#A12A33"
+        },
+        {
+          "name": "Ice Cube",
+          "hex": "#904550"
+        },
+        {
+          "name": "Lolly",
+          "hex": "#452222"
+        },
+        {
+          "name": "Candyfloss",
+          "hex": "#7C3F35"
+        }
+      ]
+    },
+    {
+      "id": "colourpop-lippie-stix",
+      "brand": "Colourpop",
+      "name": "Lippie Stix",
+      "image": "https://cdn.shopify.com/s/files/1/1338/0845/collections/blottedlip-lippie-stix_grande.jpg?v=1512588803",
+      "price_prefix": "₹456",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Fair 05",
+          "hex": "#F2DEC3"
+        },
+        {
+          "name": "Ziggie",
+          "hex": "#793C36"
+        },
+        {
+          "name": "Goldie",
+          "hex": "#723739"
+        },
+        {
+          "name": "Love Life",
+          "hex": "#BF3A30"
+        },
+        {
+          "name": "Who Run this",
+          "hex": "#94372D"
+        },
+        {
+          "name": "Aquarius",
+          "hex": "#9E574D"
+        },
+        {
+          "name": "Brink",
+          "hex": "#C68176"
+        },
+        {
+          "name": "Cami",
+          "hex": "#AA6968"
+        },
+        {
+          "name": "Sike",
+          "hex": "#E28474"
+        },
+        {
+          "name": "Fly-Fi",
+          "hex": "#9A2B24"
+        },
+        {
+          "name": "Goal Digger",
+          "hex": "#B97271"
+        },
+        {
+          "name": "After Shock",
+          "hex": "#BA7378"
+        },
+        {
+          "name": "Little Tings",
+          "hex": "#D68B99"
+        },
+        {
+          "name": "Ink Blot",
+          "hex": "#C07D6B"
+        },
+        {
+          "name": "Candy Paint",
+          "hex": "#A3595E"
+        },
+        {
+          "name": "Ellarie",
+          "hex": "#5D2318"
+        },
+        {
+          "name": "Daydream",
+          "hex": "#C17773"
+        },
+        {
+          "name": "Oh Snap",
+          "hex": "#C08892"
+        },
+        {
+          "name": "Faded",
+          "hex": "#BC6E6B"
+        },
+        {
+          "name": "Bound",
+          "hex": "#CF8D98"
+        },
+        {
+          "name": "Party Foul",
+          "hex": "#762554"
+        },
+        {
+          "name": "Parker",
+          "hex": "#B67367"
+        },
+        {
+          "name": "Bichette",
+          "hex": "#852528"
+        },
+        {
+          "name": "Sauce",
+          "hex": "#B86A82"
+        },
+        {
+          "name": "Topanga",
+          "hex": "#B75E59"
+        },
+        {
+          "name": "Lullaby",
+          "hex": "#EA5151"
+        },
+        {
+          "name": "Contempo",
+          "hex": "#C08586"
+        },
+        {
+          "name": "Heart on",
+          "hex": "#B82485"
+        },
+        {
+          "name": "I Heart this Lippie",
+          "hex": "#C5314F"
+        },
+        {
+          "name": "Tootsi",
+          "hex": "#8F6557"
+        },
+        {
+          "name": "Cookie",
+          "hex": "#AF7564"
+        },
+        {
+          "name": "Persuasion",
+          "hex": "#AA4E79"
+        },
+        {
+          "name": "Pitch",
+          "hex": "#442A26"
+        },
+        {
+          "name": "Leather",
+          "hex": "#5C4761"
+        },
+        {
+          "name": "Frenchie",
+          "hex": "#D12C35"
+        },
+        {
+          "name": "Mirror, Mirror",
+          "hex": "#AB3E61"
+        },
+        {
+          "name": "Poison",
+          "hex": "#621F20"
+        },
+        {
+          "name": "LBB",
+          "hex": "#623343"
+        },
+        {
+          "name": "Grunge",
+          "hex": "#864740"
+        },
+        {
+          "name": "Bossy",
+          "hex": "#C5282D"
+        },
+        {
+          "name": "Chi Chi",
+          "hex": "#DC4A3C"
+        },
+        {
+          "name": "Trust Me",
+          "hex": "#CB2931"
+        },
+        {
+          "name": "Poppin'",
+          "hex": "#AB223E"
+        },
+        {
+          "name": "Lumiere",
+          "hex": "#A05F6A"
+        },
+        {
+          "name": "Taurus",
+          "hex": "#763A31"
+        },
+        {
+          "name": "Kapish",
+          "hex": "#975450"
+        }
+      ]
+    },
+    {
+      "id": "boosh-lipstick",
+      "brand": "Boosh",
+      "name": "Lipstick",
+      "image": "https://cdn.shopify.com/s/files/1/1016/3243/products/LIPBALM_LID_grande.jpg?v=1496848378",
+      "price_prefix": "₹2,158",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Babs",
+          "hex": "#CB4975"
+        },
+        {
+          "name": "Bobbie",
+          "hex": "#B6636F"
+        },
+        {
+          "name": "Rosie",
+          "hex": "#B37072"
+        },
+        {
+          "name": "Ellie",
+          "hex": "#C6727C"
+        },
+        {
+          "name": "Dahlia",
+          "hex": "#AF2257"
+        },
+        {
+          "name": "Kat",
+          "hex": "#573F53"
+        },
+        {
+          "name": "Brie",
+          "hex": "#875672"
+        },
+        {
+          "name": "Emmy",
+          "hex": "#BC88A5"
+        },
+        {
+          "name": "Dusty rose",
+          "hex": "#BB8A88"
+        },
+        {
+          "name": "Kylie",
+          "hex": "#8D5C58"
+        },
+        {
+          "name": "Leah",
+          "hex": "#C86775"
+        },
+        {
+          "name": "Lip Plumping Balm",
+          "hex": "#F8D7D6"
+        },
+        {
+          "name": "Luna",
+          "hex": "#8F6065"
+        },
+        {
+          "name": "Nova",
+          "hex": "#C79289"
+        },
+        {
+          "name": "Ruby",
+          "hex": "#9D3F47"
+        }
+      ]
+    },
+    {
+      "id": "sally-b-s-skin-yummies-b-glossy-lip-gloss",
+      "brand": "Sally B's Skin Yummies",
+      "name": "B Glossy Lip Gloss",
+      "image": "https://www.purpicks.com/wp-content/uploads/2018/06/Sally-B_s-Skin-Yummies-B-Glossy-Lip-Gloss.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Every Blonde's Pink",
+          "hex": "#BF5D7F"
+        },
+        {
+          "name": "Primrose",
+          "hex": "#D84945"
+        },
+        {
+          "name": "Soft Kiss",
+          "hex": "#E1A2A0"
+        },
+        {
+          "name": "Ruby's Red",
+          "hex": "#B82F42"
+        },
+        {
+          "name": "Copper Penny",
+          "hex": "#BE5F37"
+        },
+        {
+          "name": "Sweet Plum",
+          "hex": "#8F4636"
+        }
+      ]
+    },
+    {
+      "id": "penny-lane-organics-lip-gloss",
+      "brand": "Penny Lane Organics",
+      "name": "Lip Gloss",
+      "image": "https://www.purpicks.com/wp-content/uploads/csm/sunset-bronze-pennylaneorganics1.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Black Cherry",
+          "hex": "#2F1513"
+        },
+        {
+          "name": "Fiery Red",
+          "hex": "#4F1314"
+        },
+        {
+          "name": "Pearl Pink",
+          "hex": "#6F2633"
+        },
+        {
+          "name": "Pink Shimmer",
+          "hex": "#B05665"
+        },
+        {
+          "name": "Sunset Bronze",
+          "hex": "#783F30"
+        },
+        {
+          "name": "Sweet Cherry",
+          "hex": "#511617"
+        },
+        {
+          "name": "Tropical Fuschia",
+          "hex": "#8E2432"
+        }
+      ]
+    },
+    {
+      "id": "nudus-amalia",
+      "brand": "Nudus",
+      "name": "Amalia",
+      "image": "https://www.purpicks.com/wp-content/uploads/2018/06/Nudus-Amalia.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "27 Kisses",
+          "hex": "#7C524F"
+        },
+        {
+          "name": "Amalia",
+          "hex": "#884955"
+        },
+        {
+          "name": "Bitter Sweet",
+          "hex": "#9F3D2A"
+        },
+        {
+          "name": "Dirty Diana",
+          "hex": "#542A26"
+        },
+        {
+          "name": "Dreamtime",
+          "hex": "#793D48"
+        },
+        {
+          "name": "Fairy Tale",
+          "hex": "#BB6E60"
+        },
+        {
+          "name": "Halo",
+          "hex": "#BA8285"
+        },
+        {
+          "name": "Just Like Jade",
+          "hex": "#71474E"
+        },
+        {
+          "name": "Naked",
+          "hex": "#AF8475"
+        },
+        {
+          "name": "Precious",
+          "hex": "#D65572"
+        },
+        {
+          "name": "Revenge",
+          "hex": "#8F1A23"
+        },
+        {
+          "name": "Ruby Rose",
+          "hex": "#8B383D"
+        },
+        {
+          "name": "Survivor",
+          "hex": "#C83752"
+        },
+        {
+          "name": "Viva",
+          "hex": "#784F5F"
+        },
+        {
+          "name": "Zo Zo",
+          "hex": "#672F57"
+        }
+      ]
+    },
+    {
+      "id": "marienatie-lipstick",
+      "brand": "Marienatie",
+      "name": "Lipstick",
+      "image": "https://www.purpicks.com/wp-content/uploads/csm/Evelyn_Pic1.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Evelyn",
+          "hex": "#9D5E4F"
+        },
+        {
+          "name": "Rosie",
+          "hex": "#B03B3E"
+        },
+        {
+          "name": "Giselle",
+          "hex": "#9A1C24"
+        },
+        {
+          "name": "Ava",
+          "hex": "#B4556E"
+        }
+      ]
+    },
+    {
+      "id": "marienatie-lip-gloss",
+      "brand": "Marienatie",
+      "name": "Lip Gloss",
+      "image": "https://www.purpicks.com/wp-content/uploads/csm/Envy1.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Posh",
+          "hex": "#D5A291"
+        },
+        {
+          "name": "Flair",
+          "hex": "#D5A3A1"
+        },
+        {
+          "name": "Tickled",
+          "hex": "#E89EA2"
+        },
+        {
+          "name": "Envy",
+          "hex": "#8B5B5F"
+        },
+        {
+          "name": "Lush",
+          "hex": "#99696C"
+        },
+        {
+          "name": "Pure",
+          "hex": "#F1B8BE"
+        },
+        {
+          "name": "Babe",
+          "hex": "#D37B92"
+        },
+        {
+          "name": "Wild",
+          "hex": "#CA5774"
+        }
+      ]
+    },
+    {
+      "id": "coastal-classic-creation-conch-lipstick",
+      "brand": "Coastal Classic Creation",
+      "name": "Conch Lipstick",
+      "image": "https://www.purpicks.com/wp-content/uploads/2018/06/coastal-classic-creations-conch-lipstick.png",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Raspberry",
+          "hex": "#822A42"
+        },
+        {
+          "name": "Conch",
+          "hex": "#8D394F"
+        },
+        {
+          "name": "Crushed Rose",
+          "hex": "#9F4353"
+        },
+        {
+          "name": "Tender Toffee",
+          "hex": "#A15F55"
+        },
+        {
+          "name": "Deja Vu",
+          "hex": "#F09178"
+        },
+        {
+          "name": "Sun Dial",
+          "hex": "#B83037"
+        },
+        {
+          "name": "Terra Gold",
+          "hex": "#AD4C46"
+        },
+        {
+          "name": "Cowry",
+          "hex": "#A96B67"
+        },
+        {
+          "name": "Tender",
+          "hex": "#B73849"
+        },
+        {
+          "name": "Nautilus",
+          "hex": "#D06C89"
+        },
+        {
+          "name": "Extremely Nude",
+          "hex": "#C49082"
+        },
+        {
+          "name": "Ginger Snap",
+          "hex": "#B78592"
+        },
+        {
+          "name": "Coral Shell",
+          "hex": "#DD786A"
+        },
+        {
+          "name": "Twilight",
+          "hex": "#E5A4BF"
+        },
+        {
+          "name": "Sand Dollar",
+          "hex": "#954D44"
+        }
+      ]
+    },
+    {
+      "id": "c-est-moi-reflect-lip-gloss",
+      "brand": "C'est Moi",
+      "name": "Reflect Lip Gloss",
+      "image": "https://www.purpicks.com/wp-content/uploads/2018/04/cest-moi-reflect-lip-gloss-1.png",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Rise",
+          "hex": "#DF585A"
+        },
+        {
+          "name": "Opulence",
+          "hex": "#E4CFCE"
+        },
+        {
+          "name": "Bliss",
+          "hex": "#D6474B"
+        }
+      ]
+    },
+    {
+      "id": "glossier-generation-g",
+      "brand": "Glossier",
+      "name": "Generation G",
+      "image": "https://static-assets.glossier.com/production/spree/images/attachments/000/001/239/portrait_normal/GenG2.jpg?1487709747",
+      "price_prefix": "₹1,660",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Cake",
+          "hex": "#F4E1D7"
+        },
+        {
+          "name": "Like",
+          "hex": "#E5C2CF"
+        },
+        {
+          "name": "Crush",
+          "hex": "#CB6382"
+        },
+        {
+          "name": "Jam",
+          "hex": "#974A72"
+        },
+        {
+          "name": "Leo",
+          "hex": "#A46C58"
+        },
+        {
+          "name": "Zip",
+          "hex": "#DE6262"
+        }
+      ]
+    },
+    {
+      "id": "nyx-luv-out-loud-liquid-lipstick",
+      "brand": "NYX",
+      "name": "Luv Out Loud Liquid Lipstick",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw063995a2/ProductImages/2017/Lips/Luv_Out_Loud_Liquid_Lipstick/luvoutloudliquidlipstick_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹581",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Fearless",
+          "hex": "#8C6989"
+        },
+        {
+          "name": "Passionate",
+          "hex": "#773950"
+        },
+        {
+          "name": "Extraordinary",
+          "hex": "#963673"
+        },
+        {
+          "name": "Brave",
+          "hex": "#543A61"
+        },
+        {
+          "name": "Brilliant",
+          "hex": "#9A5953"
+        },
+        {
+          "name": "Confident",
+          "hex": "#C87F76"
+        }
+      ]
+    },
+    {
+      "id": "nyx-simply-pink-lip-cream",
+      "brand": "NYX",
+      "name": "Simply Pink Lip Cream",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw013dc65e/ProductImages/Lips/Simply_Pink_Lip_Cream/simplypinklipcream_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹540",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Flushed",
+          "hex": "#FA7B84"
+        },
+        {
+          "name": "Primrose",
+          "hex": "#F86F9D"
+        },
+        {
+          "name": "First Base",
+          "hex": "#EA7F9B"
+        },
+        {
+          "name": "French Kiss",
+          "hex": "#F94E9A"
+        },
+        {
+          "name": "XOXO",
+          "hex": "#F45863"
+        },
+        {
+          "name": "Enchanted",
+          "hex": "#FE8483"
+        }
+      ]
+    },
+    {
+      "id": "nyx-simply-red-lip-cream",
+      "brand": "NYX",
+      "name": "Simply Red Lip Cream",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw4879365d/ProductImages/Lips/Simply_Red_Lip_Cream/simplyredlipcream_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹540",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Maraschino",
+          "hex": "#D43748"
+        },
+        {
+          "name": "Candy Apple",
+          "hex": "#E62E50"
+        },
+        {
+          "name": "Russian Roulette",
+          "hex": "#F2626C"
+        },
+        {
+          "name": "Seduction",
+          "hex": "#FE5A50"
+        },
+        {
+          "name": "Leading Lady",
+          "hex": "#D33556"
+        },
+        {
+          "name": "Knock Out",
+          "hex": "#C4605E"
+        }
+      ]
+    },
+    {
+      "id": "nyx-simply-nude-lip-cream",
+      "brand": "NYX",
+      "name": "Simply Nude Lip Cream",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw6790cad4/ProductImages/Lips/Simply_Nude_Lip_Cream/simplynudlipcream_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹540",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Fairest",
+          "hex": "#EBA38B"
+        },
+        {
+          "name": "Peaches",
+          "hex": "#FAA893"
+        },
+        {
+          "name": "Disrobed",
+          "hex": "#ED9B8F"
+        },
+        {
+          "name": "Sable",
+          "hex": "#C16E5E"
+        },
+        {
+          "name": "Exposed",
+          "hex": "#DE9079"
+        },
+        {
+          "name": "Honey",
+          "hex": "#EAA88E"
+        }
+      ]
+    },
+    {
+      "id": "nyx-macaron-lippies",
+      "brand": "NYX",
+      "name": "Macaron Lippies",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw09b47e3c/ProductImages/Lips/Macaron_Lippie/macaronlippies_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹540",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Rose",
+          "hex": "#F695BE"
+        },
+        {
+          "name": "Orange Blossom",
+          "hex": "#FE9846"
+        },
+        {
+          "name": "Citron",
+          "hex": "#FDBD3F"
+        },
+        {
+          "name": "Key Lime",
+          "hex": "#78D877"
+        },
+        {
+          "name": "Pistachio",
+          "hex": "#53CEBC"
+        },
+        {
+          "name": "Blue Velvet",
+          "hex": "#14A8E6"
+        },
+        {
+          "name": "Earl Grey",
+          "hex": "#76A9D8"
+        },
+        {
+          "name": "Lavender",
+          "hex": "#A89DD9"
+        },
+        {
+          "name": "Violet",
+          "hex": "#B778D1"
+        },
+        {
+          "name": "Black Sesame",
+          "hex": "#BFB8B2"
+        },
+        {
+          "name": "Chambord",
+          "hex": "#181818"
+        },
+        {
+          "name": "Coconut",
+          "hex": "#EDEDED"
+        }
+      ]
+    },
+    {
+      "id": "nyx-in-your-element-lipstick-metal",
+      "brand": "NYX",
+      "name": "In Your Element Lipstick - Metal",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwda28cbbe/ProductImages/2017/Holiday/in_your_element_lipsticks/in_your_element_lipstick_metal/inyourelementlipstickmetal_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹747",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Metallic Gold",
+          "hex": "#835546"
+        },
+        {
+          "name": "Glossy Deep Berry",
+          "hex": "#7D2C35"
+        },
+        {
+          "name": "Metallic Bronze",
+          "hex": "#604238"
+        }
+      ]
+    },
+    {
+      "id": "nyx-wicked-lippies",
+      "brand": "NYX",
+      "name": "Wicked Lippies",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw5d579d16/ProductImages/Lips/Wicked_Lippies/wickedlippies_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹540",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Power",
+          "hex": "#895762"
+        },
+        {
+          "name": "Wrath",
+          "hex": "#714119"
+        },
+        {
+          "name": "Mischievous",
+          "hex": "#D0AD53"
+        },
+        {
+          "name": "Trickery",
+          "hex": "#494623"
+        },
+        {
+          "name": "Risque",
+          "hex": "#118A77"
+        },
+        {
+          "name": "Scandalous",
+          "hex": "#11AFAE"
+        },
+        {
+          "name": "Envy",
+          "hex": "#0035B8"
+        },
+        {
+          "name": "Sinful",
+          "hex": "#073895"
+        },
+        {
+          "name": "Immortal",
+          "hex": "#6934B8"
+        },
+        {
+          "name": "Betrayal",
+          "hex": "#390C67"
+        },
+        {
+          "name": "Cold Hearted",
+          "hex": "#515151"
+        },
+        {
+          "name": "Stone Cold",
+          "hex": "#DEDEDE"
+        }
+      ]
+    },
+    {
+      "id": "nyx-simply-vamp-lip-cream",
+      "brand": "NYX",
+      "name": "Simply Vamp Lip Cream",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw48514b30/ProductImages/Lips/Simply_Vamp_Lip_Cream/simplyvamplipcream_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹540",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Bewitching",
+          "hex": "#863C4D"
+        },
+        {
+          "name": "Temptress",
+          "hex": "#49142E"
+        },
+        {
+          "name": "She Devil",
+          "hex": "#451D35"
+        },
+        {
+          "name": "Aphrodisiac",
+          "hex": "#4F212B"
+        },
+        {
+          "name": "Covet",
+          "hex": "#771C21"
+        },
+        {
+          "name": "Enamored",
+          "hex": "#412227"
+        }
+      ]
+    },
+    {
+      "id": "nyx-in-your-element-lipstick-water",
+      "brand": "NYX",
+      "name": "In Your Element Lipstick - Water",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw649c09f1/ProductImages/2017/Holiday/in_your_element_lipsticks/in_your_element_lipstick_water/inyourelementlipstickwater_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹747",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Metallic Violet Black",
+          "hex": "#382B35"
+        },
+        {
+          "name": "Matte Nude",
+          "hex": "#A56856"
+        },
+        {
+          "name": "Glossy Plum",
+          "hex": "#552D2D"
+        }
+      ]
+    },
+    {
+      "id": "nyx-in-your-element-lipstick-wind",
+      "brand": "NYX",
+      "name": "In Your Element Lipstick - Wind",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwb5cd298c/ProductImages/2017/Holiday/in_your_element_lipsticks/in_your_element_lipstick_wind/inyourelementlipstickwind_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹747",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Glossy Nude",
+          "hex": "#964C41"
+        },
+        {
+          "name": "Matte Navy",
+          "hex": "#303356"
+        },
+        {
+          "name": "Metallic Brown",
+          "hex": "#543435"
+        }
+      ]
+    },
+    {
+      "id": "nyx-in-your-element-lipstick-fire",
+      "brand": "NYX",
+      "name": "In Your Element Lipstick - Fire",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwf9f0c84b/ProductImages/2017/Holiday/in_your_element_lipsticks/in_your_element_lipstick_fire/inyourelementlipstickfire_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹747",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Glossy Black",
+          "hex": "#1E1E1E"
+        },
+        {
+          "name": "Matte Red",
+          "hex": "#891B28"
+        },
+        {
+          "name": "Matte Mauve",
+          "hex": "#954743"
+        }
+      ]
+    },
+    {
+      "id": "nyx-in-your-element-lipstick-air",
+      "brand": "NYX",
+      "name": "In Your Element Lipstick - Air",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw7fdf92ae/ProductImages/2017/Holiday/in_your_element_lipsticks/in_your_element_lipstick_air/inyourelementlipstickair_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹747",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Glossy Pale Pink",
+          "hex": "#A1483A"
+        },
+        {
+          "name": "Matte Rose",
+          "hex": "#B5595C"
+        },
+        {
+          "name": "Glossy Peach",
+          "hex": "#C1573F"
+        }
+      ]
+    },
+    {
+      "id": "nyx-in-your-element-lipstick-earth",
+      "brand": "NYX",
+      "name": "In Your Element Lipstick - Earth",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw16c5dd05/ProductImages/2017/Holiday/in_your_element_lipsticks/in_your_element_lipstick_earth/inyourelementlipstickearth_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹747",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Metallic Copper",
+          "hex": "#902E2B"
+        },
+        {
+          "name": "Glossy Wine",
+          "hex": "#57273F"
+        },
+        {
+          "name": "Matte Warm Brown",
+          "hex": "#512D2D"
+        }
+      ]
+    },
+    {
+      "id": "nyx-butter-lipstick",
+      "brand": "NYX",
+      "name": "Butter Lipstick",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwf73b3195/ProductImages/2016/Lips/Butter_Lipstick_Extension/butterlipstick_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹540",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Summer Fruits",
+          "hex": "#FD9A95"
+        },
+        {
+          "name": "Seashell",
+          "hex": "#FD9B92"
+        },
+        {
+          "name": "Pink Bikini",
+          "hex": "#FD869A"
+        },
+        {
+          "name": "Hot Nights",
+          "hex": "#FF4F83"
+        },
+        {
+          "name": "Snowcone",
+          "hex": "#FE7295"
+        },
+        {
+          "name": "Staycation",
+          "hex": "#F84656"
+        },
+        {
+          "name": "Beach BBQ",
+          "hex": "#F84563"
+        },
+        {
+          "name": "Fruit Punch",
+          "hex": "#F04B69"
+        },
+        {
+          "name": "Sweet Shock",
+          "hex": "#EA3B96"
+        },
+        {
+          "name": "Daydreaming",
+          "hex": "#B66F99"
+        },
+        {
+          "name": "Midnight Swim",
+          "hex": "#C36A8A"
+        },
+        {
+          "name": "Thunderstorm",
+          "hex": "#8E215A"
+        },
+        {
+          "name": "Moonlit Night",
+          "hex": "#66071D"
+        },
+        {
+          "name": "Block Party",
+          "hex": "#531522"
+        },
+        {
+          "name": "Ripe Berry",
+          "hex": "#A13F3C"
+        },
+        {
+          "name": "Root Beer Float",
+          "hex": "#CE6B65"
+        },
+        {
+          "name": "Afternoon Heat",
+          "hex": "#B90508"
+        },
+        {
+          "name": "Lifeguard",
+          "hex": "#AE2304"
+        },
+        {
+          "name": "Fire Brick",
+          "hex": "#D30A1A"
+        },
+        {
+          "name": "Firecracker",
+          "hex": "#EF2438"
+        },
+        {
+          "name": "Heat Wave",
+          "hex": "#F32637"
+        },
+        {
+          "name": "Scorching Sun",
+          "hex": "#F72E12"
+        },
+        {
+          "name": "Neon Lights",
+          "hex": "#FC4130"
+        },
+        {
+          "name": "Bonfire",
+          "hex": "#FF421C"
+        },
+        {
+          "name": "Shooting Star",
+          "hex": "#FF9065"
+        },
+        {
+          "name": "Easy Livin",
+          "hex": "#FE8C72"
+        },
+        {
+          "name": "West Coast",
+          "hex": "#FF9387"
+        },
+        {
+          "name": "Sandy Kiss",
+          "hex": "#FF9D84"
+        },
+        {
+          "name": "Snack Shack",
+          "hex": "#C5735D"
+        },
+        {
+          "name": "Sandcastle",
+          "hex": "#FEA07C"
+        },
+        {
+          "name": "Smormellow",
+          "hex": "#FDB494"
+        },
+        {
+          "name": "Boardwalk",
+          "hex": "#F59E83"
+        },
+        {
+          "name": "Tan Lines",
+          "hex": "#C37E61"
+        },
+        {
+          "name": "Vacation Spot",
+          "hex": "#895B41"
+        }
+      ]
+    },
+    {
+      "id": "nyx-extra-creamy-round-lipstick",
+      "brand": "NYX",
+      "name": "Extra Creamy Round Lipstick",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw0048a5ab/ProductImages/Lips/Extra_Creamy_Round_Lipstick/extracreamyroundlipstick_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Milan",
+          "hex": "#CD787B"
+        },
+        {
+          "name": "Athena",
+          "hex": "#F3CFCF"
+        },
+        {
+          "name": "Baby Pink",
+          "hex": "#F2D0E0"
+        },
+        {
+          "name": "Sash",
+          "hex": "#F7D0C9"
+        },
+        {
+          "name": "Harmonica",
+          "hex": "#FBCDD0"
+        },
+        {
+          "name": "Marrakesh Pink",
+          "hex": "#FFC5B9"
+        },
+        {
+          "name": "Strawberry Milk",
+          "hex": "#F7C9CB"
+        },
+        {
+          "name": "Jupiter",
+          "hex": "#F9C3C1"
+        },
+        {
+          "name": "Gala",
+          "hex": "#F9CABA"
+        },
+        {
+          "name": "Narcissus",
+          "hex": "#FFBFCD"
+        },
+        {
+          "name": "Lip Du Jour",
+          "hex": "#F5C3C6"
+        },
+        {
+          "name": "Paris",
+          "hex": "#FF7C86"
+        },
+        {
+          "name": "Sky Pink",
+          "hex": "#FEBDC1"
+        },
+        {
+          "name": "Rose Bud",
+          "hex": "#FD9CA7"
+        },
+        {
+          "name": "Flower",
+          "hex": "#FD93A9"
+        },
+        {
+          "name": "Vitamin",
+          "hex": "#F9AC9C"
+        },
+        {
+          "name": "Indian Pink",
+          "hex": "#FC978D"
+        },
+        {
+          "name": "Chic",
+          "hex": "#FAA19D"
+        },
+        {
+          "name": "Stella",
+          "hex": "#FDA09B"
+        },
+        {
+          "name": "Margarita",
+          "hex": "#FD9491"
+        },
+        {
+          "name": "Paparazzi",
+          "hex": "#F1757F"
+        },
+        {
+          "name": "Pink Lyric",
+          "hex": "#FF5E8F"
+        },
+        {
+          "name": "Hot Pink",
+          "hex": "#FF4986"
+        },
+        {
+          "name": "Christie",
+          "hex": "#F7BAC1"
+        },
+        {
+          "name": "Rose Bouquet",
+          "hex": "#FD829E"
+        },
+        {
+          "name": "Gem",
+          "hex": "#D3748C"
+        },
+        {
+          "name": "Watermelon",
+          "hex": "#FDA290"
+        },
+        {
+          "name": "Blush",
+          "hex": "#E37880"
+        },
+        {
+          "name": "Fig",
+          "hex": "#E36974"
+        },
+        {
+          "name": "Tea Rose",
+          "hex": "#E07C7C"
+        },
+        {
+          "name": "Louisiana",
+          "hex": "#FF607C"
+        },
+        {
+          "name": "Spell Bound",
+          "hex": "#FB5468"
+        },
+        {
+          "name": "Gardenia",
+          "hex": "#FB7D92"
+        },
+        {
+          "name": "Haute Couture",
+          "hex": "#EA6C82"
+        },
+        {
+          "name": "Shiva",
+          "hex": "#F26198"
+        },
+        {
+          "name": "Eucalyptus",
+          "hex": "#F66493"
+        },
+        {
+          "name": "Chloe",
+          "hex": "#F8639D"
+        },
+        {
+          "name": "Fusion",
+          "hex": "#ED6FAE"
+        },
+        {
+          "name": "Peach",
+          "hex": "#DA7C7C"
+        },
+        {
+          "name": "Minimalism",
+          "hex": "#CA787A"
+        },
+        {
+          "name": "Heather",
+          "hex": "#F09292"
+        },
+        {
+          "name": "Doll",
+          "hex": "#DC6271"
+        },
+        {
+          "name": "Thalia",
+          "hex": "#C78376"
+        },
+        {
+          "name": "Perfect",
+          "hex": "#C88471"
+        },
+        {
+          "name": "B52",
+          "hex": "#D2736F"
+        },
+        {
+          "name": "Lala",
+          "hex": "#BF6E7F"
+        },
+        {
+          "name": "Power",
+          "hex": "#C3A4B6"
+        },
+        {
+          "name": "Castle",
+          "hex": "#E2AED4"
+        },
+        {
+          "name": "Pandora",
+          "hex": "#CE86B6"
+        },
+        {
+          "name": "Violet Ray",
+          "hex": "#C14E6D"
+        },
+        {
+          "name": "Medusa",
+          "hex": "#AD4B72"
+        },
+        {
+          "name": "Bruised",
+          "hex": "#4D182A"
+        },
+        {
+          "name": "Hestia",
+          "hex": "#891A0F"
+        },
+        {
+          "name": "Hero",
+          "hex": "#9D181D"
+        },
+        {
+          "name": "Black Cherry",
+          "hex": "#7B1427"
+        },
+        {
+          "name": "Hope",
+          "hex": "#DF726F"
+        },
+        {
+          "name": "Topaz",
+          "hex": "#EC8681"
+        },
+        {
+          "name": "Hebe",
+          "hex": "#F25C67"
+        },
+        {
+          "name": "Snow White",
+          "hex": "#BF1F11"
+        },
+        {
+          "name": "Electra",
+          "hex": "#D40F18"
+        },
+        {
+          "name": "Chaos",
+          "hex": "#D50326"
+        },
+        {
+          "name": "Chic Red",
+          "hex": "#E70F50"
+        },
+        {
+          "name": "Fire",
+          "hex": "#F1232D"
+        },
+        {
+          "name": "Eros",
+          "hex": "#EF1C07"
+        },
+        {
+          "name": "Rose",
+          "hex": "#FE7C84"
+        },
+        {
+          "name": "NYX",
+          "hex": "#FFA181"
+        },
+        {
+          "name": "Haute Melon",
+          "hex": "#FF5B38"
+        },
+        {
+          "name": "Femme",
+          "hex": "#FD5A49"
+        },
+        {
+          "name": "Peach Bellini",
+          "hex": "#FC927C"
+        },
+        {
+          "name": "Orange Soda",
+          "hex": "#FEAE89"
+        },
+        {
+          "name": "Pure Nude",
+          "hex": "#E89D7E"
+        },
+        {
+          "name": "Pumpkin Pie",
+          "hex": "#D49377"
+        },
+        {
+          "name": "Iris",
+          "hex": "#F9C2AE"
+        },
+        {
+          "name": "Uberchic",
+          "hex": "#F2E2C0"
+        },
+        {
+          "name": "Frosted Flakes",
+          "hex": "#F0D9BA"
+        },
+        {
+          "name": "Echo",
+          "hex": "#DEA588"
+        },
+        {
+          "name": "Circe",
+          "hex": "#E2A589"
+        },
+        {
+          "name": "Honey",
+          "hex": "#E0A789"
+        },
+        {
+          "name": "Galaxy",
+          "hex": "#D2B4AA"
+        },
+        {
+          "name": "Rea",
+          "hex": "#D39E7F"
+        },
+        {
+          "name": "Summer Love",
+          "hex": "#FDC0AD"
+        },
+        {
+          "name": "Darling",
+          "hex": "#F69D99"
+        },
+        {
+          "name": "Frappucino",
+          "hex": "#D3856F"
+        },
+        {
+          "name": "Heredes",
+          "hex": "#CE7A62"
+        },
+        {
+          "name": "Mars",
+          "hex": "#CE886F"
+        },
+        {
+          "name": "Cocoa",
+          "hex": "#CB7C6B"
+        }
+      ]
+    },
+    {
+      "id": "nyx-matte-lipstick",
+      "brand": "NYX",
+      "name": "Matte Lipstick",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw190a6040/ProductImages/2016/Lips/Matte_Lipstick_Extension/mattelipstick_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹498",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Hippie Chic",
+          "hex": "#FFAAA1"
+        },
+        {
+          "name": "Pale Pink",
+          "hex": "#FFB1B1"
+        },
+        {
+          "name": "Audrey",
+          "hex": "#FF96A6"
+        },
+        {
+          "name": "Summer Breeze",
+          "hex": "#FF93B9"
+        },
+        {
+          "name": "Girl Crush",
+          "hex": "#FF73A3"
+        },
+        {
+          "name": "Shocking Pink",
+          "hex": "#FF7CC4"
+        },
+        {
+          "name": "Sweet Pink",
+          "hex": "#FE73AE"
+        },
+        {
+          "name": "Zen Orchid",
+          "hex": "#B97BBE"
+        },
+        {
+          "name": "Ultra Dare",
+          "hex": "#737E82"
+        },
+        {
+          "name": "Haze",
+          "hex": "#7B7B7B"
+        },
+        {
+          "name": "Up The Bass",
+          "hex": "#7E5F71"
+        },
+        {
+          "name": "Dark Era",
+          "hex": "#7D2D30"
+        },
+        {
+          "name": "Aria",
+          "hex": "#882A5E"
+        },
+        {
+          "name": "Siren",
+          "hex": "#802A35"
+        },
+        {
+          "name": "Goal Digger",
+          "hex": "#573438"
+        },
+        {
+          "name": "Honeymoon",
+          "hex": "#B67B6D"
+        },
+        {
+          "name": "Tea Rose",
+          "hex": "#F48898"
+        },
+        {
+          "name": "Natural",
+          "hex": "#ED8D99"
+        },
+        {
+          "name": "Whipped Caviar",
+          "hex": "#F497A2"
+        },
+        {
+          "name": "Euro Trash",
+          "hex": "#FDA099"
+        },
+        {
+          "name": "Sierra",
+          "hex": "#FB6E64"
+        },
+        {
+          "name": "Strawberry Daiquiri",
+          "hex": "#FF8883"
+        },
+        {
+          "name": "Crazed",
+          "hex": "#94382D"
+        },
+        {
+          "name": "Angel",
+          "hex": "#FF7D93"
+        },
+        {
+          "name": "Merlot",
+          "hex": "#E75268"
+        },
+        {
+          "name": "Alabama",
+          "hex": "#DC453A"
+        },
+        {
+          "name": "Eden",
+          "hex": "#F43847"
+        },
+        {
+          "name": "Bloody Mary",
+          "hex": "#FD4068"
+        },
+        {
+          "name": "Perfect Red",
+          "hex": "#E92A2F"
+        },
+        {
+          "name": "Pure Red",
+          "hex": "#FF3F4C"
+        },
+        {
+          "name": "Street Cred",
+          "hex": "#F78493"
+        },
+        {
+          "name": "Crave",
+          "hex": "#FF5864"
+        },
+        {
+          "name": "Indie Flick",
+          "hex": "#FF584C"
+        },
+        {
+          "name": "Nude",
+          "hex": "#FEB19F"
+        },
+        {
+          "name": "Spirit",
+          "hex": "#FFB0A6"
+        },
+        {
+          "name": "Temptress",
+          "hex": "#FFAAA3"
+        },
+        {
+          "name": "Couture",
+          "hex": "#FFB0AC"
+        },
+        {
+          "name": "Forbidden",
+          "hex": "#FDB79E"
+        },
+        {
+          "name": "Daydream",
+          "hex": "#FFA899"
+        },
+        {
+          "name": "Shy",
+          "hex": "#FBBC9D"
+        },
+        {
+          "name": "Bare With Me",
+          "hex": "#EEA690"
+        },
+        {
+          "name": "Minx",
+          "hex": "#AA8771"
+        },
+        {
+          "name": "Butter",
+          "hex": "#DCAF98"
+        },
+        {
+          "name": "Sable",
+          "hex": "#E7B092"
+        },
+        {
+          "name": "Maison",
+          "hex": "#B27A61"
+        }
+      ]
+    },
+    {
+      "id": "nyx-pro-lip-cream-palette",
+      "brand": "NYX",
+      "name": "Pro Lip Cream Palette",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw46507c8a/ProductImages/2016/Lips/Pro_Lip_Cream_Palette/prolipcreampalette_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹996",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "The Nudes",
+          "hex": "#B76C4C"
+        },
+        {
+          "name": "The Pinks",
+          "hex": "#CD5C56"
+        },
+        {
+          "name": "The Reds",
+          "hex": "#C21A17"
+        },
+        {
+          "name": "The Plums",
+          "hex": "#99242C"
+        }
+      ]
+    },
+    {
+      "id": "nyx-full-throttle-lipstick",
+      "brand": "NYX",
+      "name": "Full Throttle Lipstick",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw96029c57/ProductImages/2016/Lips/Full_Throttle_Lipstick/fullthrottlelipstick_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹581",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Lethal Kiss",
+          "hex": "#F84B8B"
+        },
+        {
+          "name": "Trickster",
+          "hex": "#BA5591"
+        },
+        {
+          "name": "Locked",
+          "hex": "#9D2D43"
+        },
+        {
+          "name": "Loaded",
+          "hex": "#753529"
+        },
+        {
+          "name": "Night Crawler",
+          "hex": "#6D2F46"
+        },
+        {
+          "name": "Con Artist",
+          "hex": "#87372E"
+        },
+        {
+          "name": "Up The Bass",
+          "hex": "#C1120D"
+        },
+        {
+          "name": "Sandman",
+          "hex": "#9B3C2A"
+        },
+        {
+          "name": "Firestorm",
+          "hex": "#DE3228"
+        },
+        {
+          "name": "Jolt",
+          "hex": "#EC5039"
+        },
+        {
+          "name": "Sidekick",
+          "hex": "#E89782"
+        },
+        {
+          "name": "Kiss The Dust",
+          "hex": "#BB745E"
+        }
+      ]
+    },
+    {
+      "id": "nyx-plush-gel-lipstick",
+      "brand": "NYX",
+      "name": "Plush Gel Lipstick",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw9c3f0820/ProductImages/2016/Lips/Plush_Gel_Lipstick/plushgellipstick_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹581",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Nude Beach",
+          "hex": "#D39483"
+        },
+        {
+          "name": "Dime Piece",
+          "hex": "#E5898A"
+        },
+        {
+          "name": "Air Blossom",
+          "hex": "#FF739D"
+        },
+        {
+          "name": "Azalea",
+          "hex": "#FB4C9B"
+        },
+        {
+          "name": "Fizzy Berries",
+          "hex": "#DE4A84"
+        },
+        {
+          "name": "Karma Kiss",
+          "hex": "#E62D57"
+        },
+        {
+          "name": "Sharp Femme",
+          "hex": "#D52A3D"
+        },
+        {
+          "name": "Sacred Mix",
+          "hex": "#B1223E"
+        },
+        {
+          "name": "Pastel Dust",
+          "hex": "#FE987F"
+        },
+        {
+          "name": "Foxy Love",
+          "hex": "#FF6541"
+        },
+        {
+          "name": "Coral Mist",
+          "hex": "#FE6D5C"
+        },
+        {
+          "name": "Breakup",
+          "hex": "#A9655C"
+        }
+      ]
+    },
+    {
+      "id": "nyx-velvet-matte-lipstick",
+      "brand": "NYX",
+      "name": "Velvet Matte Lipstick",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw1e94f54f/ProductImages/2016/Lips/Velvet_Matte_Lipstick/velvetmattelipstick_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹581",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Effervescent",
+          "hex": "#EC737C"
+        },
+        {
+          "name": "Miami Nights",
+          "hex": "#FD227E"
+        },
+        {
+          "name": "Unicorn Fur",
+          "hex": "#DB5DA6"
+        },
+        {
+          "name": "Disorderly",
+          "hex": "#66459C"
+        },
+        {
+          "name": "Violet Voltage",
+          "hex": "#894193"
+        },
+        {
+          "name": "Midnight Muse",
+          "hex": "#272B58"
+        },
+        {
+          "name": "Volcano",
+          "hex": "#8F323D"
+        },
+        {
+          "name": "Blood Love",
+          "hex": "#C42627"
+        },
+        {
+          "name": "Beach Casual",
+          "hex": "#C69078"
+        },
+        {
+          "name": "Soft Femme",
+          "hex": "#B06C6D"
+        },
+        {
+          "name": "Charmed",
+          "hex": "#AB5C58"
+        },
+        {
+          "name": "Duchess",
+          "hex": "#9C656A"
+        }
+      ]
+    },
+    {
+      "id": "nyx-turnt-up-lipstick",
+      "brand": "NYX",
+      "name": "Turnt Up! Lipstick",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw5c4a6ee3/ProductImages/2016/Lips/Turnt_Up_Lipstick/turntuplipstick_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹540",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "French Kiss",
+          "hex": "#FEA3A0"
+        },
+        {
+          "name": "Pink Lady",
+          "hex": "#FF9B8F"
+        },
+        {
+          "name": "Beam",
+          "hex": "#FE958F"
+        },
+        {
+          "name": "Rags To Riches",
+          "hex": "#FF5555"
+        },
+        {
+          "name": "Tiara",
+          "hex": "#FE9288"
+        },
+        {
+          "name": "Sweet 16",
+          "hex": "#FF888C"
+        },
+        {
+          "name": "Privileged",
+          "hex": "#FE6695"
+        },
+        {
+          "name": "Flutter Kisses",
+          "hex": "#DB8880"
+        },
+        {
+          "name": "Playdate",
+          "hex": "#CA94C5"
+        },
+        {
+          "name": "Twisted",
+          "hex": "#A75BA5"
+        },
+        {
+          "name": "Wine & Dine",
+          "hex": "#980A30"
+        },
+        {
+          "name": "Feline",
+          "hex": "#85242B"
+        },
+        {
+          "name": "Dahlia",
+          "hex": "#3E1213"
+        },
+        {
+          "name": "Burlesque",
+          "hex": "#9F0B0B"
+        },
+        {
+          "name": "Hollywood",
+          "hex": "#CC0607"
+        },
+        {
+          "name": "Rock Star",
+          "hex": "#EE2E2B"
+        },
+        {
+          "name": "Free Spirit",
+          "hex": "#FE623A"
+        },
+        {
+          "name": "Tan-Gerine",
+          "hex": "#FFAC8E"
+        },
+        {
+          "name": "Mirage",
+          "hex": "#FFBB9E"
+        },
+        {
+          "name": "Flawless",
+          "hex": "#F1B18E"
+        },
+        {
+          "name": "Stone",
+          "hex": "#ECAC91"
+        },
+        {
+          "name": "Dirty Talk",
+          "hex": "#8A4830"
+        }
+      ]
+    },
+    {
+      "id": "nyx-pin-up-pout-lipstick",
+      "brand": "NYX",
+      "name": "Pin-Up Pout Lipstick",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw5c89147f/ProductImages/2017/Lips/Pin_Up_Pout_Lipstick/pinuppoutlipstick_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹664",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Darling",
+          "hex": "#D8687E"
+        },
+        {
+          "name": "Opinionated",
+          "hex": "#DF5866"
+        },
+        {
+          "name": "Dance Party",
+          "hex": "#F25491"
+        },
+        {
+          "name": "Bombshell",
+          "hex": "#D21A50"
+        },
+        {
+          "name": "Boundless",
+          "hex": "#C56A65"
+        },
+        {
+          "name": "Almost Famous",
+          "hex": "#A6595F"
+        },
+        {
+          "name": "Cocktail Hour",
+          "hex": "#A02961"
+        },
+        {
+          "name": "Fiery",
+          "hex": "#F14231"
+        },
+        {
+          "name": "Lucy",
+          "hex": "#A30305"
+        },
+        {
+          "name": "Red Haute",
+          "hex": "#930801"
+        },
+        {
+          "name": "Revolution",
+          "hex": "#6F2323"
+        },
+        {
+          "name": "Rebel Soul",
+          "hex": "#763637"
+        },
+        {
+          "name": "Smoke Me",
+          "hex": "#9F8995"
+        },
+        {
+          "name": "Wisteria",
+          "hex": "#984CA6"
+        },
+        {
+          "name": "Violet Femme",
+          "hex": "#7A3169"
+        },
+        {
+          "name": "Flashy",
+          "hex": "#743049"
+        },
+        {
+          "name": "True Vixen",
+          "hex": "#4A2F34"
+        },
+        {
+          "name": "Wild Spirit",
+          "hex": "#42306E"
+        },
+        {
+          "name": "Silk",
+          "hex": "#CC846C"
+        },
+        {
+          "name": "Sophisticated",
+          "hex": "#C0745D"
+        },
+        {
+          "name": "Corset",
+          "hex": "#BC7969"
+        },
+        {
+          "name": "Individualistic",
+          "hex": "#9C5949"
+        },
+        {
+          "name": "Savage",
+          "hex": "#6F3027"
+        },
+        {
+          "name": "Resistance",
+          "hex": "#8D4749"
+        }
+      ]
+    },
+    {
+      "id": "nyx-super-cliquey-matte-lipstick",
+      "brand": "NYX",
+      "name": "Super Cliquey Matte Lipstick",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw6dcbd51c/ProductImages/2017/Lips/Super_Cliquey_Satin_Matte_Lipstick/supercliqueysatinmattelipstick_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹747",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "On The DL",
+          "hex": "#DB7D64"
+        },
+        {
+          "name": "Oh So Pretty",
+          "hex": "#EB6669"
+        },
+        {
+          "name": "Obvs",
+          "hex": "#9F3E52"
+        },
+        {
+          "name": "Conform",
+          "hex": "#7E4F47"
+        },
+        {
+          "name": "Serpent",
+          "hex": "#BF2259"
+        },
+        {
+          "name": "Chain Reaction",
+          "hex": "#BF207A"
+        },
+        {
+          "name": "Snarky",
+          "hex": "#D53C3E"
+        },
+        {
+          "name": "In The Red",
+          "hex": "#BF012D"
+        },
+        {
+          "name": "Risktaker",
+          "hex": "#A21A2E"
+        },
+        {
+          "name": "Ruthless",
+          "hex": "#651F77"
+        },
+        {
+          "name": "Empowered",
+          "hex": "#934A43"
+        },
+        {
+          "name": "Dangerous",
+          "hex": "#742332"
+        }
+      ]
+    },
+    {
+      "id": "nyx-powder-puff-lippie-powder-lip-cream",
+      "brand": "NYX",
+      "name": "Powder Puff Lippie Powder Lip Cream",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw481c25c3/ProductImages/2018/Lips/Powder_Puff_Lippie/powderpufflippie_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹706",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Cool Intentions",
+          "hex": "#864B45"
+        },
+        {
+          "name": "Puppy Love",
+          "hex": "#D9484D"
+        },
+        {
+          "name": "Group Love",
+          "hex": "#98020D"
+        },
+        {
+          "name": "Squad Goals",
+          "hex": "#A65156"
+        },
+        {
+          "name": "Teenage Dream",
+          "hex": "#BD2266"
+        },
+        {
+          "name": "Pop Quiz",
+          "hex": "#682826"
+        },
+        {
+          "name": "Moody",
+          "hex": "#874755"
+        },
+        {
+          "name": "Best Buds",
+          "hex": "#C06465"
+        }
+      ]
+    },
+    {
+      "id": "nyx-lip-lustre-glossy-lip-tint",
+      "brand": "NYX",
+      "name": "Lip Lustre Glossy Lip Tint",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw42117915/ProductImages/2016/Lips/Lip_Lustre_Glossy_Lip_Tint/liplustreglossyliptint_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹581",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Rustic Mirage",
+          "hex": "#C2696F"
+        },
+        {
+          "name": "Antique Romance",
+          "hex": "#D1506E"
+        },
+        {
+          "name": "Liquid Plum",
+          "hex": "#A04858"
+        },
+        {
+          "name": "Euphoric",
+          "hex": "#F45D92"
+        },
+        {
+          "name": "Retro Socialite",
+          "hex": "#E62E86"
+        },
+        {
+          "name": "Love Letter",
+          "hex": "#FF383B"
+        },
+        {
+          "name": "Mystic Gypsy",
+          "hex": "#FE293D"
+        },
+        {
+          "name": "Lovetopia",
+          "hex": "#F5273E"
+        },
+        {
+          "name": "Ruby Couture",
+          "hex": "#D9544B"
+        },
+        {
+          "name": "Juicy Peach",
+          "hex": "#FF643D"
+        },
+        {
+          "name": "Violet Glass",
+          "hex": "#9F43B2"
+        },
+        {
+          "name": "Dark Magic",
+          "hex": "#593C7C"
+        }
+      ]
+    },
+    {
+      "id": "nyx-cosmic-metals-lip-cream",
+      "brand": "NYX",
+      "name": "Cosmic Metals Lip Cream",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwffc4644e/ProductImages/2017/Lips/Cosmic_Metals_Lip_Cream/cosmicmetalslipcream_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹622",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Fuchsia Fusion",
+          "hex": "#F4267B"
+        },
+        {
+          "name": "Crystalized Metal",
+          "hex": "#CC7C7F"
+        },
+        {
+          "name": "Solar Energy",
+          "hex": "#FD633D"
+        },
+        {
+          "name": "Out Of This World",
+          "hex": "#03A373"
+        },
+        {
+          "name": "Extraterrestrial",
+          "hex": "#747354"
+        },
+        {
+          "name": "Electromagnetic",
+          "hex": "#029BA1"
+        },
+        {
+          "name": "Comets Tail",
+          "hex": "#0090C7"
+        },
+        {
+          "name": "Dark Nebula",
+          "hex": "#166DA3"
+        },
+        {
+          "name": "Asteroid Aura",
+          "hex": "#B145AA"
+        },
+        {
+          "name": "Ultraviolet",
+          "hex": "#894DA5"
+        },
+        {
+          "name": "Celestial Star",
+          "hex": "#3750A4"
+        },
+        {
+          "name": "Speed Of Light",
+          "hex": "#F08C72"
+        },
+        {
+          "name": "Metropolitan Night",
+          "hex": "#D29F82"
+        },
+        {
+          "name": "Celestial",
+          "hex": "#D69A76"
+        },
+        {
+          "name": "Retro Harmony",
+          "hex": "#C99379"
+        },
+        {
+          "name": "Galactic Love",
+          "hex": "#9D5D44"
+        },
+        {
+          "name": "Elite",
+          "hex": "#824F4B"
+        },
+        {
+          "name": "Galactic",
+          "hex": "#747378"
+        }
+      ]
+    },
+    {
+      "id": "nyx-epic-ink-lip-dye",
+      "brand": "NYX",
+      "name": "Epic Ink Lip Dye",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw7d8fe312/ProductImages/2017/Lips/Epic_Ink_Lip_Dye/epicinklipdye_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹581",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Poised",
+          "hex": "#C20201"
+        },
+        {
+          "name": "Blazed",
+          "hex": "#B60E0E"
+        },
+        {
+          "name": "Fresh",
+          "hex": "#8E1325"
+        },
+        {
+          "name": "Slay",
+          "hex": "#710906"
+        },
+        {
+          "name": "Wizardry",
+          "hex": "#69131C"
+        },
+        {
+          "name": "Charmer",
+          "hex": "#AF0A2C"
+        },
+        {
+          "name": "Heartbreaker",
+          "hex": "#AF0C45"
+        },
+        {
+          "name": "Obsessed",
+          "hex": "#7A1B53"
+        },
+        {
+          "name": "Victorian",
+          "hex": "#7B1B40"
+        },
+        {
+          "name": "Nightrunner",
+          "hex": "#4C091A"
+        },
+        {
+          "name": "Invasion",
+          "hex": "#572316"
+        },
+        {
+          "name": "Revolt",
+          "hex": "#E9361F"
+        }
+      ]
+    },
+    {
+      "id": "nyx-strictly-vinyl-lip-gloss",
+      "brand": "NYX",
+      "name": "Strictly Vinyl Lip Gloss",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwd10df14c/ProductImages/2018/Lips/Strictly_Vinyl_Lip_Gloss/strictlyvinyllipgloss_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹664",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Sugar Mama",
+          "hex": "#7F4531"
+        },
+        {
+          "name": "Bombshell",
+          "hex": "#733B2E"
+        },
+        {
+          "name": "Baby Doll",
+          "hex": "#603838"
+        },
+        {
+          "name": "Bad Girl",
+          "hex": "#670C13"
+        },
+        {
+          "name": "Night Walker",
+          "hex": "#512C33"
+        },
+        {
+          "name": "Rebel",
+          "hex": "#1A1929"
+        },
+        {
+          "name": "Bad Seed",
+          "hex": "#071C13"
+        },
+        {
+          "name": "Femme Fatale",
+          "hex": "#201913"
+        }
+      ]
+    },
+    {
+      "id": "nyx-duo-chromatic-lip-gloss",
+      "brand": "NYX",
+      "name": "Duo Chromatic Lip Gloss",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwf51cf9e7/ProductImages/2018/Lips/Duo_Chromatic_Lip_Gloss/duochromaticlipgloss_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹664",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "The New Normal",
+          "hex": "#CAA6A8"
+        },
+        {
+          "name": "Booming",
+          "hex": "#E8BBBE"
+        },
+        {
+          "name": "Spring It On",
+          "hex": "#DBACA4"
+        },
+        {
+          "name": "Cocktail Party",
+          "hex": "#E6B06A"
+        },
+        {
+          "name": "Fairplay",
+          "hex": "#EFA367"
+        },
+        {
+          "name": "Crushing It",
+          "hex": "#E0DBD5"
+        },
+        {
+          "name": "Gypsy Dream",
+          "hex": "#BE9CAD"
+        },
+        {
+          "name": "Day Club",
+          "hex": "#A8C0C2"
+        },
+        {
+          "name": "Lucid",
+          "hex": "#D3CCB9"
+        },
+        {
+          "name": "Foam Party",
+          "hex": "#A0C6B9"
+        }
+      ]
+    },
+    {
+      "id": "nyx-slip-tease-full-color-lip-oil",
+      "brand": "NYX",
+      "name": "Slip Tease Full Color Lip Oil",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwd377cdfa/ProductImages/2017/Lips/Slip_Tease_Full_Color_Lip_Oil/slipteasefullcolorlipoil_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹581",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "I Woke Up Like This",
+          "hex": "#D7978E"
+        },
+        {
+          "name": "Entice",
+          "hex": "#B98180"
+        },
+        {
+          "name": "Coy",
+          "hex": "#D87884"
+        },
+        {
+          "name": "Bang Bang",
+          "hex": "#8B4B4C"
+        },
+        {
+          "name": "Baecation",
+          "hex": "#FF56A8"
+        },
+        {
+          "name": "Fatal Attraction",
+          "hex": "#B73E8D"
+        },
+        {
+          "name": "Feisty",
+          "hex": "#974AB4"
+        },
+        {
+          "name": "Lowkey",
+          "hex": "#BD6A66"
+        },
+        {
+          "name": "Fire Dancer",
+          "hex": "#921736"
+        },
+        {
+          "name": "Beyond Basic",
+          "hex": "#A1745D"
+        },
+        {
+          "name": "Red Queen",
+          "hex": "#D3212F"
+        },
+        {
+          "name": "Breezy",
+          "hex": "#FF6964"
+        }
+      ]
+    },
+    {
+      "id": "nyx-liquid-suede-metallic-matte",
+      "brand": "NYX",
+      "name": "Liquid Suede Metallic Matte",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw9d2f72a4/ProductImages/2017/Lips/Liquid_Suede_Metallic_Matte/liquidsuedemetallicmatte_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹622",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Exposed",
+          "hex": "#BC7D5A"
+        },
+        {
+          "name": "Mauve Mist",
+          "hex": "#9A4F3C"
+        },
+        {
+          "name": "Bella",
+          "hex": "#9C3E3C"
+        },
+        {
+          "name": "New Era",
+          "hex": "#82412B"
+        },
+        {
+          "name": "Neat Nude",
+          "hex": "#563428"
+        },
+        {
+          "name": "Buzzkill",
+          "hex": "#A91851"
+        },
+        {
+          "name": "Acme",
+          "hex": "#9E1F26"
+        },
+        {
+          "name": "Modern Maven",
+          "hex": "#7A253A"
+        },
+        {
+          "name": "Pure Society",
+          "hex": "#761538"
+        },
+        {
+          "name": "Biker Babe",
+          "hex": "#752329"
+        },
+        {
+          "name": "Ego",
+          "hex": "#472071"
+        },
+        {
+          "name": "Go Rogue",
+          "hex": "#2F3239"
+        }
+      ]
+    },
+    {
+      "id": "nyx-liquid-suede-cream-lipstick",
+      "brand": "NYX",
+      "name": "Liquid Suede Cream Lipstick",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwa19d7c26/ProductImages/Lips/Liquid_Suede_Cream_Lipstick/liquidsuedecreamlipstick_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹581",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Tea & Cookies",
+          "hex": "#DF666F"
+        },
+        {
+          "name": "Life's A Beach",
+          "hex": "#FE5862"
+        },
+        {
+          "name": "Pink Lust",
+          "hex": "#FC3183"
+        },
+        {
+          "name": "Kitten Heels",
+          "hex": "#CD060B"
+        },
+        {
+          "name": "Cherry Skies",
+          "hex": "#962A27"
+        },
+        {
+          "name": "Foiled Again",
+          "hex": "#FD7136"
+        },
+        {
+          "name": "Orange County",
+          "hex": "#FC5221"
+        },
+        {
+          "name": "Little Denim Dress",
+          "hex": "#01A3E3"
+        },
+        {
+          "name": "Jet Set",
+          "hex": "#2F2A88"
+        },
+        {
+          "name": "Foul Mouth",
+          "hex": "#3A1C66"
+        },
+        {
+          "name": "Respect The Pink",
+          "hex": "#DE65B2"
+        },
+        {
+          "name": "Sway",
+          "hex": "#BE61B1"
+        },
+        {
+          "name": "Run The World",
+          "hex": "#A03FA0"
+        },
+        {
+          "name": "Amethyst",
+          "hex": "#6D2686"
+        },
+        {
+          "name": "Subversive Socialite",
+          "hex": "#5A2253"
+        },
+        {
+          "name": "Oh, Put It On",
+          "hex": "#3B1153"
+        },
+        {
+          "name": "Vintage",
+          "hex": "#7B2D3B"
+        },
+        {
+          "name": "Club Hopper",
+          "hex": "#722F26"
+        },
+        {
+          "name": "Sandstorm",
+          "hex": "#AA614E"
+        },
+        {
+          "name": "Soft-Spoken",
+          "hex": "#AE5350"
+        },
+        {
+          "name": "Brooklyn Thorn",
+          "hex": "#815049"
+        },
+        {
+          "name": "Downtown Beauty",
+          "hex": "#7E5036"
+        },
+        {
+          "name": "Stone Fox",
+          "hex": "#585455"
+        },
+        {
+          "name": "Alien",
+          "hex": "#2A2829"
+        }
+      ]
+    },
+    {
+      "id": "nyx-lip-lingerie",
+      "brand": "NYX",
+      "name": "Lip Lingerie",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw00c7446b/ProductImages/2017/Lips/Lip_Lingerie_Extension/liplingerie_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹581",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Cheekies",
+          "hex": "#F8AB8F"
+        },
+        {
+          "name": "Silk Indulgent",
+          "hex": "#E59886"
+        },
+        {
+          "name": "Baby Doll",
+          "hex": "#C48B7A"
+        },
+        {
+          "name": "Lace Detail",
+          "hex": "#C38878"
+        },
+        {
+          "name": "Push-Up",
+          "hex": "#B77E6B"
+        },
+        {
+          "name": "Bedtime Flirt",
+          "hex": "#AF7260"
+        },
+        {
+          "name": "Embellishment",
+          "hex": "#AF7079"
+        },
+        {
+          "name": "Cashmere Silk",
+          "hex": "#BF7D6F"
+        },
+        {
+          "name": "Bustier",
+          "hex": "#A9796F"
+        },
+        {
+          "name": "French Maid",
+          "hex": "#A76169"
+        },
+        {
+          "name": "Confident",
+          "hex": "#704D47"
+        },
+        {
+          "name": "Exotic",
+          "hex": "#903E33"
+        },
+        {
+          "name": "Cabaret Show",
+          "hex": "#A25A4E"
+        },
+        {
+          "name": "Seduction",
+          "hex": "#C46954"
+        },
+        {
+          "name": "Ruffle Trim",
+          "hex": "#C07764"
+        },
+        {
+          "name": "Dusk To Dawn",
+          "hex": "#E29871"
+        },
+        {
+          "name": "Satin Ribbon",
+          "hex": "#C59581"
+        },
+        {
+          "name": "Corset",
+          "hex": "#C0947B"
+        },
+        {
+          "name": "Delicate Lust",
+          "hex": "#966F60"
+        },
+        {
+          "name": "Honeymoon",
+          "hex": "#96705D"
+        },
+        {
+          "name": "Teddy",
+          "hex": "#8F624D"
+        },
+        {
+          "name": "After Hours",
+          "hex": "#8B5845"
+        },
+        {
+          "name": "Beauty Mark",
+          "hex": "#855A4A"
+        },
+        {
+          "name": "Scandalous",
+          "hex": "#715E50"
+        }
+      ]
+    },
+    {
+      "id": "nyx-soft-matte-lip-cream",
+      "brand": "NYX",
+      "name": "Soft Matte Lip Cream",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw663a4cdb/ProductImages/Lips/Soft_Matte_Lip_Cream/softmattelipcream_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹540",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "London",
+          "hex": "#D18B72"
+        },
+        {
+          "name": "Sydney",
+          "hex": "#F6A0BD"
+        },
+        {
+          "name": "Tokyo",
+          "hex": "#FB9BA6"
+        },
+        {
+          "name": "Istanbul",
+          "hex": "#ED9194"
+        },
+        {
+          "name": "Milan",
+          "hex": "#F17086"
+        },
+        {
+          "name": "Manila",
+          "hex": "#F34745"
+        },
+        {
+          "name": "Antwerp",
+          "hex": "#FB5062"
+        },
+        {
+          "name": "Ibiza",
+          "hex": "#F54F5B"
+        },
+        {
+          "name": "Prague",
+          "hex": "#C43F6C"
+        },
+        {
+          "name": "Sao Paulo",
+          "hex": "#D6475B"
+        },
+        {
+          "name": "Paris",
+          "hex": "#E83169"
+        },
+        {
+          "name": "Addis Ababa",
+          "hex": "#E93275"
+        },
+        {
+          "name": "Seoul",
+          "hex": "#9F3B77"
+        },
+        {
+          "name": "Moscow",
+          "hex": "#123368"
+        },
+        {
+          "name": "Havana",
+          "hex": "#622F8C"
+        },
+        {
+          "name": "Vancouver",
+          "hex": "#78293C"
+        },
+        {
+          "name": "Transylvania",
+          "hex": "#621132"
+        },
+        {
+          "name": "Copenhagen",
+          "hex": "#7B0F33"
+        },
+        {
+          "name": "Budapest",
+          "hex": "#953C42"
+        },
+        {
+          "name": "Madrid",
+          "hex": "#7C2325"
+        },
+        {
+          "name": "Monte Carlo",
+          "hex": "#9C0A2F"
+        },
+        {
+          "name": "Amsterdam",
+          "hex": "#E12836"
+        },
+        {
+          "name": "Morocco",
+          "hex": "#FE3A20"
+        },
+        {
+          "name": "San Juan",
+          "hex": "#FF5A3C"
+        },
+        {
+          "name": "Buenos Aires",
+          "hex": "#FC9B88"
+        },
+        {
+          "name": "Cairo",
+          "hex": "#F7B690"
+        },
+        {
+          "name": "Athens",
+          "hex": "#F6A385"
+        },
+        {
+          "name": "Zurich",
+          "hex": "#F0847A"
+        },
+        {
+          "name": "Stockholm",
+          "hex": "#E78779"
+        },
+        {
+          "name": "Abu Dhabi",
+          "hex": "#D58D75"
+        },
+        {
+          "name": "Cannes",
+          "hex": "#D36B5E"
+        },
+        {
+          "name": "Rome",
+          "hex": "#92433C"
+        },
+        {
+          "name": "Dubai",
+          "hex": "#7B4129"
+        },
+        {
+          "name": "Berlin",
+          "hex": "#7F3C22"
+        }
+      ]
+    },
+    {
+      "id": "nyx-soft-matte-metallic-lip-cream",
+      "brand": "NYX",
+      "name": "Soft Matte Metallic Lip Cream",
+      "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw21376be0/ProductImages/2018/Lips/Soft_Matte_Metallic_Lip_Cream/softmattelipcream_main.jpg?sw=390&sh=390&sm=fit",
+      "price_prefix": "₹581",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Dubai",
+          "hex": "#783628"
+        },
+        {
+          "name": "Manila",
+          "hex": "#F0636B"
+        },
+        {
+          "name": "Milan",
+          "hex": "#E17680"
+        },
+        {
+          "name": "Cannes",
+          "hex": "#D16966"
+        },
+        {
+          "name": "Rome",
+          "hex": "#954649"
+        },
+        {
+          "name": "Paris",
+          "hex": "#D21D54"
+        },
+        {
+          "name": "Monte Carlo",
+          "hex": "#BF1726"
+        },
+        {
+          "name": "Seoul",
+          "hex": "#9F3275"
+        },
+        {
+          "name": "Havana",
+          "hex": "#612B9A"
+        },
+        {
+          "name": "Copenhagen",
+          "hex": "#78323A"
+        },
+        {
+          "name": "Madrid",
+          "hex": "#922834"
+        },
+        {
+          "name": "Budapest",
+          "hex": "#822C35"
+        }
+      ]
+    },
+    {
+      "id": "fenty-mattemoiselle-plush-matte-lipstick",
+      "brand": "Fenty",
+      "name": "MATTEMOISELLE - Plush Matte Lipstick",
+      "image": "https://www.fentybeauty.com/dw/image/v2/AAXW_PRD/on/demandware.static/-/Sites-itemmaster_FENTY/default/dwc8c6d1b8/hi-res/FB40005_FB4014.jpg?sw=550 550w",
+      "price_prefix": "₹1,494",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Ma'Damn - Royal Red",
+          "hex": "#B6232B"
+        },
+        {
+          "name": "Candy Venom - Electric Pink",
+          "hex": "#DC386C"
+        },
+        {
+          "name": "Up 2 No Good - Nude Peach",
+          "hex": "#E08F71"
+        },
+        {
+          "name": "Freckle Fiesta - Spiced Terracotta",
+          "hex": "#C95E3C"
+        },
+        {
+          "name": "PMS - Moody Brown",
+          "hex": "#6D271A"
+        },
+        {
+          "name": "Ya Dig?! - Periwinkle Blue",
+          "hex": "#6785B8"
+        },
+        {
+          "name": "One of the Boyz - Wild Lilac",
+          "hex": "#9B7DC1"
+        },
+        {
+          "name": "Griselda - Bold Burgundy",
+          "hex": "#631B26"
+        },
+        {
+          "name": "Spanked - Dusty Rose",
+          "hex": "#A7453C"
+        },
+        {
+          "name": "Saw-C - Exotic Tangerine",
+          "hex": "#FC8327"
+        },
+        {
+          "name": "S1ngle - Blushing Nude",
+          "hex": "#D37655"
+        },
+        {
+          "name": "Shawty - Warm Chestnut",
+          "hex": "#894134"
+        },
+        {
+          "name": "Midnight Wasabi - Wicked Green",
+          "hex": "#437954"
+        },
+        {
+          "name": "Clapback - True Navy",
+          "hex": "#072345"
+        }
+      ]
+    },
+    {
+      "id": "fenty-cosmic-gloss-lip-glitter",
+      "brand": "Fenty",
+      "name": "COSMIC GLOSS - Lip Glitter",
+      "image": "https://www.fentybeauty.com/dw/image/v2/AAXW_PRD/on/demandware.static/-/Sites-itemmaster_FENTY/default/dwc6450206/hi-res/FB40001_FB4001.jpg?sw=550 550w",
+      "price_prefix": "₹1,577",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Gal On The Moon - Holographic Pink Orchid",
+          "hex": "#8E406D"
+        },
+        {
+          "name": "Spacesuit - Glittering Peach",
+          "hex": "#FE7C63"
+        },
+        {
+          "name": "Plutonic Relationshp - Holographic Hot Pink",
+          "hex": "#EB4077"
+        },
+        {
+          "name": "Astro-Naughty - Glittering Garnet",
+          "hex": "#5B1525"
+        }
+      ]
+    },
+    {
+      "id": "clinique-chubbytm-plump-shine-liquid-lip-plumping-gloss",
+      "brand": "Clinique",
+      "name": "Chubby™ Plump & Shine Liquid Lip Plumping Gloss",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZWP101_181x209.png",
+      "price_prefix": "₹1,452",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Pink & Plenty",
+          "hex": "#EE8FA8"
+        },
+        {
+          "name": "Normous Nude",
+          "hex": "#B37366"
+        },
+        {
+          "name": "Portly Peach",
+          "hex": "#E76F5F"
+        },
+        {
+          "name": "Jumbo Jem",
+          "hex": "#E28F96"
+        },
+        {
+          "name": "Powerhouse Punch",
+          "hex": "#CB1B56"
+        },
+        {
+          "name": "Goliath Grape",
+          "hex": "#973566"
+        },
+        {
+          "name": "Va Va Va Violet",
+          "hex": "#A54A6D"
+        },
+        {
+          "name": "Super Scarlet",
+          "hex": "#BF133F"
+        }
+      ]
+    },
+    {
+      "id": "clinique-almost-lipstick",
+      "brand": "Clinique",
+      "name": "Almost Lipstick",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_6359_181x209.png",
+      "price_prefix": "₹1,452",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Pink Honey",
+          "hex": "#D15969"
+        },
+        {
+          "name": "Black Honey",
+          "hex": "#4E1D16"
+        }
+      ]
+    },
+    {
+      "id": "clinique-butter-shinetm-lipstick",
+      "brand": "Clinique",
+      "name": "Butter Shine™ Lipstick",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_6F8X_181x209.png",
+      "price_prefix": "₹706",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Delovely",
+          "hex": "#BB7267"
+        },
+        {
+          "name": "Adore U",
+          "hex": "#D87A73"
+        },
+        {
+          "name": "Pink-a-boo",
+          "hex": "#E56D75"
+        },
+        {
+          "name": "Pink Beach",
+          "hex": "#CE6B67"
+        },
+        {
+          "name": "Berry Blush",
+          "hex": "#D06A7A"
+        },
+        {
+          "name": "Baby Baby",
+          "hex": "#DD777F"
+        },
+        {
+          "name": "Raspberry Rush",
+          "hex": "#BA4A60"
+        },
+        {
+          "name": "Pink Goddess",
+          "hex": "#C0415A"
+        },
+        {
+          "name": "Waterviolet",
+          "hex": "#CA7783"
+        },
+        {
+          "name": "Apple Brandy",
+          "hex": "#B62841"
+        },
+        {
+          "name": "Fresh Watermelon",
+          "hex": "#CB224E"
+        },
+        {
+          "name": "Cranberry Cream",
+          "hex": "#B80036"
+        },
+        {
+          "name": "Ambrosia",
+          "hex": "#EE4F49"
+        }
+      ]
+    },
+    {
+      "id": "clinique-high-impacttm-lip-colour",
+      "brand": "Clinique",
+      "name": "High Impact™ Lip Colour",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_6LX5_181x209.png",
+      "price_prefix": "₹1,452",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Peach Pop",
+          "hex": "#AA443B"
+        },
+        {
+          "name": "Extreme Pink",
+          "hex": "#B1455A"
+        },
+        {
+          "name": "Go Fig",
+          "hex": "#913B35"
+        },
+        {
+          "name": "Nude Beach",
+          "hex": "#D17C76"
+        },
+        {
+          "name": "Nearly Violet",
+          "hex": "#DC7A75"
+        },
+        {
+          "name": "Honey Blush",
+          "hex": "#E17770"
+        },
+        {
+          "name": "Very Currant",
+          "hex": "#E87785"
+        },
+        {
+          "name": "Toasted Rose",
+          "hex": "#D96A6D"
+        },
+        {
+          "name": "Rose Spectrum",
+          "hex": "#B3505D"
+        },
+        {
+          "name": "Sassy Spice",
+          "hex": "#C02C29"
+        },
+        {
+          "name": "Cider Berry",
+          "hex": "#853439"
+        },
+        {
+          "name": "Pure Posh",
+          "hex": "#CD5247"
+        },
+        {
+          "name": "Rosette",
+          "hex": "#A9434B"
+        },
+        {
+          "name": "After Party",
+          "hex": "#CC5268"
+        },
+        {
+          "name": "Red-y To Wear",
+          "hex": "#AF2033"
+        }
+      ]
+    },
+    {
+      "id": "clinique-chubby-stick-intensetm-moisturizing-lip-colour-balm",
+      "brand": "Clinique",
+      "name": "Chubby Stick Intense™ Moisturizing Lip Colour Balm",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_7THM03_181x209.png",
+      "price_prefix": "₹1,411",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Roundest Raspberry",
+          "hex": "#792D39"
+        },
+        {
+          "name": "Curviest Caramel",
+          "hex": "#A95C61"
+        },
+        {
+          "name": "Chunkiest Chili",
+          "hex": "#AB383F"
+        },
+        {
+          "name": "Mightiest Maraschino",
+          "hex": "#B5003D"
+        },
+        {
+          "name": "Heftiest Hibiscus",
+          "hex": "#BD3637"
+        },
+        {
+          "name": "Plushest Punch",
+          "hex": "#A51743"
+        },
+        {
+          "name": "Roomiest Rose",
+          "hex": "#831344"
+        },
+        {
+          "name": "Broadest Berry",
+          "hex": "#76303E"
+        },
+        {
+          "name": "Grandest Grape",
+          "hex": "#771835"
+        }
+      ]
+    },
+    {
+      "id": "clinique-long-last-soft-matte-lipstick",
+      "brand": "Clinique",
+      "name": "Long Last Soft Matte Lipstick",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_6280_181x209.png",
+      "price_prefix": "₹1,452",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Matte Beauty",
+          "hex": "#CD5A64"
+        },
+        {
+          "name": "Matte Plum",
+          "hex": "#AD276A"
+        },
+        {
+          "name": "Matte Crimson",
+          "hex": "#CC0631"
+        }
+      ]
+    },
+    {
+      "id": "clinique-long-last-lipstick",
+      "brand": "Clinique",
+      "name": "Long Last Lipstick",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_63N2_181x209.png",
+      "price_prefix": "₹1,411",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Will You?",
+          "hex": "#F85856"
+        },
+        {
+          "name": "I Do!",
+          "hex": "#BF4559"
+        },
+        {
+          "name": "Silvery Moon",
+          "hex": "#D97A96"
+        },
+        {
+          "name": "Honeymoon",
+          "hex": "#C96E5A"
+        },
+        {
+          "name": "Violet Berry",
+          "hex": "#BA4A58"
+        },
+        {
+          "name": "Watermelon",
+          "hex": "#CC486A"
+        },
+        {
+          "name": "Ginger Flower",
+          "hex": "#C9253E"
+        },
+        {
+          "name": "Runway Coral",
+          "hex": "#E64E51"
+        },
+        {
+          "name": "Twilight Nude",
+          "hex": "#AF5965"
+        },
+        {
+          "name": "Creamy Nude",
+          "hex": "#AF675D"
+        },
+        {
+          "name": "Baby Kiss",
+          "hex": "#A75155"
+        },
+        {
+          "name": "Berry Freeze",
+          "hex": "#AD3836"
+        },
+        {
+          "name": "Rose Shimmer",
+          "hex": "#A8005B"
+        },
+        {
+          "name": "Beauty",
+          "hex": "#B35060"
+        },
+        {
+          "name": "All Heart",
+          "hex": "#A44242"
+        },
+        {
+          "name": "Red Red Red",
+          "hex": "#B32127"
+        },
+        {
+          "name": "Golden Brandy",
+          "hex": "#BE453E"
+        },
+        {
+          "name": "Pink Spice",
+          "hex": "#A75258"
+        },
+        {
+          "name": "Black Violet",
+          "hex": "#6C2A2D"
+        },
+        {
+          "name": "Blushing Nude",
+          "hex": "#A95554"
+        },
+        {
+          "name": "Sugared Maple",
+          "hex": "#A95C5B"
+        },
+        {
+          "name": "Merlot",
+          "hex": "#8F212E"
+        },
+        {
+          "name": "Bamboo Pink",
+          "hex": "#A96361"
+        },
+        {
+          "name": "Heather Moon",
+          "hex": "#874F58"
+        },
+        {
+          "name": "Dubonnet",
+          "hex": "#A52B25"
+        },
+        {
+          "name": "Pink Chocolate",
+          "hex": "#A7413D"
+        }
+      ]
+    },
+    {
+      "id": "clinique-clinique-pop-liquidtm-matte-lip-colour-primer",
+      "brand": "Clinique",
+      "name": "Clinique Pop Liquid™ Matte Lip Colour + Primer",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZLPM01_181x209.png",
+      "price_prefix": "₹1,536",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Petal Pop",
+          "hex": "#E86BA5"
+        },
+        {
+          "name": "Boom Pop",
+          "hex": "#841544"
+        },
+        {
+          "name": "Cake Pop",
+          "hex": "#DA7D7E"
+        },
+        {
+          "name": "Flame Pop",
+          "hex": "#C8093A"
+        },
+        {
+          "name": "Ripe Pop",
+          "hex": "#EF3232"
+        },
+        {
+          "name": "Sweetheart Pop",
+          "hex": "#9E1B56"
+        },
+        {
+          "name": "Candied Apple Pop",
+          "hex": "#790126"
+        },
+        {
+          "name": "Black Licorice Pop",
+          "hex": "#5E072F"
+        }
+      ]
+    },
+    {
+      "id": "clinique-chubby-stick-baby-tinttm-moisturizing-lip-colour-balm",
+      "brand": "Clinique",
+      "name": "Chubby Stick Baby Tint™ Moisturizing Lip Colour Balm",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_Z4CF_181x209.png",
+      "price_prefix": "₹1,452",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Budding Blossom",
+          "hex": "#FF8FB2"
+        },
+        {
+          "name": "Coming Up Rosy",
+          "hex": "#E35773"
+        },
+        {
+          "name": "Poppin' Poppy",
+          "hex": "#F26A6F"
+        },
+        {
+          "name": "Flowering Freesia",
+          "hex": "#783E5B"
+        }
+      ]
+    },
+    {
+      "id": "clinique-clinique-jonathan-adler-pop-lip-colour-primer",
+      "brand": "Clinique",
+      "name": "Clinique + Jonathan Adler: Pop Lip Colour + Primer",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_K22002_181x209.png",
+      "price_prefix": "₹1,278",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Love Pop",
+          "hex": "#AD384A"
+        },
+        {
+          "name": "Palm Beach Pop",
+          "hex": "#EA2C51"
+        },
+        {
+          "name": "Cola Pop",
+          "hex": "#7B3636"
+        },
+        {
+          "name": "Melon Pop",
+          "hex": "#F45A3B"
+        },
+        {
+          "name": "Beige Pop",
+          "hex": "#CC756C"
+        },
+        {
+          "name": "Capri Pop",
+          "hex": "#E51E4F"
+        },
+        {
+          "name": "Fab Pop",
+          "hex": "#FB8187"
+        },
+        {
+          "name": "Bare Pop",
+          "hex": "#C86464"
+        },
+        {
+          "name": "Cherry Pop",
+          "hex": "#CD1859"
+        },
+        {
+          "name": "Poppy Pop",
+          "hex": "#F83A3C"
+        },
+        {
+          "name": "Santorini Pop",
+          "hex": "#AE266B"
+        }
+      ]
+    },
+    {
+      "id": "clinique-different-lipstick",
+      "brand": "Clinique",
+      "name": "Different Lipstick",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_617G_181x209.png",
+      "price_prefix": "₹1,452",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "A Different Grape",
+          "hex": "#8C3050"
+        },
+        {
+          "name": "Sugared Grapefruit",
+          "hex": "#E26872"
+        },
+        {
+          "name": "Think Bronze",
+          "hex": "#B96565"
+        },
+        {
+          "name": "Guava Stain",
+          "hex": "#B76E74"
+        },
+        {
+          "name": "Sweet Honey",
+          "hex": "#DC555E"
+        },
+        {
+          "name": "Plum Brandy",
+          "hex": "#9F3245"
+        },
+        {
+          "name": "Surprise",
+          "hex": "#8F4A4E"
+        },
+        {
+          "name": "Shy",
+          "hex": "#A44155"
+        },
+        {
+          "name": "Angel Red",
+          "hex": "#9C0B2D"
+        },
+        {
+          "name": "Raspberry Glace",
+          "hex": "#AB455E"
+        },
+        {
+          "name": "Ripe Raisin",
+          "hex": "#CC364C"
+        },
+        {
+          "name": "Spiced Apple",
+          "hex": "#A3555D"
+        },
+        {
+          "name": "Tenderheart",
+          "hex": "#984A37"
+        },
+        {
+          "name": "Glazed Berry",
+          "hex": "#DD587C"
+        },
+        {
+          "name": "Bronze Leaf",
+          "hex": "#AD665D"
+        }
+      ]
+    },
+    {
+      "id": "clinique-clinique-poptm-lacquer-lip-colour-primer",
+      "brand": "Clinique",
+      "name": "Clinique Pop™ Lacquer Lip Colour + Primer",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZLPR_181x209.png",
+      "price_prefix": "₹1,536",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Nude Pop",
+          "hex": "#D88282"
+        },
+        {
+          "name": "Lava Pop",
+          "hex": "#D7142E"
+        },
+        {
+          "name": "Sugar Pop",
+          "hex": "#CC6674"
+        },
+        {
+          "name": "Cocoa Pop",
+          "hex": "#A65957"
+        },
+        {
+          "name": "Sweetie Pop",
+          "hex": "#FF1E5A"
+        },
+        {
+          "name": "Peace Pop",
+          "hex": "#6A1144"
+        },
+        {
+          "name": "Wink Pop",
+          "hex": "#EC878D"
+        },
+        {
+          "name": "Go-Go Pop",
+          "hex": "#EF005F"
+        },
+        {
+          "name": "Love Pop",
+          "hex": "#924257"
+        },
+        {
+          "name": "Happy Pop",
+          "hex": "#FF3D3C"
+        }
+      ]
+    },
+    {
+      "id": "clinique-clinique-pop-glazetm-sheer-lip-colour-primer",
+      "brand": "Clinique",
+      "name": "Clinique Pop Glaze™ Sheer Lip Colour + Primer",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZLPR02_181x209.png",
+      "price_prefix": "₹1,536",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Bubblegum Pop",
+          "hex": "#F276A2"
+        },
+        {
+          "name": "Sugar Plum Pop",
+          "hex": "#C05C67"
+        },
+        {
+          "name": "Sprinkle Pop",
+          "hex": "#CC376A"
+        },
+        {
+          "name": "Fireball Pop",
+          "hex": "#C12838"
+        },
+        {
+          "name": "Melon Drop Pop",
+          "hex": "#F45C5F"
+        },
+        {
+          "name": "Licorice Pop",
+          "hex": "#731E3B"
+        }
+      ]
+    },
+    {
+      "id": "clinique-chubby-sticktm-moisturizing-lip-colour-balm",
+      "brand": "Clinique",
+      "name": "Chubby Stick™ Moisturizing Lip Colour Balm",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_749K01_181x209.png",
+      "price_prefix": "₹1,452",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Super Strawberry",
+          "hex": "#B1515D"
+        },
+        {
+          "name": "Heaping Hazelnut",
+          "hex": "#B76F69"
+        },
+        {
+          "name": "Graped-Up",
+          "hex": "#954B57"
+        },
+        {
+          "name": "Whole Lotta Honey",
+          "hex": "#AF6262"
+        },
+        {
+          "name": "Fuller Fig",
+          "hex": "#9B4344"
+        },
+        {
+          "name": "Richer Raisin",
+          "hex": "#853F36"
+        },
+        {
+          "name": "Two Ton Tomato",
+          "hex": "#CE1F1D"
+        },
+        {
+          "name": "Mega Melon",
+          "hex": "#C45A5B"
+        },
+        {
+          "name": "Oversized Orange",
+          "hex": "#F66366"
+        },
+        {
+          "name": "Chunky Cherry",
+          "hex": "#C04156"
+        },
+        {
+          "name": "Pudgy Peony",
+          "hex": "#B11F60"
+        },
+        {
+          "name": "Woppin' Watermelon",
+          "hex": "#E17587"
+        },
+        {
+          "name": "Bountiful Blush",
+          "hex": "#984D50"
+        },
+        {
+          "name": "Curvy Candy",
+          "hex": "#E76477"
+        },
+        {
+          "name": "Mighty Mimosa",
+          "hex": "#E3727C"
+        },
+        {
+          "name": "Voluptuous Violet",
+          "hex": "#8F3851"
+        },
+        {
+          "name": "Plumped Up Pink",
+          "hex": "#F7659E"
+        },
+        {
+          "name": "Supreme Sorbet",
+          "hex": "#F09495"
+        },
+        {
+          "name": "Jumbo Jasmine",
+          "hex": "#A7354B"
+        }
+      ]
+    },
+    {
+      "id": "clinique-clinique-poptm-matte-lip-colour-primer",
+      "brand": "Clinique",
+      "name": "Clinique Pop™ Matte Lip Colour + Primer",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZTPH01_181x209.png",
+      "price_prefix": "₹1,536",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Bold Pop",
+          "hex": "#4A1323"
+        },
+        {
+          "name": "Ruby Pop",
+          "hex": "#A8100B"
+        },
+        {
+          "name": "Rose Pop",
+          "hex": "#961741"
+        },
+        {
+          "name": "Pow Pop",
+          "hex": "#7F2D55"
+        },
+        {
+          "name": "Graffiti Pop",
+          "hex": "#CC0D49"
+        },
+        {
+          "name": "Clove Pop",
+          "hex": "#592A26"
+        },
+        {
+          "name": "Peppermint Pop",
+          "hex": "#A80028"
+        },
+        {
+          "name": "Cute Pop",
+          "hex": "#A54B60"
+        },
+        {
+          "name": "Shock Pop",
+          "hex": "#AF1A58"
+        },
+        {
+          "name": "Coral Pop",
+          "hex": "#D3313F"
+        },
+        {
+          "name": "Mod Pop",
+          "hex": "#DE387D"
+        },
+        {
+          "name": "Icon Pop",
+          "hex": "#900925"
+        },
+        {
+          "name": "Peony Pop",
+          "hex": "#DC7587"
+        },
+        {
+          "name": "Blushing Pop",
+          "hex": "#9F5859"
+        },
+        {
+          "name": "Avant Garde Pop",
+          "hex": "#301018"
+        },
+        {
+          "name": "Beach Pop",
+          "hex": "#8E4546"
+        }
+      ]
+    },
+    {
+      "id": "clinique-clinique-poptm-lip-colour-primer",
+      "brand": "Clinique",
+      "name": "Clinique Pop™ Lip Colour + Primer",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZEK2_181x209.png",
+      "price_prefix": "₹1,536",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Nude Pop",
+          "hex": "#D3796E"
+        },
+        {
+          "name": "Fab Pop",
+          "hex": "#F37E91"
+        },
+        {
+          "name": "Beige Pop",
+          "hex": "#E08E7F"
+        },
+        {
+          "name": "Melon Pop",
+          "hex": "#F47B74"
+        },
+        {
+          "name": "Bare Pop",
+          "hex": "#B75C54"
+        },
+        {
+          "name": "Sweet Pop",
+          "hex": "#EB6B8A"
+        },
+        {
+          "name": "Wow Pop",
+          "hex": "#EF5498"
+        },
+        {
+          "name": "Grape Pop",
+          "hex": "#974B6A"
+        },
+        {
+          "name": "Poppy Pop",
+          "hex": "#EB4944"
+        },
+        {
+          "name": "Plum Pop",
+          "hex": "#B45865"
+        },
+        {
+          "name": "Punch Pop",
+          "hex": "#CB254C"
+        },
+        {
+          "name": "Cherry Pop",
+          "hex": "#B90E26"
+        },
+        {
+          "name": "Love Pop",
+          "hex": "#8D3949"
+        },
+        {
+          "name": "Passion Pop",
+          "hex": "#750D15"
+        },
+        {
+          "name": "Berry Pop",
+          "hex": "#641126"
+        },
+        {
+          "name": "Cola Pop",
+          "hex": "#5A1E1B"
+        }
+      ]
+    },
+    {
+      "id": "clinique-clinique-poptm-lip-shadow-cushion-matte-lip-powder",
+      "brand": "Clinique",
+      "name": "Clinique Pop™ Lip Shadow Cushion Matte Lip Powder",
+      "image": "https://www.clinique.com/media/export/cms/products/181x209/clq_ZXH101_181x209.png",
+      "price_prefix": "₹1,618",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Blossom Pop",
+          "hex": "#BB5974"
+        },
+        {
+          "name": "Dune Pop",
+          "hex": "#9F6469"
+        },
+        {
+          "name": "Fuchsia Pop",
+          "hex": "#C91C67"
+        },
+        {
+          "name": "Fiesta Pop",
+          "hex": "#A82F5B"
+        },
+        {
+          "name": "Crimson Pop",
+          "hex": "#C02840"
+        },
+        {
+          "name": "Bright Pop",
+          "hex": "#C6243C"
+        },
+        {
+          "name": "Brown Sugar Pop",
+          "hex": "#83403C"
+        },
+        {
+          "name": "Fun Pop",
+          "hex": "#713547"
+        }
+      ]
+    },
+    {
+      "id": "dior-dior-addict-lip-maximizer",
+      "brand": "Dior",
+      "name": "Dior Addict Lip Maximizer",
+      "image": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0028670.jpg",
+      "price_prefix": "₹2,075",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "001 Pink",
+          "hex": "#FADCDC"
+        },
+        {
+          "name": "003 Sparkling",
+          "hex": "#F4C4C8"
+        }
+      ]
+    },
+    {
+      "id": "dior-dior-addict-ultra-gloss",
+      "brand": "Dior",
+      "name": "Dior Addict Ultra-Gloss",
+      "image": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0285300.jpg",
+      "price_prefix": "₹1,992",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "004 Tiara",
+          "hex": "#E0E4EA"
+        },
+        {
+          "name": "013 Mise en Dior",
+          "hex": "#E7CDB2"
+        },
+        {
+          "name": "211",
+          "hex": "#D9B6AB"
+        },
+        {
+          "name": "267 So Real",
+          "hex": "#F4A9A9"
+        },
+        {
+          "name": "363 Nude",
+          "hex": "#F4A2A3"
+        },
+        {
+          "name": "453 Sideral",
+          "hex": "#EF9EB1"
+        },
+        {
+          "name": "465 Shock",
+          "hex": "#EDA5B9"
+        },
+        {
+          "name": "553 Princess",
+          "hex": "#F0889D"
+        },
+        {
+          "name": "629 Mirrored",
+          "hex": "#B87569"
+        },
+        {
+          "name": "643 Everdior",
+          "hex": "#E14148"
+        },
+        {
+          "name": "649 Nova",
+          "hex": "#EF7472"
+        },
+        {
+          "name": "653 Sequins",
+          "hex": "#EC7A86"
+        },
+        {
+          "name": "656 Cosmic",
+          "hex": "#F07B83"
+        },
+        {
+          "name": "662 Diorling",
+          "hex": "#DF445B"
+        },
+        {
+          "name": "664 New Wave",
+          "hex": "#EA5071"
+        },
+        {
+          "name": "669",
+          "hex": "#DA5E6D"
+        },
+        {
+          "name": "673",
+          "hex": "#E84280"
+        },
+        {
+          "name": "676 Cruise",
+          "hex": "#FE54A9"
+        },
+        {
+          "name": "683 Chromic",
+          "hex": "#E15F7B"
+        },
+        {
+          "name": "686 Fancy",
+          "hex": "#D04971"
+        },
+        {
+          "name": "765 Ultradior",
+          "hex": "#DB2B5D"
+        },
+        {
+          "name": "785 Diorama",
+          "hex": "#AD6164"
+        }
+      ]
+    },
+    {
+      "id": "dior-diorific-matte-fluid-christmas-look-2017-limited-edition",
+      "brand": "Dior",
+      "name": "DIORIFIC MATTE FLUID - Christmas Look 2017 Limited Edition",
+      "image": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0278001_F027800006_v2.jpg",
+      "price_prefix": "₹2,282",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "005 Charm",
+          "hex": "#AA6565"
+        },
+        {
+          "name": "006 Glory",
+          "hex": "#910924"
+        }
+      ]
+    },
+    {
+      "id": "dior-diorific-khol",
+      "brand": "Dior",
+      "name": "DIORIFIC KHÔL",
+      "image": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0027647_F002764751.jpg",
+      "price_prefix": "₹2,448",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "341 Pure Topaz",
+          "hex": "#E17D79"
+        },
+        {
+          "name": "671 Vibrant Tourmaline",
+          "hex": "#C95B86"
+        },
+        {
+          "name": "741 Deep Ruby",
+          "hex": "#864640"
+        },
+        {
+          "name": "751 Intense Garnet",
+          "hex": "#CD2E3A"
+        },
+        {
+          "name": "991 Bold Amethyst",
+          "hex": "#604751"
+        }
+      ]
+    },
+    {
+      "id": "dior-diorific",
+      "brand": "Dior",
+      "name": "Diorific",
+      "image": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0027600.jpg",
+      "price_prefix": "₹2,448",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "005 Glory",
+          "hex": "#B55758"
+        },
+        {
+          "name": "008 Mitzah",
+          "hex": "#C56C72"
+        },
+        {
+          "name": "009 Award",
+          "hex": "#E1857A"
+        },
+        {
+          "name": "013 Ange Bleu",
+          "hex": "#D00040"
+        },
+        {
+          "name": "014 Dolce Vita",
+          "hex": "#E30F25"
+        },
+        {
+          "name": "015 Broadway",
+          "hex": "#A27977"
+        },
+        {
+          "name": "021 Icône",
+          "hex": "#CE3C2F"
+        },
+        {
+          "name": "023 Diorella",
+          "hex": "#D55B74"
+        },
+        {
+          "name": "024 Liz",
+          "hex": "#CE6063"
+        },
+        {
+          "name": "025 Diorissimo",
+          "hex": "#E87379"
+        }
+      ]
+    },
+    {
+      "id": "dior-dior-addict-lipstick-limited-edition",
+      "brand": "Dior",
+      "name": "Dior Addict Lipstick - Limited Edition",
+      "image": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0028752.jpg",
+      "price_prefix": "₹2,282",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "423 Minimal",
+          "hex": "#DC8E74"
+        },
+        {
+          "name": "853 Hype",
+          "hex": "#E2122D"
+        },
+        {
+          "name": "875 Beverly Pink",
+          "hex": "#DC2144"
+        },
+        {
+          "name": "955 Excessive",
+          "hex": "#410000"
+        },
+        {
+          "name": "465 Cruise",
+          "hex": "#EF768F"
+        }
+      ]
+    },
+    {
+      "id": "dior-dior-addict-lipstick",
+      "brand": "Dior",
+      "name": "Dior Addict Lipstick",
+      "image": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0028757_F002875435.jpg",
+      "price_prefix": "₹2,282",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "885 Artsy",
+          "hex": "#E32A67"
+        },
+        {
+          "name": "951 Too Much",
+          "hex": "#C0011F"
+        },
+        {
+          "name": "967 Gotha",
+          "hex": "#7A2335"
+        },
+        {
+          "name": "974 Rebellious",
+          "hex": "#CB0428"
+        },
+        {
+          "name": "138 Purity",
+          "hex": "#F49E90"
+        },
+        {
+          "name": "260 Bright",
+          "hex": "#D48A86"
+        },
+        {
+          "name": "266 Delight",
+          "hex": "#F28F9B"
+        },
+        {
+          "name": "334 Happy",
+          "hex": "#EF7775"
+        },
+        {
+          "name": "343 Spring Ball",
+          "hex": "#DB7F72"
+        },
+        {
+          "name": "441 Frimousse",
+          "hex": "#F07C6E"
+        },
+        {
+          "name": "451 Tribale",
+          "hex": "#EF7771"
+        },
+        {
+          "name": "532 So Electric",
+          "hex": "#EB553E"
+        },
+        {
+          "name": "535 Tailleur Bar",
+          "hex": "#C1807A"
+        },
+        {
+          "name": "536 Lucky",
+          "hex": "#DD2B47"
+        },
+        {
+          "name": "553 Smile",
+          "hex": "#E98693"
+        },
+        {
+          "name": "554 It Pink",
+          "hex": "#E8485D"
+        },
+        {
+          "name": "561 Wonderful",
+          "hex": "#F18592"
+        },
+        {
+          "name": "578 Diorkiss",
+          "hex": "#DC485F"
+        },
+        {
+          "name": "579 Must-Have",
+          "hex": "#DF525F"
+        },
+        {
+          "name": "612 City Lights",
+          "hex": "#8F534E"
+        },
+        {
+          "name": "623 Not Shy",
+          "hex": "#9F4F4D"
+        },
+        {
+          "name": "639 Riviera",
+          "hex": "#EA4A44"
+        },
+        {
+          "name": "655 Mutine",
+          "hex": "#E64B55"
+        },
+        {
+          "name": "680 After Party",
+          "hex": "#BC425F"
+        },
+        {
+          "name": "685 Oversize",
+          "hex": "#E9437C"
+        },
+        {
+          "name": "686 Fantasy",
+          "hex": "#E15F86"
+        },
+        {
+          "name": "722 True",
+          "hex": "#AA5D57"
+        },
+        {
+          "name": "745 New Look",
+          "hex": "#D30C19"
+        },
+        {
+          "name": "750 Rock'n Roll",
+          "hex": "#D50F38"
+        },
+        {
+          "name": "871 Power",
+          "hex": "#E83144"
+        },
+        {
+          "name": "881 Fashion Night",
+          "hex": "#961D4B"
+        },
+        {
+          "name": "976 Be Dior",
+          "hex": "#C01552"
+        },
+        {
+          "name": "983 Insoumise",
+          "hex": "#AC2B56"
+        },
+        {
+          "name": "987 Black Tie",
+          "hex": "#3E0013"
+        },
+        {
+          "name": "435 Dreamy",
+          "hex": "#F295A2"
+        }
+      ]
+    },
+    {
+      "id": "dior-dior-addict-lacquer-stick",
+      "brand": "Dior",
+      "name": "DIOR ADDICT LACQUER STICK",
+      "image": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0028808.jpg",
+      "price_prefix": "₹2,282",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "344 Rolling",
+          "hex": "#F19183"
+        },
+        {
+          "name": "420 Underground",
+          "hex": "#A15C61"
+        },
+        {
+          "name": "457 Palm Beach",
+          "hex": "#EB636B"
+        },
+        {
+          "name": "487 Bubble",
+          "hex": "#EB5C97"
+        },
+        {
+          "name": "550 Tease",
+          "hex": "#E47082"
+        },
+        {
+          "name": "554 West Coast",
+          "hex": "#EA5344"
+        },
+        {
+          "name": "570 LA Pink",
+          "hex": "#9E3F48"
+        },
+        {
+          "name": "577 Lazy",
+          "hex": "#C86378"
+        },
+        {
+          "name": "620 Poisonous",
+          "hex": "#8C3D3C"
+        },
+        {
+          "name": "674 K-Kiss",
+          "hex": "#D5305F"
+        },
+        {
+          "name": "684 Diabolo",
+          "hex": "#E60760"
+        },
+        {
+          "name": "740 Club",
+          "hex": "#902215"
+        },
+        {
+          "name": "744 Party Red",
+          "hex": "#E51E1A"
+        },
+        {
+          "name": "757 American Girl",
+          "hex": "#C20516"
+        },
+        {
+          "name": "857 Hollywood Red",
+          "hex": "#A01314"
+        },
+        {
+          "name": "877 Turn Me Dior",
+          "hex": "#C4032B"
+        },
+        {
+          "name": "882 Sassy",
+          "hex": "#BB0E63"
+        },
+        {
+          "name": "904 Black Coffee",
+          "hex": "#391E1C"
+        },
+        {
+          "name": "924 Sauvage",
+          "hex": "#602127"
+        },
+        {
+          "name": "984 Dark Flower",
+          "hex": "#751E41"
+        }
+      ]
+    },
+    {
+      "id": "dior-dior-addict-lip-tattoo",
+      "brand": "Dior",
+      "name": "DIOR ADDICT LIP TATTOO",
+      "image": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0028967_v4.jpg",
+      "price_prefix": "₹2,075",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "421 Natural Beige",
+          "hex": "#AD5F56"
+        },
+        {
+          "name": "451 Natural Coral",
+          "hex": "#E55461"
+        },
+        {
+          "name": "491 Natural Rosewood",
+          "hex": "#A76165"
+        },
+        {
+          "name": "761 Natural Cherry",
+          "hex": "#E13D5D"
+        },
+        {
+          "name": "771 Natural Berry",
+          "hex": "#974249"
+        },
+        {
+          "name": "881 Natural Pink",
+          "hex": "#EC6292"
+        }
+      ]
+    },
+    {
+      "id": "dior-rouge-dior-collection-couture-christmas-look-2017-limited-edition",
+      "brand": "Dior",
+      "name": "ROUGE DIOR COLLECTION COUTURE - Christmas Look 2017 Limited Edition",
+      "image": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0027859_F002785999.jpg",
+      "price_prefix": "₹2,448",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "999 Matte",
+          "hex": "#BA1B2B"
+        }
+      ]
+    },
+    {
+      "id": "dior-rouge-dior-fall-2017-limited-edition",
+      "brand": "Dior",
+      "name": "ROUGE DIOR - Fall 2017 Limited Edition",
+      "image": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0027837.jpg",
+      "price_prefix": "₹2,282",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "426 Sensual Matte",
+          "hex": "#D58F7F"
+        },
+        {
+          "name": "481 Hypnotic Matte",
+          "hex": "#B76566"
+        },
+        {
+          "name": "861 Sophisticated Matte",
+          "hex": "#B52237"
+        },
+        {
+          "name": "999 Metallic",
+          "hex": "#A82628"
+        }
+      ]
+    },
+    {
+      "id": "dior-rouge-dior",
+      "brand": "Dior",
+      "name": "Rouge Dior",
+      "image": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0027830.jpg",
+      "price_prefix": "₹2,282",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "028 Actrice",
+          "hex": "#E83F4A"
+        },
+        {
+          "name": "047 Miss",
+          "hex": "#E40068"
+        },
+        {
+          "name": "060 Première",
+          "hex": "#D36179"
+        },
+        {
+          "name": "080 Red Smile",
+          "hex": "#D91920"
+        },
+        {
+          "name": "207 Montaigne Matte",
+          "hex": "#BBC3C2"
+        },
+        {
+          "name": "219 Rose Montaigne",
+          "hex": "#D07866"
+        },
+        {
+          "name": "277 Osée",
+          "hex": "#DB7096"
+        },
+        {
+          "name": "365 New World",
+          "hex": "#E06E6D"
+        },
+        {
+          "name": "414 Saint Germain",
+          "hex": "#CA6863"
+        },
+        {
+          "name": "434 Promenade",
+          "hex": "#AD5E56"
+        },
+        {
+          "name": "458 Paris",
+          "hex": "#C15961"
+        },
+        {
+          "name": "520 Feel Good",
+          "hex": "#E4003E"
+        },
+        {
+          "name": "602 Visionary Matte",
+          "hex": "#2E4763"
+        },
+        {
+          "name": "634 Strong Matte",
+          "hex": "#EB5959"
+        },
+        {
+          "name": "642 Ready",
+          "hex": "#EA5156"
+        },
+        {
+          "name": "643 Stand Out",
+          "hex": "#E84618"
+        },
+        {
+          "name": "644 Sydney",
+          "hex": "#B73E42"
+        },
+        {
+          "name": "652 Euphoric Matte",
+          "hex": "#ED6C7E"
+        },
+        {
+          "name": "663 Désir",
+          "hex": "#D0546B"
+        },
+        {
+          "name": "678 Culte",
+          "hex": "#CC4A6B"
+        },
+        {
+          "name": "683 Rendez-Vous",
+          "hex": "#BC5553"
+        },
+        {
+          "name": "743 Rouge Zinnia",
+          "hex": "#A41220"
+        },
+        {
+          "name": "766 Rose Harpers",
+          "hex": "#CF1D58"
+        },
+        {
+          "name": "771 Radiant Matte",
+          "hex": "#E96C81"
+        },
+        {
+          "name": "772 Classic Matte",
+          "hex": "#CB7A84"
+        },
+        {
+          "name": "775 Darling",
+          "hex": "#E1244B"
+        },
+        {
+          "name": "787 Exuberant Matte",
+          "hex": "#E6699D"
+        },
+        {
+          "name": "789 Superstitious Matte",
+          "hex": "#96518F"
+        },
+        {
+          "name": "844 Trafalgar",
+          "hex": "#E0262F"
+        },
+        {
+          "name": "872 Victoire",
+          "hex": "#AD0F1C"
+        },
+        {
+          "name": "897 Mysterious Matte",
+          "hex": "#BC4B76"
+        },
+        {
+          "name": "962 Poison Matte",
+          "hex": "#86556D"
+        },
+        {
+          "name": "964 Ambitious Matte",
+          "hex": "#A05357"
+        },
+        {
+          "name": "999",
+          "hex": "#BE030E"
+        },
+        {
+          "name": "999 Matte",
+          "hex": "#CC424D"
+        },
+        {
+          "name": "343 Panaréa",
+          "hex": "#DB6F6D"
+        }
+      ]
+    },
+    {
+      "id": "dior-rouge-dior-double-rouge",
+      "brand": "Dior",
+      "name": "Rouge Dior Double Rouge",
+      "image": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0027279.jpg",
+      "price_prefix": "₹2,282",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "288 MISS CRUSH",
+          "hex": "#F09E94"
+        },
+        {
+          "name": "510 JUNGLE BEIGE",
+          "hex": "#B48D86"
+        },
+        {
+          "name": "534 TEMPTING TANGERINE",
+          "hex": "#E97048"
+        },
+        {
+          "name": "582 SPICY SWEET",
+          "hex": "#DD7F9C"
+        },
+        {
+          "name": "992 POISON PURPLE",
+          "hex": "#925970"
+        },
+        {
+          "name": "999 MATTE METAL",
+          "hex": "#BD3C3C"
+        }
+      ]
+    },
+    {
+      "id": "dior-rouge-dior-liquid",
+      "brand": "Dior",
+      "name": "Rouge Dior Liquid",
+      "image": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0027269.jpg",
+      "price_prefix": "₹2,200",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "162 MISS SATIN",
+          "hex": "#F08885"
+        },
+        {
+          "name": "221 CHIC MATTE",
+          "hex": "#C27F75"
+        },
+        {
+          "name": "265 FURY MATTE",
+          "hex": "#DA6272"
+        },
+        {
+          "name": "334 VIBRANT METAL",
+          "hex": "#D17B67"
+        },
+        {
+          "name": "375 SPICY METAL",
+          "hex": "#CB657E"
+        },
+        {
+          "name": "427 DELICATE SATIN",
+          "hex": "#C16863"
+        },
+        {
+          "name": "442 IMPETUOUS SATIN",
+          "hex": "#E2544C"
+        },
+        {
+          "name": "515 SCANDALOUS METAL",
+          "hex": "#925738"
+        },
+        {
+          "name": "527 RECKLESS MATTE",
+          "hex": "#AA584E"
+        },
+        {
+          "name": "565 VERSATILE SATIN",
+          "hex": "#CE354A"
+        },
+        {
+          "name": "574 LIVELY MATTE",
+          "hex": "#AB5E6A"
+        },
+        {
+          "name": "601 HOLOGLAM",
+          "hex": "#D3CFD2"
+        },
+        {
+          "name": "614 JUNGLE MATTE",
+          "hex": "#AF695C"
+        },
+        {
+          "name": "625 MYSTERIOUS MATTE",
+          "hex": "#914047"
+        },
+        {
+          "name": "658 EXTREME MATTE",
+          "hex": "#E43F1E"
+        },
+        {
+          "name": "751 ROCK'N'METAL",
+          "hex": "#CC4735"
+        },
+        {
+          "name": "788 FRENETIC SATIN",
+          "hex": "#D32759"
+        },
+        {
+          "name": "797 SAVAGE MATTE",
+          "hex": "#A50C46"
+        },
+        {
+          "name": "862 HECTIC MATTE",
+          "hex": "#6F0F2B"
+        },
+        {
+          "name": "895 FAB SATIN",
+          "hex": "#652832"
+        },
+        {
+          "name": "901 OXBLOOD MATTE",
+          "hex": "#3B2427"
+        },
+        {
+          "name": "908 BLACK MATTE",
+          "hex": "#292324"
+        },
+        {
+          "name": "979 POISON METAL",
+          "hex": "#791D26"
+        },
+        {
+          "name": "999 MATTE",
+          "hex": "#C51215"
+        }
+      ]
+    },
+    {
+      "id": "iman-luxury-moisturizing-lipstick-iman-nude",
+      "brand": "Iman",
+      "name": "Luxury Moisturizing Lipstick IMAN Nude",
+      "image": "http://imancosmetics.com/resources/uploads/product_colors/d7bbcae0b6eff8013fda0a15280037c4.jpg",
+      "price_prefix": "₹—",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "NEW IMAN Nude",
+          "hex": "#D27D56"
+        },
+        {
+          "name": "NEW Baby Doll",
+          "hex": "#C26256"
+        },
+        {
+          "name": "NEW Hipster",
+          "hex": "#B5432A"
+        },
+        {
+          "name": "NEW Diva",
+          "hex": "#A43A44"
+        },
+        {
+          "name": "NEW Drama Queen",
+          "hex": "#632528"
+        },
+        {
+          "name": "NEW Rebel",
+          "hex": "#602714"
+        },
+        {
+          "name": "Sheer Gold",
+          "hex": "#C47636"
+        },
+        {
+          "name": "Citron",
+          "hex": "#A17E49"
+        },
+        {
+          "name": "Hot",
+          "hex": "#FF4814"
+        },
+        {
+          "name": "Kinky Pink",
+          "hex": "#F4436D"
+        },
+        {
+          "name": "Paprika",
+          "hex": "#B15336"
+        },
+        {
+          "name": "Iman Red",
+          "hex": "#D71D32"
+        },
+        {
+          "name": "Flirtatious",
+          "hex": "#AF0061"
+        },
+        {
+          "name": "Scandalous",
+          "hex": "#A32136"
+        },
+        {
+          "name": "Sheer Ice Tea",
+          "hex": "#874E41"
+        },
+        {
+          "name": "Opal",
+          "hex": "#6A494C"
+        },
+        {
+          "name": "Taboo",
+          "hex": "#73308B"
+        },
+        {
+          "name": "Jaguar",
+          "hex": "#734942"
+        },
+        {
+          "name": "Wild Thing",
+          "hex": "#651738"
+        },
+        {
+          "name": "Black Brandy",
+          "hex": "#52182C"
+        }
+      ]
+    },
+    {
+      "id": "benefit-hydra-smooth-lip-color",
+      "brand": "Benefit",
+      "name": "hydra-smooth lip color",
+      "image": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/hydra-smooth-lip-color-component_0.png?itok=GGUNA2l1",
+      "price_prefix": "₹1,909",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "juicy details",
+          "hex": "#D14146"
+        },
+        {
+          "name": "air kiss",
+          "hex": "#F3576C"
+        },
+        {
+          "name": "nice 'n teasy",
+          "hex": "#963A38"
+        },
+        {
+          "name": "frisky business",
+          "hex": "#712F29"
+        },
+        {
+          "name": "lip service",
+          "hex": "#D64D3E"
+        },
+        {
+          "name": "tutti-cutie",
+          "hex": "#FF5864"
+        },
+        {
+          "name": "talk flirty",
+          "hex": "#8A3850"
+        },
+        {
+          "name": "fling thing",
+          "hex": "#7D2034"
+        },
+        {
+          "name": "dare me",
+          "hex": "#B80229"
+        },
+        {
+          "name": "wing woman",
+          "hex": "#AD3B33"
+        }
+      ]
+    },
+    {
+      "id": "benefit-ultra-plush-lip-gloss",
+      "brand": "Benefit",
+      "name": "ultra plush lip gloss",
+      "image": "https://www.benefitcosmetics.com/ca/sites/ca/files/styles/category_page_lg/public/ultra-plush-lip-gloss-component_0.png?itok=nE6ZOF2q",
+      "price_prefix": "₹1,577",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "lollibop",
+          "hex": "#FC4C88"
+        },
+        {
+          "name": "kiss you",
+          "hex": "#D0609D"
+        },
+        {
+          "name": "icebreaker",
+          "hex": "#F6F6F6"
+        },
+        {
+          "name": "fauxmance",
+          "hex": "#D55862"
+        },
+        {
+          "name": "A-lister",
+          "hex": "#FB908A"
+        },
+        {
+          "name": "poutrageous!",
+          "hex": "#FF4C4E"
+        }
+      ]
+    },
+    {
+      "id": "smashbox-be-legendary-long-wear-lip-lacquer",
+      "brand": "Smashbox",
+      "name": "BE LEGENDARY LONG-WEAR LIP LACQUER",
+      "image": "https://www.smashbox.com/media/images/products/388x396/sbx_sku_56395_388x396_0.jpg",
+      "price_prefix": "₹1,992",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "CORAL",
+          "hex": "#DA5F5F"
+        },
+        {
+          "name": "CURRANT",
+          "hex": "#A43E5B"
+        },
+        {
+          "name": "BORDEAUX",
+          "hex": "#771C47"
+        }
+      ]
+    },
+    {
+      "id": "smashbox-always-sharp-lip-liner",
+      "brand": "Smashbox",
+      "name": "Always Sharp Lip Liner",
+      "image": "https://www.smashbox.com/media/images/products/388x396/sbx_sku_56417_388x396_0.jpg",
+      "price_prefix": "₹1,743",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "NUDE FAIR",
+          "hex": "#E49380"
+        },
+        {
+          "name": "NUDE LIGHT",
+          "hex": "#B47352"
+        },
+        {
+          "name": "NUDE MEDIUM",
+          "hex": "#A05745"
+        },
+        {
+          "name": "NUDE DARK",
+          "hex": "#663F38"
+        },
+        {
+          "name": "SIENNA",
+          "hex": "#AD5240"
+        },
+        {
+          "name": "ROSEBUD",
+          "hex": "#D3716E"
+        },
+        {
+          "name": "PEONY",
+          "hex": "#DE7E8D"
+        },
+        {
+          "name": "FRENCHIE",
+          "hex": "#EE8AA1"
+        },
+        {
+          "name": "MELON",
+          "hex": "#F48376"
+        },
+        {
+          "name": "RUBY",
+          "hex": "#D71938"
+        },
+        {
+          "name": "CRIMSON",
+          "hex": "#A31530"
+        },
+        {
+          "name": "FIGGY",
+          "hex": "#952A3E"
+        },
+        {
+          "name": "VIOLET",
+          "hex": "#92195D"
+        },
+        {
+          "name": "SHOCKING PINK",
+          "hex": "#E53368"
+        },
+        {
+          "name": "FUCHSIA",
+          "hex": "#D21380"
+        }
+      ]
+    },
+    {
+      "id": "smashbox-be-legendary-lipstick-foster-sisters",
+      "brand": "Smashbox",
+      "name": "BE LEGENDARY LIPSTICK × FOSTER SISTERS",
+      "image": "https://www.smashbox.com/media/images/products/388x396/sbx_sku_75476_388x396_0.jpg",
+      "price_prefix": "₹1,743",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "MANDARIN (ERIN)",
+          "hex": "#ED262F"
+        },
+        {
+          "name": "HONEY (SARA)",
+          "hex": "#C16055"
+        }
+      ]
+    },
+    {
+      "id": "smashbox-be-legendary-lipstick",
+      "brand": "Smashbox",
+      "name": "Be Legendary Lipstick",
+      "image": "https://www.smashbox.com/media/images/products/388x396/sbx_sku_40950_388x396_0.jpg",
+      "price_prefix": "₹1,743",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "DO NO WRONG",
+          "hex": "#904F50"
+        },
+        {
+          "name": "SHAVASANA",
+          "hex": "#835947"
+        },
+        {
+          "name": "MANDARIN",
+          "hex": "#C03C3B"
+        },
+        {
+          "name": "CHESTNUT",
+          "hex": "#642B24"
+        },
+        {
+          "name": "NYLON NUDE",
+          "hex": "#D99684"
+        },
+        {
+          "name": "FAIR PLAY",
+          "hex": "#BF999F"
+        },
+        {
+          "name": "OBVI",
+          "hex": "#D48D93"
+        },
+        {
+          "name": "MAGENTA",
+          "hex": "#B65689"
+        },
+        {
+          "name": "PUNCH DRUNK",
+          "hex": "#BB2F67"
+        },
+        {
+          "name": "PARIS PINK",
+          "hex": "#E5859A"
+        },
+        {
+          "name": "MULBERRY",
+          "hex": "#8B404C"
+        },
+        {
+          "name": "SHOCK ME PINK",
+          "hex": "#E75999"
+        },
+        {
+          "name": "PLUM SCENE",
+          "hex": "#53041C"
+        },
+        {
+          "name": "ELECTRIC PINK",
+          "hex": "#DD4169"
+        },
+        {
+          "name": "HONEY",
+          "hex": "#995C50"
+        },
+        {
+          "name": "LATTE",
+          "hex": "#C08A79"
+        },
+        {
+          "name": "PINK PETAL",
+          "hex": "#FA6085"
+        },
+        {
+          "name": "VIVID VIOLET",
+          "hex": "#701E4C"
+        },
+        {
+          "name": "FUCHSIA FLASH",
+          "hex": "#BB3675"
+        },
+        {
+          "name": "GRENADINE",
+          "hex": "#82183B"
+        },
+        {
+          "name": "POSY PINK",
+          "hex": "#E4838E"
+        },
+        {
+          "name": "HIDE OUT",
+          "hex": "#D3818F"
+        },
+        {
+          "name": "GETS IT",
+          "hex": "#C37588"
+        },
+        {
+          "name": "PUBLICIST",
+          "hex": "#C81C71"
+        },
+        {
+          "name": "MAUVE",
+          "hex": "#CB7988"
+        },
+        {
+          "name": "ROOKIE",
+          "hex": "#DC7A81"
+        },
+        {
+          "name": "HIRE ME",
+          "hex": "#C57483"
+        },
+        {
+          "name": "JUST HIT PLAY",
+          "hex": "#C9636D"
+        },
+        {
+          "name": "STANDING O",
+          "hex": "#B95952"
+        },
+        {
+          "name": "NUDE BEACH",
+          "hex": "#DA8177"
+        },
+        {
+          "name": "FULL FRONTAL",
+          "hex": "#CF8171"
+        },
+        {
+          "name": "INSIDE ACCESS",
+          "hex": "#D69082"
+        },
+        {
+          "name": "BACK TALK",
+          "hex": "#D9786D"
+        },
+        {
+          "name": "TICKET ME",
+          "hex": "#C6745D"
+        },
+        {
+          "name": "CALL BACK",
+          "hex": "#D06C58"
+        },
+        {
+          "name": "NERVE",
+          "hex": "#A26251"
+        },
+        {
+          "name": "PRESS TOUR",
+          "hex": "#8D5247"
+        },
+        {
+          "name": "DONE DEAL",
+          "hex": "#BD7863"
+        },
+        {
+          "name": "NUDE MOOD",
+          "hex": "#A76458"
+        },
+        {
+          "name": "TAROT CARD",
+          "hex": "#8A4F52"
+        },
+        {
+          "name": "PHANTOM",
+          "hex": "#A5786D"
+        },
+        {
+          "name": "WORK IT",
+          "hex": "#A56858"
+        },
+        {
+          "name": "SAFE WORD",
+          "hex": "#8B4A45"
+        },
+        {
+          "name": "MONOGAMOUS",
+          "hex": "#B26F69"
+        },
+        {
+          "name": "CHAI",
+          "hex": "#AA5E41"
+        },
+        {
+          "name": "DIRTY",
+          "hex": "#7D3B34"
+        },
+        {
+          "name": "EASY",
+          "hex": "#A95647"
+        },
+        {
+          "name": "CLIFFHANGER",
+          "hex": "#73312C"
+        },
+        {
+          "name": "FAMOUS",
+          "hex": "#B26054"
+        },
+        {
+          "name": "BOOKED",
+          "hex": "#793C41"
+        },
+        {
+          "name": "LATER",
+          "hex": "#BB5A54"
+        },
+        {
+          "name": "OFF SCRIPT",
+          "hex": "#913C33"
+        },
+        {
+          "name": "FIRST TIME",
+          "hex": "#8A3C3F"
+        },
+        {
+          "name": "ON SET",
+          "hex": "#8D564B"
+        },
+        {
+          "name": "JUICE IT",
+          "hex": "#AF4C42"
+        },
+        {
+          "name": "WRAP PARTY",
+          "hex": "#9F4430"
+        },
+        {
+          "name": "PRIMROSE",
+          "hex": "#BD6165"
+        },
+        {
+          "name": "STYLIST",
+          "hex": "#833640"
+        },
+        {
+          "name": "COGNAC",
+          "hex": "#985349"
+        },
+        {
+          "name": "UNZIPPED",
+          "hex": "#8F122C"
+        },
+        {
+          "name": "SCREEN QUEEN",
+          "hex": "#871544"
+        },
+        {
+          "name": "AUDITION",
+          "hex": "#A15E5F"
+        },
+        {
+          "name": "FEMME FATALE",
+          "hex": "#703850"
+        },
+        {
+          "name": "HIGH",
+          "hex": "#8D4241"
+        },
+        {
+          "name": "MADE IT",
+          "hex": "#711115"
+        },
+        {
+          "name": "BAD MOOD",
+          "hex": "#8D3D45"
+        },
+        {
+          "name": "STACKED",
+          "hex": "#5E0A17"
+        },
+        {
+          "name": "MY DIGITS",
+          "hex": "#8C3B47"
+        },
+        {
+          "name": "WARRIOR POSE",
+          "hex": "#4C2C28"
+        },
+        {
+          "name": "TOP SHELF",
+          "hex": "#7D2D2F"
+        },
+        {
+          "name": "TALK TO ME",
+          "hex": "#EE3882"
+        },
+        {
+          "name": "HIGH STAKES",
+          "hex": "#733C36"
+        },
+        {
+          "name": "TOTES",
+          "hex": "#C14961"
+        },
+        {
+          "name": "HATER",
+          "hex": "#633012"
+        },
+        {
+          "name": "FIREBALL",
+          "hex": "#EE3538"
+        },
+        {
+          "name": "RIGHT ON RED",
+          "hex": "#761E1E"
+        },
+        {
+          "name": "POWER ON",
+          "hex": "#DD3C46"
+        },
+        {
+          "name": "JAM SESH",
+          "hex": "#6F1B29"
+        },
+        {
+          "name": "PINCH ME",
+          "hex": "#BA433F"
+        },
+        {
+          "name": "BLACK CHERRY",
+          "hex": "#690927"
+        },
+        {
+          "name": "BING",
+          "hex": "#A31228"
+        },
+        {
+          "name": "DEAL BREAKER",
+          "hex": "#6A0D37"
+        },
+        {
+          "name": "COFFEE RUN",
+          "hex": "#713236"
+        },
+        {
+          "name": "HOT SEAT",
+          "hex": "#C1234C"
+        },
+        {
+          "name": "Infrared",
+          "hex": "#71081E"
+        },
+        {
+          "name": "STRAIGHT UP",
+          "hex": "#6C351C"
+        },
+        {
+          "name": "JAM ON IT",
+          "hex": "#780C40"
+        },
+        {
+          "name": "SPECTACLE",
+          "hex": "#D34031"
+        },
+        {
+          "name": "VIOLET RIOT",
+          "hex": "#662B65"
+        },
+        {
+          "name": "CASITA",
+          "hex": "#CF4E39"
+        },
+        {
+          "name": "PLUM ROLE",
+          "hex": "#310020"
+        },
+        {
+          "name": "ON THE BEACH",
+          "hex": "#BC3A36"
+        },
+        {
+          "name": "TEMPT ME",
+          "hex": "#D23A32"
+        },
+        {
+          "name": "HATES PILATES",
+          "hex": "#472319"
+        },
+        {
+          "name": "GET FIRED",
+          "hex": "#DF2127"
+        },
+        {
+          "name": "PUNKED",
+          "hex": "#453A3C"
+        },
+        {
+          "name": "HEADLINER",
+          "hex": "#DF3743"
+        },
+        {
+          "name": "9 TO 5",
+          "hex": "#B5214A"
+        },
+        {
+          "name": "INVITE ONLY",
+          "hex": "#981925"
+        },
+        {
+          "name": "INSPIRATION",
+          "hex": "#AC1D4B"
+        },
+        {
+          "name": "ACTION",
+          "hex": "#A16695"
+        },
+        {
+          "name": "FAN MAIL",
+          "hex": "#C86BA9"
+        },
+        {
+          "name": "TABLOID",
+          "hex": "#9A4A96"
+        },
+        {
+          "name": "VALLEY",
+          "hex": "#F16583"
+        },
+        {
+          "name": "CAN'T TYPE",
+          "hex": "#ED7FA1"
+        },
+        {
+          "name": "POUT",
+          "hex": "#FEB6CE"
+        },
+        {
+          "name": "PRETTY SOCIAL",
+          "hex": "#F0AEC1"
+        },
+        {
+          "name": "BOMBASTIC",
+          "hex": "#EF5190"
+        },
+        {
+          "name": "PANORAMA PINK",
+          "hex": "#BC4D5E"
+        },
+        {
+          "name": "RED RAGE",
+          "hex": "#C72036"
+        },
+        {
+          "name": "L.A. SUNSET",
+          "hex": "#C42738"
+        },
+        {
+          "name": "FIG",
+          "hex": "#78243E"
+        },
+        {
+          "name": "MANIAC",
+          "hex": "#540734"
+        },
+        {
+          "name": "Legendary",
+          "hex": "#8E0E26"
+        },
+        {
+          "name": "WITCHY",
+          "hex": "#4C1920"
+        },
+        {
+          "name": "VINYL",
+          "hex": "#401E3E"
+        },
+        {
+          "name": "SKINNY JEANS",
+          "hex": "#103254"
+        },
+        {
+          "name": "DEEP",
+          "hex": "#20233B"
+        },
+        {
+          "name": "BANKROLLED",
+          "hex": "#151516"
+        },
+        {
+          "name": "GRUNGE",
+          "hex": "#5D4E51"
+        }
+      ]
+    },
+    {
+      "id": "smashbox-always-on-liquid-lipstick",
+      "brand": "Smashbox",
+      "name": "ALWAYS ON LIQUID LIPSTICK",
+      "image": "https://www.smashbox.com/media/images/products/388x396/sbx_sku_72279_388x396_0.jpg",
+      "price_prefix": "₹1,992",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Dream Huge",
+          "hex": "#AF5561"
+        },
+        {
+          "name": "Stepping Out",
+          "hex": "#9E5C4C"
+        },
+        {
+          "name": "In Demand",
+          "hex": "#B76F60"
+        },
+        {
+          "name": "Babe Alert",
+          "hex": "#AD5851"
+        },
+        {
+          "name": "Out Loud",
+          "hex": "#A04322"
+        },
+        {
+          "name": "Driver's Seat",
+          "hex": "#9C4035"
+        },
+        {
+          "name": "Baja Bound",
+          "hex": "#C84B47"
+        },
+        {
+          "name": "Bawse",
+          "hex": "#A82024"
+        },
+        {
+          "name": "Thrill Seeker",
+          "hex": "#E74425"
+        },
+        {
+          "name": "Bang-Bang",
+          "hex": "#CC2127"
+        },
+        {
+          "name": "Blast Off",
+          "hex": "#CB2648"
+        },
+        {
+          "name": "Shockaholic",
+          "hex": "#BD2467"
+        },
+        {
+          "name": "Some Nerve",
+          "hex": "#A856A2"
+        },
+        {
+          "name": "Let's Dance",
+          "hex": "#923459"
+        },
+        {
+          "name": "Big Spender",
+          "hex": "#933C44"
+        },
+        {
+          "name": "Disorderly",
+          "hex": "#7F1917"
+        },
+        {
+          "name": "Girl Gang",
+          "hex": "#6E1243"
+        },
+        {
+          "name": "Miss Conduct",
+          "hex": "#640719"
+        },
+        {
+          "name": "True Grit",
+          "hex": "#53250D"
+        },
+        {
+          "name": "Chill Zone",
+          "hex": "#635961"
+        }
+      ]
+    },
+    {
+      "id": "anna-sui-anna-sui-lip-colour-stain",
+      "brand": "Anna Sui",
+      "name": "Anna Sui Lip Colour Stain",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/1c87435efe0a260a66b3df7cd58aaed0_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "₹2,158",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "(300)",
+          "hex": "#A85988"
+        },
+        {
+          "name": "(301)",
+          "hex": "#DA5067"
+        },
+        {
+          "name": "(302)",
+          "hex": "#D94C52"
+        },
+        {
+          "name": "(400)",
+          "hex": "#DA3055"
+        },
+        {
+          "name": "(401)",
+          "hex": "#6B203E"
+        },
+        {
+          "name": "(600)",
+          "hex": "#E8544A"
+        }
+      ]
+    },
+    {
+      "id": "revlon-revlon-colorburst-balm-stain",
+      "brand": "Revlon",
+      "name": "Revlon ColorBurst Balm Stain",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/cf54199ffb803951bf6342b59e3c58a5_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "₹954",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Cherish",
+          "hex": "#E898BC"
+        },
+        {
+          "name": "Romantic",
+          "hex": "#D74844"
+        },
+        {
+          "name": "Honey",
+          "hex": "#CD8083"
+        },
+        {
+          "name": "Rendezvous",
+          "hex": "#C16576"
+        },
+        {
+          "name": "Adore",
+          "hex": "#B45858"
+        },
+        {
+          "name": "Crush",
+          "hex": "#A65875"
+        },
+        {
+          "name": "Smitten",
+          "hex": "#A64877"
+        }
+      ]
+    },
+    {
+      "id": "wet-n-wild-wet-n-wild-mega-slicks-lip-balm-stain",
+      "brand": "Wet n Wild",
+      "name": "Wet n Wild Mega Slicks Lip Balm Stain",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/be634f08e36f3a6f18feed1c68065596_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹331",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "124 Lady and the Vamp",
+          "hex": "#8E304A"
+        },
+        {
+          "name": "125 Red-dy or Not",
+          "hex": "#DF1536"
+        },
+        {
+          "name": "127 A Stiff Pink",
+          "hex": "#FD86BC"
+        },
+        {
+          "name": "128 Pinky Promise",
+          "hex": "#CE5858"
+        },
+        {
+          "name": "129 Nudist Colony",
+          "hex": "#DE9777"
+        }
+      ]
+    },
+    {
+      "id": "covergirl-covergirl-outlast-longwear-lipstick",
+      "brand": "CoverGirl",
+      "name": "CoverGirl Outlast Longwear Lipstick",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/2d46e82f21b11f658a4378abcbd1c31b_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹912",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Plum Fury",
+          "hex": "#51122B"
+        },
+        {
+          "name": "Red Siren",
+          "hex": "#A1211C"
+        },
+        {
+          "name": "Phantom Pink",
+          "hex": "#C5777E"
+        }
+      ]
+    },
+    {
+      "id": "butter-london-butter-london-moisture-matte-lipstick",
+      "brand": "Butter London",
+      "name": "butter LONDON Moisture Matte Lipstick",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/53776859a9fc7bea891c66135f40d645_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "₹2,404",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Loved Up - sassy berry-red cream",
+          "hex": "#CF2D4F"
+        },
+        {
+          "name": "Old Blighty - brilliant brick red cream",
+          "hex": "#B53034"
+        },
+        {
+          "name": "Ruby Murray - delicious deep berry cream",
+          "hex": "#AE2343"
+        }
+      ]
+    },
+    {
+      "id": "l-oreal-l-oreal-paris-colour-riche-le-matte-la-lacque-lip-colour",
+      "brand": "L'Oréal",
+      "name": "L'Oreal Paris Colour Riche Le Matte & La Lacque Lip Colour",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/a368eac7a50f7aa3fcc773b06915eb39_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹954",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Game, Set & Matte",
+          "hex": "#FC6E7F"
+        },
+        {
+          "name": "Lacque-y Charm",
+          "hex": "#C14E5C"
+        },
+        {
+          "name": "Lacque-y You",
+          "hex": "#B0233E"
+        },
+        {
+          "name": "Lacquerized",
+          "hex": "#B41428"
+        },
+        {
+          "name": "Mad for Matte",
+          "hex": "#C81E2F"
+        },
+        {
+          "name": "Matte for Me",
+          "hex": "#FC5B9D"
+        },
+        {
+          "name": "Matte-r of Fact",
+          "hex": "#D03370"
+        },
+        {
+          "name": "She's So Matte",
+          "hex": "#C15555"
+        }
+      ]
+    },
+    {
+      "id": "covergirl-covergirl-colorlicious-lipstick",
+      "brand": "CoverGirl",
+      "name": "CoverGirl Colorlicious Lipstick",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/c88809fbffe05fb9594103e635387152_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "₹871",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Verve Violet",
+          "hex": "#ECA4BE"
+        },
+        {
+          "name": "Sultry Sienna",
+          "hex": "#BF837C"
+        }
+      ]
+    },
+    {
+      "id": "covergirl-covergirl-outlast-lipcolor",
+      "brand": "CoverGirl",
+      "name": "CoverGirl Outlast Lipcolor",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/be04329866e96a0077545d230489d7a9_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹1,078",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Plum Berry",
+          "hex": "#864058"
+        },
+        {
+          "name": "Nude",
+          "hex": "#996066"
+        },
+        {
+          "name": "Wine to Five",
+          "hex": "#9C5961"
+        },
+        {
+          "name": "Wild Berry",
+          "hex": "#8B3158"
+        },
+        {
+          "name": "Cinnamon Stick",
+          "hex": "#744144"
+        },
+        {
+          "name": "Brazen Raisin",
+          "hex": "#783E49"
+        }
+      ]
+    },
+    {
+      "id": "mineral-fusion-mineral-fusion-sheer-moisture-lip-tint",
+      "brand": "Mineral Fusion",
+      "name": "Mineral Fusion Sheer Moisture Lip Tint",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/8980a2195fbd6f4a47e5b57ac2148e9b_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "₹996",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Adorn - Rich Plum",
+          "hex": "#54281F"
+        },
+        {
+          "name": "Blush - Earthy Purple",
+          "hex": "#793041"
+        },
+        {
+          "name": "Flicker - Berry",
+          "hex": "#892E33"
+        },
+        {
+          "name": "Glisten - Caramel Shimmer",
+          "hex": "#B1585C"
+        },
+        {
+          "name": "Smolder - Cherry Red",
+          "hex": "#981E29"
+        }
+      ]
+    },
+    {
+      "id": "marcelle-marcelle-rouge-xpression-lipstick",
+      "brand": "Marcelle",
+      "name": "Marcelle Rouge Xpression Lipstick",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/0fbba5395dcc750a7b43b3e3fefb6015_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "₹995",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Amour",
+          "hex": "#B22A4A"
+        },
+        {
+          "name": "Cleopatra",
+          "hex": "#903459"
+        },
+        {
+          "name": "Couture",
+          "hex": "#A3656A"
+        },
+        {
+          "name": "Delight",
+          "hex": "#CB5A6E"
+        },
+        {
+          "name": "Enchantment",
+          "hex": "#BD7775"
+        },
+        {
+          "name": "Euphoria",
+          "hex": "#A84C61"
+        },
+        {
+          "name": "Exuberance",
+          "hex": "#A1534F"
+        },
+        {
+          "name": "Feline",
+          "hex": "#824E73"
+        },
+        {
+          "name": "French Rose",
+          "hex": "#C97DA4"
+        },
+        {
+          "name": "Fuchsia Flare",
+          "hex": "#7F355D"
+        },
+        {
+          "name": "Jezebel",
+          "hex": "#974F5A"
+        },
+        {
+          "name": "Mauve Avant-Garde",
+          "hex": "#9F596B"
+        },
+        {
+          "name": "Nude Pink",
+          "hex": "#C18181"
+        },
+        {
+          "name": "Paris Rose",
+          "hex": "#A8444E"
+        },
+        {
+          "name": "Passion",
+          "hex": "#A83B52"
+        },
+        {
+          "name": "Pink Mademoiselle",
+          "hex": "#FC6A86"
+        },
+        {
+          "name": "Revolution",
+          "hex": "#A65463"
+        },
+        {
+          "name": "Romanesque",
+          "hex": "#B06C69"
+        },
+        {
+          "name": "Rouge En Folie",
+          "hex": "#C91A19"
+        },
+        {
+          "name": "Sentimental",
+          "hex": "#DA8F83"
+        },
+        {
+          "name": "Vivid Coral",
+          "hex": "#C75878"
+        }
+      ]
+    },
+    {
+      "id": "maybelline-maybelline-color-sensational-vivid-matte-liquid-lip-colour",
+      "brand": "Maybelline",
+      "name": "Maybelline Color Sensational Vivid Matte Liquid Lip Colour",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/d0b6855d9b603a00f776de498c971b88_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹1,078",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Nude Thrill",
+          "hex": "#AC7773"
+        },
+        {
+          "name": "Nude Flush",
+          "hex": "#BD7A80"
+        },
+        {
+          "name": "Pink Charge",
+          "hex": "#D65F84"
+        },
+        {
+          "name": "Electric Pink",
+          "hex": "#D73D8C"
+        },
+        {
+          "name": "Fuchsia Ecstasy",
+          "hex": "#B12156"
+        },
+        {
+          "name": "Orange Shot",
+          "hex": "#BC2830"
+        },
+        {
+          "name": "Rebel Red",
+          "hex": "#B7233B"
+        },
+        {
+          "name": "Berry Boost",
+          "hex": "#8C1F48"
+        },
+        {
+          "name": "Vivid Violet",
+          "hex": "#542A71"
+        },
+        {
+          "name": "Possessed Plum",
+          "hex": "#300B28"
+        }
+      ]
+    },
+    {
+      "id": "revlon-revlon-ultra-hd-lip-lacquer",
+      "brand": "Revlon",
+      "name": "Revlon Ultra HD Lip Lacquer",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/97f6225468596320404785ab71cb1e02_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹912",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "HD Carenelian",
+          "hex": "#A41C42"
+        },
+        {
+          "name": "HD Fire Opal",
+          "hex": "#D8242F"
+        },
+        {
+          "name": "HD Garnet",
+          "hex": "#CC3B75"
+        },
+        {
+          "name": "HD Petalite",
+          "hex": "#F18085"
+        },
+        {
+          "name": "HD Pink Diamond",
+          "hex": "#C8A0BC"
+        },
+        {
+          "name": "HD Pink Ruby",
+          "hex": "#D9198B"
+        },
+        {
+          "name": "HD Pink Sapphire",
+          "hex": "#F07B98"
+        },
+        {
+          "name": "HD Rose Quartz",
+          "hex": "#B55D6D"
+        },
+        {
+          "name": "HD Smoky Quartz",
+          "hex": "#894643"
+        },
+        {
+          "name": "HD Smoky Topaz",
+          "hex": "#CE8886"
+        },
+        {
+          "name": "HD Strawberry Topaz",
+          "hex": "#E02246"
+        },
+        {
+          "name": "HD Sunstone",
+          "hex": "#EF5E5F"
+        },
+        {
+          "name": "HD Tourmaline",
+          "hex": "#EB4296"
+        }
+      ]
+    },
+    {
+      "id": "nyx-nyx-jumbo-lip-pencil",
+      "brand": "NYX",
+      "name": "NYX Jumbo Lip Pencil",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/6b7a0f4f93839573bf046e149d4927df_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹497",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Chaos (JLP724) Strawberry Pink (Cream)",
+          "hex": "#C1486C"
+        },
+        {
+          "name": "Fuschia",
+          "hex": "#C27273"
+        },
+        {
+          "name": "Hera (JLP722) Iridescent Soft Fuchsia (Pearl)",
+          "hex": "#C9528C"
+        },
+        {
+          "name": "Honey Nectar (JLP720) Soft Brown",
+          "hex": "#BB5F60"
+        },
+        {
+          "name": "Hot Red (JLP704) Bright Blue-Red (Cream)",
+          "hex": "#AA202E"
+        },
+        {
+          "name": "Iced Coffee (JLP711) Deep Beige (Cream)",
+          "hex": "#975D4F"
+        },
+        {
+          "name": "Pecan",
+          "hex": "#A1605E"
+        }
+      ]
+    },
+    {
+      "id": "cargo-cosmetics-cargo-cosmetics-colorstick",
+      "brand": "Cargo Cosmetics",
+      "name": "Cargo Cosmetics ColorStick",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/1855452da6a7fb08fe4154311ccb3369_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹2,656",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Champagne",
+          "hex": "#F7E4C6"
+        },
+        {
+          "name": "Key West",
+          "hex": "#F8C9BF"
+        },
+        {
+          "name": "Maui",
+          "hex": "#EF8087"
+        },
+        {
+          "name": "Santorini",
+          "hex": "#FBBBD3"
+        },
+        {
+          "name": "St. Tropez",
+          "hex": "#FEC7CC"
+        }
+      ]
+    },
+    {
+      "id": "revlon-revlon-colorburst-lacquer-balm",
+      "brand": "Revlon",
+      "name": "Revlon ColorBurst Lacquer Balm",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/4992a5ad01b474ae1de4a955d6224aca_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹954",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Coy",
+          "hex": "#BF7061"
+        },
+        {
+          "name": "Demure",
+          "hex": "#E58674"
+        },
+        {
+          "name": "Enticing",
+          "hex": "#8E4852"
+        },
+        {
+          "name": "Provocative",
+          "hex": "#A30017"
+        }
+      ]
+    },
+    {
+      "id": "cargo-cosmetics-cargo-cosmetics-essential-lip-color",
+      "brand": "Cargo Cosmetics",
+      "name": "Cargo Cosmetics Essential Lip Color",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/5e51a2c8ce9316c8342ac47fdc0ebd1d_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹1,992",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Bermuda (Nude Pink)",
+          "hex": "#EBACA3"
+        },
+        {
+          "name": "Bombay (Shimmery Rose)",
+          "hex": "#E07875"
+        },
+        {
+          "name": "Bordeaux (Deep Wine)",
+          "hex": "#6F1E2C"
+        },
+        {
+          "name": "Dubai (Burnt Nude)",
+          "hex": "#CB705D"
+        },
+        {
+          "name": "Kyoto (Baby Pink)",
+          "hex": "#E379A1"
+        },
+        {
+          "name": "Las Vegas (Pale Beige)",
+          "hex": "#E7A680"
+        },
+        {
+          "name": "Napa (Rich Berry)",
+          "hex": "#A32950"
+        },
+        {
+          "name": "Palm Beach (Pink Coral)",
+          "hex": "#DA506A"
+        },
+        {
+          "name": "Paris (Deep Red)",
+          "hex": "#BC2A2D"
+        },
+        {
+          "name": "Punta Cana (Bright Fuscia)",
+          "hex": "#DF5A99"
+        },
+        {
+          "name": "Santa Fe (Deep Apricot)",
+          "hex": "#E1A2A3"
+        },
+        {
+          "name": "Sedona (Bright Coral)",
+          "hex": "#DB3B3D"
+        }
+      ]
+    },
+    {
+      "id": "l-oreal-l-oreal-paris-colour-riche-collection-exclusive-pure-reds",
+      "brand": "L'Oréal",
+      "name": "L'Oreal Paris Colour Riche Collection Exclusive Pure Reds",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/5d0df885cb5721b74b32f64884736ce4_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "₹912",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Blake's Red",
+          "hex": "#AB0C19"
+        },
+        {
+          "name": "Eva's Red",
+          "hex": "#8E1305"
+        },
+        {
+          "name": "Freida's Red",
+          "hex": "#C5004B"
+        },
+        {
+          "name": "Julianne's Red",
+          "hex": "#D82A37"
+        },
+        {
+          "name": "Liya's Red",
+          "hex": "#C90E32"
+        },
+        {
+          "name": "Zoe's Red",
+          "hex": "#782B2F"
+        }
+      ]
+    },
+    {
+      "id": "nyx-nyx-extra-creamy-round-lipstick",
+      "brand": "NYX",
+      "name": "NYX Extra Creamy Round Lipstick",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/7e72bc983d7988c6e9b9f35d7703fbe4_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹580",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Baby Pink",
+          "hex": "#DAA8C5"
+        },
+        {
+          "name": "Castle",
+          "hex": "#AB6BA0"
+        },
+        {
+          "name": "Chaos",
+          "hex": "#970015"
+        },
+        {
+          "name": "Chic (LSS563A) Blue-Toned Bubblegum Pink (Pearl)",
+          "hex": "#FF898F"
+        },
+        {
+          "name": "Chloe (LSS521) Iridescent Fuchsia (Pearl)",
+          "hex": "#CF337A"
+        },
+        {
+          "name": "Femme (LSS643) Bright Pink-Red (Cream)",
+          "hex": "#FA394C"
+        },
+        {
+          "name": "Fig (LSS640) Dark Neutral Pink (Cream)",
+          "hex": "#E46A79"
+        },
+        {
+          "name": "Fire (LSS599) Fire-Engine Blue-Toned Red (Cream)",
+          "hex": "#DC002C"
+        },
+        {
+          "name": "Flower (LSS619) Blue-Toned Medium Pink (Pearl)",
+          "hex": "#E96384"
+        },
+        {
+          "name": "Gala",
+          "hex": "#F08C8C"
+        },
+        {
+          "name": "Haute Melon",
+          "hex": "#FD6C65"
+        },
+        {
+          "name": "Indian Pink (LSS550) Peachy Pink with Gold Shimmer (Pearl)",
+          "hex": "#DE6463"
+        },
+        {
+          "name": "Margarita (LSS597) Shimmery Coral (Pearl)",
+          "hex": "#F96173"
+        },
+        {
+          "name": "Narcissus",
+          "hex": "#FC86AF"
+        },
+        {
+          "name": "Nyx (LSS507) Tangerine (Pearl)",
+          "hex": "#FE7C61"
+        },
+        {
+          "name": "Orange Soda (LSS588) Light Salmon Pink (Cream)",
+          "hex": "#E69F73"
+        },
+        {
+          "name": "Peach Bellini (LSS593A) Glittery Coral (Pearl)",
+          "hex": "#F76E64"
+        },
+        {
+          "name": "Power (LSS629) Blue-Toned Mauve (Cream)",
+          "hex": "#CD859D"
+        },
+        {
+          "name": "Pure Nude (LSS518A) Neutral Baby Pink (Cream)",
+          "hex": "#E6A28E"
+        },
+        {
+          "name": "Stella (LSS564A) Bright Yellow-Toned Pink (Cream)",
+          "hex": "#F58E7C"
+        },
+        {
+          "name": "Summer Love (LSS617) Beige with Soft Pink Undertones (Cream)",
+          "hex": "#DDA1A1"
+        },
+        {
+          "name": "Violet Ray (LSS561) Violet (Cream)",
+          "hex": "#7A3760"
+        },
+        {
+          "name": "Vitamin (LSS626) Shimmering Peach (Pearl)",
+          "hex": "#FA8F85"
+        }
+      ]
+    },
+    {
+      "id": "maybelline-maybelline-color-sensational-rebel-bloom-lipcolour",
+      "brand": "Maybelline",
+      "name": "Maybelline Color Sensational Rebel Bloom Lipcolour",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/fb9e6485500135d94163577da4c3579b_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹829",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Barely Bloomed",
+          "hex": "#DB967F"
+        },
+        {
+          "name": "Blushing Bud",
+          "hex": "#D37D79"
+        },
+        {
+          "name": "Coral Burst",
+          "hex": "#F05B4A"
+        },
+        {
+          "name": "Lilac Flush",
+          "hex": "#CD86B0"
+        },
+        {
+          "name": "Petal Pink",
+          "hex": "#FF8F9D"
+        },
+        {
+          "name": "Rose Rush",
+          "hex": "#BD2629"
+        }
+      ]
+    },
+    {
+      "id": "dalish-dalish-lipstick-matte-collection",
+      "brand": "Dalish",
+      "name": "DaLish Lipstick Matte Collection",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/6804e2a3b19200e7a7a67456421763c4_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "₹1,826",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "LO1 - Nude Shade",
+          "hex": "#955B57"
+        },
+        {
+          "name": "LO2 - PinkyRed",
+          "hex": "#A7082E"
+        },
+        {
+          "name": "LO3 - Barbie Pink",
+          "hex": "#BD2150"
+        },
+        {
+          "name": "LO4 - Vintage Ruby Red",
+          "hex": "#891228"
+        },
+        {
+          "name": "LO5 - Soft Coral",
+          "hex": "#BF3238"
+        }
+      ]
+    },
+    {
+      "id": "maybelline-maybelline-lip-studio-color-blur",
+      "brand": "Maybelline",
+      "name": "Maybelline Lip Studio Color Blur",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/a1151b59f69491a75d9f8d80827bc1ee_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹995",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Berry Misbehaved",
+          "hex": "#EF6E87"
+        },
+        {
+          "name": "Cherry Cherry Bang Bang",
+          "hex": "#CF444B"
+        },
+        {
+          "name": "Fast & Fuchsia",
+          "hex": "#FF94A7"
+        },
+        {
+          "name": "I Like to Mauve It",
+          "hex": "#E18CB0"
+        },
+        {
+          "name": "I'm Blushing!",
+          "hex": "#F393B0"
+        },
+        {
+          "name": "My-My Magenta",
+          "hex": "#C06E8A"
+        },
+        {
+          "name": "Partner in Crimson",
+          "hex": "#B42F3F"
+        },
+        {
+          "name": "Pink Insanity",
+          "hex": "#FF99DC"
+        },
+        {
+          "name": "Plum, Please",
+          "hex": "#955C69"
+        }
+      ]
+    },
+    {
+      "id": "l-oreal-l-oreal-color-riche-extraordinaire-lip-color",
+      "brand": "L'Oréal",
+      "name": "L'Oreal Color Riche Extraordinaire Lip Color",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/739bc21253ce772c2b2e7ad40d9d3f44_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹1,159",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Rose Melody (101)",
+          "hex": "#D15D62"
+        }
+      ]
+    },
+    {
+      "id": "almay-almay-smart-shade-butter-kiss-lipstick",
+      "brand": "Almay",
+      "name": "Almay Smart Shade Butter Kiss Lipstick",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/c4033d18bed5b281e0340d437b81370c_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "₹746",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Berry - light",
+          "hex": "#C66294"
+        },
+        {
+          "name": "Pink - light",
+          "hex": "#F3748F"
+        },
+        {
+          "name": "Nude - light",
+          "hex": "#EB796F"
+        },
+        {
+          "name": "Red - light",
+          "hex": "#F51F41"
+        },
+        {
+          "name": "Berry - light / medium",
+          "hex": "#D46179"
+        },
+        {
+          "name": "Pink - light / medium",
+          "hex": "#F05283"
+        },
+        {
+          "name": "Nude - light / medium",
+          "hex": "#AF675E"
+        },
+        {
+          "name": "Red - light / medium",
+          "hex": "#CB1E4B"
+        },
+        {
+          "name": "Berry - medium",
+          "hex": "#9A3056"
+        },
+        {
+          "name": "Pink - medium",
+          "hex": "#DC4787"
+        },
+        {
+          "name": "Nude - medium",
+          "hex": "#763C36"
+        },
+        {
+          "name": "Red - medium",
+          "hex": "#9E1B3B"
+        }
+      ]
+    },
+    {
+      "id": "wet-n-wild-wet-n-wild-silk-finish-lipstick",
+      "brand": "Wet n Wild",
+      "name": "Wet n Wild Silk Finish Lipstick",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/31b7ac34f3370824a7d7ed41d21092a3_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹165",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Dark Pink Frost",
+          "hex": "#AD6678"
+        },
+        {
+          "name": "Fuchsia with Blue Pearl",
+          "hex": "#BF1790"
+        },
+        {
+          "name": "Pink Ice",
+          "hex": "#E96187"
+        }
+      ]
+    },
+    {
+      "id": "l-oreal-l-oreal-paris-colour-riche-crystal-shine",
+      "brand": "L'Oréal",
+      "name": "L'Oreal Paris Colour Riche Crystal Shine",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/6709b779907bbb8410a81c3156ac5a1c_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹912",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Praline # 340",
+          "hex": "#DA5468"
+        }
+      ]
+    },
+    {
+      "id": "dr-hauschka-dr-hauschka-lipstick",
+      "brand": "Dr. Hauschka",
+      "name": "Dr. Hauschka Lipstick",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/6598776755f921413532606f6db6c8f8_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹2,822",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Soft Coral (01)",
+          "hex": "#E96B6F"
+        },
+        {
+          "name": "Red Quartz (13)",
+          "hex": "#BC525C"
+        },
+        {
+          "name": "Violet Marble (15)",
+          "hex": "#B5506E"
+        },
+        {
+          "name": "Pink Topaz (16)",
+          "hex": "#DB3D78"
+        }
+      ]
+    },
+    {
+      "id": "revlon-revlon-ultra-hd-matte-lipcolor",
+      "brand": "Revlon",
+      "name": "Revlon Ultra HD Matte Lipcolor",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/8e5fad1f09c17ff8b312508a2a7da161_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹912",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Addiction",
+          "hex": "#B03062"
+        },
+        {
+          "name": "Seduction",
+          "hex": "#D46C6A"
+        },
+        {
+          "name": "Passion",
+          "hex": "#9E0C30"
+        }
+      ]
+    },
+    {
+      "id": "l-oreal-l-oreal-infallible-lipstick",
+      "brand": "L'Oréal",
+      "name": "L'Oreal Infallible Lipstick",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/8768b6e9ad0890545f5f261980727caa_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "₹1,161",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Cherry Noir 217",
+          "hex": "#692628"
+        },
+        {
+          "name": "Continual Crimson 213",
+          "hex": "#AA2B37"
+        },
+        {
+          "name": "Everlasting Caramel 201",
+          "hex": "#D9695A"
+        },
+        {
+          "name": "Flamboyant Flamingo 113",
+          "hex": "#DC6D81"
+        },
+        {
+          "name": "Heaven to Henna 205",
+          "hex": "#B75B4E"
+        },
+        {
+          "name": "Infallible Red",
+          "hex": "#E01D25"
+        },
+        {
+          "name": "Lilac Infinite 105",
+          "hex": "#B25875"
+        },
+        {
+          "name": "Neverending Nutmeg 119",
+          "hex": "#C5725F"
+        },
+        {
+          "name": "Passionate Petal 111",
+          "hex": "#DC6375"
+        },
+        {
+          "name": "Perpetual Apricot 207",
+          "hex": "#D33C2E"
+        },
+        {
+          "name": "Raisin Revival 215",
+          "hex": "#5A243B"
+        },
+        {
+          "name": "Timeless Rose 115",
+          "hex": "#E89DA2"
+        },
+        {
+          "name": "Toujours Teaberry 109",
+          "hex": "#C24651"
+        },
+        {
+          "name": "Violet Parfait 107",
+          "hex": "#A13954"
+        }
+      ]
+    },
+    {
+      "id": "revlon-revlon-colorstay-ultimate-suede-lipstick",
+      "brand": "Revlon",
+      "name": "Revlon ColorStay Ultimate Suede Lipstick",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/6ca3ee39a1dde0039b18d0ebdb7c2603_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹1,203",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Boho Chic",
+          "hex": "#7B050A"
+        },
+        {
+          "name": "Ready 2 Wear",
+          "hex": "#B30232"
+        },
+        {
+          "name": "Stylist",
+          "hex": "#D04E83"
+        },
+        {
+          "name": "Backstage",
+          "hex": "#801B3C"
+        },
+        {
+          "name": "Supermodel",
+          "hex": "#9E5E76"
+        },
+        {
+          "name": "Runway",
+          "hex": "#A36F68"
+        },
+        {
+          "name": "Iconic",
+          "hex": "#B25A5D"
+        },
+        {
+          "name": "Fashionista",
+          "hex": "#B64847"
+        },
+        {
+          "name": "Couture",
+          "hex": "#C21643"
+        },
+        {
+          "name": "Silhouette",
+          "hex": "#C77A9B"
+        },
+        {
+          "name": "Preview",
+          "hex": "#CC7183"
+        },
+        {
+          "name": "Socialite",
+          "hex": "#CE7E82"
+        },
+        {
+          "name": "Womenswear",
+          "hex": "#D47E93"
+        },
+        {
+          "name": "Muse",
+          "hex": "#DA469A"
+        },
+        {
+          "name": "Finale",
+          "hex": "#DF274F"
+        },
+        {
+          "name": "Private Viewing",
+          "hex": "#EABBAA"
+        },
+        {
+          "name": "Flashing Lights",
+          "hex": "#ED8984"
+        },
+        {
+          "name": "Cruise Collection",
+          "hex": "#F26F67"
+        },
+        {
+          "name": "High Heels",
+          "hex": "#F382A4"
+        }
+      ]
+    },
+    {
+      "id": "revlon-revlon-ultra-hd-lipstick",
+      "brand": "Revlon",
+      "name": "Revlon Ultra HD Lipstick",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/520ec3a925b375de902b75008f492794_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "₹912",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "HD Camilla",
+          "hex": "#B47B6D"
+        },
+        {
+          "name": "HD Dahlia",
+          "hex": "#A7363E"
+        },
+        {
+          "name": "HD Geranium",
+          "hex": "#EE5C5F"
+        },
+        {
+          "name": "HD Gladiolus",
+          "hex": "#DA1F3E"
+        },
+        {
+          "name": "HD Hibiscus",
+          "hex": "#F1766C"
+        },
+        {
+          "name": "HD Hydrangea",
+          "hex": "#E14C70"
+        },
+        {
+          "name": "HD Iris",
+          "hex": "#95164A"
+        },
+        {
+          "name": "HD Magnolia",
+          "hex": "#DF888D"
+        },
+        {
+          "name": "HD Marigold",
+          "hex": "#ED4838"
+        },
+        {
+          "name": "HD Peony",
+          "hex": "#F07EA4"
+        },
+        {
+          "name": "HD Petunia",
+          "hex": "#CB1861"
+        },
+        {
+          "name": "HD Poinsettia",
+          "hex": "#CF254C"
+        },
+        {
+          "name": "HD Poppy",
+          "hex": "#D8222D"
+        },
+        {
+          "name": "HD Primrose",
+          "hex": "#A95661"
+        },
+        {
+          "name": "HD Rose",
+          "hex": "#D97484"
+        },
+        {
+          "name": "HD Snapdragon",
+          "hex": "#9C4B3F"
+        },
+        {
+          "name": "HD Sweet Pea",
+          "hex": "#EF74A5"
+        },
+        {
+          "name": "HD Tulip",
+          "hex": "#F07273"
+        }
+      ]
+    },
+    {
+      "id": "l-oreal-l-oreal-paris-colour-riche-collection-exclusive-lip-colour",
+      "brand": "L'Oréal",
+      "name": "L'Oreal Paris Colour Riche Collection Exclusive Lip Colour",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/a9c19212339fb2ed792af559b2a4208d_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹912",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Doutzen's Nude",
+          "hex": "#DEA1A6"
+        },
+        {
+          "name": "Eva's Nude",
+          "hex": "#B16B61"
+        },
+        {
+          "name": "Freida's Nude",
+          "hex": "#83605E"
+        },
+        {
+          "name": "JLo's Nude",
+          "hex": "#BD7069"
+        },
+        {
+          "name": "Julianne's Nude",
+          "hex": "#BA6C6C"
+        },
+        {
+          "name": "Liya's Nude",
+          "hex": "#994835"
+        }
+      ]
+    },
+    {
+      "id": "maybelline-maybelline-color-sensational-the-buffs-lipcolour",
+      "brand": "Maybelline",
+      "name": "Maybelline Color Sensational The Buffs Lipcolour",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/27afa69db661563a1d6135bb5f6079dd_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹829",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Bare All",
+          "hex": "#E3A28C"
+        },
+        {
+          "name": "Blushing Beige",
+          "hex": "#EB907D"
+        },
+        {
+          "name": "Nude Lust",
+          "hex": "#DD8A78"
+        },
+        {
+          "name": "Maple Kiss",
+          "hex": "#A95D50"
+        },
+        {
+          "name": "Truffle Tease",
+          "hex": "#E2937F"
+        },
+        {
+          "name": "Stormy Sahara",
+          "hex": "#D47661"
+        },
+        {
+          "name": "Untainted Spice",
+          "hex": "#8A3938"
+        },
+        {
+          "name": "Expresso Exposed",
+          "hex": "#590004"
+        }
+      ]
+    },
+    {
+      "id": "maybelline-maybelline-color-sensational-vivids-lipcolour",
+      "brand": "Maybelline",
+      "name": "Maybelline Color Sensational Vivids Lipcolour",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/0d31f41c37fd18dfc02daa1671719378_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹829",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Vivid Rose (825)",
+          "hex": "#F9005B"
+        },
+        {
+          "name": "Fuchsia Flash (865)",
+          "hex": "#FF2E8C"
+        },
+        {
+          "name": "Shocking Coral (870)",
+          "hex": "#FF4A62"
+        },
+        {
+          "name": "Electric Orange (880)",
+          "hex": "#FF3B00"
+        },
+        {
+          "name": "Pink Pop (880)",
+          "hex": "#FF6AB6"
+        },
+        {
+          "name": "On Fire Red (895)",
+          "hex": "#BA0000"
+        }
+      ]
+    },
+    {
+      "id": "pacifica-pacifica-devocean-natural-lipstick-deeply-devoted-creamy-color",
+      "brand": "Pacifica",
+      "name": "Pacifica Devocean Natural Lipstick Deeply Devoted Creamy Color",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/54eca0da1259fdc4eed0346e6fdcb590_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹1,743",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "XOX",
+          "hex": "#EB7583"
+        }
+      ]
+    },
+    {
+      "id": "burt-s-bees-burt-s-bees-lipstick",
+      "brand": "Burt's Bees",
+      "name": "Burt's Bees Lipstick",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/cffae93a3ef7d0c543b36a74684735ad_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹829",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Blush Basin",
+          "hex": "#A86160"
+        },
+        {
+          "name": "Brimming Berry",
+          "hex": "#831F41"
+        },
+        {
+          "name": "Fuchsia Flood",
+          "hex": "#AE4B74"
+        },
+        {
+          "name": "Iced Iris",
+          "hex": "#CD6A86"
+        },
+        {
+          "name": "Juniper Water",
+          "hex": "#7A2946"
+        },
+        {
+          "name": "Lilly Lake",
+          "hex": "#853D53"
+        },
+        {
+          "name": "Magenta Rush",
+          "hex": "#8B214F"
+        },
+        {
+          "name": "Nile Nude",
+          "hex": "#B66F61"
+        },
+        {
+          "name": "Ruby Ripple",
+          "hex": "#811A35"
+        },
+        {
+          "name": "Russet River",
+          "hex": "#662A2C"
+        },
+        {
+          "name": "Scarlet Soaked",
+          "hex": "#892026"
+        },
+        {
+          "name": "Suede Splash",
+          "hex": "#B06A60"
+        },
+        {
+          "name": "Sunset Cruise",
+          "hex": "#AE4349"
+        },
+        {
+          "name": "Tulip Tide",
+          "hex": "#B26487"
+        }
+      ]
+    },
+    {
+      "id": "maybelline-maybelline-color-sensational-creamy-mattes-lipcolour",
+      "brand": "Maybelline",
+      "name": "Maybelline Color Sensational Creamy Mattes Lipcolour",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/81fd80f898674d00f1860cd0724460f4_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹829",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Craving Coral",
+          "hex": "#FF1303"
+        },
+        {
+          "name": "Daringly Nude",
+          "hex": "#E87E74"
+        },
+        {
+          "name": "Faint For Fuchsia",
+          "hex": "#FF2F99"
+        },
+        {
+          "name": "Lust for Blush",
+          "hex": "#DB5C83"
+        },
+        {
+          "name": "Mesmerizing Magenta",
+          "hex": "#EC0064"
+        },
+        {
+          "name": "Ravishing Rose (Bright Rose Pink)",
+          "hex": "#F5367D"
+        },
+        {
+          "name": "Touch of Spice",
+          "hex": "#B63849"
+        }
+      ]
+    },
+    {
+      "id": "l-oreal-l-oreal-paris-colour-riche-lipstick",
+      "brand": "L'Oréal",
+      "name": "L'Oreal Paris Colour Riche Lipstick",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/5409595e1888807b979036e77ef7e496_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹912",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Blushing Berry",
+          "hex": "#A33750"
+        },
+        {
+          "name": "British Red",
+          "hex": "#FF244B"
+        },
+        {
+          "name": "Cinnamon Toast",
+          "hex": "#B5353A"
+        },
+        {
+          "name": "Fairest Nude",
+          "hex": "#B3857D"
+        },
+        {
+          "name": "Mica",
+          "hex": "#C37685"
+        },
+        {
+          "name": "Nature's Blush",
+          "hex": "#A44D54"
+        },
+        {
+          "name": "Plum Explosion",
+          "hex": "#761214"
+        },
+        {
+          "name": "Ruby Flame",
+          "hex": "#C52531"
+        }
+      ]
+    },
+    {
+      "id": "revlon-revlon-matte-lipstick",
+      "brand": "Revlon",
+      "name": "Revlon Matte Lipstick",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/ee024f34ca91f5fa1358d47284f07fb0_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹979",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Really Red",
+          "hex": "#C21919"
+        },
+        {
+          "name": "Nude Attitude",
+          "hex": "#F6B197"
+        }
+      ]
+    },
+    {
+      "id": "revlon-revlon-colorstay-ultimate-liquid-lipstick",
+      "brand": "Revlon",
+      "name": "Revlon ColorStay Ultimate Liquid Lipstick",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/6750098db06175dee7493eca3f711fc3_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹1,203",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Brilliant Bordeaux",
+          "hex": "#8E0F34"
+        },
+        {
+          "name": "Premier Plum",
+          "hex": "#A14667"
+        },
+        {
+          "name": "#1 Nude",
+          "hex": "#BD736B"
+        },
+        {
+          "name": "Iconic Iris",
+          "hex": "#C1738F"
+        },
+        {
+          "name": "Top Tomato",
+          "hex": "#C20D20"
+        },
+        {
+          "name": "Stellar Sunrise",
+          "hex": "#DA2D26"
+        },
+        {
+          "name": "Premium Pink",
+          "hex": "#EF4D75"
+        }
+      ]
+    },
+    {
+      "id": "maybelline-maybelline-color-sensational-lipcolour",
+      "brand": "Maybelline",
+      "name": "Maybelline Color Sensational Lipcolour",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/b1c627d5a7e341e53754c8dee92d2878_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹829",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Are you Red-dy",
+          "hex": "#E70C2F"
+        },
+        {
+          "name": "Born With It",
+          "hex": "#DF8A82"
+        },
+        {
+          "name": "Coral Crush",
+          "hex": "#F15B50"
+        },
+        {
+          "name": "Crazy for Coffee",
+          "hex": "#8F332C"
+        },
+        {
+          "name": "Warm Me Up",
+          "hex": "#CA6E6B"
+        }
+      ]
+    },
+    {
+      "id": "nyx-nyx-soft-matte-lip-cream",
+      "brand": "NYX",
+      "name": "NYX Soft Matte Lip Cream",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/1dd732e9af6067d5adb4b3b1ba4a4f8c_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹746",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Abu Dhabi",
+          "hex": "#9D6D61"
+        },
+        {
+          "name": "Addis Ababa",
+          "hex": "#E44B82"
+        },
+        {
+          "name": "Budapest",
+          "hex": "#933A40"
+        },
+        {
+          "name": "Buenos Aires",
+          "hex": "#F19988"
+        },
+        {
+          "name": "Cairo",
+          "hex": "#DA956F"
+        },
+        {
+          "name": "Cannes",
+          "hex": "#924A41"
+        },
+        {
+          "name": "Copenhagen",
+          "hex": "#5F192B"
+        },
+        {
+          "name": "Havana",
+          "hex": "#612E8D"
+        },
+        {
+          "name": "Ibiza",
+          "hex": "#C9404D"
+        },
+        {
+          "name": "Instabul",
+          "hex": "#CD888C"
+        },
+        {
+          "name": "London",
+          "hex": "#AE6F66"
+        },
+        {
+          "name": "Morocco",
+          "hex": "#F32E17"
+        },
+        {
+          "name": "Moscow",
+          "hex": "#103167"
+        },
+        {
+          "name": "Paris",
+          "hex": "#E62F67"
+        },
+        {
+          "name": "Prague",
+          "hex": "#9A2B46"
+        },
+        {
+          "name": "San Juan",
+          "hex": "#FC5236"
+        },
+        {
+          "name": "Seoul",
+          "hex": "#9F3A76"
+        },
+        {
+          "name": "Sydney",
+          "hex": "#F6A9BE"
+        },
+        {
+          "name": "Transylvania",
+          "hex": "#481E32"
+        },
+        {
+          "name": "Vancouver",
+          "hex": "#79283B"
+        },
+        {
+          "name": "Zurich",
+          "hex": "#B75E4E"
+        }
+      ]
+    },
+    {
+      "id": "burt-s-bees-burt-s-bees-lip-crayon",
+      "brand": "Burt's Bees",
+      "name": "Burt's Bees Lip Crayon",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/ab45997fcda6fc649959ea74507c28e3_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "₹829",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Carolina Coast",
+          "hex": "#FF88B1"
+        },
+        {
+          "name": "Napa Vineyard",
+          "hex": "#B7021E"
+        },
+        {
+          "name": "Niagara Overlook",
+          "hex": "#F9636D"
+        },
+        {
+          "name": "Redwood Forest",
+          "hex": "#8C212B"
+        }
+      ]
+    },
+    {
+      "id": "e-l-f-e-l-f-studio-matte-lip-color",
+      "brand": "e.l.f.",
+      "name": "e.l.f. Studio Matte Lip Color",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/5f81d4f36c4ba153bcc62e81bc93573f_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹414",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Berry Sorbet",
+          "hex": "#AA2A63"
+        },
+        {
+          "name": "Cranberry",
+          "hex": "#9B3F4A"
+        },
+        {
+          "name": "Dash of Pink",
+          "hex": "#D4233F"
+        },
+        {
+          "name": "Natural",
+          "hex": "#E6A2A3"
+        },
+        {
+          "name": "Rich Red",
+          "hex": "#C63232"
+        },
+        {
+          "name": "Tea Rose",
+          "hex": "#D1949C"
+        },
+        {
+          "name": "Wine",
+          "hex": "#923144"
+        }
+      ]
+    },
+    {
+      "id": "revlon-revlon-super-lustrous-lipstick",
+      "brand": "Revlon",
+      "name": "Revlon Super Lustrous Lipstick",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/6618c0f47d043084550818a74e6250aa_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "₹954",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Cherry Blossom",
+          "hex": "#DA3A44"
+        },
+        {
+          "name": "Demure",
+          "hex": "#EF8579"
+        },
+        {
+          "name": "Siren",
+          "hex": "#FF5B24"
+        },
+        {
+          "name": "Black Cherry",
+          "hex": "#4F2114"
+        },
+        {
+          "name": "Berry Haute",
+          "hex": "#946893"
+        },
+        {
+          "name": "Mauvy Night",
+          "hex": "#B14862"
+        },
+        {
+          "name": "Wine With Everything Cream",
+          "hex": "#B3202F"
+        },
+        {
+          "name": "Fuchsia Fusion",
+          "hex": "#B62252"
+        },
+        {
+          "name": "Sandalwood Beige",
+          "hex": "#BE4D2A"
+        },
+        {
+          "name": "Rose Velvet",
+          "hex": "#C4615E"
+        },
+        {
+          "name": "Certainly Red",
+          "hex": "#C50032"
+        },
+        {
+          "name": "Plumalicious",
+          "hex": "#CA4B63"
+        },
+        {
+          "name": "Porcelain Pink",
+          "hex": "#CD808F"
+        },
+        {
+          "name": "Primrose",
+          "hex": "#DA89A0"
+        },
+        {
+          "name": "Pink In The Afternoon",
+          "hex": "#EB8B86"
+        },
+        {
+          "name": "Love That Red",
+          "hex": "#ED062F"
+        },
+        {
+          "name": "Fire & Ice",
+          "hex": "#EE001C"
+        },
+        {
+          "name": "Coralberry",
+          "hex": "#F26D6D"
+        },
+        {
+          "name": "Champagne on Ice",
+          "hex": "#F3A98C"
+        },
+        {
+          "name": "Kiss Me Coral",
+          "hex": "#FF4E3A"
+        },
+        {
+          "name": "Smoky Rose",
+          "hex": "#A96354"
+        },
+        {
+          "name": "Abstract Orange",
+          "hex": "#E2321E"
+        },
+        {
+          "name": "Luminous Pink",
+          "hex": "#F7B8B8"
+        }
+      ]
+    },
+    {
+      "id": "milani-milani-color-statement-moisture-matte-lipstick",
+      "brand": "Milani",
+      "name": "Milani Color Statement Moisture Matte Lipstick",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/a782e8566462ce85fbf46a791f0004e5_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹580",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Matte Beauty",
+          "hex": "#824A4D"
+        },
+        {
+          "name": "Matte Blissful",
+          "hex": "#D590A8"
+        },
+        {
+          "name": "Matte Confident",
+          "hex": "#A42036"
+        },
+        {
+          "name": "Matte Darling",
+          "hex": "#A14D57"
+        },
+        {
+          "name": "Matte Diva",
+          "hex": "#E172AC"
+        },
+        {
+          "name": "Matte Fearless",
+          "hex": "#301623"
+        },
+        {
+          "name": "Matte Flirty",
+          "hex": "#501E31"
+        },
+        {
+          "name": "Matte Glam",
+          "hex": "#7C4182"
+        },
+        {
+          "name": "Matte Iconic",
+          "hex": "#870D0D"
+        },
+        {
+          "name": "Matte Innocence",
+          "hex": "#E1B5A4"
+        },
+        {
+          "name": "Matte Kiss",
+          "hex": "#981E26"
+        },
+        {
+          "name": "Matte Love",
+          "hex": "#421E26"
+        },
+        {
+          "name": "Matte Lux",
+          "hex": "#DF4921"
+        },
+        {
+          "name": "Matte Naked",
+          "hex": "#AE5E57"
+        }
+      ]
+    },
+    {
+      "id": "milani-milani-color-statement-lipstick",
+      "brand": "Milani",
+      "name": "Milani Color Statement Lipstick",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/5adaa808a071d0f63933cb75fa9a1dfc_ra,w158,h184_pa,w158,h184.png",
+      "price_prefix": "₹580",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Bronze Beauty (Shimmer)",
+          "hex": "#9A3306"
+        },
+        {
+          "name": "Cabaret Blend",
+          "hex": "#5E172D"
+        },
+        {
+          "name": "Catwalk Pink",
+          "hex": "#F296CF"
+        },
+        {
+          "name": "Coral Addict",
+          "hex": "#F3574B"
+        },
+        {
+          "name": "Bahama Beige",
+          "hex": "#A87363"
+        },
+        {
+          "name": "Best Red (Matte)",
+          "hex": "#B6091D"
+        },
+        {
+          "name": "Black Cherry (Cream)",
+          "hex": "#6E4148"
+        },
+        {
+          "name": "Blushing Beauty",
+          "hex": "#9E283E"
+        },
+        {
+          "name": "Brandy Berry",
+          "hex": "#301623"
+        },
+        {
+          "name": "Double Espresso",
+          "hex": "#5C3D31"
+        },
+        {
+          "name": "Dulce Caramelo (Pearl)",
+          "hex": "#AC5446"
+        },
+        {
+          "name": "Empress",
+          "hex": "#C92F0B"
+        },
+        {
+          "name": "Fruit Punch (Cream)",
+          "hex": "#D96081"
+        },
+        {
+          "name": "Naturally Chic (Cream)",
+          "hex": "#DA7A6C"
+        },
+        {
+          "name": "Nude Creme (Cream)",
+          "hex": "#B6605F"
+        },
+        {
+          "name": "Orange-Gina (Pearl)",
+          "hex": "#D55B3C"
+        },
+        {
+          "name": "Pink Frost (Metallic)",
+          "hex": "#EB9DAD"
+        },
+        {
+          "name": "Plumrose (Cream)",
+          "hex": "#963546"
+        },
+        {
+          "name": "Power Pink",
+          "hex": "#E01783"
+        },
+        {
+          "name": "Pretty Natural",
+          "hex": "#D78396"
+        },
+        {
+          "name": "Rebel Rouge",
+          "hex": "#A71800"
+        },
+        {
+          "name": "Red Label (Cream)",
+          "hex": "#AB0B11"
+        },
+        {
+          "name": "Rose Femme",
+          "hex": "#9D6670"
+        },
+        {
+          "name": "Rose Hip (Cream)",
+          "hex": "#FE3D93"
+        },
+        {
+          "name": "Ruby Valentine (Vinyl)",
+          "hex": "#A5051D"
+        },
+        {
+          "name": "Sangria (Matte)",
+          "hex": "#8B2058"
+        },
+        {
+          "name": "Sweet Nectar (Cream)",
+          "hex": "#F77234"
+        },
+        {
+          "name": "Teddy Bare (Cream)",
+          "hex": "#B26457"
+        },
+        {
+          "name": "Tuscan Toast",
+          "hex": "#56181B"
+        },
+        {
+          "name": "Uptown Mauve (Cream)",
+          "hex": "#A2356C"
+        },
+        {
+          "name": "Velvet Merlot",
+          "hex": "#5A0011"
+        },
+        {
+          "name": "Violet Volt",
+          "hex": "#7C109A"
+        }
+      ]
+    },
+    {
+      "id": "revlon-revlon-colorburst-matte-balm",
+      "brand": "Revlon",
+      "name": "Revlon ColorBurst Matte Balm",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/76076d06ebd517f1ae7e359d96d50b32_ra,w158,h184_pa,w158,h184.jpg",
+      "price_prefix": "₹954",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Elusive",
+          "hex": "#E66675"
+        },
+        {
+          "name": "Shewy",
+          "hex": "#F2579B"
+        },
+        {
+          "name": "Standout",
+          "hex": "#99302A"
+        },
+        {
+          "name": "Striking",
+          "hex": "#E53134"
+        },
+        {
+          "name": "Sultry",
+          "hex": "#A93041"
+        },
+        {
+          "name": "Unapologet",
+          "hex": "#FF4E62"
+        }
+      ]
+    },
+    {
+      "id": "e-l-f-e-l-f-studio-moisturizing-lipstick",
+      "brand": "e.l.f.",
+      "name": "e.l.f. Studio Moisturizing Lipstick",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/9e370b087244262131cab9db8b6725c7_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹414",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Party in the Buff",
+          "hex": "#FCAE98"
+        },
+        {
+          "name": "Wine Tour",
+          "hex": "#7D2D3A"
+        },
+        {
+          "name": "Red Carpet",
+          "hex": "#D40D14"
+        },
+        {
+          "name": "Ravishing Rose",
+          "hex": "#C55456"
+        },
+        {
+          "name": "Pink Minx",
+          "hex": "#F57574"
+        },
+        {
+          "name": "Cheeky",
+          "hex": "#C26659"
+        }
+      ]
+    },
+    {
+      "id": "pure-anada-pure-anada-petal-perfect-lipstick",
+      "brand": "Pure Anada",
+      "name": "Pure Anada Petal Perfect Lipstick",
+      "image": "https://d3t32hsnjxo7q6.cloudfront.net/i/b66c56aeb8d078123cca4c9c64d17cb9_ra,w158,h184_pa,w158,h184.jpeg",
+      "price_prefix": "₹1,162",
+      "dark_background": false,
+      "shades": [
+        {
+          "name": "Autumn",
+          "hex": "#A16157"
+        },
+        {
+          "name": "Bordeaux Cherry",
+          "hex": "#6D333A"
+        },
+        {
+          "name": "Caramel",
+          "hex": "#B47965"
+        },
+        {
+          "name": "Carnation (Rose)",
+          "hex": "#DF6163"
+        },
+        {
+          "name": "Chocolate Kiss",
+          "hex": "#663125"
+        },
+        {
+          "name": "Grapefruit (Nude)",
+          "hex": "#D09172"
+        },
+        {
+          "name": "Hibiscus",
+          "hex": "#9F455A"
+        },
+        {
+          "name": "Morden's Blush",
+          "hex": "#94514C"
+        },
+        {
+          "name": "Petunia",
+          "hex": "#B14F5B"
+        },
+        {
+          "name": "Razzberry (Plum)",
+          "hex": "#A02D4B"
+        },
+        {
+          "name": "Ruby",
+          "hex": "#971D28"
+        },
+        {
+          "name": "Sienna (Burnt Bronze Red)",
+          "hex": "#C63E26"
+        },
+        {
+          "name": "Strawberry Cream",
+          "hex": "#D94072"
+        },
+        {
+          "name": "Tiger Lily (Bright Coral)",
+          "hex": "#DE4B41"
+        }
+      ]
+    }
+  ]
+}

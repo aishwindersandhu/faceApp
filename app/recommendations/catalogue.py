@@ -55,195 +55,10 @@ CATALOGUE: list[CatalogueCategory] = [
     # Generated from The Pudding's "Shades of You" dataset + makeup-api.herokuapp.com —
     # see scripts/build_catalogue.py to regenerate.
     _load_category("foundation.json"),
-    {
-        "key": "blush",
-        "label": "Blush",
-        "icon": "🌸",
-        "skip_color_matching": False,
-        "products": [
-            {
-                "id": "rare-beauty-soft-pinch",
-                "brand": "Rare Beauty",
-                "name": "Soft Pinch Liquid Blush",
-                "image": "/assets/products/rare-beauty-soft-pinch.jpg",
-                "price_prefix": "₹2,900",
-                "dark_background": False,
-                "shades": [
-                    {"name": "Encourage", "hex": "#C87A55"},
-                    {"name": "Joy",       "hex": "#D4856A"},
-                    {"name": "Hope",      "hex": "#B86548"},
-                    {"name": "Bliss",     "hex": "#C07060"},
-                ],
-            },
-            {
-                "id": "nars-orgasm-blush",
-                "brand": "NARS",
-                "name": "Orgasm Blush",
-                "image": "/assets/products/nars-orgasm-blush.jpg",
-                "price_prefix": "₹2,600",
-                "dark_background": False,
-                "shades": [
-                    {"name": "Orgasm",      "hex": "#D4855A"},
-                    {"name": "Deep Orgasm", "hex": "#C9714A"},
-                ],
-            },
-            {
-                "id": "ct-cheek-to-chic",
-                "brand": "Charlotte Tilbury",
-                "name": "Cheek to Chic Blush",
-                "image": "/assets/products/ct-cheek-to-chic.jpg",
-                "price_prefix": "₹4,500",
-                "dark_background": False,
-                "shades": [
-                    {"name": "Pillow Talk", "hex": "#D4906A"},
-                    {"name": "Love Glow",   "hex": "#C88060"},
-                ],
-            },
-            {
-                "id": "benefit-hoola",
-                "brand": "Benefit",
-                "name": "Hoola Matte Bronzer",
-                "image": "/assets/products/benefit-hoola.jpg",
-                "price_prefix": "₹3,100",
-                "dark_background": False,
-                "shades": [
-                    {"name": "Medium", "hex": "#A0673A"},
-                    {"name": "Deep",   "hex": "#8B5530"},
-                ],
-            },
-            {
-                "id": "elf-putty-blush",
-                "brand": "e.l.f.",
-                "name": "Putty Blush",
-                "image": "/assets/products/elf-putty-blush.jpg",
-                "price_prefix": "₹650",
-                "dark_background": False,
-                "shades": [
-                    {"name": "Persimmon", "hex": "#D4705A"},
-                    {"name": "Naked",     "hex": "#C8906A"},
-                ],
-            },
-            {
-                "id": "milk-cream-blush",
-                "brand": "Milk Makeup",
-                "name": "Cream Blush",
-                "image": "/assets/products/milk-cream-blush.jpg",
-                "price_prefix": "₹2,400",
-                "dark_background": False,
-                "shades": [
-                    {"name": "Werk",  "hex": "#C87A55"},
-                    {"name": "Lit",   "hex": "#D4856A"},
-                ],
-            },
-            {
-                "id": "glossier-cloud-paint",
-                "brand": "Glossier",
-                "name": "Cloud Paint",
-                "image": "/assets/products/glossier-cloud-paint.jpg",
-                "price_prefix": "₹2,100",
-                "dark_background": False,
-                "shades": [
-                    {"name": "Beam",  "hex": "#D4906A"},
-                    {"name": "Dusk",  "hex": "#B86548"},
-                ],
-            },
-        ],
-    },
-    {
-        "key": "lip",
-        "label": "Lip",
-        "icon": "💋",
-        "skip_color_matching": False,
-        "products": [
-            {
-                "id": "fenty-gloss-bomb",
-                "brand": "Fenty Beauty",
-                "name": "Gloss Bomb",
-                "image": "/assets/products/fenty-gloss-bomb.jpg",
-                "price_prefix": "₹2,500",
-                "dark_background": False,
-                "shades": [
-                    {"name": "Nude Silk", "hex": "#C8906A"},
-                    {"name": "Fu$$y",     "hex": "#D4A078"},
-                    {"name": "Hot Chocolit", "hex": "#A06040"},
-                ],
-            },
-            {
-                "id": "mac-velvet-teddy",
-                "brand": "MAC",
-                "name": "Velvet Teddy Lipstick",
-                "image": "/assets/products/mac-velvet-teddy.jpg",
-                "price_prefix": "₹2,100",
-                "dark_background": False,
-                "shades": [
-                    {"name": "Velvet Teddy", "hex": "#B07050"},
-                    {"name": "Mehr",         "hex": "#C08060"},
-                ],
-            },
-            {
-                "id": "ct-walk-of-shame",
-                "brand": "Charlotte Tilbury",
-                "name": "Walk of Shame",
-                "image": "/assets/products/ct-walk-of-shame.jpg",
-                "price_prefix": "₹3,200",
-                "dark_background": False,
-                "shades": [
-                    {"name": "Walk of Shame",  "hex": "#7B4A2D"},
-                    {"name": "Heart of Glass", "hex": "#8B5A35"},
-                ],
-            },
-            {
-                "id": "nyx-soft-matte",
-                "brand": "NYX",
-                "name": "Soft Matte Lip Cream",
-                "image": "/assets/products/nyx-soft-matte.jpg",
-                "price_prefix": "₹850",
-                "dark_background": False,
-                "shades": [
-                    {"name": "Cairo",     "hex": "#A0503A"},
-                    {"name": "Abu Dhabi", "hex": "#903C28"},
-                    {"name": "Madrid",    "hex": "#B06050"},
-                ],
-            },
-            {
-                "id": "lakme-9to5",
-                "brand": "Lakme",
-                "name": "9to5 Primer Matte",
-                "image": "/assets/products/lakme-9to5.jpg",
-                "price_prefix": "₹420",
-                "dark_background": False,
-                "shades": [
-                    {"name": "Burgundy",  "hex": "#8B3A2A"},
-                    {"name": "Brick Red", "hex": "#9B4A2A"},
-                    {"name": "Nude",      "hex": "#C08060"},
-                ],
-            },
-            {
-                "id": "dior-addict-lip-glow",
-                "brand": "Dior",
-                "name": "Addict Lip Glow",
-                "image": "/assets/products/dior-addict-lip-glow.jpg",
-                "price_prefix": "₹3,600",
-                "dark_background": False,
-                "shades": [
-                    {"name": "Berry",  "hex": "#9B4A3A"},
-                    {"name": "Praline", "hex": "#A0603A"},
-                ],
-            },
-            {
-                "id": "colorbar-velvet-matte",
-                "brand": "Colorbar",
-                "name": "Velvet Matte Lipstick",
-                "image": "/assets/products/colorbar-velvet-matte.jpg",
-                "price_prefix": "₹650",
-                "dark_background": False,
-                "shades": [
-                    {"name": "Rustic",     "hex": "#8B4A2A"},
-                    {"name": "Chocoholic", "hex": "#6B3A22"},
-                ],
-            },
-        ],
-    },
+    # Generated entirely from makeup-api.herokuapp.com — see
+    # scripts/build_catalogue.py's build_makeup_api_category() to regenerate.
+    _load_category("blush.json"),
+    _load_category("lip.json"),
     {
         "key": "eye",
         "label": "Eye",
@@ -412,6 +227,23 @@ CATALOGUE: list[CatalogueCategory] = [
         ],
     },
 ]
+
+
+def _warm_shade_lab_cache() -> None:
+    """
+    Precompute hex_to_lab for every shade hex in the catalogue at import
+    time, since it's static and shared across every request — so the first
+    real user hits a warm cache instead of paying for it themselves.
+    """
+    from app.recommendations.matcher import hex_to_lab
+
+    for category in CATALOGUE:
+        for product in category["products"]:
+            for shade in product["shades"]:
+                hex_to_lab(shade["hex"])
+
+
+_warm_shade_lab_cache()
 
 
 # Colours to warn users to avoid — keyed by undertone

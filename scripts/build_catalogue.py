@@ -313,7 +313,10 @@ def _dedupe_shade_names(names: list[str]) -> list[str]:
 # categories, and everything else in this script) is priced in ₹, so we
 # convert with a fixed rate to keep the currency consistent for now. Swap
 # this for a live FX rate / proper localisation later.
-USD_TO_INR_RATE = 83
+# Snapshot as of 2026-09-06 (spot rate was ~94.4-95.6 that week) — re-check
+# and bump this periodically, since a stale rate silently underprices (or
+# overprices) every makeup-api-sourced product in the catalogue.
+USD_TO_INR_RATE = 95
 
 
 def format_price(api_product: dict | None) -> str:
@@ -329,6 +332,31 @@ def format_price(api_product: dict | None) -> str:
         return "₹—"
     inr = round(usd * USD_TO_INR_RATE)
     return f"₹{inr:,}"
+
+
+# Real Indian retail prices (Nykaa / Sephora India / Tira Beauty, checked
+# 2026-09-06), for products whose automated source has a real name/image but
+# no price at all — mainly allShades.csv, which has no price field by
+# design. Keyed by (brand, product name) exactly as it appears in the built
+# catalogue, applied only when the automated price is "₹—" so a source that
+# *does* have real pricing is never overridden. Deliberately left out for
+# products with no confirmed Indian listing (Black Up, Shiseido Synchro Skin,
+# and various small US-only indie brands) rather than guessing a number.
+MANUAL_PRICE_OVERRIDES: dict[tuple[str, str], str] = {
+    ("MAC", "Studio Fix Powder Plus Foundation"): "₹3,900",
+    ("Estée Lauder", "Double Wear Stay-in-Place Makeup"): "₹4,600",
+    ("Lancôme", "Teint Idole Ultra Wear 24H Long Wear Foundation"): "₹4,400",
+    ("Bobbi Brown", "Skin Long-Wear Weightless Foundation SPF 15"): "₹4,900",
+    ("bareMinerals", "BAREPRO Longwear Powder Foundation"): "₹3,100",
+    ("Make Up For Ever", "Ultra HD Invisible Cover Foundation"): "₹3,900",
+    ("Clinique", "Clinique Pop™ Oil Lip & Cheek Glow"): "₹2,800",
+}
+
+
+def _apply_price_override(brand: str, name: str, price_prefix: str) -> str:
+    if price_prefix == "₹—":
+        return MANUAL_PRICE_OVERRIDES.get((brand, name), price_prefix)
+    return price_prefix
 
 
 # Products no automated source can match, but that are worth surfacing
@@ -377,12 +405,15 @@ def build_catalogue(refresh: bool) -> dict:
         label = f"-> [{source}] {match['name']}" if match else "-> no match"
         print(f"{brand:20s} {product:30s} {label}")
 
+        final_name = match["name"] if match else product
         products.append({
             "id": _slugify(f"{brand}-{product}"),
             "brand": brand,
-            "name": match["name"] if match else product,
+            "name": final_name,
             "image": match["image"] if match else "/assets/products/placeholder.jpg",
-            "price_prefix": match["price_prefix"] if match else "₹—",
+            "price_prefix": _apply_price_override(
+                brand, final_name, match["price_prefix"] if match else "₹—"
+            ),
             "dark_background": False,
             # Set when neither makeup-api nor allShades had a real match for this
             # product — catalogue.py/router.py use this to hide unverified rows
@@ -502,7 +533,7 @@ def build_makeup_api_category(
             "brand": brand,
             "name": name,
             "image": p["image_link"],
-            "price_prefix": format_price(p),
+            "price_prefix": _apply_price_override(brand, name, format_price(p)),
             "dark_background": False,
             "shades": [
                 {"name": shade_name, "hex": hex_code}

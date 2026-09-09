@@ -28,7 +28,17 @@ router = APIRouter()
 # their best available option instead of the shelf vanishing outright.
 MIN_MATCH_PERCENT = 40
 
-  
+# Catalogue data uses "₹—" as its internal "no price on file" sentinel (see
+# scripts/build_catalogue.py). Shown to the user as plain text instead of a
+# bare dash, which reads as a rendering glitch rather than an intentional state.
+NO_PRICE_PLACEHOLDER = "₹—"
+NO_PRICE_LABEL = "Price unavailable"
+
+
+def _display_price(price_prefix: str) -> str:
+    return NO_PRICE_LABEL if price_prefix == NO_PRICE_PLACEHOLDER else price_prefix
+
+
 @router.post("/recommendations/{user_id}", response_model=RecommendationResponse)
 async def get_recommendations(
     user_id: str,
@@ -89,7 +99,7 @@ async def get_recommendations(
                         ShadeOut(name=s["name"], hex=s["hex"])
                         for s in product["shades"]
                     ],
-                    price=product["price_prefix"],
+                    price=_display_price(product["price_prefix"]),
                     dark_background=product["dark_background"],
                 )
             )
